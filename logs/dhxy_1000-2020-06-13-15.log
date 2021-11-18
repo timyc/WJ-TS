@@ -1,0 +1,74 @@
+[2020-06-13 15:01:00.236] [INFO] console - agent[1009] socket, close
+[2020-06-13 15:01:55.650] [INFO] console - agent[1010] socket, close
+[2020-06-13 15:03:53.398] [INFO] console - agent[1011] socket, close
+[2020-06-13 15:04:02.549] [INFO] console - agent[1012] socket, close
+[2020-06-13 15:04:02.550] [INFO] console - agent[1011] socket, close
+[2020-06-13 15:04:02.551] [INFO] console - agent[1010] socket, close
+[2020-06-13 15:04:02.556] [INFO] console - agent[1009] socket, close
+[2020-06-13 15:04:02.557] [INFO] console - agent[1008] socket, close
+[2020-06-13 15:04:02.558] [INFO] console - agent[1007] socket, close
+[2020-06-13 15:05:26.926] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592031475) WHERE roleid =157846;
+[2020-06-13 15:16:22.378] [INFO] console - agent[1013] socket, close
+[2020-06-13 15:16:22.385] [INFO] console - agent[1014] socket, close
+[2020-06-13 15:16:32.286] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592031490) WHERE roleid =157846;
+[2020-06-13 15:16:40.429] [INFO] console - agent[1015] socket, close
+[2020-06-13 15:18:11.736] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592031588) WHERE roleid =157846;
+[2020-06-13 15:18:14.655] [INFO] console - agent[1016] socket, close
+[2020-06-13 15:20:44.168] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592031738) WHERE roleid =157846;
+[2020-06-13 15:21:37.745] [INFO] console - agent[1017] socket, close
+[2020-06-13 15:23:42.403] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592031914) WHERE roleid =157846;
+[2020-06-13 15:24:24.442] [INFO] console - agent[1018] socket, close
+[2020-06-13 15:25:09.542] [INFO] console - agent[1019] socket, close
+[2020-06-13 15:25:45.068] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592032021) WHERE roleid =157846;
+[2020-06-13 15:25:46.958] [INFO] console - agent[1021] socket, close
+[2020-06-13 15:26:24.241] [INFO] console - agent[1022] socket, close
+[2020-06-13 15:28:06.256] [INFO] console - agent[1023] socket, close
+[2020-06-13 15:28:22.121] [INFO] console - agent[1024] socket, close
+[2020-06-13 15:28:22.122] [INFO] console - agent[1023] socket, close
+[2020-06-13 15:28:22.130] [INFO] console - agent[1022] socket, close
+[2020-06-13 15:28:22.132] [INFO] console - agent[1021] socket, close
+[2020-06-13 15:28:22.135] [INFO] console - agent[1020] socket, close
+[2020-06-13 15:28:22.137] [INFO] console - agent[1019] socket, close
+[2020-06-13 15:28:22.138] [INFO] console - agent[1018] socket, close
+[2020-06-13 15:29:58.708] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592032272) WHERE roleid =157846;
+[2020-06-13 15:32:12.920] [INFO] console - agent[1025] socket, close
+[2020-06-13 15:34:47.578] [INFO] console - agent[1026] socket, close
+[2020-06-13 15:34:47.579] [INFO] console - agent[1025] socket, close
+[2020-06-13 15:35:30.157] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592032597) WHERE roleid =157846;
+[2020-06-13 15:35:46.298] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157846 AND resid=6;
+[2020-06-13 15:37:00.758] [INFO] console - agent[1027] socket, close
+[2020-06-13 15:37:23.699] [INFO] console - agent[1028] socket, close
+[2020-06-13 15:37:28.960] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592032707) WHERE roleid =157846;
+[2020-06-13 15:37:29.337] [INFO] console - agent[1029] socket, close
+[2020-06-13 15:37:44.321] [INFO] console - agent[1030] socket, close
+[2020-06-13 15:38:04.273] [INFO] console - agent[1031] socket, close
+[2020-06-13 15:38:24.821] [INFO] console - agent[1032] socket, close
+[2020-06-13 15:38:49.281] [INFO] console - agent[1033] socket, close
+[2020-06-13 15:39:10.323] [INFO] console - agent[1034] socket, close
+[2020-06-13 15:39:34.292] [INFO] console - agent[1035] socket, close
+[2020-06-13 15:39:51.323] [INFO] console - agent[1036] socket, close
+[2020-06-13 15:40:14.300] [INFO] console - agent[1037] socket, close
+[2020-06-13 15:40:17.462] [INFO] console - agent[1037] socket, close
+[2020-06-13 15:40:17.463] [INFO] console - agent[1035] socket, close
+[2020-06-13 15:40:17.465] [INFO] console - agent[1033] socket, close
+[2020-06-13 15:40:17.472] [INFO] console - agent[1031] socket, close
+[2020-06-13 15:40:17.474] [INFO] console - agent[1029] socket, close
+[2020-06-13 15:40:17.476] [INFO] console - agent[1027] socket, close
+[2020-06-13 15:41:40.430] [INFO] console - agent[1038] socket, close
+[2020-06-13 15:43:20.708] [INFO] console - agent[1039] socket, close
+[2020-06-13 15:43:20.716] [INFO] console - agent[1038] socket, close
+[2020-06-13 15:43:20.719] [INFO] console - agent[1036] socket, close
+[2020-06-13 15:43:20.720] [INFO] console - agent[1034] socket, close
+[2020-06-13 15:43:20.721] [INFO] console - agent[1032] socket, close
+[2020-06-13 15:43:20.723] [INFO] console - agent[1030] socket, close
+[2020-06-13 15:43:20.724] [INFO] console - agent[1028] socket, close
+[2020-06-13 15:46:56.740] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592033268) WHERE roleid =157846;
+[2020-06-13 15:47:42.697] [INFO] console - agent[1040] socket, close
+[2020-06-13 15:47:44.257] [INFO] console - agent[1041] socket, close
+[2020-06-13 15:47:44.262] [INFO] console - agent[1040] socket, close
+[2020-06-13 15:51:31.333] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592033540) WHERE roleid =157846;
+[2020-06-13 15:51:56.788] [INFO] console - agent[1042] socket, close
+[2020-06-13 15:54:08.057] [INFO] console - agent[1042] socket, close
+[2020-06-13 15:54:08.060] [INFO] console - agent[1043] socket, close
+[2020-06-13 15:54:39.277] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592033725) WHERE roleid =157846;
+[2020-06-13 15:54:50.706] [INFO] console - agent[1044] socket, close

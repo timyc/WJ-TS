@@ -1,0 +1,25 @@
+[2020-06-11 15:57:30.780] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-11 15:57:30.821] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-11 15:57:30.833] [ERROR] console - An uncaught error occurred!
+[2020-06-11 15:57:30.834] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Handshake.onConnect (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:64:7)
+    at Handshake.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Handshake._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Handshake.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Handshake.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)

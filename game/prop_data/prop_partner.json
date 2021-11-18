@@ -1,0 +1,112 @@
+{
+  "5051": {
+    "partnerid": 5051,
+    "name": "万圣公主",
+    "resid": 5051,
+    "race": 4,
+    "dingwei": "高敏魅惑女鬼",
+    "skill": "1031;1033",
+    "unlock": 40,
+    "zizhi": "{\"HpMax\":98,\"Speed\":67,\"WindRageOdds\":99}"
+  },
+  "5052": {
+    "partnerid": 5052,
+    "name": "青衣仙子",
+    "resid": 5052,
+    "race": 2,
+    "dingwei": "中敏忽风仙",
+    "skill": "1016;",
+    "unlock": 2,
+    "zizhi": "{\"HpMax\":98,\"Speed\":67,\"WindRageOdds\":99}"
+  },
+  "5054": {
+    "partnerid": 5054,
+    "name": "白骨精",
+    "resid": 5054,
+    "race": 4,
+    "dingwei": "低敏回血鬼",
+    "skill": "1032;",
+    "unlock": 15,
+    "zizhi": "{\"HpMax\":98,\"Speed\":67,\"WindRageOdds\":99}"
+  },
+  "5055": {
+    "partnerid": 5055,
+    "name": "牛魔王",
+    "resid": 5055,
+    "race": 3,
+    "dingwei": "加攻敏魔",
+    "skill": "1025;1026",
+    "unlock": 30,
+    "zizhi": "{\"HpMax\":98,\"Speed\":67,\"WindRageOdds\":99}"
+  },
+  "5056": {
+    "partnerid": 5056,
+    "name": "龙太子",
+    "resid": 5056,
+    "race": 2,
+    "dingwei": "高敏忽水仙",
+    "skill": "1018;",
+    "unlock": 35,
+    "zizhi": "{\"HpMax\":98,\"Speed\":67,\"WindRageOdds\":99}"
+  },
+  "6028": {
+    "partnerid": 6028,
+    "name": "嫦娥",
+    "resid": 6028,
+    "race": 2,
+    "dingwei": "高敏忽雷仙",
+    "skill": "1017;",
+    "unlock": 20,
+    "zizhi": "{\"HpMax\":98,\"Speed\":67,\"WindRageOdds\":99}"
+  },
+  "6031": {
+    "partnerid": 6031,
+    "name": "二师兄",
+    "resid": 6031,
+    "race": 1,
+    "dingwei": "血混人",
+    "skill": "1008;",
+    "unlock": 25,
+    "zizhi": "{\"HpMax\":98,\"Speed\":67,\"WindRageOdds\":99}"
+  },
+  "6030": {
+    "partnerid": 6030,
+    "name": "齐天大圣",
+    "resid": 6030,
+    "race": 3,
+    "dingwei": "加速敏魔",
+    "skill": "1024;1026",
+    "unlock": 50,
+    "zizhi": "{\"HpMax\":98,\"Speed\":67,\"WindRageOdds\":99}"
+  },
+  "6032": {
+    "partnerid": 6032,
+    "name": "沙师弟",
+    "resid": 6032,
+    "race": 3,
+    "dingwei": "震慑敏魔",
+    "skill": "1026;",
+    "unlock": 10,
+    "zizhi": "{\"HpMax\":98,\"Speed\":67,\"WindRageOdds\":99}"
+  },
+  "6035": {
+    "partnerid": 6035,
+    "name": "蜘蛛精",
+    "resid": 6035,
+    "race": 3,
+    "dingwei": "加防敏魔",
+    "skill": "1023;1026",
+    "unlock": 45,
+    "zizhi": "{\"HpMax\":98,\"Speed\":67,\"WindRageOdds\":99}"
+  },
+  "6082": {
+    "partnerid": 6082,
+    "name": "武林盟主",
+    "resid": 6082,
+    "race": 1,
+    "dingwei": "敏混人",
+    "skill": "1008;",
+    "unlock": 61,
+    "zizhi": "{\"HpMax\":98,\"Speed\":67,\"WindRageOdds\":99}"
+  }
+}

@@ -1,0 +1,291 @@
+[2020-06-10 20:00:23.010] [INFO] console - {
+  account: 'test01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 20:00:23.015] [INFO] console - test01 account
+[2020-06-10 20:00:23.016] [INFO] console - 010421 password
+[2020-06-10 20:00:27.508] [INFO] console - 1000 =serverid
+[2020-06-10 20:00:27.510] [INFO] console - 0 net_ip
+[2020-06-10 20:00:27.512] [INFO] console - 0 =host
+[2020-06-10 20:00:27.533] [ERROR] console - TypeError [ERR_INVALID_ARG_TYPE]: The "options.hostname" property must be of type string or one of undefined or null. Received type number (0)
+    at validateHost (_http_client.js:73:11)
+    at new ClientRequest (_http_client.js:162:31)
+    at Object.request (http.js:46:10)
+    at Function.sendget (/Users/brightli/Documents/work/server/dhxy/utils/Http.ts:104:19)
+    at toServer (/Users/brightli/Documents/work/server/dhxy/gate/http_gate.ts:401:18)
+    at Layer.handle [as handle_request] (/Users/brightli/Documents/work/server/dhxy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/brightli/Documents/work/server/dhxy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/brightli/Documents/work/server/dhxy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/brightli/Documents/work/server/dhxy/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/express/lib/router/index.js:281:22
+[2020-06-10 20:01:32.541] [INFO] console - 1000 =serverid
+[2020-06-10 20:01:32.542] [INFO] console - 0 net_ip
+[2020-06-10 20:01:32.544] [INFO] console - 0 =host
+[2020-06-10 20:01:32.548] [ERROR] console - TypeError [ERR_INVALID_ARG_TYPE]: The "options.hostname" property must be of type string or one of undefined or null. Received type number (0)
+    at validateHost (_http_client.js:73:11)
+    at new ClientRequest (_http_client.js:162:31)
+    at Object.request (http.js:46:10)
+    at Function.sendget (/Users/brightli/Documents/work/server/dhxy/utils/Http.ts:104:19)
+    at toServer (/Users/brightli/Documents/work/server/dhxy/gate/http_gate.ts:401:18)
+    at Layer.handle [as handle_request] (/Users/brightli/Documents/work/server/dhxy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/brightli/Documents/work/server/dhxy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/brightli/Documents/work/server/dhxy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/brightli/Documents/work/server/dhxy/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/express/lib/router/index.js:281:22
+[2020-06-10 20:02:10.944] [INFO] console - 1000 =serverid
+[2020-06-10 20:06:46.049] [INFO] console - 命令行模块启动完毕
+[2020-06-10 20:06:46.049] [INFO] console - 全局变量加载完毕
+[2020-06-10 20:06:46.049] [INFO] console - 全局消息加载完毕
+[2020-06-10 20:06:46.217] [INFO] console - HTTP模块启动完毕，开始监听192.168.31.129:8811
+[2020-06-10 20:06:46.218] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-10 20:06:46.218] [INFO] console - 启动游戏服务器
+[2020-06-10 20:06:46.219] [INFO] console - 通知模块初始化完毕!
+[2020-06-10 20:06:46.243] [INFO] console - 地图模块加载完毕!
+[2020-06-10 20:06:46.250] [INFO] console - 任务配置模块加载完毕!
+[2020-06-10 20:06:46.254] [INFO] console - 世界模块加载完毕！
+[2020-06-10 20:06:46.257] [INFO] console - Npc配置模块加载完毕！
+[2020-06-10 20:06:46.266] [INFO] console - Npc模块加载完毕！
+[2020-06-10 20:06:46.268] [INFO] console - 角色属性模块加载完毕！
+[2020-06-10 20:06:46.271] [INFO] console - 物品模块加载完毕！
+[2020-06-10 20:06:46.272] [INFO] console - 经验模块加载完毕！
+[2020-06-10 20:06:46.274] [INFO] console - 技能模块加载完毕！
+[2020-06-10 20:06:46.275] [INFO] console - 技能效果模块加载完毕！
+[2020-06-10 20:06:46.316] [INFO] console - 怪物模块加载完毕！
+[2020-06-10 20:06:46.318] [INFO] console - 商城模块加载完毕!
+[2020-06-10 20:06:46.320] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-10 20:06:46.321] [INFO] console - 摆摊模块加载完毕!
+[2020-06-10 20:06:46.321] [INFO] console - 排行榜模块加载完毕!
+[2020-06-10 20:06:46.385] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-10 20:06:46.385] [INFO] console - 活动模块加载完毕!
+[2020-06-10 20:06:46.386] [INFO] console - 彩票模块加载完毕!
+[2020-06-10 20:06:46.387] [INFO] console - 关系模块加载完毕
+[2020-06-10 20:06:46.423] [INFO] console - 帮派模块加载完毕!
+[2020-06-10 20:06:46.425] [INFO] console - 装备模块加载完毕！
+[2020-06-10 20:06:46.428] [INFO] console - 充值模块加载完毕！
+[2020-06-10 20:06:46.429] [INFO] console - 宠物管理模块加载完毕！
+[2020-06-10 20:06:46.466] [INFO] console - 帮派id种子为110610000
+[2020-06-10 20:08:17.288] [INFO] console - 命令行模块启动完毕
+[2020-06-10 20:08:17.289] [INFO] console - 全局变量加载完毕
+[2020-06-10 20:08:17.289] [INFO] console - 全局消息加载完毕
+[2020-06-10 20:08:17.463] [INFO] console - HTTP模块启动完毕，开始监听192.168.31.129:8811
+[2020-06-10 20:08:17.464] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-10 20:08:17.465] [INFO] console - 启动游戏服务器
+[2020-06-10 20:08:17.466] [INFO] console - 通知模块初始化完毕!
+[2020-06-10 20:08:17.491] [INFO] console - 地图模块加载完毕!
+[2020-06-10 20:08:17.498] [INFO] console - 任务配置模块加载完毕!
+[2020-06-10 20:08:17.501] [INFO] console - 世界模块加载完毕！
+[2020-06-10 20:08:17.504] [INFO] console - Npc配置模块加载完毕！
+[2020-06-10 20:08:17.513] [INFO] console - Npc模块加载完毕！
+[2020-06-10 20:08:17.516] [INFO] console - 角色属性模块加载完毕！
+[2020-06-10 20:08:17.519] [INFO] console - 物品模块加载完毕！
+[2020-06-10 20:08:17.520] [INFO] console - 经验模块加载完毕！
+[2020-06-10 20:08:17.522] [INFO] console - 技能模块加载完毕！
+[2020-06-10 20:08:17.523] [INFO] console - 技能效果模块加载完毕！
+[2020-06-10 20:08:17.564] [INFO] console - 怪物模块加载完毕！
+[2020-06-10 20:08:17.566] [INFO] console - 商城模块加载完毕!
+[2020-06-10 20:08:17.567] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-10 20:08:17.568] [INFO] console - 摆摊模块加载完毕!
+[2020-06-10 20:08:17.568] [INFO] console - 排行榜模块加载完毕!
+[2020-06-10 20:08:17.640] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-10 20:08:17.641] [INFO] console - 活动模块加载完毕!
+[2020-06-10 20:08:17.642] [INFO] console - 彩票模块加载完毕!
+[2020-06-10 20:08:17.642] [INFO] console - 关系模块加载完毕
+[2020-06-10 20:08:17.684] [INFO] console - 装备模块加载完毕！
+[2020-06-10 20:08:17.685] [INFO] console - 帮派模块加载完毕!
+[2020-06-10 20:08:17.688] [INFO] console - 充值模块加载完毕！
+[2020-06-10 20:08:17.690] [INFO] console - 帮派id种子为110610000
+[2020-06-10 20:08:17.691] [INFO] console - 宠物管理模块加载完毕！
+[2020-06-10 20:08:24.939] [INFO] console - {
+  account: 'test01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 20:08:24.943] [INFO] console - test01 account
+[2020-06-10 20:08:24.944] [INFO] console - 010421 password
+[2020-06-10 20:08:25.823] [INFO] console - 1000 =serverid
+[2020-06-10 20:08:25.826] [INFO] console - 0 net_ip
+[2020-06-10 20:08:32.277] [INFO] console - 127.0.0.1 =host
+[2020-06-10 20:13:36.370] [INFO] console - 命令行模块启动完毕
+[2020-06-10 20:13:36.370] [INFO] console - 全局变量加载完毕
+[2020-06-10 20:13:36.371] [INFO] console - 全局消息加载完毕
+[2020-06-10 20:13:36.541] [INFO] console - HTTP模块启动完毕，开始监听192.168.31.129:8811
+[2020-06-10 20:13:36.542] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-10 20:13:36.543] [INFO] console - 启动游戏服务器
+[2020-06-10 20:13:36.544] [INFO] console - 通知模块初始化完毕!
+[2020-06-10 20:13:36.570] [INFO] console - 地图模块加载完毕!
+[2020-06-10 20:13:36.576] [INFO] console - 任务配置模块加载完毕!
+[2020-06-10 20:13:36.580] [INFO] console - 世界模块加载完毕！
+[2020-06-10 20:13:36.583] [INFO] console - Npc配置模块加载完毕！
+[2020-06-10 20:13:36.591] [INFO] console - Npc模块加载完毕！
+[2020-06-10 20:13:36.595] [INFO] console - 角色属性模块加载完毕！
+[2020-06-10 20:13:36.597] [INFO] console - 物品模块加载完毕！
+[2020-06-10 20:13:36.599] [INFO] console - 经验模块加载完毕！
+[2020-06-10 20:13:36.601] [INFO] console - 技能模块加载完毕！
+[2020-06-10 20:13:36.602] [INFO] console - 技能效果模块加载完毕！
+[2020-06-10 20:13:36.643] [INFO] console - 怪物模块加载完毕！
+[2020-06-10 20:13:36.645] [INFO] console - 商城模块加载完毕!
+[2020-06-10 20:13:36.646] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-10 20:13:36.647] [INFO] console - 摆摊模块加载完毕!
+[2020-06-10 20:13:36.648] [INFO] console - 排行榜模块加载完毕!
+[2020-06-10 20:13:36.711] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-10 20:13:36.712] [INFO] console - 活动模块加载完毕!
+[2020-06-10 20:13:36.713] [INFO] console - 彩票模块加载完毕!
+[2020-06-10 20:13:36.714] [INFO] console - 关系模块加载完毕
+[2020-06-10 20:13:36.748] [INFO] console - 装备模块加载完毕！
+[2020-06-10 20:13:36.750] [INFO] console - 充值模块加载完毕！
+[2020-06-10 20:13:36.751] [INFO] console - 帮派模块加载完毕!
+[2020-06-10 20:13:36.752] [INFO] console - 宠物管理模块加载完毕！
+[2020-06-10 20:13:36.752] [INFO] console - 帮派id种子为110610000
+[2020-06-10 20:18:24.550] [INFO] console - {
+  account: 'test04',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 20:18:24.555] [INFO] console - test04 account
+[2020-06-10 20:18:24.556] [INFO] console - 010421 password
+[2020-06-10 20:18:37.059] [INFO] console - 1000 =serverid
+[2020-06-10 20:18:37.061] [INFO] console - 0 net_ip
+[2020-06-10 20:19:25.448] [INFO] console - 127.0.0.1 =host
+[2020-06-10 20:32:02.068] [INFO] console - 命令行模块启动完毕
+[2020-06-10 20:32:02.069] [INFO] console - 全局变量加载完毕
+[2020-06-10 20:32:02.069] [INFO] console - 全局消息加载完毕
+[2020-06-10 20:32:02.162] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-10 20:32:02.162] [INFO] console - 启动游戏服务器
+[2020-06-10 20:32:02.167] [INFO] console - 通知模块初始化完毕!
+[2020-06-10 20:32:02.182] [INFO] console - 地图模块加载完毕!
+[2020-06-10 20:32:02.188] [INFO] console - 任务配置模块加载完毕!
+[2020-06-10 20:32:02.192] [INFO] console - 世界模块加载完毕！
+[2020-06-10 20:32:02.195] [INFO] console - Npc配置模块加载完毕！
+[2020-06-10 20:32:02.207] [INFO] console - Npc模块加载完毕！
+[2020-06-10 20:32:02.210] [INFO] console - 角色属性模块加载完毕！
+[2020-06-10 20:32:02.212] [INFO] console - 物品模块加载完毕！
+[2020-06-10 20:32:02.213] [INFO] console - 经验模块加载完毕！
+[2020-06-10 20:32:02.215] [INFO] console - 技能模块加载完毕！
+[2020-06-10 20:32:02.216] [INFO] console - 技能效果模块加载完毕！
+[2020-06-10 20:32:02.253] [INFO] console - 怪物模块加载完毕！
+[2020-06-10 20:32:02.254] [INFO] console - 商城模块加载完毕!
+[2020-06-10 20:32:02.255] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-10 20:32:02.256] [INFO] console - 摆摊模块加载完毕!
+[2020-06-10 20:32:02.256] [INFO] console - 排行榜模块加载完毕!
+[2020-06-10 20:32:02.326] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-10 20:32:02.327] [INFO] console - 活动模块加载完毕!
+[2020-06-10 20:32:02.328] [INFO] console - 彩票模块加载完毕!
+[2020-06-10 20:32:02.328] [INFO] console - 关系模块加载完毕
+[2020-06-10 20:32:02.361] [INFO] console - 帮派模块加载完毕!
+[2020-06-10 20:32:02.363] [INFO] console - 装备模块加载完毕！
+[2020-06-10 20:32:02.368] [INFO] console - 帮派id种子为110610000
+[2020-06-10 20:32:02.370] [INFO] console - 宠物管理模块加载完毕！
+[2020-06-10 20:32:02.370] [INFO] console - 充值模块加载完毕！
+[2020-06-10 20:32:09.048] [INFO] console - {
+  account: 'test04',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 20:32:09.050] [INFO] console - test04 account
+[2020-06-10 20:32:09.051] [INFO] console - 010421 password
+[2020-06-10 20:32:20.121] [ERROR] console - (node:37518) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2020-06-10 20:32:25.823] [INFO] console - 1000 =serverid
+[2020-06-10 20:32:25.825] [INFO] console - 0 net_ip
+[2020-06-10 20:32:32.784] [INFO] console - 0 =host
+[2020-06-10 20:33:04.034] [ERROR] console - TypeError [ERR_INVALID_ARG_TYPE]: The "options.hostname" property must be of type string or one of undefined or null. Received type number (0)
+    at validateHost (_http_client.js:73:11)
+    at new ClientRequest (_http_client.js:162:31)
+    at Object.request (http.js:46:10)
+    at Function.sendget (/Users/brightli/Documents/work/server/dhxy/utils/Http.ts:104:19)
+    at toServer (/Users/brightli/Documents/work/server/dhxy/gate/http_gate.ts:401:18)
+    at Layer.handle [as handle_request] (/Users/brightli/Documents/work/server/dhxy/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/brightli/Documents/work/server/dhxy/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/brightli/Documents/work/server/dhxy/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/brightli/Documents/work/server/dhxy/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/express/lib/router/index.js:281:22
+[2020-06-10 20:33:24.211] [INFO] console - 1000 =serverid
+[2020-06-10 20:36:09.097] [INFO] console - 命令行模块启动完毕
+[2020-06-10 20:36:09.098] [INFO] console - 全局变量加载完毕
+[2020-06-10 20:36:09.098] [INFO] console - 全局消息加载完毕
+[2020-06-10 20:36:09.203] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-10 20:36:09.203] [INFO] console - 启动游戏服务器
+[2020-06-10 20:36:09.209] [INFO] console - 通知模块初始化完毕!
+[2020-06-10 20:36:09.224] [INFO] console - 地图模块加载完毕!
+[2020-06-10 20:36:09.230] [INFO] console - 任务配置模块加载完毕!
+[2020-06-10 20:36:09.234] [INFO] console - 世界模块加载完毕！
+[2020-06-10 20:36:09.236] [INFO] console - Npc配置模块加载完毕！
+[2020-06-10 20:36:09.245] [INFO] console - Npc模块加载完毕！
+[2020-06-10 20:36:09.247] [INFO] console - 角色属性模块加载完毕！
+[2020-06-10 20:36:09.249] [INFO] console - 物品模块加载完毕！
+[2020-06-10 20:36:09.250] [INFO] console - 经验模块加载完毕！
+[2020-06-10 20:36:09.252] [INFO] console - 技能模块加载完毕！
+[2020-06-10 20:36:09.253] [INFO] console - 技能效果模块加载完毕！
+[2020-06-10 20:36:09.290] [INFO] console - 怪物模块加载完毕！
+[2020-06-10 20:36:09.291] [INFO] console - 商城模块加载完毕!
+[2020-06-10 20:36:09.292] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-10 20:36:09.293] [INFO] console - 摆摊模块加载完毕!
+[2020-06-10 20:36:09.294] [INFO] console - 排行榜模块加载完毕!
+[2020-06-10 20:36:09.359] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-10 20:36:09.359] [INFO] console - 活动模块加载完毕!
+[2020-06-10 20:36:09.364] [INFO] console - 彩票模块加载完毕!
+[2020-06-10 20:36:09.364] [INFO] console - 关系模块加载完毕
+[2020-06-10 20:36:09.409] [INFO] console - 充值模块加载完毕！
+[2020-06-10 20:36:09.411] [INFO] console - 装备模块加载完毕！
+[2020-06-10 20:36:09.412] [INFO] console - 帮派id种子为110610000
+[2020-06-10 20:36:09.413] [INFO] console - 宠物管理模块加载完毕！
+[2020-06-10 20:36:09.414] [INFO] console - 帮派模块加载完毕!
+[2020-06-10 20:36:59.799] [INFO] console - {
+  account: 'test04',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 20:36:59.803] [INFO] console - test04 account
+[2020-06-10 20:36:59.804] [INFO] console - 010421 password
+[2020-06-10 20:37:15.662] [INFO] console - 1000 =serverid
+[2020-06-10 20:37:15.665] [INFO] console - 0 net_ip
+[2020-06-10 20:56:19.454] [INFO] console - 命令行模块启动完毕
+[2020-06-10 20:56:19.455] [INFO] console - 全局变量加载完毕
+[2020-06-10 20:56:19.456] [INFO] console - 全局消息加载完毕
+[2020-06-10 20:56:19.655] [INFO] console - HTTP模块启动完毕，开始监听192.168.31.129:8811
+[2020-06-10 20:56:19.656] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-10 20:56:19.657] [INFO] console - 启动游戏服务器
+[2020-06-10 20:56:19.658] [INFO] console - 通知模块初始化完毕!
+[2020-06-10 20:56:19.684] [INFO] console - 地图模块加载完毕!
+[2020-06-10 20:56:19.690] [INFO] console - 任务配置模块加载完毕!
+[2020-06-10 20:56:19.694] [INFO] console - 世界模块加载完毕！
+[2020-06-10 20:56:19.697] [INFO] console - Npc配置模块加载完毕！
+[2020-06-10 20:56:19.708] [INFO] console - Npc模块加载完毕！
+[2020-06-10 20:56:19.710] [INFO] console - 角色属性模块加载完毕！
+[2020-06-10 20:56:19.713] [INFO] console - 物品模块加载完毕！
+[2020-06-10 20:56:19.714] [INFO] console - 经验模块加载完毕！
+[2020-06-10 20:56:19.716] [INFO] console - 技能模块加载完毕！
+[2020-06-10 20:56:19.718] [INFO] console - 技能效果模块加载完毕！
+[2020-06-10 20:56:19.768] [INFO] console - 怪物模块加载完毕！
+[2020-06-10 20:56:19.770] [INFO] console - 商城模块加载完毕!
+[2020-06-10 20:56:19.772] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-10 20:56:19.773] [INFO] console - 摆摊模块加载完毕!
+[2020-06-10 20:56:19.774] [INFO] console - 排行榜模块加载完毕!
+[2020-06-10 20:56:19.873] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-10 20:56:19.878] [INFO] console - 活动模块加载完毕!
+[2020-06-10 20:56:19.879] [INFO] console - 彩票模块加载完毕!
+[2020-06-10 20:56:19.880] [INFO] console - 关系模块加载完毕
+[2020-06-10 20:56:19.913] [INFO] console - 帮派id种子为110610000
+[2020-06-10 20:56:19.916] [INFO] console - 宠物管理模块加载完毕！
+[2020-06-10 20:56:19.917] [INFO] console - 充值模块加载完毕！
+[2020-06-10 20:56:19.918] [INFO] console - 装备模块加载完毕！
+[2020-06-10 20:56:19.920] [INFO] console - 帮派模块加载完毕!
+[2020-06-10 20:57:09.071] [INFO] console - {
+  account: 'test04',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 20:57:09.076] [INFO] console - test04 account
+[2020-06-10 20:57:09.077] [INFO] console - 010421 password
+[2020-06-10 20:57:10.162] [INFO] console - 1000 =serverid
+[2020-06-10 20:57:10.164] [INFO] console - 0 net_ip
+[2020-06-10 20:57:14.418] [INFO] console - 127.0.0.1 =host
+[2020-06-10 20:57:19.263] [INFO] console - invalid command
+[2020-06-10 20:57:19.265] [INFO] console - problem with request: Parse Error: Expected HTTP/

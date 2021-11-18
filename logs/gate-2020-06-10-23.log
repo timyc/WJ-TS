@@ -1,0 +1,128 @@
+[2020-06-10 23:30:01.012] [INFO] console - 命令行模块启动完毕
+[2020-06-10 23:30:01.467] [INFO] console - SQL: select * from qy_agent
+[2020-06-10 23:30:01.471] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-10 23:30:01.471] [INFO] console - 服务器管理模块启动完毕
+[2020-06-10 23:30:01.472] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-10 23:30:01.473] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-10 23:30:01.473] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-10 23:30:01.474] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-10 23:30:23.999] [INFO] console - {
+  account: 'test07',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 23:30:24.002] [INFO] console - test07 account
+[2020-06-10 23:30:24.003] [INFO] console - 010421 password
+[2020-06-10 23:30:24.005] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test07';
+[2020-06-10 23:30:44.100] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test07';
+[2020-06-10 23:30:44.126] [INFO] console - SQL: INSERT INTO qy_account(account, password,invite, register_time) VALUES('test07', '010421','', NOW() );
+[2020-06-10 23:30:46.302] [INFO] console - {
+  account: 'test07',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 23:30:46.305] [INFO] console - test07 account
+[2020-06-10 23:30:46.306] [INFO] console - 010421 password
+[2020-06-10 23:30:46.308] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test07';
+[2020-06-10 23:30:46.340] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39379;
+[2020-06-10 23:30:46.362] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39379;
+[2020-06-10 23:30:49.893] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39379' OR name = '新冰宸琴') AND serverid = '1000';
+[2020-06-10 23:30:49.972] [INFO] console - SQL: INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('新冰宸琴', '1','1',1,'1001',1010,-1,-1, NOW(),'39379','1000',0,'[]' );
+[2020-06-10 23:30:50.010] [INFO] console - 1000 =serverid
+[2020-06-10 23:30:50.012] [INFO] console - 0 net_ip
+[2020-06-10 23:30:50.014] [INFO] console - 127.0.0.1 =host
+[2020-06-10 23:30:50.018] [INFO] console - problem with request: Parse Error: Expected HTTP/
+[2020-06-10 23:31:08.050] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39379' OR name = '新冰宸琴') AND serverid = '1000';
+[2020-06-10 23:31:11.296] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39379' OR name = '小智醉初') AND serverid = '1000';
+[2020-06-10 23:32:12.801] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39379' OR name = '小智醉初') AND serverid = '1000';
+[2020-06-10 23:32:20.893] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39379' OR name = '小智醉初') AND serverid = '1000';
+[2020-06-10 23:32:24.798] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39379' OR name = '从真思') AND serverid = '1000';
+[2020-06-10 23:34:14.964] [INFO] console - {
+  account: 'test07',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 23:34:14.967] [INFO] console - test07 account
+[2020-06-10 23:34:14.968] [INFO] console - 010421 password
+[2020-06-10 23:34:14.969] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test07';
+[2020-06-10 23:34:31.115] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-10 23:34:31.157] [INFO] console - SQL: INSERT INTO qy_account(account, password,invite, register_time) VALUES('test01', '010421','', NOW() );
+[2020-06-10 23:34:33.515] [INFO] console - {
+  account: 'test01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 23:34:33.518] [INFO] console - test01 account
+[2020-06-10 23:34:33.519] [INFO] console - 010421 password
+[2020-06-10 23:34:33.520] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-10 23:34:33.617] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39380;
+[2020-06-10 23:34:33.638] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39380;
+[2020-06-10 23:34:37.063] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39380' OR name = '之嵩驳阁') AND serverid = '1000';
+[2020-06-10 23:34:37.095] [INFO] console - SQL: INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('之嵩驳阁', '1','1',1,'1001',1010,-1,-1, NOW(),'39380','1000',0,'[]' );
+[2020-06-10 23:34:37.149] [INFO] console - 1000 =serverid
+[2020-06-10 23:34:37.151] [INFO] console - 0 net_ip
+[2020-06-10 23:34:37.153] [INFO] console - 127.0.0.1 =host
+[2020-06-10 23:34:37.156] [INFO] console - problem with request: Parse Error: Expected HTTP/
+[2020-06-10 23:36:21.455] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39380' OR name = '之嵩驳阁') AND serverid = '1000';
+[2020-06-10 23:41:26.786] [INFO] console - 命令行模块启动完毕
+[2020-06-10 23:41:27.297] [INFO] console - SQL: select * from qy_agent
+[2020-06-10 23:41:27.303] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-10 23:41:27.304] [INFO] console - 服务器管理模块启动完毕
+[2020-06-10 23:41:27.304] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-10 23:41:27.305] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-10 23:41:27.305] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-10 23:41:27.306] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-10 23:46:03.146] [INFO] console - {
+  account: 'test01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 23:46:03.150] [INFO] console - test01 account
+[2020-06-10 23:46:03.151] [INFO] console - 010421 password
+[2020-06-10 23:46:03.152] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-10 23:46:03.176] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39380;
+[2020-06-10 23:46:03.201] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39380;
+[2020-06-10 23:46:04.323] [INFO] console - 1000 =serverid
+[2020-06-10 23:46:04.325] [INFO] console - 0 net_ip
+[2020-06-10 23:46:04.327] [INFO] console - 127.0.0.1 =host
+[2020-06-10 23:46:04.333] [INFO] console - problem with request: Parse Error: Expected HTTP/
+[2020-06-10 23:46:41.345] [INFO] console - 1000 =serverid
+[2020-06-10 23:46:41.348] [INFO] console - 0 net_ip
+[2020-06-10 23:46:41.349] [INFO] console - 127.0.0.1 =host
+[2020-06-10 23:47:09.997] [INFO] console - problem with request: Parse Error: Expected HTTP/
+[2020-06-10 23:54:23.016] [INFO] console - 命令行模块启动完毕
+[2020-06-10 23:54:23.458] [INFO] console - SQL: select * from qy_agent
+[2020-06-10 23:54:34.996] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-10 23:54:34.997] [INFO] console - 服务器管理模块启动完毕
+[2020-06-10 23:54:34.998] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-10 23:54:34.998] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-10 23:54:34.998] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-10 23:54:34.999] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-10 23:55:58.172] [INFO] console - {
+  account: 'test01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 23:55:58.176] [INFO] console - test01 account
+[2020-06-10 23:55:58.177] [INFO] console - 010421 password
+[2020-06-10 23:55:58.178] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-10 23:55:58.208] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39380;
+[2020-06-10 23:55:58.226] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39380;
+[2020-06-10 23:55:59.277] [INFO] console - 1000 =serverid
+[2020-06-10 23:55:59.279] [INFO] console - 0 net_ip
+[2020-06-10 23:55:59.281] [INFO] console - 127.0.0.1 =host
+[2020-06-10 23:55:59.288] [INFO] console - problem with request: connect ECONNREFUSED 127.0.0.1:8812
+[2020-06-10 23:56:38.675] [INFO] console - 1000 =serverid
+[2020-06-10 23:56:38.677] [INFO] console - 0 net_ip
+[2020-06-10 23:56:38.678] [INFO] console - 127.0.0.1 =host
+[2020-06-10 23:56:38.681] [INFO] console - problem with request: connect ECONNREFUSED 127.0.0.1:8812
+[2020-06-10 23:57:44.616] [INFO] console - 1000 =serverid
+[2020-06-10 23:57:44.618] [INFO] console - 0 net_ip
+[2020-06-10 23:57:44.620] [INFO] console - 127.0.0.1 =host
+[2020-06-10 23:57:44.623] [INFO] console - problem with request: connect ECONNREFUSED 127.0.0.1:8812

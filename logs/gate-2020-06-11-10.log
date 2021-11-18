@@ -1,0 +1,58 @@
+[2020-06-11 10:29:11.152] [INFO] console - 命令行模块启动完毕
+[2020-06-11 10:29:11.650] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 10:29:11.654] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-11 10:29:11.655] [INFO] console - 服务器管理模块启动完毕
+[2020-06-11 10:29:11.655] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 10:29:11.656] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-11 10:29:11.656] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 10:29:11.657] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-11 10:32:33.863] [INFO] console - {
+  account: 'flashpf',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-11 10:32:33.868] [INFO] console - flashpf account
+[2020-06-11 10:32:33.869] [INFO] console - 010421 password
+[2020-06-11 10:32:33.870] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 10:32:33.895] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39381;
+[2020-06-11 10:32:33.907] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-11 10:32:35.549] [INFO] console - 1000 =serverid
+[2020-06-11 10:35:20.338] [INFO] console - 命令行模块启动完毕
+[2020-06-11 10:35:21.126] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 10:35:21.134] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-11 10:36:50.158] [INFO] console - 服务器管理模块启动完毕
+[2020-06-11 10:36:50.158] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 10:36:50.159] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-11 10:36:50.159] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 10:36:50.160] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-11 10:44:44.413] [INFO] console - {
+  account: 'flashpf',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-11 10:44:44.418] [INFO] console - flashpf account
+[2020-06-11 10:44:44.420] [INFO] console - 010421 password
+[2020-06-11 10:44:44.421] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 10:44:44.444] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39381;
+[2020-06-11 10:45:50.369] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-11 10:47:54.070] [INFO] console - {
+  account: 'flashpf',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-11 10:47:54.072] [INFO] console - flashpf account
+[2020-06-11 10:47:54.073] [INFO] console - 010421 password
+[2020-06-11 10:47:54.075] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 10:47:54.105] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39381;
+[2020-06-11 10:47:57.867] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-11 10:52:59.906] [INFO] console - 命令行模块启动完毕
+[2020-06-11 10:53:00.371] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 10:53:00.376] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-11 10:53:10.529] [INFO] console - 服务器管理模块启动完毕
+[2020-06-11 10:53:10.529] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 10:53:10.530] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-11 10:53:10.530] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 10:53:10.531] [INFO] console - 封禁设备管理模块启动完毕

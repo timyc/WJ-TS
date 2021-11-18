@@ -1,0 +1,8 @@
+[2020-06-13 10:16:54.441] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-13 10:16:54.621] [INFO] console - SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-13 10:16:54.640] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39384;
+[2020-06-13 10:16:54.650] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39384;
+[2020-06-13 10:16:54.657] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39384;
+[2020-06-13 10:16:54.679] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39384;
+[2020-06-13 10:16:57.793] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592014561) WHERE roleid =157846;
+[2020-06-13 10:16:57.803] [INFO] console - UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592014561) WHERE roleid =157846;

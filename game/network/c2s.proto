@@ -1,0 +1,1807 @@
+package commander.c2s;
+syntax = "proto3";
+
+message gm_command {
+    repeated string commands = 1;
+}
+
+message s2c_operation_result{
+    int32 code = 1;
+}
+
+// 登录
+message c2s_login {
+    int32  accountid = 1;
+    int32 roleid = 2;
+    string token = 3;
+}
+
+message c2s_relogin {
+    int32  accountid = 1;
+    int32 roleid = 2;
+    string token = 3;
+}
+
+message s2c_otherlogin {
+}
+
+message c2s_enter_game {
+    int32  accountid = 1;
+}
+
+message c2s_change_map {
+    int32  accountid = 1;
+    int32  mapid = 2;
+    int32  x = 3;
+    int32  y = 4;
+}
+
+message s2c_change_map{
+    int32 mapid = 1;
+    string pos = 2;
+}
+
+message c2s_create_team{
+    int32 roleid = 1;
+    string type = 2;
+}
+
+message c2s_match_team{
+    int32 roleid = 1;
+}
+
+message c2s_requst_team{
+    int32 roleid = 1;
+    int32 teamid = 2;
+}
+
+message c2s_leave_team{
+    int32 roleid = 1;
+    int32 teamid = 2;
+}
+
+message c2s_transfer_team{
+    int32 roleid = 1;
+}
+
+message c2s_transfer_team_requst{
+    int32 toid = 1;
+}
+
+message s2c_transfer_team_requst{
+    int32 roleid = 1;
+}
+
+message s2c_team_info{
+    string info = 1;
+}
+
+message c2s_team_list{
+    int32 roleid = 1;
+    string type = 2;
+}
+
+message s2c_team_list{
+    string list = 1;
+}
+
+message c2s_team_requeslist{
+}
+
+message reqTeamInfo {
+    int32 resid = 1;
+    int32 relive = 2;
+    int32 level = 3;
+    string name = 4;
+    int32 roleid = 5;
+}
+
+message s2c_team_requeslist{
+    repeated reqTeamInfo list = 1;
+}
+
+message c2s_operteam{
+    int32 operation = 1;
+    int32 roleid = 2;
+    int32 teamid = 3;
+}
+
+message s2c_team_join{
+}
+
+message s2c_player_pos{
+    int32 onlyid = 1;
+    int32 x = 2;
+    int32 y = 3;
+}
+
+message c2s_aoi_move {
+    int32 accountid = 1;
+    int32 x = 2;
+    int32 y = 3;
+}
+
+message c2s_aoi_stop {
+    int32 accountid = 1;
+    int32 x = 2;
+    int32 y = 3;
+    string path = 4;
+}
+
+message s2c_aoi_stop {
+    int32 onlyid = 1;
+    int32 x = 2;
+    int32 y = 3;
+}
+
+message c2s_game_chat {
+    int32 scale = 1;//0,世界  1,队伍  2,帮派
+    string msg = 2;
+    bytes voice = 3;
+}
+
+message s2c_game_chat {
+    int32 roleid = 1;
+    int32 onlyid = 2;
+    int32 scale = 3;//0,世界  1,队伍  2,帮派 3 系统 5 系统撤回
+    string msg = 4;
+    string name = 5;
+    int32 resid = 6;
+    int32 teamid = 7;
+    bytes voice = 8;
+}
+
+message c2s_friend_chat {
+    int32 fromid = 1;
+    int32 toid = 2;
+    string msg = 3;
+    string name = 4;
+    int32 resid = 5;
+}
+
+message s2c_friend_chat {
+    int32 fromid = 1;
+    int32 toid = 2;
+    string msg = 3;
+    string name = 4;
+    int32 resid = 5;
+}
+
+message c2s_add_friend{
+    int32 roleid = 1;
+}
+
+message friendInfo {
+    int32 roleid = 1;
+    string name = 2;
+    int32 resid = 3;
+    int32 relive = 4;
+    int32 level = 5;
+    int32 race = 6;
+    int32 sex = 7;
+    int32 state = 8;
+}
+
+message applyInfo {
+    int32 roleid = 1;
+    string name = 2;
+    int32 resid = 3;
+    int32 relive = 4;
+    int32 level = 5;
+}
+
+message c2s_get_friends{
+}
+
+message s2c_friends_info{
+    repeated friendInfo list = 1;
+}
+
+message c2s_search_friends{
+    int32 type = 1;//type=0 推荐   type=1 搜索
+    int32 roleid = 2;
+    string data = 3;
+}
+
+message searchfriendInfo {
+    int32 roleid = 1;
+    string name = 2;
+    int32 resid = 3;
+    int32 relive = 4;
+    int32 level = 5;
+    int32 race = 6;
+    int32 sex = 7;
+}
+
+message s2c_search_friends{
+    repeated searchfriendInfo list = 1;
+}
+
+message s2c_friend_apply {
+}
+
+
+message c2s_update_friends{
+    int32 roleid = 1;
+    int32 operation = 2;
+}
+
+
+//---------------- zzzHere 合成 -----------------//
+
+message c2s_compose{
+    int32 nFatherItem = 1;
+	int32 nNum = 2;
+}
+//---------------- zzzHere 管理员 -----------------//
+
+message c2s_player_shutup{
+    int32 nRoleID = 1;
+}
+
+message c2s_player_speak{
+    int32 roleid = 1;
+}
+
+message c2s_kick_off{
+    int32 nRoleID = 1;
+}
+
+message c2s_freeze_ip{
+    int32 nRoleID = 1;
+}
+
+message c2s_freeze_mac{
+    int32 nRoleID = 1;
+}
+
+//---------------- zzzHere 任务 -----------------//
+
+message c2s_task_reset{
+}
+
+message c2s_abort_task{
+    int32 nTaskID = 1;
+}
+
+message c2s_incept_fuben_task{
+    int32 nNpcOnlyID = 1;
+    int32 nTaskID = 2;
+}
+
+message c2s_start_grop_task{
+    int32 nNpcOnlyID = 1;
+    int32 nTaskGrop = 2;
+}
+
+
+
+message c2s_ask_role_task{
+}
+
+message c2s_create_test_npc{
+}
+
+
+message c2s_task_talk_npc {
+   int32 nTaskID = 1;
+   int32 nStep = 2;
+   int32 nNpcConfigID = 3;
+   int32 nNpcOnlyID = 4;
+}
+
+message c2s_act_npc {
+   int32 nOnlyID = 1;
+   int32 nNpcConfigID = 2;
+}
+
+message c2s_role_action {
+   int32 nMapID = 1;
+   int32 nX = 2;
+   int32 nY = 3;
+}
+
+
+
+
+message STaskState  {
+	int32 nTaskID = 1;
+	repeated string  vecStep = 2;
+}
+
+message s2c_role_task_list
+{
+	repeated STaskState  vecTask = 1;
+	string  strJsonDaily = 2;
+}
+
+message s2c_npc_notice
+{
+	int32 nNpcConfigID = 1;
+	string strRichText = 2;
+}
+
+message s2c_notice
+{
+	string strRichText = 1;
+}
+
+message s2c_screen_msg
+{
+	string strRichText = 1;
+	int32 bInsertFront = 2;
+}
+
+message s2c_you_get_item
+{
+   int32 nItem = 1;
+   int32 nNum = 2;
+}
+
+message s2c_create_task_npc
+{
+   int32 nNpc = 1;
+   int32 nMap = 2;
+   int32 nX = 3;
+   int32 nY = 4;
+}
+
+message c2s_trigle_npc_bomb
+{
+   int32 nNpcConfigID = 1;
+   int32 nNpcOnlyID = 2;
+}
+
+message s2c_star_waiting
+{
+}
+
+message c2s_enter_battle
+{
+   int32 nGroupID = 1;
+}
+
+message c2s_challenge_npc
+{
+   int32 nOnlyID = 1;
+   int32 nConfigID = 2;
+}
+
+message c2s_ask_daily_info
+{
+}
+
+message s2c_daily_info
+{
+	   string strJson = 1;
+}
+
+message c2s_take_active_prize
+{
+	   int32 nIndex = 1;
+}
+
+//---------------- zzzHere 排行榜 -----------------//
+
+message c2s_ask_paihang
+{
+	int32 nByWhat = 1;
+}
+
+message SPaiHangRecord
+{
+	int32 nRoleID = 1;
+	string strName = 2;
+	int32 nRelive = 3;
+    int32 nLevel = 4;
+	int64 nMoney = 5;
+}
+
+message rankInfo {
+    string info = 1;
+}
+
+message s2c_paihang
+{
+    int32 rankKind = 1;
+	string vecRow = 2;
+}
+
+//---------------- zzzHere 玩家功能UI ----------//
+
+message c2s_ask_other_info
+{
+	int32 nRoleID = 1;
+}
+
+message c2s_other_info
+{
+	int32 nRoleID = 1;
+	int32 nResID = 2;
+	int32 nLevel = 3;
+	int32 nRelive = 4;
+	string strName = 5;
+	string strBangName = 6;
+}
+
+
+//---------------- zzzHere 伙伴UI ----------//
+
+message s2c_partner_exp
+{
+	int32 nPartnerID = 1;
+	int64 nExp = 2;
+}
+
+message c2s_ask_partner_list
+{
+	int32 nRoleID = 1;
+}
+
+message SPanter
+{
+	string strJson = 1;
+}
+
+message s2c_partner_list
+{
+   repeated SPanter vecPartner = 1;
+   string strJsonPos = 2;
+}
+
+message s2c_partner_info
+{
+   string strJson = 1;
+}
+
+
+message c2s_change_partner_state
+{
+	int32 nPartnerID = 1;
+	int32 nPos = 2;
+}
+
+message c2s_partner_exchange_exp
+{
+    int32 nRoleID = 1;
+	int32 nPartnerA = 2;
+	int32 nPartnerB = 3;
+	int32 nCostWhat = 4;
+}
+
+message s2c_partner_exchange_exp_ok
+{
+	int32 nPartnerA = 1;
+	int64 nAExp = 2;
+	int32 nPartnerB = 3;
+	int64 nBExp = 4;
+}
+
+
+message c2s_partner_relive
+{
+	int32 nPartnerID = 1;
+}
+
+//---------------- zzzHere 商城 -----------------//
+
+message c2s_ask_roles_goods
+{
+    int32 nRoleID = 1;
+}
+
+
+message SGoods
+{
+	int32 nID = 1;
+    int32 nConfigID = 2;
+	int32 nPrice = 3;
+	int32 nCnt = 4;
+	int32 nTime = 5;
+}
+
+
+message s2c_roles_goods
+{
+	repeated SGoods vecGoods = 1;
+}
+
+message s2c_goods
+{
+	repeated SGoods vecGoods = 1;
+}
+
+message s2c_add_exp {
+    int32 onlyid = 1;
+    int64 curexp = 2;
+    int64 addexp = 3;
+    int64 maxexp = 4;
+}
+
+message s2c_level_up {
+    int32 onlyid = 1;
+    int32 curlevel = 2;
+}
+
+message c2s_add_goods
+{
+	int32 nSeller = 1;
+    int32 nConfigID = 2;
+	int32 nPrice = 3;
+	int32 nCnt = 4;
+}
+
+message c2s_take_back_goods
+{
+	int32 nID = 1;
+}
+
+
+message c2s_get_shop_items
+{
+	int32 nKind = 1;
+	int32 nItem = 2;
+}
+message c2s_buymall_items{
+    int32 mallnum = 1;
+    int32 mallprices = 2;
+    int32 mallid = 3;
+    string type = 4;
+}
+message c2s_get_shop_equips
+{
+	int32 nPart = 1;
+}
+
+message c2s_buy_goods
+{
+    int32 nID = 1;
+	int32 nCnt = 2;
+}
+
+
+
+message s2c_you_money
+{
+    int32 nKind = 1;
+    int64 nNum = 2;
+	int32 nChange = 3;
+}
+
+message s2c_charge {
+    int32 money = 1; // 充值的人民币数量
+    int32 jade = 2;
+    int32 chargesum = 3;
+}
+
+message c2s_ask_npc_shop_item
+{
+    int32 nNpcConfigID = 1;
+}
+
+message s2c_npc_shop_item
+{
+    string info = 1;
+}
+
+message c2s_buy_from_npc
+{
+	int32 nConfigID = 1;
+    int32 nItemID = 2;
+	int32 nCnt = 3;
+}
+
+
+
+//---------------- zzzHere 抽奖 -----------------//
+
+message c2s_ask_lottery_info
+{
+}
+
+message s2c_lottery_info
+{
+   string strJson = 1;
+}
+
+message c2s_lottery_go
+{
+	int32 nID = 1;
+}
+
+message s2c_lottery_result
+{
+	int32 nSelect = 1;
+	int32 nLen = 2;
+}
+
+//---------------- zzzHere 回梦 -----------------//
+
+message c2s_ask_relive_list
+{
+}
+
+message s2c_relive_list
+{
+   string strJson = 1;
+}
+
+message c2s_change_relive_list
+{
+    string strJson = 1;
+}
+
+//-----------------------------------------//
+
+message c2s_get_bagitem{
+    int32 roleid = 1;
+}
+message c2s_get_mall{
+    int32 roleid = 1;
+}
+
+
+
+message c2s_get_lockeritem{
+    int32 roleid = 1;
+}
+
+
+message c2s_update_bagitem{
+    int32 roleid = 1;
+    int32 itemid = 2;
+    int32 count = 3;
+    int32 operation = 4;
+}
+
+message c2s_use_bagitem{
+    int32 roleid = 1;
+    int32 itemid = 2;
+    int32 count = 3;
+    int32 operateid = 4;
+}
+
+message c2s_stop_incense{
+    int32 roleid = 1;
+}
+
+message s2c_incense_state{//引妖香的使用状态0:结束使用,1:开始使用
+    int32 ltime = 1;
+}
+
+message c2s_update_lockeritem{
+    int32 roleid = 1;
+    int32 type = 2;//物品类型，0物品，1装备
+    int32 operation = 3;//操作类型，1存入，0取出
+    int32 operateid = 4;//操作对象的id
+}
+
+message s2c_bagitem{
+    string info = 1;
+}
+message s2c_mallitems{
+    string info = 1;
+}
+
+message c2s_level_reward {
+	int32 roleid = 1;
+    int32 level = 2;
+}
+
+message s2c_level_reward {
+	int32 level = 1;
+}
+
+
+message s2c_lockeritem{
+    string bag = 1;
+    string locker = 2;
+    string equip = 3;
+}
+
+message c2s_createbang{
+    string name = 1;
+    string aim = 2;
+    int32 masterid = 3;
+    string mastername = 4;
+}
+
+message c2s_requestbang{
+    int32 roleid = 1;
+    int32 bangid = 2;
+}
+
+// 通知帮主 有人入帮
+message s2c_join_bang{
+}
+
+message c2s_operbang{
+    int32 operation = 1;
+    int32 roleid = 2;
+    int32 bangid = 3;
+}
+
+message c2s_joinbang{
+    int32 roleid = 1;
+    int32 bangid = 2;
+}
+
+message c2s_leavebang{
+    int32 roleid = 1;
+    int32 bangid = 2;
+}
+
+message s2c_leavebang {
+    int32 ecode = 1;
+}
+
+message c2s_getbanglist{
+    int32 roleid = 1;
+}
+
+message c2s_getbanginfo{
+    int32 roleid = 1;
+    int32 bangid = 2;
+}
+
+message c2s_getbangrequest{
+    int32 roleid = 1;
+    int32 bangid = 2;
+}
+
+message bangInfo{
+    int32 bangid = 1;
+    string name = 2;
+    string aim = 3;
+    int32 rolenum = 4;
+    int32 masterid = 5;
+    string mastername = 6;
+    int32 bidding = 7;
+    int32 weight = 8;
+}
+
+message bangPlayerInfo {
+    int32 roleid = 1;
+    string name = 2;
+    int32 race = 3;
+    int32 sex = 4;
+    int32 relive = 5;
+    int32 level = 6;
+    int32 resid = 7;
+    int32 online = 8;
+}
+
+message c2s_searchbang{
+    int32 roleid = 1;
+    string data = 2;
+}
+
+message s2c_getbanglist{
+    repeated bangInfo list = 1;
+}
+
+message s2c_getbanginfo{
+    bangInfo info = 1;
+    repeated bangPlayerInfo rolelist = 2;
+}
+
+message s2c_getbangrequest{
+    repeated bangPlayerInfo requestlist = 1;
+}
+
+message c2s_bang_bid {
+    int32 money = 1;
+}
+
+message s2c_bang_bid {
+    int32 result = 1;
+}
+
+//-------------------召唤兽--------------------
+message s2c_new_pet {
+}
+
+message c2s_relive_pet{
+    int32 petid = 1;
+}
+
+message c2s_hecheng_pet{
+    int32 petid = 1;
+}
+
+message c2s_create_pet{
+    int32 petid = 1;
+}
+
+message c2s_get_petlist{
+    int32 roleid = 1;
+}
+
+message petInfo{
+    int32 petid       = 1;
+    int32 dataid      = 2;
+    int32 onlyid      = 3;
+    string name       = 4;
+    int32 relive      = 5;
+    int32 level       = 6;
+    int32 resid       = 7;
+    int32 grade       = 8;
+    string skill      = 9;
+    string ppoint     = 10;
+    string dpoint     = 11;
+    string wuxing     = 12;
+    int32 rate        = 13;
+    int32 maxrate     = 14;
+    int32 hp          = 15;
+    int32 mp          = 16;
+    int32 atk         = 17;
+    int32 spd         = 18;
+    string intro      = 19;
+    int64 exp         = 20;
+    int64 xexp        = 21;
+    int32 xlevel      = 22;
+    int32 longgu      = 23;
+    int32 maxskillcnt = 24;
+    string attr1      = 25;
+    int32 shenskill   = 26;
+	int32 color       = 27;
+	int32 qinmi       = 28;
+	int32 fly         = 29;
+}
+
+message s2c_get_petlist{
+    int32 curid = 1;
+    repeated petInfo list = 2;
+}
+
+message c2s_change_pet{
+    int32 petid = 1;
+}
+
+message s2c_change_pet{
+    int32 curid = 1;
+}
+
+//属性抗性等加点,type=0重置属性 1重置抗性 2更新属性加点 3更新抗性加点
+message c2s_update_pet{
+    int32 roleid = 1;
+    int32 type = 2;
+    int32 petid = 3;
+    string info = 4;
+}
+
+message s2c_update_pet{
+    petInfo info = 1;
+}
+
+message c2s_del_pet{
+    int32 roleid = 1;
+    int32 petid = 2;
+}
+
+message s2c_del_pet{
+    int32 curid = 1;
+    int32 delid = 2;
+}
+
+message c2s_pet_forgetskill {
+    int32 petid = 1;
+    int32 skillid = 2;
+}
+
+message c2s_pet_lockskill {
+    int32 petid = 1;
+    int32 skillid = 2;
+}
+
+message c2s_pet_changeSskill{
+    int32 petid = 1;
+    int32 skillid = 2;
+}
+
+message s2c_pet_changeSskill{
+    int32 errorcode = 1;
+    int32 petid = 2;
+    int32 skillid = 3;
+}
+
+message s2c_prison_time{
+    int32 onlyid = 1;
+    int32 time = 2;
+}
+
+// 坐骑项目
+message MountItem{
+    int32 mountid = 1;
+    int32 roleid = 2;
+    int32 resid = 3;
+    int32 race = 4;
+    string name = 5;
+    int32 level = 6;
+}
+// 坐骑数据
+message MountData{
+    int32 mountId = 1;
+    repeated MountItem mountList = 2;
+}
+
+// aoi使用协议，尽量少，用以表现可见玩家状态的
+message playerInfo {
+    int32 onlyid = 1;
+    int32 accountid = 2;
+    int32 roleid = 3;
+    string name = 4;
+    int32 mapid = 5;
+    int32 x = 6;
+    int32 y = 7;
+    int32 relive = 8;
+    int32 level = 9;
+    string weapon = 10;
+    int32 state = 11;
+    int32 resid = 12;
+	int32 livingtype = 13;
+    int32 teamid = 14;
+    int32 isleader = 15;
+    int32 teamcnt = 16;
+    int32 battleid = 17;
+	int32 npcconfig = 18;
+    string bangname= 19;
+    int32 titleid = 20;
+    int32 titletype = 21;
+    string titleval = 23;
+	int32 color1 = 24;
+    int32 color2 = 25;
+    string schemename = 26;
+	string safepassword = 27;
+	int32 safelock = 28;
+    MountData mountData = 29;
+}
+
+message c2s_role_data {
+    int32 onlyid = 1;
+}
+
+message attrL1 {
+    int32 dhunluan = 1; // 抗混乱
+	int32 dfengyin = 2; // 抗封印
+	int32 dhunshui = 3; // 抗昏睡
+	int32 ddu = 4; // 抗毒
+	int32 dfeng = 5; // 抗风
+	int32 dhuo = 6; // 抗火
+	int32 dshui = 7; // 抗水
+	int32 dlei = 8; // 抗雷
+	int32 dguihuo = 9; // 抗鬼火
+	int32 dyiwang = 10; // 抗遗忘
+	int32 dsanshi = 11; // 抗三尸
+	int32 dzhenshe = 12; // 抗震慑
+	int32 dwuli = 13;// 抗物理
+	int32 pxishou = 14; // 物理吸收
+	int32 pmingzhong = 15; // 命中
+	int32 pshanbi = 16; // 闪避
+	int32 hdsanshi = 17; // 忽视抗三尸
+}
+
+message attrL2 {
+    int32 gengu = 1;
+    int32 lingxing = 2;
+    int32 liliang = 3;
+    int32 minjie = 4;
+}
+
+message s2c_player_data {
+    int32 onlyid = 1;
+    int32 qianneng = 2;
+    string attr1 = 3;
+    string addattr1 = 4;
+    string addattr2 = 5;
+    string skill = 6;
+    int32 xiulevel = 7;
+    int32 race = 8;
+    int32 sex = 9;
+    int32 bangid = 10;
+    int32 relive = 11;
+    int32 level = 12;
+    int64 exp = 13;
+    int64 maxexp = 14;
+	int64 money = 15;
+    int32 jade = 16;
+    int32 bindjade = 17;
+    int32 shuilugj = 18;
+    int32 gmlevel = 19;
+	int32 chargesum = 20;
+	int32 rewardrecord = 21;
+    string levelreward = 22;
+    string schemename = 23;
+}
+
+message c2s_player_upskill{
+    int32 roleid = 1;
+    int32 skillid = 2;
+}
+
+message c2s_player_addpoint{
+    int32 roleid = 1;
+    string addattr = 2;
+}
+
+message c2s_xiulian_point{
+    int32 roleid = 1;
+    int32 type = 2;
+    string info = 3;
+}
+
+message c2s_xiulian_upgrade{
+    int32 roleid = 1;
+}
+
+message c2s_creat_equip{
+    int32 type = 1;//装备类型，0:新手装备，1:高级装备，2:神兵，3:仙器
+    int32 roleid = 2;
+    int32 index = 3;//装备位置
+}
+
+message c2s_equip_list{
+    int32 roleid = 1;
+}
+
+message s2c_equip_list{
+    string list = 1;
+}
+
+message c2s_equip_info{
+    int32 roleid = 1;
+    int32 equipid = 2;
+}
+
+message s2c_equip_info{
+    string equip = 1;
+}
+
+message c2s_next_equip{
+    int32 resid = 1;
+    int32 type = 2;
+    int32 index = 3;//装备位置
+    int32 grade = 4;
+    int32 roleid = 5;
+}
+
+message s2c_next_equip{
+    string equip = 1;
+}
+
+message c2s_equip_update{
+    int32 operation = 1;//0删除，1装备，2卸下
+    int32 roleid = 2;
+    int32 equipid = 3;
+}
+
+message c2s_equip_upgrade{//升级
+    int32 roleid = 1;
+    int32 equipid = 2;
+}
+
+message c2s_equip_inlay{//装备镶嵌
+    int32 operation = 1;//0拆卸，1镶嵌
+    int32 roleid = 2;
+    int32 equipid = 3;
+}
+
+message c2s_equip_refine{//装备炼化
+    int32 operation = 1;//0获取，1确认
+    int32 roleid = 2;
+    int32 level = 3;//0使用低九彩云龙珠，1中级，2高级
+    int32 equipid = 4;
+}
+
+message c2s_equip_recast{//装备重铸
+    int32 operation = 1;//0获取，1确认
+    int32 roleid = 2;
+    int32 equipid = 3;
+}
+
+message s2c_equip_property{
+    string property = 1;
+}
+
+message c2s_xianqi_list{
+    int32 roleid = 1;
+}
+
+message s2c_xianqi_list{
+    string list = 1;
+}
+
+message c2s_shenbing_upgrade{
+    int32 roleid = 1;
+    int32 equipid = 2;
+    int32 use = 3;
+}
+
+message c2s_xianqi_upgrade{
+    int32 roleid = 1;
+    int32 equipid = 2;
+    int32 use1 = 3;
+    int32 use2 = 4;
+}
+
+message s2c_change_weapon{
+    string weapon = 1;
+}
+
+message s2c_login {
+    int32 errorcode = 1;
+    playerInfo info = 2;
+}
+
+message s2c_aoi_pinfo {
+    repeated playerInfo list = 1;
+}
+
+message s2c_aoi_exit {
+    int32 onlyid = 1;
+}
+
+// 战斗人员
+message btlRole {
+    int32 onlyid = 1;
+    int32 resid = 2;
+    string name = 3;
+    int32 hp = 4;
+    int32 mp = 5;
+    
+    int32 maxhp = 6;
+    int32 maxmp = 7;
+    int32 pos = 8;
+    int32 type = 9; //
+    int32 ownonlyid = 10;// 从属关系
+    string weapon = 11;
+    int32 relive = 12;
+    repeated int32 skilllist = 13;
+    int32 isbb = 14;
+    int32 isfight = 15;
+    int32 level = 16;
+	int32 color = 17;
+	int32 color1 = 18;
+	int32 color2 = 19;
+}
+
+// 战斗队伍
+message btlTeam {
+    int32 camp = 1;
+    repeated btlRole list = 2;
+}
+
+message btlAct {
+    int32 targetid = 1; // 目标onlyid
+    int32 acttype = 2; // 1伤害 2治疗 3扣蓝 4吸血
+    int32 num = 3; // 对应acttype 伤害量 治疗量
+    int32 respone = 4; // 0 无响应，1 防御 2 闪避 3暴击
+    int32 isdead = 5; // 0 未死亡 1 死亡
+    int32 hp = 6;    // 剩余生命值
+    int32 mp = 7;    // 剩余法力值
+    repeated int32 bufflist = 9; // buff列表
+    int32 param = 10;// 参数9 可用于保护id等
+    string actaffix = 11; // 动作后续 json
+}
+
+message btlAction {
+    int32 actid = 1; // 行动者的onlyid
+    int32 action = 2; // 1技能 2道具 3召唤
+    int32 actionid  = 3;// 随action改变
+    string actbef = 4;// 战斗前的效果
+    repeated btlAct act = 5; // 效果影响多少目标
+    repeated int32 bufflist = 6; // buff列表
+}
+
+message c2s_btl_auto {
+
+}
+
+message s2c_btl_round {
+    int32 round = 1;
+    repeated btlAction acts = 2;
+}
+
+message teamEffect {
+    int32 role = 1;
+    int32 eff = 2; // 1 悬刃 2 遗患
+}
+
+message s2c_btl_roundbegin {
+    repeated btlAct act = 1;
+    repeated teamEffect effect = 2; // 场景特效  悬刃 遗患 等
+}
+// 战斗结束 以及 结果内容
+message s2c_btl_end {
+    int32 btlid = 1;
+    int32 result = 2;  // 0是失败  1 胜利
+}
+
+message c2s_btl {
+    int32 btlkey = 1;//战斗key  用于 任务配置固定战斗 等。
+}
+
+// 战斗信息
+message s2c_btl {
+    int32 btlid = 1;
+    btlTeam teamS = 2;
+    btlTeam teamE = 3;
+}
+
+message c2s_btl_act {
+    int32 action = 1;       // 1 技能 2 道具 3 召唤
+    int32 actionid = 2; // 随 action变化
+    int32 targetid = 3;//目标 onlyid
+    int32 onlyid = 4;//行动者id
+}
+
+message s2c_btl_act {
+    int32 action = 1;       // 1 技能 2 道具 3 召唤
+    int32 actionid = 2; // 随 action变化
+    int32 targetid = 3;//目标 onlyid
+    int32 onlyid = 4;//行动者id
+}
+
+message c2s_add_attr {
+    attr2 attr = 1;
+}
+
+message c2s_mall_buy {
+    int32 id = 1;
+}
+
+// 转生
+message c2s_relive {
+    int32 race = 1;
+    int32 sex = 2;
+    int32 resid = 3;
+}
+
+message s2c_relive {
+    int32 result = 1;
+    playerInfo info = 2;
+    s2c_player_data data = 3;
+}
+
+// 换种族
+message c2s_changerace {
+    int32 race = 1;
+    int32 sex = 2;
+    int32 resid = 3;
+}
+
+message s2c_changerace {
+    int32 result = 1;
+    playerInfo info = 2;
+    s2c_player_data data = 3;
+}
+
+message c2s_changename{
+    int32 roleid = 1;
+    string name = 2;
+}
+
+message c2s_pk {
+    int32 troleid = 1;
+}
+
+message c2s_wash_petproperty {
+	int32 petid = 1;
+	int32 dataid = 2;
+}
+
+message s2c_wash_petproperty {
+	int32 rate    = 1;
+    int32 maxrate = 2;
+	int32 hp      = 3;
+	int32 mp      = 4;
+	int32 atk     = 5;
+	int32 spd     = 6;
+}
+
+message c2s_save_petproperty {
+	int32 petid = 1;
+}
+
+message s2c_save_petproperty {
+	int32 errcode = 1;
+	int32 petid   = 2;
+	int32 rate    = 3;
+	int32 maxrate = 4;
+	int32 hp      = 5;
+	int32 mp      = 6;
+	int32 atk     = 7;
+	int32 spd     = 8;
+}
+
+message c2s_charge_reward {
+	int32 rewardid = 1;
+}
+
+
+message s2c_activity_open {
+    int32 activity_id = 1;
+    string name = 2;
+}
+
+message s2c_hongbao_open {
+}
+
+message c2s_hongbao_open{
+}
+
+message s2c_hongbao_result{
+    int32 errorcode = 1;
+}
+
+// 获取礼包信息
+message c2s_getgift_info {
+}
+
+message GiftItem {
+    int32 itemid = 1;
+    int32 itemnum = 2;
+}
+
+// 获取礼包信息
+message s2c_getgift_info{
+    int32 hasgot = 1;
+    repeated GiftItem list = 2;
+}
+
+// 请求补偿
+message c2s_remunerate {
+}
+
+message s2c_remunerate {
+    int32 errorcode = 1;
+}
+
+// 重置礼包领取状态
+message c2s_resetgift {
+}
+
+// 水陆大会
+message c2s_shuilu_sign {
+}
+
+message s2c_shuilu_sign {
+    int32 errorcode = 1;
+    int32 shuilustate = 2;
+}
+
+message c2s_shuilu_unsign {
+}
+
+message s2c_shuilu_unsign  {
+    int32 errorcode = 1;
+}
+
+message c2s_shuilu_info {
+}
+
+message ShuiluRole {
+    int32 onlyid = 1;
+    int32 roleid = 2;
+    int32 resid = 3;
+    int32 level = 4;
+    string name = 5;
+}
+
+message ShuiluTeam {
+    int32 teamid = 1;
+    string name = 2;
+    int32 rolenum = 3;
+    int32 score = 4;
+}
+
+message FightTeam {
+    int32 iswin = 1;
+    repeated ShuiluRole elist = 2;
+}
+
+message s2c_shuilu_info {
+    int32 gamestate = 1;
+    int32 lunci = 2;
+    int32 issign = 3;
+    int32 score = 4;
+    int32 gongji = 5;
+    int32 wtime = 6;
+    int32 ltime = 7;
+    repeated ShuiluRole selfteam = 8;
+    repeated ShuiluTeam sign = 9;
+    repeated FightTeam fight = 10;
+}
+
+message s2c_shuilu_state {
+    int32 slstate = 1;
+}
+
+message s2c_shuilu_match {
+    repeated ShuiluRole teamS = 1;
+    repeated ShuiluRole teamE = 2;
+}
+
+message s2c_shuilu_battleres {
+    int32 iswin = 1; // 1 胜利 0 失败
+    int32 exp = 2;
+    int32 petexp = 3;
+    int32 score = 4;
+    int32 gongji = 5;
+}
+
+message c2s_shuilu_buy {
+    int32 index = 1;
+}
+
+message s2c_shuilu_buy {
+    int32 errorcode = 1;
+}
+// 水陆大会结束
+//--世界红包
+message c2s_world_reward{
+    int32  roleid = 1;
+    int32 yuNum = 2;
+    int32 num = 3;
+}
+
+message c2s_world_reward_list{}
+
+
+message WorldRewardList{
+    int32 count = 1;
+    int32 num = 2;
+    int32 tagid = 3;
+    int32 state = 4;   // 0 可领 1 已领 2 已领完
+    string rolename = 5; //发红包人的名字
+}
+
+message s2c_world_reward_list{
+    repeated WorldRewardList list = 1;
+}
+
+message c2s_world_reward_open{
+    int32 tagID = 0;
+    int32 roleid = 1;
+}
+
+
+
+message c2s_title_change {
+    int32 titleid = 1;
+    int32 type = 2;
+    string value = 3;
+    int32 operatetype = 4;
+}
+
+message s2c_title_change {
+    int32 ecode = 1;
+    int32 titleid = 2;
+    int32 type = 3;
+    string value = 4;
+    int32 operatetype = 5;
+}
+
+message c2s_title_info {
+}
+
+message s2c_title_info{
+    string titles = 1;
+}
+
+message c2s_linghou_fight{
+    int32 mid = 1;
+}
+
+message s2c_linghou_fight{
+    int32 ecode = 1;
+}
+
+message s2c_update_shop_info{
+    int32 nItemID = 1;
+    int32 quantity = 2;
+}
+
+message c2s_palace_fight { 
+    int32 sponsorid   = 1; 
+    int32 recipientid = 2; 
+    int32 type        = 3; 
+    string msg        = 4;
+}
+
+message PalaceRoleInfo {
+    int32 roleid = 1;
+    string name = 2;
+    int32 level = 3;
+    int32 race = 4;
+    int32 resid = 5;
+    int32 state = 6; 
+}
+
+message s2c_palace_fight { 
+    PalaceRoleInfo sponsor   = 1; 
+    PalaceRoleInfo recipient = 2; 
+    int32 type               = 3; 
+    int32 tm                 = 4;
+    string msg               = 5;
+    int32 win                = 6; 
+}
+
+message c2s_palace_agree { 
+    int32 roleid = 1;
+    int32 battle = 2; 
+}
+
+message c2s_palace_rolelist {
+    int32 roleid   = 1;
+}
+
+message PalaceListRole {
+    int32 roleid = 1;
+    string name  = 2;
+    int32 level  = 3;
+    int32 race   = 4;
+    int32 resid  = 5;
+}
+
+message s2c_palace_rolelist {
+    repeated PalaceListRole sponsorlist   = 1;
+    repeated PalaceListRole recipientlist = 2;
+}
+
+//关系结拜
+
+message c2s_relation_new{
+    int32 roleId = 1;               //roleid
+    int32 relationType = 2;         //关系类型
+    string relationName = 3;        //关系名
+    repeated int32 members = 4;     //成员
+}
+
+message s2c_relation_created{
+    int32 ecode = 1;
+    int32 msg = 2;
+    int32 relationType = 3;
+    string members = 4;
+}
+
+
+//是否成功发起申请
+message s2c_relation_apply_res{
+    int32 ecode = 1;
+    string errorMsg = 2;
+}
+
+//添加新人
+message c2s_relation_add{
+    int32 roleId = 1;               //roleid
+    int32 relationType = 2;         //关系类型
+    int32 relationId = 3;        //关系Id
+    string relationName = 4;        //关系名称
+    repeated int32 members = 5;     //成员
+}
+
+
+message c2s_relation_agree{
+    int32 relationId = 1;       //关系ID
+    int32 roleId = 2;           //角色ID
+    int32 agree = 3;            //同意操作
+}
+
+message s2c_relation_apply_info{
+    int32 relationType = 1;         //关系类型
+    string playersInfo = 2;         //成员确认情况
+    int32 leaderId = 3;             //队长/发起者ID
+    int32 relationId = 4;           //关系ID
+    string relationName = 5;        //关系名称
+}
+
+message s2c_relation_apply_answer{
+    int32 playerId = 1;             //响应者用户ID
+    int32 answer = 2;               //响应
+}
+
+
+message c2s_relation_List{
+    int32 roleId = 1;                   //角色ID
+    int32 relationType = 2;             //  关系类型
+    int32 operationType = 3;            //1，退出 2，新人加入
+}
+
+message s2c_relation_List{
+    int32 ecode = 1;
+    string relationList = 2;
+    int32 operationType = 3;            //1，退出 2，新人加入
+}
+
+message c2s_relation_leave{
+    int32 roleId = 1;
+    int32 relationId = 2;
+}
+
+message s2c_relation_leave{
+    int32 ecode = 1;
+    int32 leaveRoleId = 2;
+    int32 relationId = 3;
+    int32 titleId = 4;
+    string relationName = 5;
+}
+
+message s2c_relation_destroy{
+    int32 ecode = 1;
+    int32 relationId = 2;
+    int32 titleId = 3;
+}
+
+message c2s_relation_reject{
+    int32 roleId = 1;
+    int32 relationId = 2;
+}
+
+message s2c_relation_reject{
+    int32 rejectRoleId = 1;
+    int32 relationId = 2;
+}
+
+message c2s_change_role_color {
+	int32 index1 = 1;
+	int32 index2 = 2;
+}
+
+message s2c_change_role_color {
+	int32 color1 = 1;
+	int32 color2 = 2;
+}
+
+//新建属性方案
+message c2s_scheme_create{
+    int32 roleId = 1;
+    string name = 2;
+}
+
+message s2c_scheme_create{
+    int32 ecode = 1;
+    string newSchemeInfo = 2;
+}
+
+message c2s_scheme_changeName{
+    int32 roleId = 1;
+    int32 schemeId = 2;
+    string name = 3;
+}
+
+message s2c_scheme_changeName{
+    int32 ecode = 1;
+    int32 schemeId = 2;
+    string newName = 3;
+}
+
+message c2s_scheme_use{
+    int32 roleId = 1;
+    int32 schemeId = 2;    
+}
+
+message s2c_scheme_use{
+    int32 ecode = 1;
+    int32 schemeId = 2;
+}
+
+//获取所有方案列表
+message c2s_scheme_List{
+    int32 roleId = 1;
+}
+
+message s2c_scheme_List{
+    string schemeList = 1;
+}
+
+message c2s_scheme_info{
+    int32 roleId = 1;
+    int32 schemeId = 2;
+}
+
+message s2c_scheme_info{
+    int32 ecode = 1;
+    string schemeInfo = 2;
+}
+
+
+message c2s_scheme_updateEquip{
+    int32 roleId = 1;
+    int32 schemeId = 2;
+    int32 equipId = 3;
+    int32 type = 4;
+}
+
+message s2c_scheme_updateEquip{
+    int32 ecode = 1;
+    int32 schemeId = 2;
+    string curEquips = 3;
+    int32 type = 4;
+    int32 unloadEquipId = 5;
+}
+
+message c2s_scheme_addCustomPoint{
+    int32 roleId = 1;
+    string addPoint = 2;
+    int32 qianNeng = 3;
+    int32 schemeId = 4;
+}
+
+message c2s_scheme_addXiulianPoint{
+    int32 roleId = 1;
+    string xiulianPoint = 2;
+    int32 xiulevel = 3;
+    int32 schemeId = 4;
+}
+
+
+message c2s_scheme_resetXiulianPoint{
+    int32 roleId = 1;
+    int32 schemeId = 2;
+}
+
+message s2c_scheme_resetXiulianPoint{
+    int32 ecode = 1;
+    string errorMsg = 2;
+}
+
+message c2s_scheme_changePartner{
+    int32 roleId = 1;
+    int32 schemeId = 2;
+    int32 partnerId = 3;
+    int32 order = 4;
+}
+
+message c2s_scheme_activate{
+    int32 roleId = 1;
+    int32 schemeId = 2;
+}
+
+message s2c_scheme_activate{
+    int32 ecode = 1;
+    int32 schemeId = 2;
+}
+
+message c2s_bell_msg {
+    string msg = 1;
+}
+
+message s2c_bell_msg {
+    string msg = 1;
+	string name = 2;
+	int32 roleid = 3;
+}
+
+message c2s_safepass_msg {
+    string pass = 1; 
+    int32 lock = 2; 
+}
+
+message s2c_safepass_msg {
+    string pass = 1;
+    int32 lock = 2;
+}
+
+message c2s_petfly_msg {
+	int32 petid = 1;  
+	int32 type  = 2;  
+}
+// 骑乘
+message c2s_ride_msg{
+    int32 mountId = 1; 
+}
+// 同步骑乘
+message s2c_sync_ride{
+    int32 onlyId = 1; 
+    int32 mountId = 2; 
+}
+// 下骑
+message c2s_dismount_msg{
+    int32 mountId = 1; 
+}
+// 同步下骑
+message s2c_sync_dismount{
+    int32 onlyId = 1; 
+}
+

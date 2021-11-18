@@ -1,0 +1,1500 @@
+[2020-06-12 11:00:14.345] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:00:14.362] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:00:14.373] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:00:14.374] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:01:14.355] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:01:14.372] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:01:14.384] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:01:14.384] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:02:14.365] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:02:14.381] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:02:14.392] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:02:14.394] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:03:14.373] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:03:14.401] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:03:14.416] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:03:14.417] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:04:14.380] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:04:14.395] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:04:14.405] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:04:14.406] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:05:14.385] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:05:14.398] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:05:14.410] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:05:14.411] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:06:14.388] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:06:14.403] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:06:14.414] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:06:14.415] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:07:14.396] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:07:14.411] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:07:14.421] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:07:14.422] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:08:14.401] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:08:14.416] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:08:14.428] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:08:14.429] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:09:14.408] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:09:14.440] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:09:14.457] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:09:14.459] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:10:14.417] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:10:14.440] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:10:14.455] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:10:14.456] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:11:14.424] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:11:14.434] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:11:14.444] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:11:14.445] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:12:14.437] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:12:14.491] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:12:14.508] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:12:14.510] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:13:14.445] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:13:14.454] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:13:14.463] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:13:14.464] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:14:14.453] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:14:14.505] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:14:14.515] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:14:14.516] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:15:14.460] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:15:14.470] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:15:14.481] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:15:14.483] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:16:14.469] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:16:14.504] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:16:14.515] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:16:14.516] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:17:14.480] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:17:14.532] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:17:14.544] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:17:14.545] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:18:14.491] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:18:14.543] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:18:14.553] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:18:14.554] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:19:14.501] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:19:14.512] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:19:14.523] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:19:14.524] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:20:14.511] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:20:14.524] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:20:14.536] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:20:14.537] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:21:14.521] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:21:14.537] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:21:14.551] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:21:14.552] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:22:14.530] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:22:14.538] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:22:14.548] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:22:14.549] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:23:14.539] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:23:14.554] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:23:14.564] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:23:14.565] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:24:14.548] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:24:14.561] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:24:14.571] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:24:14.572] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:25:14.558] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:25:14.579] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:25:14.593] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:25:14.594] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:26:14.569] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:26:14.685] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:26:14.700] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:26:14.701] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:27:14.577] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:27:14.689] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:27:14.704] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:27:14.707] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:28:14.584] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:28:14.594] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:28:14.605] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:28:14.606] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:29:14.594] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:29:14.610] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:29:14.619] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:29:14.620] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:30:14.603] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:30:14.718] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:30:14.732] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:30:14.734] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:31:14.615] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:31:14.633] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:31:14.647] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:31:14.648] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:32:14.617] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:32:14.628] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:32:14.638] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:32:14.639] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:33:14.618] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:33:14.672] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:33:14.682] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:33:14.683] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:34:14.630] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:34:14.695] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:34:14.705] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:34:14.706] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:35:14.636] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:35:14.651] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:35:14.663] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:35:14.665] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:36:14.645] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:36:14.656] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:36:14.668] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:36:14.669] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:37:14.653] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:37:14.672] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:37:14.683] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:37:14.684] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:38:14.660] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:38:14.671] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:38:14.682] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:38:14.683] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:39:14.667] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:39:14.683] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:39:14.694] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:39:14.695] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:40:14.678] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:40:14.693] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:40:14.703] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:40:14.704] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:41:14.683] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:41:14.698] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:41:14.708] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:41:14.709] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:42:14.693] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:42:14.708] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:42:14.719] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:42:14.720] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:43:14.702] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:43:14.711] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:43:14.721] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:43:14.722] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:44:14.709] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:44:14.724] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:44:14.734] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:44:14.735] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:45:14.719] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:45:14.730] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:45:14.742] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:45:14.743] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:46:14.729] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:46:14.740] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:46:14.751] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:46:14.752] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:47:14.731] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:47:14.741] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:47:14.752] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:47:14.753] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:48:14.735] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:48:14.751] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:48:14.762] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:48:14.763] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:49:14.739] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:49:14.796] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:49:14.807] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:49:14.807] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:50:14.744] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:50:14.759] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:50:14.769] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:50:14.770] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:51:14.748] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:51:14.759] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:51:14.771] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:51:14.771] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:52:14.759] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:52:14.773] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:52:14.785] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:52:14.787] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:53:14.768] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:53:14.779] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:53:14.790] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:53:14.792] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:54:14.771] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:54:14.787] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:54:14.797] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:54:14.799] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:55:14.776] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:55:14.786] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:55:14.797] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:55:14.798] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:56:14.783] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:56:14.799] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:56:14.809] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:56:14.810] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:57:14.786] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:57:14.797] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:57:14.812] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:57:14.813] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:58:14.796] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:58:14.814] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:58:14.825] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:58:14.826] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-12 11:59:14.806] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:59:14.822] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 11:59:14.831] [ERROR] console - An uncaught error occurred!
+[2020-06-12 11:59:14.832] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/mysql/lib/protocol/Parser.js:76:12)

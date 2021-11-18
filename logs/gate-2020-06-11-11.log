@@ -1,0 +1,100 @@
+[2020-06-11 11:05:15.313] [INFO] console - 命令行模块启动完毕
+[2020-06-11 11:05:15.728] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 11:05:15.733] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-11 11:05:15.733] [INFO] console - 服务器管理模块启动完毕
+[2020-06-11 11:05:15.734] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 11:05:15.734] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-11 11:05:15.735] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 11:05:15.735] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-11 11:10:01.643] [INFO] console - 游戏服[测试区](1000), 已经注册！
+[2020-06-11 11:11:26.883] [INFO] console - 命令行模块启动完毕
+[2020-06-11 11:11:27.341] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 11:11:27.346] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-11 11:11:27.346] [INFO] console - 服务器管理模块启动完毕
+[2020-06-11 11:11:27.347] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 11:11:27.347] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-11 11:11:27.347] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 11:11:27.348] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-11 11:17:58.825] [INFO] console - 游戏服[测试区](1000), 已经注册！
+[2020-06-11 11:17:58.828] [INFO] console - 游戏服务器注册: 1000 127.0.0.1 127.0.0.1 8810 8811 测试区
+[2020-06-11 11:19:48.953] [INFO] console - 命令行模块启动完毕
+[2020-06-11 11:19:49.419] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 11:19:49.423] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-11 11:19:49.424] [INFO] console - 服务器管理模块启动完毕
+[2020-06-11 11:19:49.424] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 11:19:49.425] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-11 11:19:49.425] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 11:19:49.426] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-11 11:20:05.482] [INFO] console - 游戏服[测试区](1000), 已经注册！
+[2020-06-11 11:20:51.112] [INFO] console - 游戏服务器注册: 1000 127.0.0.1 127.0.0.1 8810 8811 测试区
+[2020-06-11 11:21:47.161] [INFO] console - 网关服：游戏服[测试区(1000)], 断开连接！
+[2020-06-11 11:23:11.521] [INFO] console - {
+  account: 'flashpf',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-11 11:23:11.525] [INFO] console - flashpf account
+[2020-06-11 11:23:11.527] [INFO] console - 010421 password
+[2020-06-11 11:23:11.529] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 11:23:11.552] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39381;
+[2020-06-11 11:23:11.559] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-11 11:23:12.571] [INFO] console - 1000 =serverid
+[2020-06-11 11:23:12.574] [INFO] console - 127.0.0.1 8811
+[2020-06-11 11:27:32.978] [INFO] console - 命令行模块启动完毕
+[2020-06-11 11:27:33.448] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 11:27:33.452] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-11 11:27:33.452] [INFO] console - 服务器管理模块启动完毕
+[2020-06-11 11:27:33.453] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 11:27:33.453] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-11 11:27:33.454] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 11:27:33.454] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-11 11:29:40.648] [INFO] console - {
+  account: 'flashpf',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-11 11:29:40.651] [INFO] console - flashpf account
+[2020-06-11 11:29:40.653] [INFO] console - 010421 password
+[2020-06-11 11:29:40.654] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 11:29:40.683] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39381;
+[2020-06-11 11:29:40.695] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-11 11:29:41.451] [INFO] console - 返回游戏服务器: 1000
+[2020-06-11 11:31:07.597] [INFO] console - 命令行模块启动完毕
+[2020-06-11 11:31:08.105] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 11:31:08.113] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-11 11:31:08.114] [INFO] console - 服务器管理模块启动完毕
+[2020-06-11 11:31:08.114] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 11:31:08.115] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-11 11:31:08.115] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 11:31:08.116] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-11 11:36:12.993] [INFO] console - 游戏服[测试区](1000), 已经注册！
+[2020-06-11 11:36:12.995] [INFO] console - 游戏服务器注册: 1000 127.0.0.1 127.0.0.1 8810 8811 测试区
+[2020-06-11 11:36:43.379] [INFO] console - 网关服：游戏服[测试区(1000)], 断开连接！
+[2020-06-11 11:37:52.756] [INFO] console - {
+  account: 'flashpf',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-11 11:37:52.760] [INFO] console - flashpf account
+[2020-06-11 11:37:52.762] [INFO] console - 010421 password
+[2020-06-11 11:37:52.763] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 11:37:52.796] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39381;
+[2020-06-11 11:37:52.807] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-11 11:37:54.707] [INFO] console - 返回游戏服务器: 1000
+[2020-06-11 11:37:54.709] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-11 11:45:51.618] [INFO] console - {
+  account: 'flashpf',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-11 11:45:51.620] [INFO] console - flashpf account
+[2020-06-11 11:45:51.621] [INFO] console - 010421 password
+[2020-06-11 11:45:51.623] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 11:45:51.658] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39381;
+[2020-06-11 11:45:51.668] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-11 11:45:52.720] [INFO] console - 返回游戏服务器: 1000
+[2020-06-11 11:45:52.722] [INFO] console - 返回游戏服务器: 127.0.0.1 8810

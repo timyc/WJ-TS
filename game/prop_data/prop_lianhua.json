@@ -1,0 +1,492 @@
+{
+  "FatalRate": {
+    "attr": "FatalRate",
+    "name": "致命（狂暴）%",
+    "pos1": "20,40",
+    "pos2": "20,40",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "10,20",
+    "isper": 1
+  },
+  "HitRate": {
+    "attr": "HitRate",
+    "name": "命中%",
+    "pos1": "20,40",
+    "pos2": "20,40",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "10,20",
+    "isper": 1
+  },
+  "AdAtkEhan": {
+    "attr": "AdAtkEhan",
+    "name": "加强攻击%",
+    "pos1": "10,50",
+    "pos2": "7,30",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "AdSpdEhan": {
+    "attr": "AdSpdEhan",
+    "name": "加强速度%",
+    "pos1": "10,50",
+    "pos2": "7,30",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "RainDef": {
+    "attr": "RainDef",
+    "name": "抗水法%",
+    "pos1": "",
+    "pos2": "20,80",
+    "pos3": "20,80",
+    "pos4": "20,80",
+    "pos5": "20,50",
+    "isper": 1
+  },
+  "ThunderDef": {
+    "attr": "ThunderDef",
+    "name": "抗雷法%",
+    "pos1": "",
+    "pos2": "20,80",
+    "pos3": "20,80",
+    "pos4": "20,80",
+    "pos5": "20,50",
+    "isper": 1
+  },
+  "FireDef": {
+    "attr": "FireDef",
+    "name": "抗火法%",
+    "pos1": "",
+    "pos2": "20,80",
+    "pos3": "20,80",
+    "pos4": "20,80",
+    "pos5": "20,50",
+    "isper": 1
+  },
+  "WindDef": {
+    "attr": "WindDef",
+    "name": "抗风法%",
+    "pos1": "",
+    "pos2": "20,80",
+    "pos3": "20,80",
+    "pos4": "20,80",
+    "pos5": "20,50",
+    "isper": 1
+  },
+  "RainDefNeg": {
+    "attr": "RainDefNeg",
+    "name": "忽视水%",
+    "pos1": "20,75",
+    "pos2": "12,50",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "ThunderDefNeg": {
+    "attr": "ThunderDefNeg",
+    "name": "忽视雷%",
+    "pos1": "20,75",
+    "pos2": "12,50",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "FireDefNeg": {
+    "attr": "FireDefNeg",
+    "name": "忽视火%",
+    "pos1": "20,75",
+    "pos2": "12,50",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "WindDefNeg": {
+    "attr": "WindDefNeg",
+    "name": "忽视风%",
+    "pos1": "20,75",
+    "pos2": "12,50",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "SealDef": {
+    "attr": "SealDef",
+    "name": "抗封印%",
+    "pos1": "",
+    "pos2": "20,80",
+    "pos3": "20,80",
+    "pos4": "20,80",
+    "pos5": "20,50",
+    "isper": 1
+  },
+  "DisorderDef": {
+    "attr": "DisorderDef",
+    "name": "抗混乱%",
+    "pos1": "",
+    "pos2": "20,80",
+    "pos3": "20,80",
+    "pos4": "20,80",
+    "pos5": "20,50",
+    "isper": 1
+  },
+  "SleepDef": {
+    "attr": "SleepDef",
+    "name": "抗昏睡%",
+    "pos1": "",
+    "pos2": "20,80",
+    "pos3": "20,80",
+    "pos4": "20,80",
+    "pos5": "20,50",
+    "isper": 1
+  },
+  "PoisonDef": {
+    "attr": "PoisonDef",
+    "name": "抗中毒%",
+    "pos1": "",
+    "pos2": "20,80",
+    "pos3": "20,80",
+    "pos4": "20,80",
+    "pos5": "20,50",
+    "isper": 1
+  },
+  "SealDefNeg": {
+    "attr": "SealDefNeg",
+    "name": "忽视封印%",
+    "pos1": "10,50",
+    "pos2": "7,30",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "DisorderDefNeg": {
+    "attr": "DisorderDefNeg",
+    "name": "忽视混乱%",
+    "pos1": "10,50",
+    "pos2": "7,30",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "SleepDefNeg": {
+    "attr": "SleepDefNeg",
+    "name": "忽视昏睡%",
+    "pos1": "10,50",
+    "pos2": "7,30",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "PoisonDefNeg": {
+    "attr": "PoisonDefNeg",
+    "name": "忽视毒%",
+    "pos1": "20,75",
+    "pos2": "12,50",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "ForgetDef": {
+    "attr": "ForgetDef",
+    "name": "抗遗忘%",
+    "pos1": "",
+    "pos2": "20,80",
+    "pos3": "20,80",
+    "pos4": "20,80",
+    "pos5": "20,50",
+    "isper": 1
+  },
+  "GfireDef": {
+    "attr": "GfireDef",
+    "name": "抗鬼火%",
+    "pos1": "",
+    "pos2": "20,80",
+    "pos3": "20,80",
+    "pos4": "20,80",
+    "pos5": "20,50",
+    "isper": 1
+  },
+  "SanshiDef": {
+    "attr": "SanshiDef",
+    "name": "抗三尸%",
+    "pos1": "",
+    "pos2": "20,80",
+    "pos3": "20,80",
+    "pos4": "20,80",
+    "pos5": "20,50",
+    "isper": 1
+  },
+  "ForgetDefNeg": {
+    "attr": "ForgetDefNeg",
+    "name": "忽视遗忘%",
+    "pos1": "10,50",
+    "pos2": "7,30",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "GfireDefNeg": {
+    "attr": "GfireDefNeg",
+    "name": "忽视鬼火%",
+    "pos1": "20,75",
+    "pos2": "12,50",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "SanshiDefNeg": {
+    "attr": "SanshiDefNeg",
+    "name": "忽视三尸%",
+    "pos1": "20,75",
+    "pos2": "12,50",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "ShockDefNeg": {
+    "attr": "ShockDefNeg",
+    "name": "忽视抗震慑%",
+    "pos1": "5,20",
+    "pos2": "5,20",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "CharmEhan": {
+    "attr": "CharmEhan",
+    "name": "加强魅惑%",
+    "pos1": "10,50",
+    "pos2": "7,30",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "PhyDef": {
+    "attr": "PhyDef",
+    "name": "物理吸收%",
+    "pos1": "",
+    "pos2": "20,80",
+    "pos3": "24,60",
+    "pos4": "24,60",
+    "pos5": "20,50",
+    "isper": 1
+  },
+  "Basecon": {
+    "attr": "Basecon",
+    "name": "根骨",
+    "pos1": "2,25",
+    "pos2": "5,30",
+    "pos3": "2,25",
+    "pos4": "2,25",
+    "pos5": "5,35",
+    "isper": 0
+  },
+  "Wakan": {
+    "attr": "Wakan",
+    "name": "灵性",
+    "pos1": "2,25",
+    "pos2": "5,30",
+    "pos3": "2,25",
+    "pos4": "2,25",
+    "pos5": "5,35",
+    "isper": 0
+  },
+  "Power": {
+    "attr": "Power",
+    "name": "力量",
+    "pos1": "2,25",
+    "pos2": "5,30",
+    "pos3": "2,25",
+    "pos4": "2,25",
+    "pos5": "5,35",
+    "isper": 0
+  },
+  "Agility": {
+    "attr": "Agility",
+    "name": "敏捷",
+    "pos1": "2,25",
+    "pos2": "5,30",
+    "pos3": "2,25",
+    "pos4": "2,25",
+    "pos5": "5,35",
+    "isper": 0
+  },
+  "AdDefEhan": {
+    "attr": "AdDefEhan",
+    "name": "加强加防%",
+    "pos1": "10,50",
+    "pos2": "7,30",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "ShockDef": {
+    "attr": "ShockDef",
+    "name": "抗震慑%",
+    "pos1": "7,20",
+    "pos2": "",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "HitCombo": {
+    "attr": "HitCombo",
+    "name": "连击次数",
+    "pos1": "2,2",
+    "pos2": "",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "VoidRate": {
+    "attr": "VoidRate",
+    "name": "躲闪%",
+    "pos1": "",
+    "pos2": "16,40",
+    "pos3": "16,40",
+    "pos4": "16,40",
+    "pos5": "8,20",
+    "isper": 1
+  },
+  "RainFatalRate": {
+    "attr": "RainFatalRate",
+    "name": "水狂暴%",
+    "pos1": "10,80",
+    "pos2": "10,50",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "ThunderFatalRate": {
+    "attr": "ThunderFatalRate",
+    "name": "雷狂暴%",
+    "pos1": "10,80",
+    "pos2": "10,50",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "FireFatalRate": {
+    "attr": "FireFatalRate",
+    "name": "火狂暴%",
+    "pos1": "10,80",
+    "pos2": "10,50",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "WindFatalRate": {
+    "attr": "WindFatalRate",
+    "name": "风狂暴%",
+    "pos1": "10,80",
+    "pos2": "10,50",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "SanshiFatalRate": {
+    "attr": "SanshiFatalRate",
+    "name": "三尸狂暴%",
+    "pos1": "10,80",
+    "pos2": "10,50",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "GfireFatalRate": {
+    "attr": "GfireFatalRate",
+    "name": "鬼火狂暴%",
+    "pos1": "10,80",
+    "pos2": "10,50",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 1
+  },
+  "Kgold": {
+    "attr": "Kgold",
+    "name": "强力克金",
+    "pos1": "10,200",
+    "pos2": "10,100",
+    "pos3": "10,100",
+    "pos4": "10,100",
+    "pos5": "10,100",
+    "isper": 1
+  },
+  "Kwood": {
+    "attr": "Kwood",
+    "name": "强力克木",
+    "pos1": "10,200",
+    "pos2": "10,100",
+    "pos3": "10,100",
+    "pos4": "10,100",
+    "pos5": "10,100",
+    "isper": 1
+  },
+  "Kwater": {
+    "attr": "Kwater",
+    "name": "强力克水",
+    "pos1": "10,200",
+    "pos2": "10,100",
+    "pos3": "10,100",
+    "pos4": "10,100",
+    "pos5": "10,100",
+    "isper": 1
+  },
+  "Kfire": {
+    "attr": "Kfire",
+    "name": "强力克火",
+    "pos1": "10,200",
+    "pos2": "10,100",
+    "pos3": "10,100",
+    "pos4": "10,100",
+    "pos5": "10,100",
+    "isper": 1
+  },
+  "Kearth": {
+    "attr": "Kearth",
+    "name": "强力克土",
+    "pos1": "10,200",
+    "pos2": "10,100",
+    "pos3": "10,100",
+    "pos4": "10,100",
+    "pos5": "10,100",
+    "isper": 1
+  },
+  "row_49": {
+    "attr": "",
+    "name": "",
+    "pos1": "",
+    "pos2": "",
+    "pos3": "",
+    "pos4": "",
+    "pos5": "",
+    "isper": 0.0
+  }
+}

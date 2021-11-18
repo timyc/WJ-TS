@@ -1,0 +1,44 @@
+{
+  "1": {
+    "goodsid": 1,
+    "name": "XianYu100",
+    "money": 6,
+    "jade": 600,
+    "ex_jade": 60
+  },
+  "2": {
+    "goodsid": 2,
+    "name": "XianYu3000",
+    "money": 30,
+    "jade": 3000,
+    "ex_jade": 450
+  },
+  "3": {
+    "goodsid": 3,
+    "name": "XianYu9800",
+    "money": 98,
+    "jade": 9800,
+    "ex_jade": 1960
+  },
+  "4": {
+    "goodsid": 4,
+    "name": "XianYu19800",
+    "money": 198,
+    "jade": 19800,
+    "ex_jade": 3960
+  },
+  "5": {
+    "goodsid": 5,
+    "name": "XianYu49800",
+    "money": 498,
+    "jade": 49800,
+    "ex_jade": 9960
+  },
+  "6": {
+    "goodsid": 6,
+    "name": "XianYu99800",
+    "money": 998,
+    "jade": 99800,
+    "ex_jade": 24999
+  }
+}

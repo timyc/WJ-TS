@@ -1,0 +1,214 @@
+[2020-06-10 21:56:13.335] [INFO] console - 系统配置表加载完毕
+[2020-06-10 21:56:13.422] [INFO] console - 数据库初始化完毕
+[2020-06-10 21:56:13.545] [INFO] console - 数据库模块启动完毕，正在监听本地:${config.PORT}
+[2020-06-10 21:56:31.227] [INFO] console - 系统配置表加载完毕
+[2020-06-10 21:56:31.294] [INFO] console - 数据库初始化完毕
+[2020-06-10 21:56:31.380] [INFO] console - 数据库模块启动完毕，正在监听本地:${config.PORT}
+[2020-06-10 21:57:30.674] [INFO] console - 系统配置表加载完毕
+[2020-06-10 21:57:30.757] [INFO] console - 数据库初始化完毕
+[2020-06-10 21:57:30.855] [INFO] console - 数据库模块启动完毕，正在监听本地:8806
+[2020-06-10 21:57:55.867] [INFO] console - 系统配置表加载完毕
+[2020-06-10 21:57:55.934] [INFO] console - 数据库初始化完毕
+[2020-06-10 21:57:56.022] [INFO] console - 数据库模块启动完毕，正在监听本地:8806
+[2020-06-10 21:58:25.915] [ERROR] console - An uncaught error occurred!
+[2020-06-10 21:58:25.916] [ERROR] console - TSError: ⨯ Unable to compile TypeScript:
+[96mgame/network/default_slist.ts[0m:[93m2[0m:[93m19[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m2[0m     ['connect']: (lsocket, data) => {
+[7m [0m [91m                  ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m2[0m:[93m28[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m2[0m     ['connect']: (lsocket, data) => {
+[7m [0m [91m                           ~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m7[0m:[93m22[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m7[0m     ['connection']: (lsocket, data) => {
+[7m [0m [91m                     ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m7[0m:[93m31[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m7[0m     ['connection']: (lsocket, data) => {
+[7m [0m [91m                              ~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m11[0m:[93m16[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m11[0m     ['open']: (lsocket, data) => {
+[7m  [0m [91m               ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m11[0m:[93m25[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m11[0m     ['open']: (lsocket, data) => {
+[7m  [0m [91m                        ~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m15[0m:[93m22[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m15[0m     ['disconnect']: (lsocket, data) => {
+[7m  [0m [91m                     ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m15[0m:[93m31[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m15[0m     ['disconnect']: (lsocket, data) => {
+[7m  [0m [91m                              ~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m19[0m:[93m16[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m19[0m     ['ping']: (lsocket, data) => {
+[7m  [0m [91m               ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m19[0m:[93m25[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m19[0m     ['ping']: (lsocket, data) => {
+[7m  [0m [91m                        ~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m23[0m:[93m16[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m23[0m     ['pong']: (lsocket, data) => {
+[7m  [0m [91m               ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m23[0m:[93m25[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m23[0m     ['pong']: (lsocket, data) => {
+[7m  [0m [91m                        ~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m27[0m:[93m17[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m27[0m     ['close']: (lsocket, data) => {
+[7m  [0m [91m                ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m27[0m:[93m26[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m27[0m     ['close']: (lsocket, data) => {
+[7m  [0m [91m                         ~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m31[0m:[93m17[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m31[0m     ['error']: (lsocket, data) => {
+[7m  [0m [91m                ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m31[0m:[93m26[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m31[0m     ['error']: (lsocket, data) => {
+[7m  [0m [91m                         ~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m35[0m:[93m21[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m35[0m     ['reconnect']: (lsocket, data) => {
+[7m  [0m [91m                    ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m35[0m:[93m30[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m35[0m     ['reconnect']: (lsocket, data) => {
+[7m  [0m [91m                             ~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m39[0m:[93m27[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m39[0m     ['connect_timeout']: (lsocket, data) => {
+[7m  [0m [91m                          ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m39[0m:[93m36[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m39[0m     ['connect_timeout']: (lsocket, data) => {
+[7m  [0m [91m                                   ~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m43[0m:[93m25[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m43[0m     ['connect_error']: (lsocket, data) => {
+[7m  [0m [91m                        ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m43[0m:[93m34[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m43[0m     ['connect_error']: (lsocket, data) => {
+[7m  [0m [91m                                 ~~~~[0m
+
+    at createTSError (/Users/brightli/Documents/work/server/dhxy/node_modules/_ts-node@8.10.2@ts-node/src/index.ts:434:12)
+    at reportTSError (/Users/brightli/Documents/work/server/dhxy/node_modules/_ts-node@8.10.2@ts-node/src/index.ts:438:19)
+    at getOutput (/Users/brightli/Documents/work/server/dhxy/node_modules/_ts-node@8.10.2@ts-node/src/index.ts:578:36)
+    at Object.compile (/Users/brightli/Documents/work/server/dhxy/node_modules/_ts-node@8.10.2@ts-node/src/index.ts:775:32)
+    at Module._compile (/Users/brightli/Documents/work/server/dhxy/node_modules/_ts-node@8.10.2@ts-node/src/index.ts:858:43)
+    at internal/modules/cjs/loader.js:1196:10
+    at Object..ts (/Users/brightli/Documents/work/server/dhxy/node_modules/_ts-node@8.10.2@ts-node/src/index.ts:861:12)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+[2020-06-10 21:58:51.261] [ERROR] console - An uncaught error occurred!
+[2020-06-10 21:58:51.262] [ERROR] console - TSError: ⨯ Unable to compile TypeScript:
+[96mgame/network/default_slist.ts[0m:[93m2[0m:[93m19[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m2[0m     ['connect']: (lsocket, data) => {
+[7m [0m [91m                  ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m2[0m:[93m28[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m2[0m     ['connect']: (lsocket, data) => {
+[7m [0m [91m                           ~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m7[0m:[93m22[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m7[0m     ['connection']: (lsocket, data) => {
+[7m [0m [91m                     ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m7[0m:[93m31[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m7[0m     ['connection']: (lsocket, data) => {
+[7m [0m [91m                              ~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m11[0m:[93m16[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m11[0m     ['open']: (lsocket, data) => {
+[7m  [0m [91m               ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m11[0m:[93m25[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m11[0m     ['open']: (lsocket, data) => {
+[7m  [0m [91m                        ~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m15[0m:[93m22[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m15[0m     ['disconnect']: (lsocket, data) => {
+[7m  [0m [91m                     ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m15[0m:[93m31[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m15[0m     ['disconnect']: (lsocket, data) => {
+[7m  [0m [91m                              ~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m19[0m:[93m16[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m19[0m     ['ping']: (lsocket, data) => {
+[7m  [0m [91m               ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m19[0m:[93m25[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m19[0m     ['ping']: (lsocket, data) => {
+[7m  [0m [91m                        ~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m23[0m:[93m16[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m23[0m     ['pong']: (lsocket, data) => {
+[7m  [0m [91m               ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m23[0m:[93m25[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m23[0m     ['pong']: (lsocket, data) => {
+[7m  [0m [91m                        ~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m27[0m:[93m17[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m27[0m     ['close']: (lsocket, data) => {
+[7m  [0m [91m                ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m27[0m:[93m26[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m27[0m     ['close']: (lsocket, data) => {
+[7m  [0m [91m                         ~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m31[0m:[93m17[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m31[0m     ['error']: (lsocket, data) => {
+[7m  [0m [91m                ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m31[0m:[93m26[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m31[0m     ['error']: (lsocket, data) => {
+[7m  [0m [91m                         ~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m35[0m:[93m21[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m35[0m     ['reconnect']: (lsocket, data) => {
+[7m  [0m [91m                    ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m35[0m:[93m30[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m35[0m     ['reconnect']: (lsocket, data) => {
+[7m  [0m [91m                             ~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m39[0m:[93m27[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m39[0m     ['connect_timeout']: (lsocket, data) => {
+[7m  [0m [91m                          ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m39[0m:[93m36[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m39[0m     ['connect_timeout']: (lsocket, data) => {
+[7m  [0m [91m                                   ~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m43[0m:[93m25[0m - [91merror[0m[90m TS7006: [0mParameter 'lsocket' implicitly has an 'any' type.
+
+[7m43[0m     ['connect_error']: (lsocket, data) => {
+[7m  [0m [91m                        ~~~~~~~[0m
+[96mgame/network/default_slist.ts[0m:[93m43[0m:[93m34[0m - [91merror[0m[90m TS7006: [0mParameter 'data' implicitly has an 'any' type.
+
+[7m43[0m     ['connect_error']: (lsocket, data) => {
+[7m  [0m [91m                                 ~~~~[0m
+
+    at createTSError (/Users/brightli/Documents/work/server/dhxy/node_modules/_ts-node@8.10.2@ts-node/src/index.ts:434:12)
+    at reportTSError (/Users/brightli/Documents/work/server/dhxy/node_modules/_ts-node@8.10.2@ts-node/src/index.ts:438:19)
+    at getOutput (/Users/brightli/Documents/work/server/dhxy/node_modules/_ts-node@8.10.2@ts-node/src/index.ts:578:36)
+    at Object.compile (/Users/brightli/Documents/work/server/dhxy/node_modules/_ts-node@8.10.2@ts-node/src/index.ts:775:32)
+    at Module._compile (/Users/brightli/Documents/work/server/dhxy/node_modules/_ts-node@8.10.2@ts-node/src/index.ts:858:43)
+    at internal/modules/cjs/loader.js:1196:10
+    at Object..ts (/Users/brightli/Documents/work/server/dhxy/node_modules/_ts-node@8.10.2@ts-node/src/index.ts:861:12)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)

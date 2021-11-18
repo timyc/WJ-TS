@@ -1,0 +1,112 @@
+[2020-06-12 15:15:04.897] [INFO] console - {
+  account: 'flashpf',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-12 15:15:04.899] [INFO] console - flashpf account
+[2020-06-12 15:15:04.900] [INFO] console - 010421 password
+[2020-06-12 15:15:04.902] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-12 15:15:04.944] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39381;
+[2020-06-12 15:15:04.951] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-12 15:15:06.146] [INFO] console - 返回游戏服务器: 1000
+[2020-06-12 15:15:06.148] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-12 15:16:31.458] [INFO] console - 游戏服[测试区](1000), 已经注册！
+[2020-06-12 15:16:31.460] [INFO] console - 游戏服务器注册: 1000 127.0.0.1 127.0.0.1 8810 8811 测试区
+[2020-06-12 15:16:40.293] [INFO] console - {
+  account: 'flashpf',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-12 15:16:40.296] [INFO] console - flashpf account
+[2020-06-12 15:16:40.297] [INFO] console - 010421 password
+[2020-06-12 15:16:40.298] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-12 15:16:40.321] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39381;
+[2020-06-12 15:16:40.327] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-12 15:16:41.291] [INFO] console - 返回游戏服务器: 1000
+[2020-06-12 15:16:41.293] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-12 15:17:05.342] [INFO] console - 网关服：游戏服[测试区(1000)], 断开连接！
+[2020-06-12 15:17:43.741] [INFO] console - 游戏服[测试区](1000), 已经注册！
+[2020-06-12 15:17:43.743] [INFO] console - 游戏服务器注册: 1000 127.0.0.1 127.0.0.1 8810 8811 测试区
+[2020-06-12 15:18:15.400] [INFO] console - 网关服：游戏服[测试区(1000)], 断开连接！
+[2020-06-12 15:18:28.997] [INFO] console - {
+  account: 'flashpf',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-12 15:18:28.999] [INFO] console - flashpf account
+[2020-06-12 15:18:29.002] [INFO] console - 010421 password
+[2020-06-12 15:18:29.004] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-12 15:18:29.036] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39381;
+[2020-06-12 15:18:29.045] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-12 15:18:30.193] [INFO] console - 返回游戏服务器: 1000
+[2020-06-12 15:18:30.195] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-12 15:20:02.958] [INFO] console - 游戏服[测试区](1000), 已经注册！
+[2020-06-12 15:20:02.960] [INFO] console - 游戏服务器注册: 1000 127.0.0.1 127.0.0.1 8810 8811 测试区
+[2020-06-12 15:20:35.510] [INFO] console - 网关服：游戏服[测试区(1000)], 断开连接！
+[2020-06-12 15:23:07.812] [INFO] console - {
+  account: 'flashpf',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-12 15:23:07.815] [INFO] console - flashpf account
+[2020-06-12 15:23:07.816] [INFO] console - 010421 password
+[2020-06-12 15:23:07.817] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-12 15:23:07.857] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39381;
+[2020-06-12 15:23:07.865] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-12 15:23:09.150] [INFO] console - 返回游戏服务器: 1000
+[2020-06-12 15:23:09.152] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-12 15:30:47.068] [INFO] console - 游戏服[测试区](1000), 已经注册！
+[2020-06-12 15:30:47.072] [INFO] console - 游戏服务器注册: 1000 127.0.0.1 127.0.0.1 8810 8811 测试区
+[2020-06-12 15:31:20.968] [INFO] console - 网关服：游戏服[测试区(1000)], 断开连接！
+[2020-06-12 15:31:47.385] [INFO] console - {
+  account: 'flashpf',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-12 15:31:47.387] [INFO] console - flashpf account
+[2020-06-12 15:31:47.388] [INFO] console - 010421 password
+[2020-06-12 15:31:47.389] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-12 15:31:47.461] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39381;
+[2020-06-12 15:31:47.469] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-12 15:31:48.529] [INFO] console - 返回游戏服务器: 1000
+[2020-06-12 15:31:48.532] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-12 15:33:50.734] [INFO] console - {
+  account: 'flashpf',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-12 15:33:50.736] [INFO] console - flashpf account
+[2020-06-12 15:33:50.737] [INFO] console - 010421 password
+[2020-06-12 15:33:50.739] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-12 15:33:50.762] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39381;
+[2020-06-12 15:33:50.769] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-12 15:33:51.883] [INFO] console - 返回游戏服务器: 1000
+[2020-06-12 15:33:51.885] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-12 15:44:09.622] [INFO] console - 游戏服[测试区](1000), 已经注册！
+[2020-06-12 15:44:09.624] [INFO] console - 游戏服务器注册: 1000 127.0.0.1 127.0.0.1 8810 8811 测试区
+[2020-06-12 15:44:41.555] [INFO] console - 网关服：游戏服[测试区(1000)], 断开连接！
+[2020-06-12 15:46:38.346] [INFO] console - 游戏服[测试区](1000), 已经注册！
+[2020-06-12 15:46:38.348] [INFO] console - 游戏服务器注册: 1000 127.0.0.1 127.0.0.1 8810 8811 测试区
+[2020-06-12 15:47:11.665] [INFO] console - 网关服：游戏服[测试区(1000)], 断开连接！
+[2020-06-12 15:48:04.810] [INFO] console - {
+  account: 'flashpf',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-12 15:48:04.813] [INFO] console - flashpf account
+[2020-06-12 15:48:04.814] [INFO] console - 010421 password
+[2020-06-12 15:48:04.816] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-12 15:48:04.876] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39381;
+[2020-06-12 15:48:04.887] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-12 15:48:20.657] [INFO] console - 返回游戏服务器: 1000
+[2020-06-12 15:48:20.662] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-12 15:52:03.270] [INFO] console - 游戏服[测试区](1000), 已经注册！
+[2020-06-12 15:52:03.272] [INFO] console - 游戏服务器注册: 1000 127.0.0.1 127.0.0.1 8810 8811 测试区
+[2020-06-12 15:52:36.892] [INFO] console - 网关服：游戏服[测试区(1000)], 断开连接！

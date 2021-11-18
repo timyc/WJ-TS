@@ -1,0 +1,26 @@
+{
+  "1001": {
+    "id": 1001,
+    "name": "普通攻击",
+    "proficiency": 0,
+    "type": 1,
+    "target": 1,
+    "effect": 1,
+    "round": 0,
+    "cooldown": 0,
+    "expend": 10,
+    "resid": 0
+  },
+  "1002": {
+    "id": 1002,
+    "name": "防御",
+    "proficiency": 0,
+    "type": 2,
+    "target": 1,
+    "effect": 2,
+    "round": 1,
+    "cooldown": 0,
+    "expend": 10,
+    "resid": 0
+  }
+}

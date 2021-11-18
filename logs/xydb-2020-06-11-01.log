@@ -1,0 +1,711 @@
+[2020-06-11 01:01:31.151] [INFO] console - [undefined]完成注册
+[2020-06-11 01:01:31.253] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 01:01:31.260] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:01:31.264] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 01:01:31.267] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 01:01:31.268] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 01:01:31.269] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:01:31.270] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 01:01:31.271] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 01:01:31.352] [INFO] console - select * from qy_agent
+[2020-06-11 01:01:31.355] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:01:31.357] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-11 01:01:31.359] [INFO] console - SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 01:01:31.361] [INFO] console - select * from qy_agent
+[2020-06-11 01:01:31.362] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:01:31.363] [INFO] console - SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 01:01:31.372] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39381;
+[2020-06-11 01:01:31.394] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-11 01:01:31.396] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-11 01:01:31.403] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-11 01:01:31.523] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39381;
+[2020-06-11 01:02:21.575] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 01:02:21.589] [INFO] console - SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 01:02:21.604] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39381;
+[2020-06-11 01:02:21.613] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39381;
+[2020-06-11 01:02:21.627] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-11 01:02:21.636] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-11 01:02:54.871] [INFO] console - <receive data> disconnect ping timeout
+[2020-06-11 01:03:28.376] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test09';
+[2020-06-11 01:03:28.390] [INFO] console - SELECT * FROM qy_account WHERE account = 'test09';
+[2020-06-11 01:03:28.403] [INFO] console - SQL: INSERT INTO qy_account(account, password,invite, register_time) VALUES('test09', '010421','', NOW() );
+[2020-06-11 01:03:28.413] [INFO] console - INSERT INTO qy_account(account, password,invite, register_time) VALUES('test09', '010421','', NOW() );
+[2020-06-11 01:03:30.541] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test09';
+[2020-06-11 01:03:30.649] [INFO] console - SELECT * FROM qy_account WHERE account = 'test09';
+[2020-06-11 01:03:30.664] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39382;
+[2020-06-11 01:03:30.673] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39382;
+[2020-06-11 01:03:30.682] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39382;
+[2020-06-11 01:03:30.691] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39382;
+[2020-06-11 01:03:33.279] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39382' OR name = '尔映契') AND serverid = '1000';
+[2020-06-11 01:03:33.311] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39382' OR name = '尔映契') AND serverid = '1000';
+[2020-06-11 01:03:33.325] [INFO] console - SQL: INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('尔映契', '1','1',1,'1001',1010,-1,-1, NOW(),'39382','1000',0,'[]' );
+[2020-06-11 01:03:33.333] [INFO] console - INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('尔映契', '1','1',1,'1001',1010,-1,-1, NOW(),'39382','1000',0,'[]' );
+[2020-06-11 01:03:37.939] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39382' OR name = '尔映契') AND serverid = '1000';
+[2020-06-11 01:03:38.022] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39382' OR name = '尔映契') AND serverid = '1000';
+[2020-06-11 01:03:39.524] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39382' OR name = '尔映契') AND serverid = '1000';
+[2020-06-11 01:03:39.540] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39382' OR name = '尔映契') AND serverid = '1000';
+[2020-06-11 01:03:45.324] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39382' OR name = '尔映契') AND serverid = '1000';
+[2020-06-11 01:03:45.338] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39382' OR name = '尔映契') AND serverid = '1000';
+[2020-06-11 01:04:08.171] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39382' OR name = '尔映契') AND serverid = '1000';
+[2020-06-11 01:04:08.179] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39382' OR name = '尔映契') AND serverid = '1000';
+[2020-06-11 01:04:12.070] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39382' OR name = '蓝绮如') AND serverid = '1000';
+[2020-06-11 01:04:12.081] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39382' OR name = '蓝绮如') AND serverid = '1000';
+[2020-06-11 01:05:53.042] [INFO] console - <receive data> disconnect transport close
+[2020-06-11 01:06:01.756] [INFO] console - 系统配置表加载完毕
+[2020-06-11 01:06:01.846] [INFO] console - 数据库初始化完毕
+[2020-06-11 01:06:01.970] [INFO] console - 数据库模块启动完毕，正在监听本地:8806
+[2020-06-11 01:06:19.532] [INFO] console - [undefined]完成注册
+[2020-06-11 01:06:19.633] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 01:06:19.638] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:06:19.639] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 01:06:19.640] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 01:06:19.641] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:06:19.642] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 01:06:19.662] [INFO] console - select * from qy_agent
+[2020-06-11 01:06:19.665] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:06:19.667] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-11 01:06:19.671] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:06:19.673] [INFO] console - select * from qy_agent
+[2020-06-11 01:06:19.674] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-11 01:06:20.875] [INFO] console - [测试区]完成注册
+[2020-06-11 01:06:20.975] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 01:06:20.982] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 01:06:20.983] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 01:06:20.984] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 01:06:20.984] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 01:06:20.985] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 01:06:20.986] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 01:06:20.987] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 01:06:20.988] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 01:06:20.988] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 01:06:20.989] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 01:06:20.989] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 01:06:20.990] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 01:06:20.990] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 01:06:20.990] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 01:06:20.991] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 01:06:20.991] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 01:06:20.994] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 01:06:20.994] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 01:06:20.995] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 01:06:20.995] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 01:06:20.995] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 01:06:20.996] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 01:06:20.997] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 01:06:20.998] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 01:06:20.999] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 01:06:21.000] [INFO] console - select * from shop_goods
+[2020-06-11 01:06:21.001] [INFO] console - select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 01:06:21.013] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 01:06:21.014] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 01:06:21.016] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 01:06:21.017] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 01:06:21.018] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 01:06:21.019] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 01:06:21.021] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 01:06:21.022] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 01:06:21.023] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 01:06:21.024] [INFO] console - select * from shop_goods
+[2020-06-11 01:06:21.035] [INFO] console - select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 01:06:21.036] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 01:06:21.040] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 01:06:21.042] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 01:06:21.043] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 01:06:21.044] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 01:07:06.236] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test09';
+[2020-06-11 01:07:06.251] [INFO] console - SELECT * FROM qy_account WHERE account = 'test09';
+[2020-06-11 01:07:06.266] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39382;
+[2020-06-11 01:07:06.275] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39382;
+[2020-06-11 01:07:06.285] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39382;
+[2020-06-11 01:07:06.294] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39382;
+[2020-06-11 01:08:02.664] [INFO] console - <receive data> disconnect transport close
+[2020-06-11 01:08:02.806] [INFO] console - <receive data> disconnect transport close
+[2020-06-11 01:08:27.574] [INFO] console - 系统配置表加载完毕
+[2020-06-11 01:08:27.675] [INFO] console - 数据库初始化完毕
+[2020-06-11 01:08:27.790] [INFO] console - 数据库模块启动完毕，正在监听本地:8806
+[2020-06-11 01:09:03.072] [INFO] console - [测试区]完成注册
+[2020-06-11 01:09:03.076] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 01:09:03.081] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 01:09:03.082] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 01:09:03.083] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 01:09:03.086] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 01:09:03.088] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 01:09:03.089] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 01:09:03.093] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 01:09:03.094] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 01:09:03.095] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 01:09:03.097] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 01:09:03.098] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 01:09:03.101] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 01:09:03.102] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 01:09:03.102] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 01:09:03.103] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 01:09:03.103] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 01:09:03.106] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 01:09:03.106] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 01:09:03.106] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 01:09:03.107] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 01:09:03.107] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 01:09:03.154] [INFO] console - select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 01:09:03.156] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 01:09:03.158] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 01:09:03.159] [INFO] console - select * from shop_goods
+[2020-06-11 01:09:03.161] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 01:09:03.162] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 01:09:03.163] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 01:09:03.165] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 01:09:03.166] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 01:09:03.167] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 01:09:03.180] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 01:09:03.181] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 01:09:03.182] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 01:09:03.184] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 01:09:03.185] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 01:09:03.186] [INFO] console - select * from shop_goods
+[2020-06-11 01:09:03.188] [INFO] console - select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 01:09:03.189] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 01:09:03.191] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 01:09:03.199] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 01:09:03.201] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 01:09:03.204] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 01:09:07.162] [INFO] console - [undefined]完成注册
+[2020-06-11 01:09:07.165] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 01:09:07.167] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:09:07.167] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 01:09:07.168] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 01:09:07.169] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:09:07.170] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 01:09:07.182] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:09:07.184] [INFO] console - select * from qy_agent
+[2020-06-11 01:09:07.185] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-11 01:09:07.186] [INFO] console - select * from qy_agent
+[2020-06-11 01:09:07.187] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:09:07.188] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-11 01:09:08.933] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test09';
+[2020-06-11 01:09:08.975] [INFO] console - SELECT * FROM qy_account WHERE account = 'test09';
+[2020-06-11 01:09:08.991] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39382;
+[2020-06-11 01:09:08.999] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39382;
+[2020-06-11 01:09:09.003] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39382;
+[2020-06-11 01:09:09.011] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39382;
+[2020-06-11 01:09:13.087] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157843 and qy_account.accountid = qy_role.accountid;
+[2020-06-11 01:09:13.378] [INFO] console - SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157843 and qy_account.accountid = qy_role.accountid;
+[2020-06-11 01:09:13.393] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157843 AND state != 0;
+[2020-06-11 01:09:13.401] [INFO] console - SELECT * FROM qy_equip_1000 WHERE RoleID = 157843 AND state != 0;
+[2020-06-11 01:12:14.917] [INFO] console - 系统配置表加载完毕
+[2020-06-11 01:12:15.001] [INFO] console - 数据库初始化完毕
+[2020-06-11 01:12:15.133] [INFO] console - 数据库模块启动完毕，正在监听本地:8806
+[2020-06-11 01:12:24.632] [INFO] console - [测试区]完成注册
+[2020-06-11 01:12:24.737] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 01:12:24.748] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 01:12:24.749] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 01:12:24.750] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 01:12:24.751] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 01:12:24.752] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 01:12:24.753] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 01:12:24.754] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 01:12:24.755] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 01:12:24.756] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 01:12:24.756] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 01:12:24.757] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 01:12:24.757] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 01:12:24.757] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 01:12:24.758] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 01:12:24.758] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 01:12:24.758] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 01:12:24.759] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 01:12:24.759] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 01:12:24.759] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 01:12:24.760] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 01:12:24.760] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 01:12:24.771] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 01:12:24.782] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 01:12:24.784] [INFO] console - select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 01:12:24.785] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 01:12:24.786] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 01:12:24.787] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 01:12:24.788] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 01:12:24.789] [INFO] console - select * from shop_goods
+[2020-06-11 01:12:24.790] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 01:12:24.792] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 01:12:24.793] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 01:12:24.804] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 01:12:24.805] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 01:12:24.806] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 01:12:24.808] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 01:12:24.809] [INFO] console - select * from shop_goods
+[2020-06-11 01:12:24.810] [INFO] console - select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 01:12:24.811] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 01:12:24.812] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 01:12:24.814] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 01:12:24.824] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 01:12:24.826] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 01:12:59.360] [INFO] console - [undefined]完成注册
+[2020-06-11 01:12:59.464] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 01:12:59.469] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:12:59.470] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 01:12:59.470] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 01:12:59.471] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:12:59.472] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 01:12:59.481] [INFO] console - select * from qy_agent
+[2020-06-11 01:12:59.483] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:12:59.485] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-11 01:12:59.486] [INFO] console - select * from qy_agent
+[2020-06-11 01:12:59.487] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:12:59.489] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-11 01:13:00.229] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test09';
+[2020-06-11 01:13:00.239] [INFO] console - SELECT * FROM qy_account WHERE account = 'test09';
+[2020-06-11 01:13:00.259] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39382;
+[2020-06-11 01:13:00.266] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39382;
+[2020-06-11 01:13:00.282] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39382;
+[2020-06-11 01:13:00.290] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39382;
+[2020-06-11 01:13:04.615] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157843 and qy_account.accountid = qy_role.accountid;
+[2020-06-11 01:13:04.624] [INFO] console - SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157843 and qy_account.accountid = qy_role.accountid;
+[2020-06-11 01:13:04.641] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157843 AND state != 0;
+[2020-06-11 01:13:04.650] [INFO] console - SELECT * FROM qy_equip_1000 WHERE RoleID = 157843 AND state != 0;
+[2020-06-11 01:13:04.665] [INFO] console - SQL: SELECT * FROM qy_pet_1000 WHERE roleid = 157843 and state = 1 limit 20
+[2020-06-11 01:13:04.674] [INFO] console - SELECT * FROM qy_pet_1000 WHERE roleid = 157843 and state = 1 limit 20
+[2020-06-11 01:13:04.678] [INFO] console - SQL: select * from qy_scheme where roleId = 157843
+[2020-06-11 01:13:04.679] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-11 01:13:04.686] [INFO] console - select * from qy_scheme where roleId = 157843
+[2020-06-11 01:13:04.688] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-11 01:13:04.706] [ERROR] console - An uncaught error occurred!
+[2020-06-11 01:13:04.707] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-11 01:13:04.709] [ERROR] console - An uncaught error occurred!
+[2020-06-11 01:13:04.709] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-11 01:13:06.763] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591809186) WHERE roleid =157843;
+[2020-06-11 01:13:06.773] [INFO] console - UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591809186) WHERE roleid =157843;
+[2020-06-11 01:13:59.782] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test09';
+[2020-06-11 01:13:59.797] [INFO] console - SELECT * FROM qy_account WHERE account = 'test09';
+[2020-06-11 01:13:59.812] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39382;
+[2020-06-11 01:13:59.821] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39382;
+[2020-06-11 01:13:59.831] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39382;
+[2020-06-11 01:13:59.839] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39382;
+[2020-06-11 01:14:02.751] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591809242) WHERE roleid =157843;
+[2020-06-11 01:14:02.766] [INFO] console - UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591809242) WHERE roleid =157843;
+[2020-06-11 01:14:04.675] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-11 01:14:04.690] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-11 01:14:04.701] [ERROR] console - An uncaught error occurred!
+[2020-06-11 01:14:04.702] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-11 01:14:54.008] [INFO] console - <receive data> disconnect transport close
+[2020-06-11 01:14:54.221] [INFO] console - <receive data> disconnect transport close
+[2020-06-11 01:15:06.590] [INFO] console - 系统配置表加载完毕
+[2020-06-11 01:15:06.678] [INFO] console - 数据库初始化完毕
+[2020-06-11 01:15:06.792] [INFO] console - 数据库模块启动完毕，正在监听本地:8806
+[2020-06-11 01:15:17.788] [INFO] console - [测试区]完成注册
+[2020-06-11 01:15:17.890] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 01:15:17.900] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 01:15:17.901] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 01:15:17.902] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 01:15:17.903] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 01:15:17.904] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 01:15:17.905] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 01:15:17.906] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 01:15:17.907] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 01:15:17.908] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 01:15:17.908] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 01:15:17.909] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 01:15:17.909] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 01:15:17.909] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 01:15:17.910] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 01:15:17.910] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 01:15:17.910] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 01:15:17.911] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 01:15:17.914] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 01:15:17.915] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 01:15:17.915] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 01:15:17.916] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 01:15:17.925] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 01:15:17.939] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 01:15:17.941] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 01:15:17.943] [INFO] console - select * from shop_goods
+[2020-06-11 01:15:17.944] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 01:15:17.945] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 01:15:17.946] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 01:15:17.947] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 01:15:17.949] [INFO] console - select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 01:15:17.950] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 01:15:17.951] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 01:15:17.964] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 01:15:17.965] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 01:15:17.967] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 01:15:17.969] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 01:15:17.970] [INFO] console - select * from shop_goods
+[2020-06-11 01:15:17.971] [INFO] console - select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 01:15:17.973] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 01:15:17.974] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 01:15:17.975] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 01:15:17.989] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 01:15:17.990] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 01:15:23.250] [INFO] console - [undefined]完成注册
+[2020-06-11 01:15:23.354] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 01:15:23.358] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:15:23.359] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 01:15:23.359] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 01:15:23.360] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:15:23.360] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 01:15:23.366] [INFO] console - select * from qy_agent
+[2020-06-11 01:15:23.368] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:15:23.369] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-11 01:15:23.371] [INFO] console - select * from qy_agent
+[2020-06-11 01:15:23.372] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:15:23.373] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-11 01:15:56.405] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test09';
+[2020-06-11 01:15:56.421] [INFO] console - SELECT * FROM qy_account WHERE account = 'test09';
+[2020-06-11 01:15:56.441] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39382;
+[2020-06-11 01:15:56.450] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39382;
+[2020-06-11 01:15:56.456] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39382;
+[2020-06-11 01:15:56.465] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39382;
+[2020-06-11 01:16:00.666] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157843 and qy_account.accountid = qy_role.accountid;
+[2020-06-11 01:16:00.681] [INFO] console - SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157843 and qy_account.accountid = qy_role.accountid;
+[2020-06-11 01:16:00.695] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157843 AND state != 0;
+[2020-06-11 01:16:00.703] [INFO] console - SELECT * FROM qy_equip_1000 WHERE RoleID = 157843 AND state != 0;
+[2020-06-11 01:16:00.717] [INFO] console - SQL: SELECT * FROM qy_pet_1000 WHERE roleid = 157843 and state = 1 limit 20
+[2020-06-11 01:16:00.726] [INFO] console - SELECT * FROM qy_pet_1000 WHERE roleid = 157843 and state = 1 limit 20
+[2020-06-11 01:16:00.729] [INFO] console - SQL: select * from qy_scheme where roleId = 157843
+[2020-06-11 01:16:00.730] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-11 01:16:00.737] [INFO] console - select * from qy_scheme where roleId = 157843
+[2020-06-11 01:16:00.739] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-11 01:16:00.759] [ERROR] console - An uncaught error occurred!
+[2020-06-11 01:16:00.760] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-11 01:16:00.763] [ERROR] console - An uncaught error occurred!
+[2020-06-11 01:16:00.763] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-11 01:16:02.643] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591809362) WHERE roleid =157843;
+[2020-06-11 01:16:02.659] [INFO] console - UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591809362) WHERE roleid =157843;
+[2020-06-11 01:16:02.698] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(1, 0, '{"16":"25","34":"1000"}', 1, 1, '{}', 13111101, 0, '{}', 157843, NOW(), 3);
+[2020-06-11 01:16:02.703] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(2, 0, '{"13":"10","31":"1400","33":"1400"}', 1, 2, '{}', 13120101, 0, '{}', 157843, NOW(), 3);
+[2020-06-11 01:16:02.704] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(3, 0, '{"13":"100","16":"5"}', 1, 3, '{}', 13131101, 0, '{}', 157843, NOW(), 3);
+[2020-06-11 01:16:02.707] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(4, 0, '{"13":"100","16":"5"}', 1, 4, '{}', 13141101, 0, '{}', 157843, NOW(), 3);
+[2020-06-11 01:16:02.709] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(5, 0, '{"13":"100","35":"10"}', 1, 5, '{}', 13150101, 0, '{}', 157843, NOW(), 3);
+[2020-06-11 01:16:02.710] [INFO] console - INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(1, 0, '{"16":"25","34":"1000"}', 1, 1, '{}', 13111101, 0, '{}', 157843, NOW(), 3);
+[2020-06-11 01:16:02.712] [INFO] console - INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(2, 0, '{"13":"10","31":"1400","33":"1400"}', 1, 2, '{}', 13120101, 0, '{}', 157843, NOW(), 3);
+[2020-06-11 01:16:02.714] [INFO] console - INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(3, 0, '{"13":"100","16":"5"}', 1, 3, '{}', 13131101, 0, '{}', 157843, NOW(), 3);
+[2020-06-11 01:16:02.715] [INFO] console - INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(4, 0, '{"13":"100","16":"5"}', 1, 4, '{}', 13141101, 0, '{}', 157843, NOW(), 3);
+[2020-06-11 01:16:02.717] [INFO] console - INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(5, 0, '{"13":"100","35":"10"}', 1, 5, '{}', 13150101, 0, '{}', 157843, NOW(), 3);
+[2020-06-11 01:17:00.728] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-11 01:17:00.743] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-11 01:17:00.753] [ERROR] console - An uncaught error occurred!
+[2020-06-11 01:17:00.754] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-11 01:18:03.963] [INFO] console - 系统配置表加载完毕
+[2020-06-11 01:18:04.055] [INFO] console - 数据库初始化完毕
+[2020-06-11 01:18:04.177] [INFO] console - 数据库模块启动完毕，正在监听本地:8806
+[2020-06-11 01:18:15.281] [INFO] console - [测试区]完成注册
+[2020-06-11 01:18:15.380] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 01:18:15.385] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 01:18:15.386] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 01:18:15.387] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 01:18:15.388] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 01:18:15.389] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 01:18:15.390] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 01:18:15.391] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 01:18:15.398] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 01:18:15.399] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 01:18:15.401] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 01:18:15.402] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 01:18:15.402] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 01:18:15.402] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 01:18:15.403] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 01:18:15.403] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 01:18:15.403] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 01:18:15.404] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 01:18:15.404] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 01:18:15.404] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 01:18:15.405] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 01:18:15.405] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 01:18:15.414] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 01:18:15.416] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 01:18:15.417] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 01:18:15.418] [INFO] console - select * from shop_goods
+[2020-06-11 01:18:15.419] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 01:18:15.420] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 01:18:15.422] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 01:18:15.423] [INFO] console - select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 01:18:15.433] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 01:18:15.435] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 01:18:15.437] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 01:18:15.438] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 01:18:15.439] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 01:18:15.440] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 01:18:15.441] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 01:18:15.442] [INFO] console - select * from shop_goods
+[2020-06-11 01:18:15.443] [INFO] console - select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 01:18:15.448] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 01:18:15.454] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 01:18:15.455] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 01:18:15.456] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 01:18:15.457] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 01:18:20.617] [INFO] console - [undefined]完成注册
+[2020-06-11 01:18:20.720] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 01:18:20.723] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:18:20.724] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 01:18:20.725] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 01:18:20.726] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:18:20.727] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 01:18:20.732] [INFO] console - select * from qy_agent
+[2020-06-11 01:18:20.734] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:18:20.735] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-11 01:18:20.737] [INFO] console - select * from qy_agent
+[2020-06-11 01:18:20.737] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-11 01:18:20.738] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-11 01:18:46.391] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test09';
+[2020-06-11 01:18:46.406] [INFO] console - SELECT * FROM qy_account WHERE account = 'test09';
+[2020-06-11 01:18:46.423] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39382;
+[2020-06-11 01:18:46.431] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39382;
+[2020-06-11 01:18:46.446] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39382;
+[2020-06-11 01:18:46.454] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39382;
+[2020-06-11 01:18:50.773] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157843 and qy_account.accountid = qy_role.accountid;
+[2020-06-11 01:18:50.788] [INFO] console - SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157843 and qy_account.accountid = qy_role.accountid;
+[2020-06-11 01:18:50.801] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157843 AND state != 0;
+[2020-06-11 01:18:50.808] [INFO] console - SELECT * FROM qy_equip_1000 WHERE RoleID = 157843 AND state != 0;
+[2020-06-11 01:18:50.823] [INFO] console - SQL: SELECT * FROM qy_pet_1000 WHERE roleid = 157843 and state = 1 limit 20
+[2020-06-11 01:18:50.832] [INFO] console - SELECT * FROM qy_pet_1000 WHERE roleid = 157843 and state = 1 limit 20
+[2020-06-11 01:18:50.835] [INFO] console - SQL: select * from qy_scheme where roleId = 157843
+[2020-06-11 01:18:50.836] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-11 01:18:50.842] [INFO] console - select * from qy_scheme where roleId = 157843
+[2020-06-11 01:18:50.845] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-11 01:18:50.867] [ERROR] console - An uncaught error occurred!
+[2020-06-11 01:18:50.868] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-11 01:18:50.963] [ERROR] console - An uncaught error occurred!
+[2020-06-11 01:18:50.963] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-11 01:18:52.699] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591809532) WHERE roleid =157843;
+[2020-06-11 01:18:52.708] [INFO] console - UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591809532) WHERE roleid =157843;
+[2020-06-11 01:18:52.751] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(6, 0, '{"16":"25","34":"1000"}', 1, 1, '{}', 13111101, 0, '{}', 157843, NOW(), 3);
+[2020-06-11 01:18:52.756] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(7, 0, '{"13":"10","31":"1400","33":"1400"}', 1, 2, '{}', 13120101, 0, '{}', 157843, NOW(), 3);
+[2020-06-11 01:18:52.757] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(8, 0, '{"13":"100","16":"5"}', 1, 3, '{}', 13131101, 0, '{}', 157843, NOW(), 3);
+[2020-06-11 01:18:52.760] [INFO] console - INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(6, 0, '{"16":"25","34":"1000"}', 1, 1, '{}', 13111101, 0, '{}', 157843, NOW(), 3);
+[2020-06-11 01:18:52.762] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(9, 0, '{"13":"100","16":"5"}', 1, 4, '{}', 13141101, 0, '{}', 157843, NOW(), 3);
+[2020-06-11 01:18:52.763] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(10, 0, '{"13":"100","35":"10"}', 1, 5, '{}', 13150101, 0, '{}', 157843, NOW(), 3);
+[2020-06-11 01:18:52.764] [INFO] console - INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(7, 0, '{"13":"10","31":"1400","33":"1400"}', 1, 2, '{}', 13120101, 0, '{}', 157843, NOW(), 3);
+[2020-06-11 01:18:52.766] [INFO] console - INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(8, 0, '{"13":"100","16":"5"}', 1, 3, '{}', 13131101, 0, '{}', 157843, NOW(), 3);
+[2020-06-11 01:18:52.770] [INFO] console - INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(9, 0, '{"13":"100","16":"5"}', 1, 4, '{}', 13141101, 0, '{}', 157843, NOW(), 3);
+[2020-06-11 01:18:52.771] [INFO] console - INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(10, 0, '{"13":"100","35":"10"}', 1, 5, '{}', 13150101, 0, '{}', 157843, NOW(), 3);
+[2020-06-11 01:18:57.406] [INFO] console - SQL: INSERT INTO qy_pet_1000(petid, name, resid, dataid, grade, roleid, rate, hp, mp, atk, spd, wuxing, create_time) VALUES(1, '小熊', 5011, 1005, 0, 157843, 9695, 43, 0, 79, 0, '{}', NOW());
+[2020-06-11 01:18:57.413] [INFO] console - SQL: UPDATE qy_role SET getpet = 1 WHERE roleid =157843
+[2020-06-11 01:18:57.415] [INFO] console - INSERT INTO qy_pet_1000(petid, name, resid, dataid, grade, roleid, rate, hp, mp, atk, spd, wuxing, create_time) VALUES(1, '小熊', 5011, 1005, 0, 157843, 9695, 43, 0, 79, 0, '{}', NOW());
+[2020-06-11 01:18:57.422] [INFO] console - UPDATE qy_role SET getpet = 1 WHERE roleid =157843
+[2020-06-11 01:19:50.834] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-11 01:19:50.850] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-11 01:19:50.862] [ERROR] console - An uncaught error occurred!
+[2020-06-11 01:19:50.863] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-11 01:19:51.240] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test09';
+[2020-06-11 01:19:51.250] [INFO] console - SELECT * FROM qy_account WHERE account = 'test09';
+[2020-06-11 01:19:51.265] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39382;
+[2020-06-11 01:19:51.274] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39382;
+[2020-06-11 01:19:51.288] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39382;
+[2020-06-11 01:19:51.297] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39382;
+[2020-06-11 01:19:54.154] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591809593) WHERE roleid =157843;
+[2020-06-11 01:19:54.169] [INFO] console - UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591809593) WHERE roleid =157843;
+[2020-06-11 01:20:50.839] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-11 01:20:50.848] [INFO] console - select max(schemeId) as schemeId from qy_scheme;
+[2020-06-11 01:20:50.857] [ERROR] console - An uncaught error occurred!
+[2020-06-11 01:20:50.859] [ERROR] console - Error: ER_NO_SUCH_TABLE: Table 'xy_game.qy_scheme' doesn't exist
+    at Query._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:200:25)
+    at /Users/brightli/Documents/work/server/dhxy/DBServ.ts:33:9
+    at Ping.onOperationComplete (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Ping._callback (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:468:16)
+    at Ping.end (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.OkPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+[2020-06-11 01:23:00.241] [INFO] console - <receive data> disconnect ping timeout

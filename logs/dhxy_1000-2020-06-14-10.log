@@ -1,0 +1,93 @@
+[2020-06-14 10:00:43.294] [INFO] console - 命令行模块启动完毕
+[2020-06-14 10:00:43.675] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8811
+[2020-06-14 10:00:43.676] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-14 10:00:43.677] [INFO] console - 启动游戏模块...
+[2020-06-14 10:00:43.678] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-14 10:00:43.678] [INFO] console - 通知模块初始化完毕!
+[2020-06-14 10:00:43.710] [INFO] console - 地图模块加载完毕!
+[2020-06-14 10:00:43.715] [INFO] console - 任务配置模块加载完毕!
+[2020-06-14 10:00:43.724] [INFO] console - 世界模块加载完毕！
+[2020-06-14 10:00:43.728] [INFO] console - Npc配置模块加载完毕！
+[2020-06-14 10:00:43.737] [INFO] console - Npc模块加载完毕！
+[2020-06-14 10:00:43.740] [INFO] console - 角色属性模块加载完毕！
+[2020-06-14 10:00:43.743] [INFO] console - 物品模块加载完毕！
+[2020-06-14 10:00:43.744] [INFO] console - 经验模块加载完毕！
+[2020-06-14 10:00:43.747] [INFO] console - 技能模块加载完毕！
+[2020-06-14 10:00:43.749] [INFO] console - 技能效果模块加载完毕！
+[2020-06-14 10:00:43.791] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-14 10:00:43.791] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-14 10:00:43.792] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-14 10:00:43.799] [INFO] console - 怪物模块加载完毕！
+[2020-06-14 10:00:43.800] [INFO] console - 商城模块加载完毕!
+[2020-06-14 10:00:43.802] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-14 10:00:43.802] [INFO] console - SQL: select * from shop_goods
+[2020-06-14 10:00:43.803] [INFO] console - 摆摊模块加载完毕!
+[2020-06-14 10:00:43.803] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-14 10:00:43.804] [INFO] console - 排行榜模块加载完毕!
+[2020-06-14 10:00:43.806] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-14 10:00:43.807] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-14 10:00:43.908] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-14 10:00:43.909] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-14 10:00:43.909] [INFO] console - 活动模块加载完毕!
+[2020-06-14 10:00:43.910] [INFO] console - 彩票模块加载完毕!
+[2020-06-14 10:00:43.911] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-14 10:00:43.911] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-14 10:00:43.912] [INFO] console - 关系模块加载完毕
+[2020-06-14 10:00:44.089] [INFO] console - 装备模块加载完毕！
+[2020-06-14 10:00:44.108] [INFO] console - 帮派模块加载完毕!
+[2020-06-14 10:00:44.112] [INFO] console - 帮派id种子为110614000
+[2020-06-14 10:00:44.121] [INFO] console - 排行榜模块加载完毕！
+[2020-06-14 10:00:44.136] [INFO] console - 宠物管理模块加载完毕！
+[2020-06-14 10:00:44.159] [INFO] console - 充值模块加载完毕！
+[2020-06-14 10:00:44.160] [INFO] console - 8810 8810
+[2020-06-14 10:00:44.166] [INFO] console - 网关代理模块启动完毕，正在监听127.0.0.1:8810
+[2020-06-14 10:00:44.169] [INFO] console - 向网关服务器发起HTTP请求: /S_Register {
+  id: 1000,
+  name: '测试区',
+  ip: '127.0.0.1',
+  fake: '127.0.0.1',
+  port: 8810,
+  http_port: 8811
+} [Function (anonymous)]
+[2020-06-14 10:00:44.172] [INFO] console - 游戏服务器启动完毕，等待命令
+[2020-06-14 10:00:44.187] [INFO] console - 游戏服[测试区(1000)], 已经连接
+[2020-06-14 10:03:35.828] [INFO] console - do login....
+[2020-06-14 10:03:38.833] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157847 and qy_account.accountid = qy_role.accountid;
+[2020-06-14 10:03:38.856] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157847 AND state != 0;
+[2020-06-14 10:03:38.878] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE roleid=157847;
+[2020-06-14 10:03:38.901] [INFO] console - 玩家[嵩觅痴157847]等级改变，当前1级
+[2020-06-14 10:03:38.904] [INFO] console - SQL: SELECT * FROM qy_pet_1000 WHERE roleid = 157847 and state = 1 limit 20
+[2020-06-14 10:03:43.247] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592100221) WHERE roleid =157847;
+[2020-06-14 10:03:53.801] [INFO] console - do login....
+[2020-06-14 10:03:56.805] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157848 and qy_account.accountid = qy_role.accountid;
+[2020-06-14 10:03:56.832] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157848 AND state != 0;
+[2020-06-14 10:03:56.853] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE roleid=157848;
+[2020-06-14 10:03:56.874] [INFO] console - 玩家[天程晋157848]等级改变，当前1级
+[2020-06-14 10:03:56.876] [INFO] console - SQL: SELECT * FROM qy_pet_1000 WHERE roleid = 157848 and state = 1 limit 20
+[2020-06-14 10:03:57.785] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592100235) WHERE roleid =157848;
+[2020-06-14 10:04:10.642] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157848 AND mountid=16;
+[2020-06-14 10:04:10.670] [INFO] console - SQL: UPDATE qy_role SET mountid=16 WHERE roleid=157848;
+[2020-06-14 10:04:56.195] [INFO] console - SQL: UPDATE qy_role SET mountid=0 WHERE roleid=157848;
+[2020-06-14 10:05:24.292] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157848 AND mountid=14;
+[2020-06-14 10:05:24.319] [INFO] console - SQL: UPDATE qy_role SET mountid=14 WHERE roleid=157848;
+[2020-06-14 10:05:57.208] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157847 AND mountid=10;
+[2020-06-14 10:05:57.239] [INFO] console - SQL: UPDATE qy_role SET mountid=10 WHERE roleid=157847;
+[2020-06-14 10:06:31.895] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157848 AND mountid=16;
+[2020-06-14 10:06:31.925] [INFO] console - SQL: UPDATE qy_role SET mountid=16 WHERE roleid=157848;
+[2020-06-14 10:06:51.539] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157848 AND mountid=15;
+[2020-06-14 10:06:51.567] [INFO] console - SQL: UPDATE qy_role SET mountid=15 WHERE roleid=157848;
+[2020-06-14 10:07:37.416] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157848 AND mountid=16;
+[2020-06-14 10:07:37.437] [INFO] console - SQL: UPDATE qy_role SET mountid=16 WHERE roleid=157848;
+[2020-06-14 10:09:15.926] [INFO] console - agent[1000] socket, close
+[2020-06-14 10:10:01.516] [INFO] console - agent[1001] socket, close
+[2020-06-14 10:10:11.157] [INFO] console - agent[1002] socket, close
+[2020-06-14 10:10:11.159] [INFO] console - agent[1000] socket, close
+[2020-06-14 10:10:47.224] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592100622) WHERE roleid =157848;
+[2020-06-14 10:10:54.592] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592100630) WHERE roleid =157847;
+[2020-06-14 10:11:04.457] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157848 AND mountid=15;
+[2020-06-14 10:11:04.511] [INFO] console - SQL: UPDATE qy_role SET mountid=15 WHERE roleid=157848;
+[2020-06-14 10:11:36.827] [INFO] console - SQL: UPDATE qy_role SET mountid=0 WHERE roleid=157847;
+[2020-06-14 10:11:55.760] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157847 AND mountid=11;
+[2020-06-14 10:11:55.826] [INFO] console - SQL: UPDATE qy_role SET mountid=11 WHERE roleid=157847;
+[2020-06-14 10:12:28.867] [INFO] console - SQL: UPDATE qy_role SET mountid=0 WHERE roleid=157847;
+[2020-06-14 10:12:52.058] [INFO] console - agent[1003] socket, close

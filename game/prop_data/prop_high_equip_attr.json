@@ -1,0 +1,4747 @@
+{
+  "a1": {
+    "id": "a1",
+    "BaseAttr": "HpMax,1,2400;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "a11": {
+    "id": "a11",
+    "BaseAttr": "HpMax,1,7040;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "a111": {
+    "id": "a111",
+    "BaseAttr": "HpMax,1,7040;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "a1111": {
+    "id": "a1111",
+    "BaseAttr": "HpMax,1,7040;",
+    "RndRange": "64,80,60;75,89,30;80,100,10;"
+  },
+  "a15": {
+    "id": "a15",
+    "BaseAttr": "HpMax,1,7040;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "a2": {
+    "id": "a2",
+    "BaseAttr": "Atk,1,2000;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "a21": {
+    "id": "a21",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "a211": {
+    "id": "a211",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "a2111": {
+    "id": "a2111",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "a25": {
+    "id": "a25",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "a3": {
+    "id": "a3",
+    "BaseAttr": "DisorderDefNeg,1,100;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "a31": {
+    "id": "a31",
+    "BaseAttr": "DisorderDefNeg,1,210;SleepDefNeg,1,210;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "a311": {
+    "id": "a311",
+    "BaseAttr": "DisorderDefNeg,1,210;SleepDefNeg,1,210;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "a3111": {
+    "id": "a3111",
+    "BaseAttr": "DisorderDefNeg,1,210;SleepDefNeg,1,210;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "a35": {
+    "id": "a35",
+    "BaseAttr": "DisorderDefNeg,1,210;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "a4": {
+    "id": "a4",
+    "BaseAttr": "SealDefNeg,1,100;SleepDefNeg,1,100;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "a41": {
+    "id": "a41",
+    "BaseAttr": "DisorderDefNeg,1,210;SealDefNeg,1,210;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "a411": {
+    "id": "a411",
+    "BaseAttr": "DisorderDefNeg,1,210;SealDefNeg,1,210;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "a4111": {
+    "id": "a4111",
+    "BaseAttr": "DisorderDefNeg,1,210;SealDefNeg,1,210;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "a45": {
+    "id": "a45",
+    "BaseAttr": "SealDefNeg,1,210;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "b1": {
+    "id": "b1",
+    "BaseAttr": "HpMax,1,2400;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "b11": {
+    "id": "b11",
+    "BaseAttr": "HpMax,1,7040;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "b111": {
+    "id": "b111",
+    "BaseAttr": "HpMax,1,7040;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "b1111": {
+    "id": "b1111",
+    "BaseAttr": "HpMax,1,7040;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "b15": {
+    "id": "b15",
+    "BaseAttr": "HpMax,1,7040;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "b2": {
+    "id": "b2",
+    "BaseAttr": "Atk,1,2000;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "b21": {
+    "id": "b21",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "b211": {
+    "id": "b211",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "b2111": {
+    "id": "b2111",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "b25": {
+    "id": "b25",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "b3": {
+    "id": "b3",
+    "BaseAttr": "PoisonDefNeg,1,167;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "b31": {
+    "id": "b31",
+    "BaseAttr": "PoisonDefNeg,1,350;SleepDefNeg,1,210;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "b311": {
+    "id": "b311",
+    "BaseAttr": "PoisonDefNeg,1,350;SleepDefNeg,1,210;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "b3111": {
+    "id": "b3111",
+    "BaseAttr": "PoisonDefNeg,1,350;SleepDefNeg,1,210;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "b35": {
+    "id": "b35",
+    "BaseAttr": "PoisonDefNeg,1,350;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "b4": {
+    "id": "b4",
+    "BaseAttr": "SealDefNeg,1,100;SleepDefNeg,1,100;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "b41": {
+    "id": "b41",
+    "BaseAttr": "PoisonDefNeg,1,350;SealDefNeg,1,210;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "b411": {
+    "id": "b411",
+    "BaseAttr": "PoisonDefNeg,1,350;SealDefNeg,1,210;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "b4111": {
+    "id": "b4111",
+    "BaseAttr": "PoisonDefNeg,1,350;SealDefNeg,1,210;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "b45": {
+    "id": "b45",
+    "BaseAttr": "SealDefNeg,1,210;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "c1": {
+    "id": "c1",
+    "BaseAttr": "MpMax,1,2400;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "c11": {
+    "id": "c11",
+    "BaseAttr": "MpMax,1,7040;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "c111": {
+    "id": "c111",
+    "BaseAttr": "MpMax,1,7040;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "c1111": {
+    "id": "c1111",
+    "BaseAttr": "MpMax,1,7040;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "c15": {
+    "id": "c15",
+    "BaseAttr": "MpMax,1,7040;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "c2": {
+    "id": "c2",
+    "BaseAttr": "Atk,1,2000;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "c21": {
+    "id": "c21",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "c211": {
+    "id": "c211",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "c2111": {
+    "id": "c2111",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "c25": {
+    "id": "c25",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "c3": {
+    "id": "c3",
+    "BaseAttr": "WindDefNeg,1,167;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "c31": {
+    "id": "c31",
+    "BaseAttr": "ThunderDefNeg,1,350;WindDefNeg,1,350;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "c311": {
+    "id": "c311",
+    "BaseAttr": "ThunderDefNeg,1,350;WindDefNeg,1,350;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "c3111": {
+    "id": "c3111",
+    "BaseAttr": "ThunderDefNeg,1,350;WindDefNeg,1,350;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "c35": {
+    "id": "c35",
+    "BaseAttr": "WindDefNeg,1,350;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "c4": {
+    "id": "c4",
+    "BaseAttr": "RainDefNeg,1,167;ThunderDefNeg,1,167;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "c41": {
+    "id": "c41",
+    "BaseAttr": "RainDefNeg,1,350;WindDefNeg,1,350;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "c411": {
+    "id": "c411",
+    "BaseAttr": "RainDefNeg,1,350;WindDefNeg,1,350;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "c4111": {
+    "id": "c4111",
+    "BaseAttr": "RainDefNeg,1,350;WindDefNeg,1,350;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "c45": {
+    "id": "c45",
+    "BaseAttr": "RainDefNeg,1,350;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "d1": {
+    "id": "d1",
+    "BaseAttr": "MpMax,1,2400;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "d11": {
+    "id": "d11",
+    "BaseAttr": "MpMax,1,7040;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "d111": {
+    "id": "d111",
+    "BaseAttr": "MpMax,1,7040;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "d1111": {
+    "id": "d1111",
+    "BaseAttr": "MpMax,1,7040;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "d15": {
+    "id": "d15",
+    "BaseAttr": "MpMax,1,7040;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "d2": {
+    "id": "d2",
+    "BaseAttr": "Atk,1,2000;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "d21": {
+    "id": "d21",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "d211": {
+    "id": "d211",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "d2111": {
+    "id": "d2111",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "d25": {
+    "id": "d25",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "d3": {
+    "id": "d3",
+    "BaseAttr": "FireDefNeg,1,167;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "d31": {
+    "id": "d31",
+    "BaseAttr": "FireDefNeg,1,350;RainDefNeg,1,350;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "d311": {
+    "id": "d311",
+    "BaseAttr": "FireDefNeg,1,350;RainDefNeg,1,350;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "d3111": {
+    "id": "d3111",
+    "BaseAttr": "FireDefNeg,1,350;RainDefNeg,1,350;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "d35": {
+    "id": "d35",
+    "BaseAttr": "FireDefNeg,1,350;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "d4": {
+    "id": "d4",
+    "BaseAttr": "RainDefNeg,1,167;ThunderDefNeg,1,167;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "d41": {
+    "id": "d41",
+    "BaseAttr": "FireDefNeg,1,350;ThunderDefNeg,1,350;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "d411": {
+    "id": "d411",
+    "BaseAttr": "FireDefNeg,1,350;ThunderDefNeg,1,350;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "d4111": {
+    "id": "d4111",
+    "BaseAttr": "FireDefNeg,1,350;ThunderDefNeg,1,350;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "d45": {
+    "id": "d45",
+    "BaseAttr": "ThunderDefNeg,1,350;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "dntg_gui_mz_g_1": {
+    "id": "dntg_gui_mz_g_1",
+    "BaseAttr": "GfireDefNeg,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_mz_g_2": {
+    "id": "dntg_gui_mz_g_2",
+    "BaseAttr": "GfireDefNeg,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_mz_g_3": {
+    "id": "dntg_gui_mz_g_3",
+    "BaseAttr": "GfireDefNeg,1,70;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_mz_m_1": {
+    "id": "dntg_gui_mz_m_1",
+    "BaseAttr": "CharmEhan,1,36;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_mz_m_2": {
+    "id": "dntg_gui_mz_m_2",
+    "BaseAttr": "CharmEhan,1,42;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_mz_m_3": {
+    "id": "dntg_gui_mz_m_3",
+    "BaseAttr": "CharmEhan,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_mz_s_1": {
+    "id": "dntg_gui_mz_s_1",
+    "BaseAttr": "SanshiDefNeg,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_mz_s_2": {
+    "id": "dntg_gui_mz_s_2",
+    "BaseAttr": "SanshiDefNeg,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_mz_s_3": {
+    "id": "dntg_gui_mz_s_3",
+    "BaseAttr": "SanshiDefNeg,1,70;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_mz_y_1": {
+    "id": "dntg_gui_mz_y_1",
+    "BaseAttr": "ForgetDefNeg,1,36;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_mz_y_2": {
+    "id": "dntg_gui_mz_y_2",
+    "BaseAttr": "ForgetDefNeg,1,42;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_mz_y_3": {
+    "id": "dntg_gui_mz_y_3",
+    "BaseAttr": "ForgetDefNeg,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_wq_g_1": {
+    "id": "dntg_gui_wq_g_1",
+    "BaseAttr": "GfireDefNeg,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_wq_g_2": {
+    "id": "dntg_gui_wq_g_2",
+    "BaseAttr": "GfireDefNeg,1,250;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_wq_g_3": {
+    "id": "dntg_gui_wq_g_3",
+    "BaseAttr": "GfireDefNeg,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_wq_m_1": {
+    "id": "dntg_gui_wq_m_1",
+    "BaseAttr": "CharmEhan,1,180;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_wq_m_2": {
+    "id": "dntg_gui_wq_m_2",
+    "BaseAttr": "CharmEhan,1,210;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_wq_m_3": {
+    "id": "dntg_gui_wq_m_3",
+    "BaseAttr": "CharmEhan,1,240;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_wq_s_1": {
+    "id": "dntg_gui_wq_s_1",
+    "BaseAttr": "SanshiDefNeg,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_wq_s_2": {
+    "id": "dntg_gui_wq_s_2",
+    "BaseAttr": "SanshiDefNeg,1,250;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_wq_s_3": {
+    "id": "dntg_gui_wq_s_3",
+    "BaseAttr": "SanshiDefNeg,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_wq_y_1": {
+    "id": "dntg_gui_wq_y_1",
+    "BaseAttr": "ForgetDefNeg,1,180;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_wq_y_2": {
+    "id": "dntg_gui_wq_y_2",
+    "BaseAttr": "ForgetDefNeg,1,210;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_wq_y_3": {
+    "id": "dntg_gui_wq_y_3",
+    "BaseAttr": "ForgetDefNeg,1,240;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_yf_g_1": {
+    "id": "dntg_gui_yf_g_1",
+    "BaseAttr": "GfireDefNeg,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_yf_g_2": {
+    "id": "dntg_gui_yf_g_2",
+    "BaseAttr": "GfireDefNeg,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_yf_g_3": {
+    "id": "dntg_gui_yf_g_3",
+    "BaseAttr": "GfireDefNeg,1,70;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_yf_m_1": {
+    "id": "dntg_gui_yf_m_1",
+    "BaseAttr": "CharmEhan,1,36;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_yf_m_2": {
+    "id": "dntg_gui_yf_m_2",
+    "BaseAttr": "CharmEhan,1,42;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_yf_m_3": {
+    "id": "dntg_gui_yf_m_3",
+    "BaseAttr": "CharmEhan,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_yf_s_1": {
+    "id": "dntg_gui_yf_s_1",
+    "BaseAttr": "SanshiDefNeg,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_yf_s_2": {
+    "id": "dntg_gui_yf_s_2",
+    "BaseAttr": "SanshiDefNeg,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_yf_s_3": {
+    "id": "dntg_gui_yf_s_3",
+    "BaseAttr": "SanshiDefNeg,1,70;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_yf_y_1": {
+    "id": "dntg_gui_yf_y_1",
+    "BaseAttr": "ForgetDefNeg,1,36;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_yf_y_2": {
+    "id": "dntg_gui_yf_y_2",
+    "BaseAttr": "ForgetDefNeg,1,42;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_gui_yf_y_3": {
+    "id": "dntg_gui_yf_y_3",
+    "BaseAttr": "ForgetDefNeg,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_mz_c_1": {
+    "id": "dntg_mo_mz_c_1",
+    "BaseAttr": "ShockDefNeg,1,12;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_mz_c_2": {
+    "id": "dntg_mo_mz_c_2",
+    "BaseAttr": "ShockDefNeg,1,14;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_mz_c_3": {
+    "id": "dntg_mo_mz_c_3",
+    "BaseAttr": "ShockDefNeg,1,16;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_mz_p_1": {
+    "id": "dntg_mo_mz_p_1",
+    "BaseAttr": "AdDefEhan,1,36;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_mz_p_2": {
+    "id": "dntg_mo_mz_p_2",
+    "BaseAttr": "AdDefEhan,1,42;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_mz_p_3": {
+    "id": "dntg_mo_mz_p_3",
+    "BaseAttr": "AdDefEhan,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_mz_s_1": {
+    "id": "dntg_mo_mz_s_1",
+    "BaseAttr": "AdSpdEhan,1,36;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_mz_s_2": {
+    "id": "dntg_mo_mz_s_2",
+    "BaseAttr": "AdSpdEhan,1,42;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_mz_s_3": {
+    "id": "dntg_mo_mz_s_3",
+    "BaseAttr": "AdSpdEhan,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_wq_c_1": {
+    "id": "dntg_mo_wq_c_1",
+    "BaseAttr": "ShockDefNeg,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_wq_c_2": {
+    "id": "dntg_mo_wq_c_2",
+    "BaseAttr": "ShockDefNeg,1,70;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_wq_c_3": {
+    "id": "dntg_mo_wq_c_3",
+    "BaseAttr": "ShockDefNeg,1,80;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_wq_p_1": {
+    "id": "dntg_mo_wq_p_1",
+    "BaseAttr": "AdDefEhan,1,180;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_wq_p_2": {
+    "id": "dntg_mo_wq_p_2",
+    "BaseAttr": "AdDefEhan,1,210;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_wq_p_3": {
+    "id": "dntg_mo_wq_p_3",
+    "BaseAttr": "AdDefEhan,1,240;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_wq_s_1": {
+    "id": "dntg_mo_wq_s_1",
+    "BaseAttr": "AdSpdEhan,1,180;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_wq_s_2": {
+    "id": "dntg_mo_wq_s_2",
+    "BaseAttr": "AdSpdEhan,1,210;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_wq_s_3": {
+    "id": "dntg_mo_wq_s_3",
+    "BaseAttr": "AdSpdEhan,1,240;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_yf_c_1": {
+    "id": "dntg_mo_yf_c_1",
+    "BaseAttr": "ShockDefNeg,1,12;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_yf_c_2": {
+    "id": "dntg_mo_yf_c_2",
+    "BaseAttr": "ShockDefNeg,1,14;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_yf_c_3": {
+    "id": "dntg_mo_yf_c_3",
+    "BaseAttr": "ShockDefNeg,1,16;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_yf_p_1": {
+    "id": "dntg_mo_yf_p_1",
+    "BaseAttr": "AdDefEhan,1,36;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_yf_p_2": {
+    "id": "dntg_mo_yf_p_2",
+    "BaseAttr": "AdDefEhan,1,42;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_yf_p_3": {
+    "id": "dntg_mo_yf_p_3",
+    "BaseAttr": "AdDefEhan,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_yf_s_1": {
+    "id": "dntg_mo_yf_s_1",
+    "BaseAttr": "AdSpdEhan,1,36;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_yf_s_2": {
+    "id": "dntg_mo_yf_s_2",
+    "BaseAttr": "AdSpdEhan,1,42;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mo_yf_s_3": {
+    "id": "dntg_mo_yf_s_3",
+    "BaseAttr": "AdSpdEhan,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_bing_1": {
+    "id": "dntg_mz_bing_1",
+    "BaseAttr": "SealDef,1,240;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_bing_2": {
+    "id": "dntg_mz_bing_2",
+    "BaseAttr": "SealDef,1,225;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_bing_3": {
+    "id": "dntg_mz_bing_3",
+    "BaseAttr": "SealDef,1,225;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_dl_ljcs_1": {
+    "id": "dntg_mz_dl_ljcs_1",
+    "BaseAttr": "HitCombo,1,2;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_dl_ljcs_2": {
+    "id": "dntg_mz_dl_ljcs_2",
+    "BaseAttr": "HitCombo,1,3;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_dl_ljcs_3": {
+    "id": "dntg_mz_dl_ljcs_3",
+    "BaseAttr": "HitCombo,1,3;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_dl_ljl_1": {
+    "id": "dntg_mz_dl_ljl_1",
+    "BaseAttr": "HitComboRate,1,150;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_dl_ljl_2": {
+    "id": "dntg_mz_dl_ljl_2",
+    "BaseAttr": "HitComboRate,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_dl_ljl_3": {
+    "id": "dntg_mz_dl_ljl_3",
+    "BaseAttr": "HitComboRate,1,250;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_hun_1": {
+    "id": "dntg_mz_hun_1",
+    "BaseAttr": "DisorderDef,1,240;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_hun_2": {
+    "id": "dntg_mz_hun_2",
+    "BaseAttr": "DisorderDef,1,225;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_hun_3": {
+    "id": "dntg_mz_hun_3",
+    "BaseAttr": "DisorderDef,1,225;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kangfeng_1": {
+    "id": "dntg_mz_kangfeng_1",
+    "BaseAttr": "WindDef,1,40;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kangfeng_2": {
+    "id": "dntg_mz_kangfeng_2",
+    "BaseAttr": "WindDef,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kangfeng_3": {
+    "id": "dntg_mz_kangfeng_3",
+    "BaseAttr": "WindDef,1,90;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kangfeng_gui_1": {
+    "id": "dntg_mz_kangfeng_gui_1",
+    "BaseAttr": "WindDef,1,25;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kangfeng_gui_2": {
+    "id": "dntg_mz_kangfeng_gui_2",
+    "BaseAttr": "WindDef,1,34;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kangfeng_gui_3": {
+    "id": "dntg_mz_kangfeng_gui_3",
+    "BaseAttr": "WindDef,1,48;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kanghuo_1": {
+    "id": "dntg_mz_kanghuo_1",
+    "BaseAttr": "FireDef,1,40;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kanghuo_2": {
+    "id": "dntg_mz_kanghuo_2",
+    "BaseAttr": "FireDef,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kanghuo_3": {
+    "id": "dntg_mz_kanghuo_3",
+    "BaseAttr": "FireDef,1,90;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kanghuo_gui_1": {
+    "id": "dntg_mz_kanghuo_gui_1",
+    "BaseAttr": "FireDef,1,25;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kanghuo_gui_2": {
+    "id": "dntg_mz_kanghuo_gui_2",
+    "BaseAttr": "FireDef,1,34;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kanghuo_gui_3": {
+    "id": "dntg_mz_kanghuo_gui_3",
+    "BaseAttr": "FireDef,1,48;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kanglei_1": {
+    "id": "dntg_mz_kanglei_1",
+    "BaseAttr": "ThunderDef,1,40;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kanglei_2": {
+    "id": "dntg_mz_kanglei_2",
+    "BaseAttr": "ThunderDef,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kanglei_3": {
+    "id": "dntg_mz_kanglei_3",
+    "BaseAttr": "ThunderDef,1,90;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kanglei_gui_1": {
+    "id": "dntg_mz_kanglei_gui_1",
+    "BaseAttr": "ThunderDef,1,25;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kanglei_gui_2": {
+    "id": "dntg_mz_kanglei_gui_2",
+    "BaseAttr": "ThunderDef,1,34;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kanglei_gui_3": {
+    "id": "dntg_mz_kanglei_gui_3",
+    "BaseAttr": "ThunderDef,1,48;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kangshui_1": {
+    "id": "dntg_mz_kangshui_1",
+    "BaseAttr": "RainDef,1,40;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kangshui_2": {
+    "id": "dntg_mz_kangshui_2",
+    "BaseAttr": "RainDef,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kangshui_3": {
+    "id": "dntg_mz_kangshui_3",
+    "BaseAttr": "RainDef,1,90;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kangshui_gui_1": {
+    "id": "dntg_mz_kangshui_gui_1",
+    "BaseAttr": "RainDef,1,25;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kangshui_gui_2": {
+    "id": "dntg_mz_kangshui_gui_2",
+    "BaseAttr": "RainDef,1,34;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kangshui_gui_3": {
+    "id": "dntg_mz_kangshui_gui_3",
+    "BaseAttr": "RainDef,1,48;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kehuo_1": {
+    "id": "dntg_mz_kehuo_1",
+    "BaseAttr": "ConFire,1,100;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kehuo_2": {
+    "id": "dntg_mz_kehuo_2",
+    "BaseAttr": "ConFire,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kehuo_3": {
+    "id": "dntg_mz_kehuo_3",
+    "BaseAttr": "ConFire,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kejin_1": {
+    "id": "dntg_mz_kejin_1",
+    "BaseAttr": "ConGold,1,100;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kejin_2": {
+    "id": "dntg_mz_kejin_2",
+    "BaseAttr": "ConGold,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kejin_3": {
+    "id": "dntg_mz_kejin_3",
+    "BaseAttr": "ConGold,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kemu_1": {
+    "id": "dntg_mz_kemu_1",
+    "BaseAttr": "ConWood,1,100;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kemu_2": {
+    "id": "dntg_mz_kemu_2",
+    "BaseAttr": "ConWood,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_kemu_3": {
+    "id": "dntg_mz_kemu_3",
+    "BaseAttr": "ConWood,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_keshui_1": {
+    "id": "dntg_mz_keshui_1",
+    "BaseAttr": "ConWater,1,100;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_keshui_2": {
+    "id": "dntg_mz_keshui_2",
+    "BaseAttr": "ConWater,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_keshui_3": {
+    "id": "dntg_mz_keshui_3",
+    "BaseAttr": "ConWater,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_ketu_1": {
+    "id": "dntg_mz_ketu_1",
+    "BaseAttr": "ConSoil,1,100;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_ketu_2": {
+    "id": "dntg_mz_ketu_2",
+    "BaseAttr": "ConSoil,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_ketu_3": {
+    "id": "dntg_mz_ketu_3",
+    "BaseAttr": "ConSoil,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_shanbi_1": {
+    "id": "dntg_mz_shanbi_1",
+    "BaseAttr": "VoidRate,1,40;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_shanbi_2": {
+    "id": "dntg_mz_shanbi_2",
+    "BaseAttr": "VoidRate,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_shanbi_3": {
+    "id": "dntg_mz_shanbi_3",
+    "BaseAttr": "VoidRate,1,90;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_shui_1": {
+    "id": "dntg_mz_shui_1",
+    "BaseAttr": "SleepDef,1,240;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_shui_2": {
+    "id": "dntg_mz_shui_2",
+    "BaseAttr": "SleepDef,1,225;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_shui_3": {
+    "id": "dntg_mz_shui_3",
+    "BaseAttr": "SleepDef,1,225;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_wang_1": {
+    "id": "dntg_mz_wang_1",
+    "BaseAttr": "ForgetDef,1,240;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_wang_2": {
+    "id": "dntg_mz_wang_2",
+    "BaseAttr": "ForgetDef,1,225;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_wang_3": {
+    "id": "dntg_mz_wang_3",
+    "BaseAttr": "ForgetDef,1,225;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_xs_chou": {
+    "id": "dntg_mz_xs_chou",
+    "BaseAttr": "ShockDefNeg,1,10;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_xs_du": {
+    "id": "dntg_mz_xs_du",
+    "BaseAttr": "PoisonDefNeg,1,37;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_xs_feng": {
+    "id": "dntg_mz_xs_feng",
+    "BaseAttr": "WindDefNeg,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_xs_gui": {
+    "id": "dntg_mz_xs_gui",
+    "BaseAttr": "GfireDefNeg,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_xs_hun": {
+    "id": "dntg_mz_xs_hun",
+    "BaseAttr": "DisorderDefNeg,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_xs_huo": {
+    "id": "dntg_mz_xs_huo",
+    "BaseAttr": "FireDefNeg,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_xs_kangbing": {
+    "id": "dntg_mz_xs_kangbing",
+    "BaseAttr": "SealDef,1,271;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_xs_kanghun": {
+    "id": "dntg_mz_xs_kanghun",
+    "BaseAttr": "DisorderDef,1,271;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_xs_kangshui": {
+    "id": "dntg_mz_xs_kangshui",
+    "BaseAttr": "SleepDef,1,271;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_xs_kangwang": {
+    "id": "dntg_mz_xs_kangwang",
+    "BaseAttr": "PoisonDef,1,271;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_xs_lei": {
+    "id": "dntg_mz_xs_lei",
+    "BaseAttr": "ThunderDefNeg,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_xs_mei": {
+    "id": "dntg_mz_xs_mei",
+    "BaseAttr": "CharmEhan,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_xs_pan": {
+    "id": "dntg_mz_xs_pan",
+    "BaseAttr": "AdDefEhan,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_xs_san": {
+    "id": "dntg_mz_xs_san",
+    "BaseAttr": "SanshiDefNeg,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_xs_shui": {
+    "id": "dntg_mz_xs_shui",
+    "BaseAttr": "RainDefNeg,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_xs_sleep": {
+    "id": "dntg_mz_xs_sleep",
+    "BaseAttr": "SleepDefNeg,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_xs_su": {
+    "id": "dntg_mz_xs_su",
+    "BaseAttr": "AdSpdEhan,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_mz_xs_wang": {
+    "id": "dntg_mz_xs_wang",
+    "BaseAttr": "ForgetDefNeg,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_mz_d_1": {
+    "id": "dntg_ren_mz_d_1",
+    "BaseAttr": "PoisonDefNeg,1,63;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_mz_d_2": {
+    "id": "dntg_ren_mz_d_2",
+    "BaseAttr": "PoisonDefNeg,1,75;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_mz_d_3": {
+    "id": "dntg_ren_mz_d_3",
+    "BaseAttr": "PoisonDefNeg,1,87;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_mz_h_1": {
+    "id": "dntg_ren_mz_h_1",
+    "BaseAttr": "DisorderDefNeg,1,36;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_mz_h_2": {
+    "id": "dntg_ren_mz_h_2",
+    "BaseAttr": "DisorderDefNeg,1,42;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_mz_h_3": {
+    "id": "dntg_ren_mz_h_3",
+    "BaseAttr": "DisorderDefNeg,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_mz_s_1": {
+    "id": "dntg_ren_mz_s_1",
+    "BaseAttr": "SleepDefNeg,1,36;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_mz_s_2": {
+    "id": "dntg_ren_mz_s_2",
+    "BaseAttr": "SleepDefNeg,1,42;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_mz_s_3": {
+    "id": "dntg_ren_mz_s_3",
+    "BaseAttr": "SleepDefNeg,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_wq_d_1": {
+    "id": "dntg_ren_wq_d_1",
+    "BaseAttr": "PoisonDefNeg,1,250;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_wq_d_2": {
+    "id": "dntg_ren_wq_d_2",
+    "BaseAttr": "PoisonDefNeg,1,312;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_wq_d_3": {
+    "id": "dntg_ren_wq_d_3",
+    "BaseAttr": "PoisonDefNeg,1,375;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_wq_h_1": {
+    "id": "dntg_ren_wq_h_1",
+    "BaseAttr": "DisorderDefNeg,1,180;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_wq_h_2": {
+    "id": "dntg_ren_wq_h_2",
+    "BaseAttr": "DisorderDefNeg,1,210;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_wq_h_3": {
+    "id": "dntg_ren_wq_h_3",
+    "BaseAttr": "DisorderDefNeg,1,240;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_wq_s_1": {
+    "id": "dntg_ren_wq_s_1",
+    "BaseAttr": "SleepDefNeg,1,180;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_wq_s_2": {
+    "id": "dntg_ren_wq_s_2",
+    "BaseAttr": "SleepDefNeg,1,210;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_wq_s_3": {
+    "id": "dntg_ren_wq_s_3",
+    "BaseAttr": "SleepDefNeg,1,240;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_yf_d_1": {
+    "id": "dntg_ren_yf_d_1",
+    "BaseAttr": "PoisonDefNeg,1,63;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_yf_d_2": {
+    "id": "dntg_ren_yf_d_2",
+    "BaseAttr": "PoisonDefNeg,1,75;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_yf_d_3": {
+    "id": "dntg_ren_yf_d_3",
+    "BaseAttr": "PoisonDefNeg,1,87;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_yf_h_1": {
+    "id": "dntg_ren_yf_h_1",
+    "BaseAttr": "DisorderDefNeg,1,36;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_yf_h_2": {
+    "id": "dntg_ren_yf_h_2",
+    "BaseAttr": "DisorderDefNeg,1,42;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_yf_h_3": {
+    "id": "dntg_ren_yf_h_3",
+    "BaseAttr": "DisorderDefNeg,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_yf_s_1": {
+    "id": "dntg_ren_yf_s_1",
+    "BaseAttr": "SleepDefNeg,1,36;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_yf_s_2": {
+    "id": "dntg_ren_yf_s_2",
+    "BaseAttr": "SleepDefNeg,1,42;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_ren_yf_s_3": {
+    "id": "dntg_ren_yf_s_3",
+    "BaseAttr": "SleepDefNeg,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_dl_gong_1": {
+    "id": "dntg_wq_dl_gong_1",
+    "BaseAttr": "Atk,1,9000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_dl_gong_2": {
+    "id": "dntg_wq_dl_gong_2",
+    "BaseAttr": "Atk,1,12000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_dl_gong_3": {
+    "id": "dntg_wq_dl_gong_3",
+    "BaseAttr": "Atk,1,15000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_dl_kuang_1": {
+    "id": "dntg_wq_dl_kuang_1",
+    "BaseAttr": "FatalRate,1,160;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_dl_kuang_2": {
+    "id": "dntg_wq_dl_kuang_2",
+    "BaseAttr": "FatalRate,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_dl_kuang_3": {
+    "id": "dntg_wq_dl_kuang_3",
+    "BaseAttr": "FatalRate,1,330;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_dl_ming_1": {
+    "id": "dntg_wq_dl_ming_1",
+    "BaseAttr": "HitRate,1,120;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_dl_ming_2": {
+    "id": "dntg_wq_dl_ming_2",
+    "BaseAttr": "HitRate,1,140;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_dl_ming_3": {
+    "id": "dntg_wq_dl_ming_3",
+    "BaseAttr": "HitRate,1,220;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_dl_pfcd_1": {
+    "id": "dntg_wq_dl_pfcd_1",
+    "BaseAttr": "PhyDefNef,1,600;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_dl_pfcd_2": {
+    "id": "dntg_wq_dl_pfcd_2",
+    "BaseAttr": "PhyDefNef,1,900;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_dl_pfcd_3": {
+    "id": "dntg_wq_dl_pfcd_3",
+    "BaseAttr": "PhyDefNef,1,1200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_dl_pfgl_1": {
+    "id": "dntg_wq_dl_pfgl_1",
+    "BaseAttr": "PhyDefNefRate,1,600;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_dl_pfgl_2": {
+    "id": "dntg_wq_dl_pfgl_2",
+    "BaseAttr": "PhyDefNefRate,1,700;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_dl_pfgl_3": {
+    "id": "dntg_wq_dl_pfgl_3",
+    "BaseAttr": "PhyDefNefRate,1,800;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_fa_1": {
+    "id": "dntg_wq_fa_1",
+    "BaseAttr": "MpMax,1,6000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_fa_2": {
+    "id": "dntg_wq_fa_2",
+    "BaseAttr": "MpMax,1,6000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_fa_3": {
+    "id": "dntg_wq_fa_3",
+    "BaseAttr": "MpMax,1,6000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_gong_1": {
+    "id": "dntg_wq_gong_1",
+    "BaseAttr": "Atk,1,3500;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_gong_2": {
+    "id": "dntg_wq_gong_2",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_gong_3": {
+    "id": "dntg_wq_gong_3",
+    "BaseAttr": "Atk,1,4500;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_kehuo_1": {
+    "id": "dntg_wq_kehuo_1",
+    "BaseAttr": "ConFire,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_kehuo_2": {
+    "id": "dntg_wq_kehuo_2",
+    "BaseAttr": "ConFire,1,400;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_kehuo_3": {
+    "id": "dntg_wq_kehuo_3",
+    "BaseAttr": "ConFire,1,600;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_kejin_1": {
+    "id": "dntg_wq_kejin_1",
+    "BaseAttr": "ConGold,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_kejin_2": {
+    "id": "dntg_wq_kejin_2",
+    "BaseAttr": "ConGold,1,400;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_kejin_3": {
+    "id": "dntg_wq_kejin_3",
+    "BaseAttr": "ConGold,1,600;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_kemu_1": {
+    "id": "dntg_wq_kemu_1",
+    "BaseAttr": "ConWood,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_kemu_2": {
+    "id": "dntg_wq_kemu_2",
+    "BaseAttr": "ConWood,1,400;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_kemu_3": {
+    "id": "dntg_wq_kemu_3",
+    "BaseAttr": "ConWood,1,600;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_keshui_1": {
+    "id": "dntg_wq_keshui_1",
+    "BaseAttr": "ConWater,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_keshui_2": {
+    "id": "dntg_wq_keshui_2",
+    "BaseAttr": "ConWater,1,400;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_keshui_3": {
+    "id": "dntg_wq_keshui_3",
+    "BaseAttr": "ConWater,1,600;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_ketu_1": {
+    "id": "dntg_wq_ketu_1",
+    "BaseAttr": "ConSoil,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_ketu_2": {
+    "id": "dntg_wq_ketu_2",
+    "BaseAttr": "ConSoil,1,400;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_ketu_3": {
+    "id": "dntg_wq_ketu_3",
+    "BaseAttr": "ConSoil,1,600;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_su_1": {
+    "id": "dntg_wq_su_1",
+    "BaseAttr": "Speed,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_su_2": {
+    "id": "dntg_wq_su_2",
+    "BaseAttr": "Speed,1,32;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_su_3": {
+    "id": "dntg_wq_su_3",
+    "BaseAttr": "Speed,1,34;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xs_chou": {
+    "id": "dntg_wq_xs_chou",
+    "BaseAttr": "ShockDefNeg,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xs_du": {
+    "id": "dntg_wq_xs_du",
+    "BaseAttr": "PoisonDefNeg,1,250;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xs_fa": {
+    "id": "dntg_wq_xs_fa",
+    "BaseAttr": "MpMax,1,5000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xs_feng": {
+    "id": "dntg_wq_xs_feng",
+    "BaseAttr": "WindDefNeg,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xs_gong": {
+    "id": "dntg_wq_xs_gong",
+    "BaseAttr": "Atk,1,3000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xs_gui": {
+    "id": "dntg_wq_xs_gui",
+    "BaseAttr": "GfireDefNeg,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xs_hun": {
+    "id": "dntg_wq_xs_hun",
+    "BaseAttr": "DisorderDefNeg,1,150;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xs_huo": {
+    "id": "dntg_wq_xs_huo",
+    "BaseAttr": "FireDefNeg,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xs_lei": {
+    "id": "dntg_wq_xs_lei",
+    "BaseAttr": "ThunderDefNeg,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xs_mei": {
+    "id": "dntg_wq_xs_mei",
+    "BaseAttr": "CharmEhan,1,150;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xs_pan": {
+    "id": "dntg_wq_xs_pan",
+    "BaseAttr": "AdDefEhan,1,150;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xs_san": {
+    "id": "dntg_wq_xs_san",
+    "BaseAttr": "SanshiDefNeg,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xs_shui": {
+    "id": "dntg_wq_xs_shui",
+    "BaseAttr": "RainDefNeg,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xs_sleep": {
+    "id": "dntg_wq_xs_sleep",
+    "BaseAttr": "SleepDefNeg,1,150;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xs_su": {
+    "id": "dntg_wq_xs_su",
+    "BaseAttr": "AdSpdEhan,1,150;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xs_sudu": {
+    "id": "dntg_wq_xs_sudu",
+    "BaseAttr": "Speed,1,28;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xs_wang": {
+    "id": "dntg_wq_xs_wang",
+    "BaseAttr": "ForgetDefNeg,1,150;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xs_xue": {
+    "id": "dntg_wq_xs_xue",
+    "BaseAttr": "HpMax,1,6000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xue_1": {
+    "id": "dntg_wq_xue_1",
+    "BaseAttr": "HpMax,1,7000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xue_2": {
+    "id": "dntg_wq_xue_2",
+    "BaseAttr": "HpMax,1,8000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_wq_xue_3": {
+    "id": "dntg_wq_xue_3",
+    "BaseAttr": "HpMax,1,9000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_mz_f_1": {
+    "id": "dntg_xian_mz_f_1",
+    "BaseAttr": "WindDefNeg,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_mz_f_2": {
+    "id": "dntg_xian_mz_f_2",
+    "BaseAttr": "WindDefNeg,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_mz_f_3": {
+    "id": "dntg_xian_mz_f_3",
+    "BaseAttr": "WindDefNeg,1,70;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_mz_h_1": {
+    "id": "dntg_xian_mz_h_1",
+    "BaseAttr": "FireDefNeg,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_mz_h_2": {
+    "id": "dntg_xian_mz_h_2",
+    "BaseAttr": "FireDefNeg,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_mz_h_3": {
+    "id": "dntg_xian_mz_h_3",
+    "BaseAttr": "FireDefNeg,1,70;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_mz_l_1": {
+    "id": "dntg_xian_mz_l_1",
+    "BaseAttr": "ThunderDefNeg,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_mz_l_2": {
+    "id": "dntg_xian_mz_l_2",
+    "BaseAttr": "ThunderDefNeg,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_mz_l_3": {
+    "id": "dntg_xian_mz_l_3",
+    "BaseAttr": "ThunderDefNeg,1,70;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_mz_s_1": {
+    "id": "dntg_xian_mz_s_1",
+    "BaseAttr": "RainDefNeg,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_mz_s_2": {
+    "id": "dntg_xian_mz_s_2",
+    "BaseAttr": "RainDefNeg,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_mz_s_3": {
+    "id": "dntg_xian_mz_s_3",
+    "BaseAttr": "RainDefNeg,1,70;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_wq_f_1": {
+    "id": "dntg_xian_wq_f_1",
+    "BaseAttr": "WindDefNeg,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_wq_f_2": {
+    "id": "dntg_xian_wq_f_2",
+    "BaseAttr": "WindDefNeg,1,250;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_wq_f_3": {
+    "id": "dntg_xian_wq_f_3",
+    "BaseAttr": "WindDefNeg,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_wq_h_1": {
+    "id": "dntg_xian_wq_h_1",
+    "BaseAttr": "FireDefNeg,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_wq_h_2": {
+    "id": "dntg_xian_wq_h_2",
+    "BaseAttr": "FireDefNeg,1,250;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_wq_h_3": {
+    "id": "dntg_xian_wq_h_3",
+    "BaseAttr": "FireDefNeg,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_wq_l_1": {
+    "id": "dntg_xian_wq_l_1",
+    "BaseAttr": "ThunderDefNeg,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_wq_l_2": {
+    "id": "dntg_xian_wq_l_2",
+    "BaseAttr": "ThunderDefNeg,1,250;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_wq_l_3": {
+    "id": "dntg_xian_wq_l_3",
+    "BaseAttr": "ThunderDefNeg,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_wq_s_1": {
+    "id": "dntg_xian_wq_s_1",
+    "BaseAttr": "RainDefNeg,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_wq_s_2": {
+    "id": "dntg_xian_wq_s_2",
+    "BaseAttr": "RainDefNeg,1,250;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_wq_s_3": {
+    "id": "dntg_xian_wq_s_3",
+    "BaseAttr": "RainDefNeg,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_yf_f_1": {
+    "id": "dntg_xian_yf_f_1",
+    "BaseAttr": "WindDefNeg,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_yf_f_2": {
+    "id": "dntg_xian_yf_f_2",
+    "BaseAttr": "WindDefNeg,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_yf_f_3": {
+    "id": "dntg_xian_yf_f_3",
+    "BaseAttr": "WindDefNeg,1,70;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_yf_h_1": {
+    "id": "dntg_xian_yf_h_1",
+    "BaseAttr": "FireDefNeg,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_yf_h_2": {
+    "id": "dntg_xian_yf_h_2",
+    "BaseAttr": "FireDefNeg,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_yf_h_3": {
+    "id": "dntg_xian_yf_h_3",
+    "BaseAttr": "FireDefNeg,1,70;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_yf_l_1": {
+    "id": "dntg_xian_yf_l_1",
+    "BaseAttr": "ThunderDefNeg,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_yf_l_2": {
+    "id": "dntg_xian_yf_l_2",
+    "BaseAttr": "ThunderDefNeg,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_yf_l_3": {
+    "id": "dntg_xian_yf_l_3",
+    "BaseAttr": "ThunderDefNeg,1,70;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_yf_s_1": {
+    "id": "dntg_xian_yf_s_1",
+    "BaseAttr": "RainDefNeg,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_yf_s_2": {
+    "id": "dntg_xian_yf_s_2",
+    "BaseAttr": "RainDefNeg,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xian_yf_s_3": {
+    "id": "dntg_xian_yf_s_3",
+    "BaseAttr": "RainDefNeg,1,70;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_dl_gong_1": {
+    "id": "dntg_xl_dl_gong_1",
+    "BaseAttr": "AtkPercent,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_dl_gong_2": {
+    "id": "dntg_xl_dl_gong_2",
+    "BaseAttr": "AtkPercent,1,250;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_dl_gong_3": {
+    "id": "dntg_xl_dl_gong_3",
+    "BaseAttr": "AtkPercent,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_fali_1": {
+    "id": "dntg_xl_fali_1",
+    "BaseAttr": "MpMax,1,3500;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_fali_2": {
+    "id": "dntg_xl_fali_2",
+    "BaseAttr": "MpMax,1,3500;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_fali_3": {
+    "id": "dntg_xl_fali_3",
+    "BaseAttr": "MpMax,1,3500;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_qm_bing_1": {
+    "id": "dntg_xl_qm_bing_1",
+    "BaseAttr": "SealDef,1,26;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_qm_bing_2": {
+    "id": "dntg_xl_qm_bing_2",
+    "BaseAttr": "SealDef,1,25;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_qm_bing_3": {
+    "id": "dntg_xl_qm_bing_3",
+    "BaseAttr": "SealDef,1,25;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_qm_hun_1": {
+    "id": "dntg_xl_qm_hun_1",
+    "BaseAttr": "DisorderDef,1,26;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_qm_hun_2": {
+    "id": "dntg_xl_qm_hun_2",
+    "BaseAttr": "DisorderDef,1,25;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_qm_hun_3": {
+    "id": "dntg_xl_qm_hun_3",
+    "BaseAttr": "DisorderDef,1,25;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_qm_shui_1": {
+    "id": "dntg_xl_qm_shui_1",
+    "BaseAttr": "SleepDef,1,26;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_qm_shui_2": {
+    "id": "dntg_xl_qm_shui_2",
+    "BaseAttr": "SleepDef,1,25;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_qm_shui_3": {
+    "id": "dntg_xl_qm_shui_3",
+    "BaseAttr": "SleepDef,1,25;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_qm_wang_1": {
+    "id": "dntg_xl_qm_wang_1",
+    "BaseAttr": "ForgetDef,1,26;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_qm_wang_2": {
+    "id": "dntg_xl_qm_wang_2",
+    "BaseAttr": "ForgetDef,1,25;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_qm_wang_3": {
+    "id": "dntg_xl_qm_wang_3",
+    "BaseAttr": "ForgetDef,1,25;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_quanmin_1": {
+    "id": "dntg_xl_quanmin_1",
+    "BaseAttr": "Speed,1,75;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_quanmin_2": {
+    "id": "dntg_xl_quanmin_2",
+    "BaseAttr": "Speed,1,100;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_quanmin_3": {
+    "id": "dntg_xl_quanmin_3",
+    "BaseAttr": "Speed,1,140;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xs_fa": {
+    "id": "dntg_xl_xs_fa",
+    "BaseAttr": "MpMax,1,3000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xs_su": {
+    "id": "dntg_xl_xs_su",
+    "BaseAttr": "Speed,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xs_xue": {
+    "id": "dntg_xl_xs_xue",
+    "BaseAttr": "HpMax,1,3000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_1": {
+    "id": "dntg_xl_xue_1",
+    "BaseAttr": "HpPercent,1,120;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_2": {
+    "id": "dntg_xl_xue_2",
+    "BaseAttr": "HpPercent,1,140;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_3": {
+    "id": "dntg_xl_xue_3",
+    "BaseAttr": "HpPercent,1,160;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_bing_1": {
+    "id": "dntg_xl_xue_bing_1",
+    "BaseAttr": "SealDef,1,75;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_bing_2": {
+    "id": "dntg_xl_xue_bing_2",
+    "BaseAttr": "SealDef,1,71;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_bing_3": {
+    "id": "dntg_xl_xue_bing_3",
+    "BaseAttr": "SealDef,1,71;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_feng_1": {
+    "id": "dntg_xl_xue_feng_1",
+    "BaseAttr": "WindDef,1,55;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_feng_2": {
+    "id": "dntg_xl_xue_feng_2",
+    "BaseAttr": "WindDef,1,63;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_feng_3": {
+    "id": "dntg_xl_xue_feng_3",
+    "BaseAttr": "WindDef,1,71;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_gui_1": {
+    "id": "dntg_xl_xue_gui_1",
+    "BaseAttr": "GfireDef,1,55;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_gui_2": {
+    "id": "dntg_xl_xue_gui_2",
+    "BaseAttr": "GfireDef,1,63;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_gui_3": {
+    "id": "dntg_xl_xue_gui_3",
+    "BaseAttr": "GfireDef,1,71;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_hun_1": {
+    "id": "dntg_xl_xue_hun_1",
+    "BaseAttr": "DisorderDef,1,75;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_hun_2": {
+    "id": "dntg_xl_xue_hun_2",
+    "BaseAttr": "DisorderDef,1,71;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_hun_3": {
+    "id": "dntg_xl_xue_hun_3",
+    "BaseAttr": "DisorderDef,1,71;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_huo_1": {
+    "id": "dntg_xl_xue_huo_1",
+    "BaseAttr": "FireDef,1,55;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_huo_2": {
+    "id": "dntg_xl_xue_huo_2",
+    "BaseAttr": "FireDef,1,63;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_huo_3": {
+    "id": "dntg_xl_xue_huo_3",
+    "BaseAttr": "FireDef,1,71;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_lei_1": {
+    "id": "dntg_xl_xue_lei_1",
+    "BaseAttr": "ThunderDef,1,55;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_lei_2": {
+    "id": "dntg_xl_xue_lei_2",
+    "BaseAttr": "ThunderDef,1,63;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_lei_3": {
+    "id": "dntg_xl_xue_lei_3",
+    "BaseAttr": "ThunderDef,1,71;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_shui_1": {
+    "id": "dntg_xl_xue_shui_1",
+    "BaseAttr": "RainDef,1,55;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_shui_2": {
+    "id": "dntg_xl_xue_shui_2",
+    "BaseAttr": "RainDef,1,63;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_shui_3": {
+    "id": "dntg_xl_xue_shui_3",
+    "BaseAttr": "RainDef,1,71;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_sleep_1": {
+    "id": "dntg_xl_xue_sleep_1",
+    "BaseAttr": "SleepDef,1,75;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_sleep_2": {
+    "id": "dntg_xl_xue_sleep_2",
+    "BaseAttr": "SleepDef,1,71;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_sleep_3": {
+    "id": "dntg_xl_xue_sleep_3",
+    "BaseAttr": "SleepDef,1,71;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_wang_1": {
+    "id": "dntg_xl_xue_wang_1",
+    "BaseAttr": "ForgetDef,1,75;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_wang_2": {
+    "id": "dntg_xl_xue_wang_2",
+    "BaseAttr": "ForgetDef,1,71;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xue_wang_3": {
+    "id": "dntg_xl_xue_wang_3",
+    "BaseAttr": "ForgetDef,1,71;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xuezhi_1": {
+    "id": "dntg_xl_xuezhi_1",
+    "BaseAttr": "HpMax,1,3000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xuezhi_2": {
+    "id": "dntg_xl_xuezhi_2",
+    "BaseAttr": "HpMax,1,3000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_xuezhi_3": {
+    "id": "dntg_xl_xuezhi_3",
+    "BaseAttr": "HpMax,1,3000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_zhongmin_1": {
+    "id": "dntg_xl_zhongmin_1",
+    "BaseAttr": "Speed,1,50;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_zhongmin_2": {
+    "id": "dntg_xl_zhongmin_2",
+    "BaseAttr": "Speed,1,67;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_zhongmin_3": {
+    "id": "dntg_xl_zhongmin_3",
+    "BaseAttr": "Speed,1,83;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_zm_bing_1": {
+    "id": "dntg_xl_zm_bing_1",
+    "BaseAttr": "SealDef,1,86;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_zm_bing_2": {
+    "id": "dntg_xl_zm_bing_2",
+    "BaseAttr": "SealDef,1,81;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_zm_bing_3": {
+    "id": "dntg_xl_zm_bing_3",
+    "BaseAttr": "SealDef,1,81;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_zm_hun_1": {
+    "id": "dntg_xl_zm_hun_1",
+    "BaseAttr": "DisorderDef,1,86;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_zm_hun_2": {
+    "id": "dntg_xl_zm_hun_2",
+    "BaseAttr": "DisorderDef,1,81;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_zm_hun_3": {
+    "id": "dntg_xl_zm_hun_3",
+    "BaseAttr": "DisorderDef,1,81;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_zm_shui_1": {
+    "id": "dntg_xl_zm_shui_1",
+    "BaseAttr": "SleepDef,1,86;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_zm_shui_2": {
+    "id": "dntg_xl_zm_shui_2",
+    "BaseAttr": "SleepDef,1,81;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_zm_shui_3": {
+    "id": "dntg_xl_zm_shui_3",
+    "BaseAttr": "SleepDef,1,81;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_zm_wang_1": {
+    "id": "dntg_xl_zm_wang_1",
+    "BaseAttr": "ForgetDef,1,86;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_zm_wang_2": {
+    "id": "dntg_xl_zm_wang_2",
+    "BaseAttr": "ForgetDef,1,81;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xl_zm_wang_3": {
+    "id": "dntg_xl_zm_wang_3",
+    "BaseAttr": "ForgetDef,1,81;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_dl_gong_1": {
+    "id": "dntg_xz_dl_gong_1",
+    "BaseAttr": "Atk,1,2000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_dl_gong_2": {
+    "id": "dntg_xz_dl_gong_2",
+    "BaseAttr": "Atk,1,3500;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_dl_gong_3": {
+    "id": "dntg_xz_dl_gong_3",
+    "BaseAttr": "Atk,1,5000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_dl_kuang_1": {
+    "id": "dntg_xz_dl_kuang_1",
+    "BaseAttr": "FatalRate,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_dl_kuang_2": {
+    "id": "dntg_xz_dl_kuang_2",
+    "BaseAttr": "FatalRate,1,260;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_dl_kuang_3": {
+    "id": "dntg_xz_dl_kuang_3",
+    "BaseAttr": "FatalRate,1,400;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_dl_ming_1": {
+    "id": "dntg_xz_dl_ming_1",
+    "BaseAttr": "HitRate,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_dl_ming_2": {
+    "id": "dntg_xz_dl_ming_2",
+    "BaseAttr": "HitRate,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_dl_ming_3": {
+    "id": "dntg_xz_dl_ming_3",
+    "BaseAttr": "HitRate,1,400;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_min_bing_1": {
+    "id": "dntg_xz_min_bing_1",
+    "BaseAttr": "SealDef,1,123;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_min_bing_2": {
+    "id": "dntg_xz_min_bing_2",
+    "BaseAttr": "SealDef,1,115;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_min_bing_3": {
+    "id": "dntg_xz_min_bing_3",
+    "BaseAttr": "SealDef,1,115;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_min_hun_1": {
+    "id": "dntg_xz_min_hun_1",
+    "BaseAttr": "DisorderDef,1,123;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_min_hun_2": {
+    "id": "dntg_xz_min_hun_2",
+    "BaseAttr": "DisorderDef,1,115;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_min_hun_3": {
+    "id": "dntg_xz_min_hun_3",
+    "BaseAttr": "DisorderDef,1,115;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_min_shui_1": {
+    "id": "dntg_xz_min_shui_1",
+    "BaseAttr": "SleepDef,1,123;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_min_shui_2": {
+    "id": "dntg_xz_min_shui_2",
+    "BaseAttr": "SleepDef,1,115;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_min_shui_3": {
+    "id": "dntg_xz_min_shui_3",
+    "BaseAttr": "SleepDef,1,115;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_min_wang_1": {
+    "id": "dntg_xz_min_wang_1",
+    "BaseAttr": "ForgetDef,1,123;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_min_wang_2": {
+    "id": "dntg_xz_min_wang_2",
+    "BaseAttr": "ForgetDef,1,115;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_min_wang_3": {
+    "id": "dntg_xz_min_wang_3",
+    "BaseAttr": "ForgetDef,1,115;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_quanfu_1": {
+    "id": "dntg_xz_quanfu_1",
+    "BaseAttr": "Speed,1,-180;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_quanfu_2": {
+    "id": "dntg_xz_quanfu_2",
+    "BaseAttr": "Speed,1,-240;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_quanfu_3": {
+    "id": "dntg_xz_quanfu_3",
+    "BaseAttr": "Speed,1,-300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_quanmin_1": {
+    "id": "dntg_xz_quanmin_1",
+    "BaseAttr": "Speed,1,170;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_quanmin_2": {
+    "id": "dntg_xz_quanmin_2",
+    "BaseAttr": "Speed,1,210;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_quanmin_3": {
+    "id": "dntg_xz_quanmin_3",
+    "BaseAttr": "Speed,1,260;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xs_su": {
+    "id": "dntg_xz_xs_su",
+    "BaseAttr": "Speed,1,130;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xs_xue": {
+    "id": "dntg_xz_xs_xue",
+    "BaseAttr": "HpPercent,1,120;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_1": {
+    "id": "dntg_xz_xue_1",
+    "BaseAttr": "HpPercent,1,175;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_2": {
+    "id": "dntg_xz_xue_2",
+    "BaseAttr": "HpPercent,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_3": {
+    "id": "dntg_xz_xue_3",
+    "BaseAttr": "HpPercent,1,225;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_bing_1": {
+    "id": "dntg_xz_xue_bing_1",
+    "BaseAttr": "SealDef,1,142;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_bing_2": {
+    "id": "dntg_xz_xue_bing_2",
+    "BaseAttr": "SealDef,1,133;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_bing_3": {
+    "id": "dntg_xz_xue_bing_3",
+    "BaseAttr": "SealDef,1,133;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_feng_1": {
+    "id": "dntg_xz_xue_feng_1",
+    "BaseAttr": "WindDef,1,100;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_feng_2": {
+    "id": "dntg_xz_xue_feng_2",
+    "BaseAttr": "WindDef,1,116;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_feng_3": {
+    "id": "dntg_xz_xue_feng_3",
+    "BaseAttr": "WindDef,1,133;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_gui_1": {
+    "id": "dntg_xz_xue_gui_1",
+    "BaseAttr": "GfireDef,1,100;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_gui_2": {
+    "id": "dntg_xz_xue_gui_2",
+    "BaseAttr": "GfireDef,1,116;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_gui_3": {
+    "id": "dntg_xz_xue_gui_3",
+    "BaseAttr": "GfireDef,1,133;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_hun_1": {
+    "id": "dntg_xz_xue_hun_1",
+    "BaseAttr": "DisorderDef,1,142;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_hun_2": {
+    "id": "dntg_xz_xue_hun_2",
+    "BaseAttr": "DisorderDef,1,133;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_hun_3": {
+    "id": "dntg_xz_xue_hun_3",
+    "BaseAttr": "DisorderDef,1,133;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_huo_1": {
+    "id": "dntg_xz_xue_huo_1",
+    "BaseAttr": "FireDef,1,100;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_huo_2": {
+    "id": "dntg_xz_xue_huo_2",
+    "BaseAttr": "FireDef,1,116;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_huo_3": {
+    "id": "dntg_xz_xue_huo_3",
+    "BaseAttr": "FireDef,1,133;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_lei_1": {
+    "id": "dntg_xz_xue_lei_1",
+    "BaseAttr": "ThunderDef,1,100;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_lei_2": {
+    "id": "dntg_xz_xue_lei_2",
+    "BaseAttr": "ThunderDef,1,116;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_lei_3": {
+    "id": "dntg_xz_xue_lei_3",
+    "BaseAttr": "ThunderDef,1,133;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_shui_1": {
+    "id": "dntg_xz_xue_shui_1",
+    "BaseAttr": "RainDef,1,100;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_shui_2": {
+    "id": "dntg_xz_xue_shui_2",
+    "BaseAttr": "RainDef,1,116;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_shui_3": {
+    "id": "dntg_xz_xue_shui_3",
+    "BaseAttr": "RainDef,1,133;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_sleep_1": {
+    "id": "dntg_xz_xue_sleep_1",
+    "BaseAttr": "SleepDef,1,142;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_sleep_2": {
+    "id": "dntg_xz_xue_sleep_2",
+    "BaseAttr": "SleepDef,1,133;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_sleep_3": {
+    "id": "dntg_xz_xue_sleep_3",
+    "BaseAttr": "SleepDef,1,133;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_wang_1": {
+    "id": "dntg_xz_xue_wang_1",
+    "BaseAttr": "ForgetDef,1,142;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_wang_2": {
+    "id": "dntg_xz_xue_wang_2",
+    "BaseAttr": "ForgetDef,1,133;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_xue_wang_3": {
+    "id": "dntg_xz_xue_wang_3",
+    "BaseAttr": "ForgetDef,1,133;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_zhongfu_1": {
+    "id": "dntg_xz_zhongfu_1",
+    "BaseAttr": "Speed,1,-120;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_zhongfu_2": {
+    "id": "dntg_xz_zhongfu_2",
+    "BaseAttr": "Speed,1,-160;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_zhongfu_3": {
+    "id": "dntg_xz_zhongfu_3",
+    "BaseAttr": "Speed,1,-220;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_zhongmin_1": {
+    "id": "dntg_xz_zhongmin_1",
+    "BaseAttr": "Speed,1,87;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_zhongmin_2": {
+    "id": "dntg_xz_zhongmin_2",
+    "BaseAttr": "Speed,1,113;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_xz_zhongmin_3": {
+    "id": "dntg_xz_zhongmin_3",
+    "BaseAttr": "Speed,1,140;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_bing_1": {
+    "id": "dntg_yf_bing_1",
+    "BaseAttr": "SealDef,1,240;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_bing_2": {
+    "id": "dntg_yf_bing_2",
+    "BaseAttr": "SealDef,1,225;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_bing_3": {
+    "id": "dntg_yf_bing_3",
+    "BaseAttr": "SealDef,1,225;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_dl_ljcs_1": {
+    "id": "dntg_yf_dl_ljcs_1",
+    "BaseAttr": "HitCombo,1,2;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_dl_ljcs_2": {
+    "id": "dntg_yf_dl_ljcs_2",
+    "BaseAttr": "HitCombo,1,3;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_dl_ljcs_3": {
+    "id": "dntg_yf_dl_ljcs_3",
+    "BaseAttr": "HitCombo,1,3;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_dl_ljl_1": {
+    "id": "dntg_yf_dl_ljl_1",
+    "BaseAttr": "HitComboRate,1,150;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_dl_ljl_2": {
+    "id": "dntg_yf_dl_ljl_2",
+    "BaseAttr": "HitComboRate,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_dl_ljl_3": {
+    "id": "dntg_yf_dl_ljl_3",
+    "BaseAttr": "HitComboRate,1,250;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_hun_1": {
+    "id": "dntg_yf_hun_1",
+    "BaseAttr": "DisorderDef,1,240;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_hun_2": {
+    "id": "dntg_yf_hun_2",
+    "BaseAttr": "DisorderDef,1,225;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_hun_3": {
+    "id": "dntg_yf_hun_3",
+    "BaseAttr": "DisorderDef,1,225;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kangfeng_1": {
+    "id": "dntg_yf_kangfeng_1",
+    "BaseAttr": "WindDef,1,40;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kangfeng_2": {
+    "id": "dntg_yf_kangfeng_2",
+    "BaseAttr": "WindDef,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kangfeng_3": {
+    "id": "dntg_yf_kangfeng_3",
+    "BaseAttr": "WindDef,1,90;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kangfeng_gui_1": {
+    "id": "dntg_yf_kangfeng_gui_1",
+    "BaseAttr": "WindDef,1,25;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kangfeng_gui_2": {
+    "id": "dntg_yf_kangfeng_gui_2",
+    "BaseAttr": "WindDef,1,34;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kangfeng_gui_3": {
+    "id": "dntg_yf_kangfeng_gui_3",
+    "BaseAttr": "WindDef,1,48;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kanghuo_1": {
+    "id": "dntg_yf_kanghuo_1",
+    "BaseAttr": "FireDef,1,40;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kanghuo_2": {
+    "id": "dntg_yf_kanghuo_2",
+    "BaseAttr": "FireDef,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kanghuo_3": {
+    "id": "dntg_yf_kanghuo_3",
+    "BaseAttr": "FireDef,1,90;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kanghuo_gui_1": {
+    "id": "dntg_yf_kanghuo_gui_1",
+    "BaseAttr": "FireDef,1,25;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kanghuo_gui_2": {
+    "id": "dntg_yf_kanghuo_gui_2",
+    "BaseAttr": "FireDef,1,34;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kanghuo_gui_3": {
+    "id": "dntg_yf_kanghuo_gui_3",
+    "BaseAttr": "FireDef,1,48;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kanglei_1": {
+    "id": "dntg_yf_kanglei_1",
+    "BaseAttr": "ThunderDef,1,40;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kanglei_2": {
+    "id": "dntg_yf_kanglei_2",
+    "BaseAttr": "ThunderDef,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kanglei_3": {
+    "id": "dntg_yf_kanglei_3",
+    "BaseAttr": "ThunderDef,1,90;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kanglei_gui_1": {
+    "id": "dntg_yf_kanglei_gui_1",
+    "BaseAttr": "ThunderDef,1,25;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kanglei_gui_2": {
+    "id": "dntg_yf_kanglei_gui_2",
+    "BaseAttr": "ThunderDef,1,34;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kanglei_gui_3": {
+    "id": "dntg_yf_kanglei_gui_3",
+    "BaseAttr": "ThunderDef,1,48;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kangshui_1": {
+    "id": "dntg_yf_kangshui_1",
+    "BaseAttr": "RainDef,1,40;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kangshui_2": {
+    "id": "dntg_yf_kangshui_2",
+    "BaseAttr": "RainDef,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kangshui_3": {
+    "id": "dntg_yf_kangshui_3",
+    "BaseAttr": "RainDef,1,90;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kangshui_gui_1": {
+    "id": "dntg_yf_kangshui_gui_1",
+    "BaseAttr": "RainDef,1,25;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kangshui_gui_2": {
+    "id": "dntg_yf_kangshui_gui_2",
+    "BaseAttr": "RainDef,1,34;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kangshui_gui_3": {
+    "id": "dntg_yf_kangshui_gui_3",
+    "BaseAttr": "RainDef,1,48;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kehuo_1": {
+    "id": "dntg_yf_kehuo_1",
+    "BaseAttr": "ConFire,1,100;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kehuo_2": {
+    "id": "dntg_yf_kehuo_2",
+    "BaseAttr": "ConFire,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kehuo_3": {
+    "id": "dntg_yf_kehuo_3",
+    "BaseAttr": "ConFire,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kejin_1": {
+    "id": "dntg_yf_kejin_1",
+    "BaseAttr": "ConGold,1,100;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kejin_2": {
+    "id": "dntg_yf_kejin_2",
+    "BaseAttr": "ConGold,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kejin_3": {
+    "id": "dntg_yf_kejin_3",
+    "BaseAttr": "ConGold,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kemu_1": {
+    "id": "dntg_yf_kemu_1",
+    "BaseAttr": "ConWood,1,100;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kemu_2": {
+    "id": "dntg_yf_kemu_2",
+    "BaseAttr": "ConWood,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_kemu_3": {
+    "id": "dntg_yf_kemu_3",
+    "BaseAttr": "ConWood,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_keshui_1": {
+    "id": "dntg_yf_keshui_1",
+    "BaseAttr": "ConWater,1,100;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_keshui_2": {
+    "id": "dntg_yf_keshui_2",
+    "BaseAttr": "ConWater,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_keshui_3": {
+    "id": "dntg_yf_keshui_3",
+    "BaseAttr": "ConWater,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_ketu_1": {
+    "id": "dntg_yf_ketu_1",
+    "BaseAttr": "ConSoil,1,100;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_ketu_2": {
+    "id": "dntg_yf_ketu_2",
+    "BaseAttr": "ConSoil,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_ketu_3": {
+    "id": "dntg_yf_ketu_3",
+    "BaseAttr": "ConSoil,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_shanbi_1": {
+    "id": "dntg_yf_shanbi_1",
+    "BaseAttr": "VoidRate,1,40;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_shanbi_2": {
+    "id": "dntg_yf_shanbi_2",
+    "BaseAttr": "VoidRate,1,60;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_shanbi_3": {
+    "id": "dntg_yf_shanbi_3",
+    "BaseAttr": "VoidRate,1,90;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_shui_1": {
+    "id": "dntg_yf_shui_1",
+    "BaseAttr": "SleepDef,1,240;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_shui_2": {
+    "id": "dntg_yf_shui_2",
+    "BaseAttr": "SleepDef,1,225;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_shui_3": {
+    "id": "dntg_yf_shui_3",
+    "BaseAttr": "SleepDef,1,225;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_wang_1": {
+    "id": "dntg_yf_wang_1",
+    "BaseAttr": "ForgetDef,1,240;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_wang_2": {
+    "id": "dntg_yf_wang_2",
+    "BaseAttr": "ForgetDef,1,225;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_wang_3": {
+    "id": "dntg_yf_wang_3",
+    "BaseAttr": "ForgetDef,1,225;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_xs_chou": {
+    "id": "dntg_yf_xs_chou",
+    "BaseAttr": "ShockDefNeg,1,10;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_xs_du": {
+    "id": "dntg_yf_xs_du",
+    "BaseAttr": "PoisonDefNeg,1,37;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_xs_feng": {
+    "id": "dntg_yf_xs_feng",
+    "BaseAttr": "WindDefNeg,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_xs_gui": {
+    "id": "dntg_yf_xs_gui",
+    "BaseAttr": "GfireDefNeg,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_xs_hun": {
+    "id": "dntg_yf_xs_hun",
+    "BaseAttr": "DisorderDefNeg,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_xs_huo": {
+    "id": "dntg_yf_xs_huo",
+    "BaseAttr": "FireDefNeg,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_xs_kangbing": {
+    "id": "dntg_yf_xs_kangbing",
+    "BaseAttr": "SealDef,1,271;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_xs_kanghun": {
+    "id": "dntg_yf_xs_kanghun",
+    "BaseAttr": "DisorderDef,1,271;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_xs_kangshui": {
+    "id": "dntg_yf_xs_kangshui",
+    "BaseAttr": "SleepDef,1,271;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_xs_kangwang": {
+    "id": "dntg_yf_xs_kangwang",
+    "BaseAttr": "PoisonDef,1,271;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_xs_lei": {
+    "id": "dntg_yf_xs_lei",
+    "BaseAttr": "ThunderDefNeg,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_xs_mei": {
+    "id": "dntg_yf_xs_mei",
+    "BaseAttr": "CharmEhan,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_xs_pan": {
+    "id": "dntg_yf_xs_pan",
+    "BaseAttr": "AdDefEhan,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_xs_san": {
+    "id": "dntg_yf_xs_san",
+    "BaseAttr": "SanshiDefNeg,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_xs_shui": {
+    "id": "dntg_yf_xs_shui",
+    "BaseAttr": "RainDefNeg,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_xs_sleep": {
+    "id": "dntg_yf_xs_sleep",
+    "BaseAttr": "SleepDefNeg,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_xs_su": {
+    "id": "dntg_yf_xs_su",
+    "BaseAttr": "AdSpdEhan,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_yf_xs_wang": {
+    "id": "dntg_yf_xs_wang",
+    "BaseAttr": "ForgetDefNeg,1,30;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_zsxz_fa_2": {
+    "id": "dntg_zsxz_fa_2",
+    "BaseAttr": "MpMax,1,10000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_zsxz_fa_3": {
+    "id": "dntg_zsxz_fa_3",
+    "BaseAttr": "MpMax,1,15000;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_zsxz_su_2": {
+    "id": "dntg_zsxz_su_2",
+    "BaseAttr": "Speed,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_zsxz_su_3": {
+    "id": "dntg_zsxz_su_3",
+    "BaseAttr": "Speed,1,500;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_zsxz_xue_2": {
+    "id": "dntg_zsxz_xue_2",
+    "BaseAttr": "HpPercent,1,200;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_zsxz_xue_3": {
+    "id": "dntg_zsxz_xue_3",
+    "BaseAttr": "HpPercent,1,275;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_zsxz_zhenshe_2": {
+    "id": "dntg_zsxz_zhenshe_2",
+    "BaseAttr": "ShockDef,1,150;",
+    "RndRange": "100,100,100;"
+  },
+  "dntg_zsxz_zhenshe_3": {
+    "id": "dntg_zsxz_zhenshe_3",
+    "BaseAttr": "ShockDef,1,300;",
+    "RndRange": "100,100,100;"
+  },
+  "e1": {
+    "id": "e1",
+    "BaseAttr": "Speed,1,20;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "e11": {
+    "id": "e11",
+    "BaseAttr": "Speed,1,32;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "e111": {
+    "id": "e111",
+    "BaseAttr": "Speed,1,32;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "e1111": {
+    "id": "e1111",
+    "BaseAttr": "Speed,1,32;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "e12": {
+    "id": "e12",
+    "BaseAttr": "AtkPercent,1,150;HpMax,1,7040;MpMax,1,7040;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "e121": {
+    "id": "e121",
+    "BaseAttr": "AtkPercent,1,150;HpMax,1,7040;MpMax,1,7040;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "e1211": {
+    "id": "e1211",
+    "BaseAttr": "AtkPercent,1,150;HpMax,1,7040;MpMax,1,7040;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "e15": {
+    "id": "e15",
+    "BaseAttr": "Speed,1,32;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "e16": {
+    "id": "e16",
+    "BaseAttr": "AtkPercent,1,150;HpMax,1,7040;MpMax,1,7040;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "e2": {
+    "id": "e2",
+    "BaseAttr": "Atk,1,2000;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "e21": {
+    "id": "e21",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "e211": {
+    "id": "e211",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "e2111": {
+    "id": "e2111",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "e22": {
+    "id": "e22",
+    "BaseAttr": "Atk,1,12000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "e221": {
+    "id": "e221",
+    "BaseAttr": "Atk,1,12000;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "e2211": {
+    "id": "e2211",
+    "BaseAttr": "Atk,1,12000;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "e25": {
+    "id": "e25",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "e26": {
+    "id": "e26",
+    "BaseAttr": "Atk,1,12000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "e3": {
+    "id": "e3",
+    "BaseAttr": "AdSpdEhan,1,100;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "e31": {
+    "id": "e31",
+    "BaseAttr": "AdAtkEhan,1,210;AdSpdEhan,1,210;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "e311": {
+    "id": "e311",
+    "BaseAttr": "AdAtkEhan,1,210;AdSpdEhan,1,210;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "e3111": {
+    "id": "e3111",
+    "BaseAttr": "AdAtkEhan,1,210;AdSpdEhan,1,210;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "e32": {
+    "id": "e32",
+    "BaseAttr": "HitRate,1,100;PhyDefNefRate,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "e321": {
+    "id": "e321",
+    "BaseAttr": "HitRate,1,100;PhyDefNefRate,1,400;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "e3211": {
+    "id": "e3211",
+    "BaseAttr": "HitRate,1,100;PhyDefNefRate,1,400;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "e35": {
+    "id": "e35",
+    "BaseAttr": "AdSpdEhan,1,210;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "e36": {
+    "id": "e36",
+    "BaseAttr": "HitRate,1,100;PhyDefNefRate,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "e4": {
+    "id": "e4",
+    "BaseAttr": "AdAtkEhan,1,100;ShockDefNeg,1,40;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "e41": {
+    "id": "e41",
+    "BaseAttr": "AdSpdEhan,1,210;ShockDefNeg,1,70;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "e411": {
+    "id": "e411",
+    "BaseAttr": "AdSpdEhan,1,210;ShockDefNeg,1,70;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "e4111": {
+    "id": "e4111",
+    "BaseAttr": "AdSpdEhan,1,210;ShockDefNeg,1,70;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "e42": {
+    "id": "e42",
+    "BaseAttr": "FatalRate,1,100;PhyDefNef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "e421": {
+    "id": "e421",
+    "BaseAttr": "FatalRate,1,100;PhyDefNef,1,400;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "e4211": {
+    "id": "e4211",
+    "BaseAttr": "FatalRate,1,100;PhyDefNef,1,400;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "e45": {
+    "id": "e45",
+    "BaseAttr": "ShockDefNeg,1,70;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "e46": {
+    "id": "e46",
+    "BaseAttr": "FatalRate,1,100;PhyDefNef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "f1": {
+    "id": "f1",
+    "BaseAttr": "Speed,1,20;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "f11": {
+    "id": "f11",
+    "BaseAttr": "Speed,1,32;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "f111": {
+    "id": "f111",
+    "BaseAttr": "Speed,1,32;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "f1111": {
+    "id": "f1111",
+    "BaseAttr": "Speed,1,32;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "f12": {
+    "id": "f12",
+    "BaseAttr": "AtkPercent,1,150;HpMax,1,7040;MpMax,1,7040;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "f121": {
+    "id": "f121",
+    "BaseAttr": "AtkPercent,1,150;HpMax,1,7040;MpMax,1,7040;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "f1211": {
+    "id": "f1211",
+    "BaseAttr": "AtkPercent,1,150;HpMax,1,7040;MpMax,1,7040;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "f15": {
+    "id": "f15",
+    "BaseAttr": "Speed,1,32;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "f16": {
+    "id": "f16",
+    "BaseAttr": "AtkPercent,1,150;HpMax,1,7040;MpMax,1,7040;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "f2": {
+    "id": "f2",
+    "BaseAttr": "Atk,1,2000;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "f21": {
+    "id": "f21",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "f211": {
+    "id": "f211",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "f2111": {
+    "id": "f2111",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "f22": {
+    "id": "f22",
+    "BaseAttr": "Atk,1,12000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "f221": {
+    "id": "f221",
+    "BaseAttr": "Atk,1,12000;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "f2211": {
+    "id": "f2211",
+    "BaseAttr": "Atk,1,12000;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "f25": {
+    "id": "f25",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "f26": {
+    "id": "f26",
+    "BaseAttr": "Atk,1,12000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "f3": {
+    "id": "f3",
+    "BaseAttr": "AdDefEhan,1,100;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "f31": {
+    "id": "f31",
+    "BaseAttr": "AdAtkEhan,1,210;AdDefEhan,1,210;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "f311": {
+    "id": "f311",
+    "BaseAttr": "AdAtkEhan,1,210;AdDefEhan,1,210;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "f3111": {
+    "id": "f3111",
+    "BaseAttr": "AdAtkEhan,1,210;AdDefEhan,1,210;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "f32": {
+    "id": "f32",
+    "BaseAttr": "HitRate,1,100;PhyDefNefRate,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "f321": {
+    "id": "f321",
+    "BaseAttr": "HitRate,1,100;PhyDefNefRate,1,400;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "f3211": {
+    "id": "f3211",
+    "BaseAttr": "HitRate,1,100;PhyDefNefRate,1,400;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "f35": {
+    "id": "f35",
+    "BaseAttr": "AdDefEhan,1,210;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "f36": {
+    "id": "f36",
+    "BaseAttr": "HitRate,1,100;PhyDefNefRate,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "f4": {
+    "id": "f4",
+    "BaseAttr": "AdAtkEhan,1,100;ShockDefNeg,1,40;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "f41": {
+    "id": "f41",
+    "BaseAttr": "AdDefEhan,1,210;ShockDefNeg,1,70;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "f411": {
+    "id": "f411",
+    "BaseAttr": "AdDefEhan,1,210;ShockDefNeg,1,70;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "f4111": {
+    "id": "f4111",
+    "BaseAttr": "AdDefEhan,1,210;ShockDefNeg,1,70;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "f42": {
+    "id": "f42",
+    "BaseAttr": "FatalRate,1,100;PhyDefNef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "f421": {
+    "id": "f421",
+    "BaseAttr": "FatalRate,1,100;PhyDefNef,1,400;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "f4211": {
+    "id": "f4211",
+    "BaseAttr": "FatalRate,1,100;PhyDefNef,1,400;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "f45": {
+    "id": "f45",
+    "BaseAttr": "ShockDefNeg,1,70;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "f46": {
+    "id": "f46",
+    "BaseAttr": "FatalRate,1,100;PhyDefNef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "g1": {
+    "id": "g1",
+    "BaseAttr": "HpMax,1,2400;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "g11": {
+    "id": "g11",
+    "BaseAttr": "HpMax,1,7040;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "g111": {
+    "id": "g111",
+    "BaseAttr": "HpMax,1,7040;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "g1111": {
+    "id": "g1111",
+    "BaseAttr": "HpMax,1,7040;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "g15": {
+    "id": "g15",
+    "BaseAttr": "HpMax,1,7040;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "g2": {
+    "id": "g2",
+    "BaseAttr": "Atk,1,2000;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "g21": {
+    "id": "g21",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "g211": {
+    "id": "g211",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "g2111": {
+    "id": "g2111",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "g25": {
+    "id": "g25",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "g3": {
+    "id": "g3",
+    "BaseAttr": "SanshiDefNeg,1,167;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "g31": {
+    "id": "g31",
+    "BaseAttr": "GfireDefNeg,1,350;SanshiDefNeg,1,350;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "g311": {
+    "id": "g311",
+    "BaseAttr": "GfireDefNeg,1,350;SanshiDefNeg,1,350;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "g3111": {
+    "id": "g3111",
+    "BaseAttr": "GfireDefNeg,1,350;SanshiDefNeg,1,350;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "g35": {
+    "id": "g35",
+    "BaseAttr": "SanshiDefNeg,1,350;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "g4": {
+    "id": "g4",
+    "BaseAttr": "ForgetDefNeg,1,100;GfireDefNeg,1,167;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "g41": {
+    "id": "g41",
+    "BaseAttr": "ForgetDefNeg,1,210;SanshiDefNeg,1,350;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "g411": {
+    "id": "g411",
+    "BaseAttr": "ForgetDefNeg,1,210;SanshiDefNeg,1,350;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "g4111": {
+    "id": "g4111",
+    "BaseAttr": "ForgetDefNeg,1,210;SanshiDefNeg,1,350;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "g45": {
+    "id": "g45",
+    "BaseAttr": "GfireDefNeg,1,350;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "h1": {
+    "id": "h1",
+    "BaseAttr": "HpMax,1,2400;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "h11": {
+    "id": "h11",
+    "BaseAttr": "HpMax,1,7040;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "h111": {
+    "id": "h111",
+    "BaseAttr": "HpMax,1,7040;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "h1111": {
+    "id": "h1111",
+    "BaseAttr": "HpMax,1,7040;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "h15": {
+    "id": "h15",
+    "BaseAttr": "HpMax,1,7040;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "h2": {
+    "id": "h2",
+    "BaseAttr": "Atk,1,2000;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "h21": {
+    "id": "h21",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "h211": {
+    "id": "h211",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "h2111": {
+    "id": "h2111",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "h25": {
+    "id": "h25",
+    "BaseAttr": "Atk,1,4000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "h3": {
+    "id": "h3",
+    "BaseAttr": "CharmEhan,1,100;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "h31": {
+    "id": "h31",
+    "BaseAttr": "CharmEhan,1,210;GfireDefNeg,1,350;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "h311": {
+    "id": "h311",
+    "BaseAttr": "CharmEhan,1,210;GfireDefNeg,1,350;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "h3111": {
+    "id": "h3111",
+    "BaseAttr": "CharmEhan,1,210;GfireDefNeg,1,350;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "h35": {
+    "id": "h35",
+    "BaseAttr": "GfireDefNeg,1,350;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "h4": {
+    "id": "h4",
+    "BaseAttr": "ForgetDefNeg,1,100;GfireDefNeg,1,167;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "h41": {
+    "id": "h41",
+    "BaseAttr": "ForgetDefNeg,1,210;GfireDefNeg,1,350;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "h411": {
+    "id": "h411",
+    "BaseAttr": "ForgetDefNeg,1,210;GfireDefNeg,1,350;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "h4111": {
+    "id": "h4111",
+    "BaseAttr": "ForgetDefNeg,1,210;GfireDefNeg,1,350;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "h45": {
+    "id": "h45",
+    "BaseAttr": "ForgetDefNeg,1,210;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "i1": {
+    "id": "i1",
+    "BaseAttr": "HpMax,1,3000;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "i11": {
+    "id": "i11",
+    "BaseAttr": "HpMax,1,3000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "i111": {
+    "id": "i111",
+    "BaseAttr": "HpMax,1,3000;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "i1111": {
+    "id": "i1111",
+    "BaseAttr": "HpMax,1,3000;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "i12": {
+    "id": "i12",
+    "BaseAttr": "HpMax,1,3000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "i121": {
+    "id": "i121",
+    "BaseAttr": "HpMax,1,3000;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "i1211": {
+    "id": "i1211",
+    "BaseAttr": "HpMax,1,3000;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "i15": {
+    "id": "i15",
+    "BaseAttr": "HpMax,1,3000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "i16": {
+    "id": "i16",
+    "BaseAttr": "HpMax,1,3000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "i2": {
+    "id": "i2",
+    "BaseAttr": "MpMax,1,3000;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "i21": {
+    "id": "i21",
+    "BaseAttr": "MpMax,1,3000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "i211": {
+    "id": "i211",
+    "BaseAttr": "MpMax,1,3000;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "i2111": {
+    "id": "i2111",
+    "BaseAttr": "MpMax,1,3000;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "i22": {
+    "id": "i22",
+    "BaseAttr": "MpMax,1,3000;PhyDef,1,200;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "i221": {
+    "id": "i221",
+    "BaseAttr": "MpMax,1,3000;PhyDef,1,200;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "i2211": {
+    "id": "i2211",
+    "BaseAttr": "MpMax,1,3000;PhyDef,1,200;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "i25": {
+    "id": "i25",
+    "BaseAttr": "MpMax,1,3000;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "i26": {
+    "id": "i26",
+    "BaseAttr": "MpMax,1,3000;PhyDef,1,200;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "i3": {
+    "id": "i3",
+    "BaseAttr": "Atk,1,1400;DisorderDef,1,240;FireDef,1,240;ForgetDef,1,240;GfireDef,1,240;PoisonDef,1,240;RainDef,1,240;SanshiDef,1,240;SealDef,1,240;SleepDef,1,240;Speed,1,35;ThunderDef,1,240;WindDef,1,240;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "i31": {
+    "id": "i31",
+    "BaseAttr": "Atk,1,3000;DisorderDef,1,327;ForgetDef,1,327;PoisonDef,1,327;SealDef,1,327;ShockDef,1,190;SleepDef,1,327;Speed,1,63;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "i311": {
+    "id": "i311",
+    "BaseAttr": "Atk,1,3000;DisorderDef,2,327;FireDef,1,327;ForgetDef,2,327;GfireDef,1,327;PhyDef,1,200;PoisonDef,1,327;RainDef,1,327;SanshiDef,1,327;SealDef,2,327;ShockDef,1,190;SleepDef,2,327;Speed,3,63;ThunderDef,1,327;WindDef,1,327;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "i3111": {
+    "id": "i3111",
+    "BaseAttr": "Atk,1,3000;DisorderDef,1,327;FireDef,1,327;ForgetDef,1,327;GfireDef,1,327;PhyDef,1,200;PoisonDef,1,327;RainDef,1,327;SanshiDef,1,327;SealDef,1,327;ShockDef,1,190;SleepDef,1,327;Speed,1,63;ThunderDef,1,327;WindDef,1,327;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "i32": {
+    "id": "i32",
+    "BaseAttr": "Atk,1,3000;DisorderDef,1,327;VoidRate,1,100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "i321": {
+    "id": "i321",
+    "BaseAttr": "Atk,1,3000;DisorderDef,1,327;VoidRate,1,100;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "i3211": {
+    "id": "i3211",
+    "BaseAttr": "Atk,1,3000;DisorderDef,1,327;VoidRate,1,100;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "i35": {
+    "id": "i35",
+    "BaseAttr": "Atk,1,3000;DisorderDef,1,327;FireDef,1,327;ForgetDef,1,327;GfireDef,1,327;PhyDef,1,200;PoisonDef,1,327;RainDef,1,327;SanshiDef,1,327;SealDef,1,327;ShockDef,1,190;SleepDef,1,327;Speed,1,63;ThunderDef,1,327;WindDef,1,327;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "i36": {
+    "id": "i36",
+    "BaseAttr": "Atk,1,3000;DisorderDef,1,327;VoidRate,1,100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "i4": {
+    "id": "i4",
+    "BaseAttr": "Atk,1,1400;DisorderDef,1,240;FireDef,1,240;ForgetDef,1,240;GfireDef,1,240;PoisonDef,1,240;RainDef,1,240;SanshiDef,1,240;SealDef,1,240;SleepDef,1,240;Speed,1,35;ThunderDef,1,240;WindDef,1,240;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "i41": {
+    "id": "i41",
+    "BaseAttr": "Atk,1,3000;DisorderDef,1,327;ForgetDef,1,327;HpPercent,1,123;PoisonDef,1,327;SealDef,1,327;SleepDef,1,327;Speed,1,63;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "i411": {
+    "id": "i411",
+    "BaseAttr": "Atk,1,3000;DisorderDef,2,327;FireDef,1,327;ForgetDef,2,327;GfireDef,1,327;HpPercent,1,123;PoisonDef,1,327;RainDef,1,327;SanshiDef,1,327;SealDef,2,327;SleepDef,2,327;Speed,3,63;ThunderDef,1,327;VoidRate,1,100;WindDef,1,327;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "i4111": {
+    "id": "i4111",
+    "BaseAttr": "Atk,1,3000;DisorderDef,1,327;FireDef,1,327;ForgetDef,1,327;GfireDef,1,327;HpPercent,1,123;PoisonDef,1,327;RainDef,1,327;SanshiDef,1,327;SealDef,1,327;SleepDef,1,327;Speed,1,63;ThunderDef,1,327;VoidRate,1,100;WindDef,1,327;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "i42": {
+    "id": "i42",
+    "BaseAttr": "Atk,1,3000;AtkPercent,1,210;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "i421": {
+    "id": "i421",
+    "BaseAttr": "Atk,1,3000;AtkPercent,1,210;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "i4211": {
+    "id": "i4211",
+    "BaseAttr": "Atk,1,3000;AtkPercent,1,210;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "i45": {
+    "id": "i45",
+    "BaseAttr": "Atk,1,3000;DisorderDef,1,327;FireDef,1,327;ForgetDef,1,327;GfireDef,1,327;HpPercent,1,123;PoisonDef,1,327;RainDef,1,327;SanshiDef,1,327;SealDef,1,327;SleepDef,1,327;Speed,1,63;ThunderDef,1,327;VoidRate,1,100;WindDef,1,327;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "i46": {
+    "id": "i46",
+    "BaseAttr": "Atk,1,3000;AtkPercent,1,210;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "j1": {
+    "id": "j1",
+    "BaseAttr": "DisorderDefNeg,1,20;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "j11": {
+    "id": "j11",
+    "BaseAttr": "DisorderDefNeg,1,50;SleepDefNeg,1,50;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "j111": {
+    "id": "j111",
+    "BaseAttr": "DisorderDefNeg,1,50;SleepDefNeg,1,50;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "j1111": {
+    "id": "j1111",
+    "BaseAttr": "DisorderDefNeg,1,50;SleepDefNeg,1,50;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "j15": {
+    "id": "j15",
+    "BaseAttr": "DisorderDefNeg,1,50;SleepDefNeg,1,50;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "j2": {
+    "id": "j2",
+    "BaseAttr": "SealDefNeg,1,20;SleepDefNeg,1,20;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "j21": {
+    "id": "j21",
+    "BaseAttr": "DisorderDefNeg,1,50;SealDefNeg,1,50;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "j211": {
+    "id": "j211",
+    "BaseAttr": "DisorderDefNeg,1,50;SealDefNeg,1,50;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "j2111": {
+    "id": "j2111",
+    "BaseAttr": "DisorderDefNeg,1,50;SealDefNeg,1,50;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "j25": {
+    "id": "j25",
+    "BaseAttr": "DisorderDefNeg,1,50;SealDefNeg,1,50;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "j3": {
+    "id": "j3",
+    "BaseAttr": "DisorderDef,1,250;FireDef,1,250;ForgetDef,1,250;GfireDef,1,250;PoisonDef,1,250;RainDef,1,250;SanshiDef,1,250;SealDef,1,250;SleepDef,1,250;ThunderDef,1,250;WindDef,1,250;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "j31": {
+    "id": "j31",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "j311": {
+    "id": "j311",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "j3111": {
+    "id": "j3111",
+    "BaseAttr": "DisorderDef,5,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "j35": {
+    "id": "j35",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "j4": {
+    "id": "j4",
+    "BaseAttr": "DisorderDef,1,250;FireDef,1,250;ForgetDef,1,250;GfireDef,1,250;PoisonDef,1,250;RainDef,1,250;SanshiDef,1,250;SealDef,1,250;SleepDef,1,250;ThunderDef,1,250;WindDef,1,250;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "j41": {
+    "id": "j41",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "j411": {
+    "id": "j411",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "j4111": {
+    "id": "j4111",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,2,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "j45": {
+    "id": "j45",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "k1": {
+    "id": "k1",
+    "BaseAttr": "PoisonDefNeg,1,33;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "k11": {
+    "id": "k11",
+    "BaseAttr": "PoisonDefNeg,1,83;SleepDefNeg,1,50;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "k111": {
+    "id": "k111",
+    "BaseAttr": "PoisonDefNeg,1,83;SleepDefNeg,1,50;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "k1111": {
+    "id": "k1111",
+    "BaseAttr": "PoisonDefNeg,1,83;SleepDefNeg,1,50;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "k15": {
+    "id": "k15",
+    "BaseAttr": "PoisonDefNeg,1,83;SleepDefNeg,1,50;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "k2": {
+    "id": "k2",
+    "BaseAttr": "SealDefNeg,1,20;SleepDefNeg,1,20;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "k21": {
+    "id": "k21",
+    "BaseAttr": "PoisonDefNeg,1,83;SealDefNeg,1,50;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "k211": {
+    "id": "k211",
+    "BaseAttr": "PoisonDefNeg,1,83;SealDefNeg,1,50;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "k2111": {
+    "id": "k2111",
+    "BaseAttr": "PoisonDefNeg,1,83;SealDefNeg,1,50;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "k25": {
+    "id": "k25",
+    "BaseAttr": "PoisonDefNeg,1,83;SealDefNeg,1,50;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "k3": {
+    "id": "k3",
+    "BaseAttr": "DisorderDef,1,250;FireDef,1,250;ForgetDef,1,250;GfireDef,1,250;PoisonDef,1,250;RainDef,1,250;SanshiDef,1,250;SealDef,1,250;SleepDef,1,250;ThunderDef,1,250;WindDef,1,250;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "k31": {
+    "id": "k31",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "k311": {
+    "id": "k311",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "k3111": {
+    "id": "k3111",
+    "BaseAttr": "DisorderDef,5,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "k35": {
+    "id": "k35",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "k4": {
+    "id": "k4",
+    "BaseAttr": "DisorderDef,1,250;FireDef,1,250;ForgetDef,1,250;GfireDef,1,250;PoisonDef,1,250;RainDef,1,250;SanshiDef,1,250;SealDef,1,250;SleepDef,1,250;ThunderDef,1,250;WindDef,1,250;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "k41": {
+    "id": "k41",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "k411": {
+    "id": "k411",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "k4111": {
+    "id": "k4111",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,2,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "k45": {
+    "id": "k45",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "l1": {
+    "id": "l1",
+    "BaseAttr": "WindDefNeg,1,33;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "l11": {
+    "id": "l11",
+    "BaseAttr": "ThunderDefNeg,1,83;WindDefNeg,1,83;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "l111": {
+    "id": "l111",
+    "BaseAttr": "ThunderDefNeg,1,83;WindDefNeg,1,83;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "l1111": {
+    "id": "l1111",
+    "BaseAttr": "ThunderDefNeg,1,83;WindDefNeg,1,83;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "l15": {
+    "id": "l15",
+    "BaseAttr": "ThunderDefNeg,1,83;WindDefNeg,1,83;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "l2": {
+    "id": "l2",
+    "BaseAttr": "RainDefNeg,1,33;ThunderDefNeg,1,33;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "l21": {
+    "id": "l21",
+    "BaseAttr": "RainDefNeg,1,83;WindDefNeg,1,83;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "l211": {
+    "id": "l211",
+    "BaseAttr": "RainDefNeg,1,83;WindDefNeg,1,83;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "l2111": {
+    "id": "l2111",
+    "BaseAttr": "RainDefNeg,1,83;WindDefNeg,1,83;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "l25": {
+    "id": "l25",
+    "BaseAttr": "RainDefNeg,1,83;WindDefNeg,1,83;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "l3": {
+    "id": "l3",
+    "BaseAttr": "DisorderDef,1,250;FireDef,1,250;ForgetDef,1,250;GfireDef,1,250;PoisonDef,1,250;RainDef,1,250;SanshiDef,1,250;SealDef,1,250;SleepDef,1,250;ThunderDef,1,250;WindDef,1,250;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "l31": {
+    "id": "l31",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "l311": {
+    "id": "l311",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "l3111": {
+    "id": "l3111",
+    "BaseAttr": "DisorderDef,5,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "l35": {
+    "id": "l35",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "l4": {
+    "id": "l4",
+    "BaseAttr": "DisorderDef,1,250;FireDef,1,250;ForgetDef,1,250;GfireDef,1,250;PoisonDef,1,250;RainDef,1,250;SanshiDef,1,250;SealDef,1,250;SleepDef,1,250;ThunderDef,1,250;WindDef,1,250;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "l41": {
+    "id": "l41",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "l411": {
+    "id": "l411",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "l4111": {
+    "id": "l4111",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,2,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "l45": {
+    "id": "l45",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "m1": {
+    "id": "m1",
+    "BaseAttr": "FireDefNeg,1,33;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "m11": {
+    "id": "m11",
+    "BaseAttr": "FireDefNeg,1,83;RainDefNeg,1,83;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "m111": {
+    "id": "m111",
+    "BaseAttr": "FireDefNeg,1,83;RainDefNeg,1,83;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "m1111": {
+    "id": "m1111",
+    "BaseAttr": "FireDefNeg,1,83;RainDefNeg,1,83;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "m15": {
+    "id": "m15",
+    "BaseAttr": "FireDefNeg,1,83;RainDefNeg,1,83;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "m2": {
+    "id": "m2",
+    "BaseAttr": "RainDefNeg,1,33;ThunderDefNeg,1,33;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "m21": {
+    "id": "m21",
+    "BaseAttr": "FireDefNeg,1,83;ThunderDefNeg,1,83;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "m211": {
+    "id": "m211",
+    "BaseAttr": "FireDefNeg,1,83;ThunderDefNeg,1,83;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "m2111": {
+    "id": "m2111",
+    "BaseAttr": "FireDefNeg,1,83;ThunderDefNeg,1,83;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "m25": {
+    "id": "m25",
+    "BaseAttr": "FireDefNeg,1,83;ThunderDefNeg,1,83;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "m3": {
+    "id": "m3",
+    "BaseAttr": "DisorderDef,1,250;FireDef,1,250;ForgetDef,1,250;GfireDef,1,250;PoisonDef,1,250;RainDef,1,250;SanshiDef,1,250;SealDef,1,250;SleepDef,1,250;ThunderDef,1,250;WindDef,1,250;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "m31": {
+    "id": "m31",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "m311": {
+    "id": "m311",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "m3111": {
+    "id": "m3111",
+    "BaseAttr": "DisorderDef,5,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "m35": {
+    "id": "m35",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "m4": {
+    "id": "m4",
+    "BaseAttr": "DisorderDef,1,250;FireDef,1,250;ForgetDef,1,250;GfireDef,1,250;PoisonDef,1,250;RainDef,1,250;SanshiDef,1,250;SealDef,1,250;SleepDef,1,250;ThunderDef,1,250;WindDef,1,250;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "m41": {
+    "id": "m41",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "m411": {
+    "id": "m411",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "m4111": {
+    "id": "m4111",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,2,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "m45": {
+    "id": "m45",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "n1": {
+    "id": "n1",
+    "BaseAttr": "AdSpdEhan,1,20;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "n11": {
+    "id": "n11",
+    "BaseAttr": "AdAtkEhan,1,50;AdSpdEhan,1,50;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "n111": {
+    "id": "n111",
+    "BaseAttr": "AdAtkEhan,1,50;AdSpdEhan,1,50;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "n1111": {
+    "id": "n1111",
+    "BaseAttr": "AdAtkEhan,1,50;AdSpdEhan,1,50;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "n12": {
+    "id": "n12",
+    "BaseAttr": "Atk,1,3000;HitComboRate,1,100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "n121": {
+    "id": "n121",
+    "BaseAttr": "Atk,1,3000;HitComboRate,1,100;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "n1211": {
+    "id": "n1211",
+    "BaseAttr": "Atk,1,3000;HitComboRate,1,100;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "n15": {
+    "id": "n15",
+    "BaseAttr": "AdAtkEhan,1,50;AdSpdEhan,1,50;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "n16": {
+    "id": "n16",
+    "BaseAttr": "Atk,1,3000;HitComboRate,1,100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "n2": {
+    "id": "n2",
+    "BaseAttr": "AdAtkEhan,1,20;ShockDefNeg,1,8;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "n21": {
+    "id": "n21",
+    "BaseAttr": "AdSpdEhan,1,50;ShockDefNeg,1,14;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "n211": {
+    "id": "n211",
+    "BaseAttr": "AdSpdEhan,1,50;ShockDefNeg,1,14;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "n2111": {
+    "id": "n2111",
+    "BaseAttr": "AdSpdEhan,1,50;ShockDefNeg,1,14;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "n22": {
+    "id": "n22",
+    "BaseAttr": "Atk,1,3000;HitComboRate,1,100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "n221": {
+    "id": "n221",
+    "BaseAttr": "Atk,1,3000;HitComboRate,1,100;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "n2211": {
+    "id": "n2211",
+    "BaseAttr": "Atk,1,3000;HitComboRate,1,100;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "n25": {
+    "id": "n25",
+    "BaseAttr": "AdSpdEhan,1,50;ShockDefNeg,1,14;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "n26": {
+    "id": "n26",
+    "BaseAttr": "Atk,1,3000;HitComboRate,1,100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "n3": {
+    "id": "n3",
+    "BaseAttr": "DisorderDef,1,250;FireDef,1,250;ForgetDef,1,250;GfireDef,1,250;PoisonDef,1,250;RainDef,1,250;SanshiDef,1,250;SealDef,1,250;SleepDef,1,250;ThunderDef,1,250;WindDef,1,250;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "n31": {
+    "id": "n31",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "n311": {
+    "id": "n311",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "n3111": {
+    "id": "n3111",
+    "BaseAttr": "DisorderDef,5,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "n32": {
+    "id": "n32",
+    "BaseAttr": "DisorderDef,1,280;HitComboRate,1,100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "n321": {
+    "id": "n321",
+    "BaseAttr": "DisorderDef,1,280;HitComboRate,1,100;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "n3211": {
+    "id": "n3211",
+    "BaseAttr": "DisorderDef,1,280;HitComboRate,1,100;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "n35": {
+    "id": "n35",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "n36": {
+    "id": "n36",
+    "BaseAttr": "DisorderDef,1,280;HitComboRate,1,100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "n4": {
+    "id": "n4",
+    "BaseAttr": "DisorderDef,1,250;FireDef,1,250;ForgetDef,1,250;GfireDef,1,250;PoisonDef,1,250;RainDef,1,250;SanshiDef,1,250;SealDef,1,250;SleepDef,1,250;ThunderDef,1,250;WindDef,1,250;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "n41": {
+    "id": "n41",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "n411": {
+    "id": "n411",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "n4111": {
+    "id": "n4111",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,2,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "n42": {
+    "id": "n42",
+    "BaseAttr": "HitCombo,1,2;PhyDef,1,300;SealDef,1,280;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "n421": {
+    "id": "n421",
+    "BaseAttr": "HitCombo,1,2;PhyDef,1,300;SealDef,1,280;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "n4211": {
+    "id": "n4211",
+    "BaseAttr": "HitCombo,1,2;PhyDef,1,300;SealDef,1,280;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "n45": {
+    "id": "n45",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "n46": {
+    "id": "n46",
+    "BaseAttr": "HitCombo,1,2;PhyDef,1,300;SealDef,1,280;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "o1": {
+    "id": "o1",
+    "BaseAttr": "AdDefEhan,1,20;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "o11": {
+    "id": "o11",
+    "BaseAttr": "AdAtkEhan,1,50;AdDefEhan,1,50;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "o111": {
+    "id": "o111",
+    "BaseAttr": "AdAtkEhan,1,50;AdDefEhan,1,50;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "o1111": {
+    "id": "o1111",
+    "BaseAttr": "AdAtkEhan,1,50;AdDefEhan,1,50;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "o12": {
+    "id": "o12",
+    "BaseAttr": "Atk,1,3000;HitComboRate,1,100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "o121": {
+    "id": "o121",
+    "BaseAttr": "Atk,1,3000;HitComboRate,1,100;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "o1211": {
+    "id": "o1211",
+    "BaseAttr": "Atk,1,3000;HitComboRate,1,100;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "o15": {
+    "id": "o15",
+    "BaseAttr": "AdAtkEhan,1,50;AdDefEhan,1,50;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "o16": {
+    "id": "o16",
+    "BaseAttr": "Atk,1,3000;HitComboRate,1,100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "o2": {
+    "id": "o2",
+    "BaseAttr": "AdAtkEhan,1,20;ShockDefNeg,1,8;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "o21": {
+    "id": "o21",
+    "BaseAttr": "AdDefEhan,1,50;ShockDefNeg,1,14;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "o211": {
+    "id": "o211",
+    "BaseAttr": "AdDefEhan,1,50;ShockDefNeg,1,14;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "o2111": {
+    "id": "o2111",
+    "BaseAttr": "AdDefEhan,1,50;ShockDefNeg,1,14;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "o22": {
+    "id": "o22",
+    "BaseAttr": "Atk,1,3000;HitComboRate,1,100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "o221": {
+    "id": "o221",
+    "BaseAttr": "Atk,1,3000;HitComboRate,1,100;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "o2211": {
+    "id": "o2211",
+    "BaseAttr": "Atk,1,3000;HitComboRate,1,100;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "o25": {
+    "id": "o25",
+    "BaseAttr": "AdDefEhan,1,50;ShockDefNeg,1,14;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "o26": {
+    "id": "o26",
+    "BaseAttr": "Atk,1,3000;HitComboRate,1,100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "o3": {
+    "id": "o3",
+    "BaseAttr": "DisorderDef,1,250;FireDef,1,250;ForgetDef,1,250;GfireDef,1,250;PoisonDef,1,250;RainDef,1,250;SanshiDef,1,250;SealDef,1,250;SleepDef,1,250;ThunderDef,1,250;WindDef,1,250;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "o31": {
+    "id": "o31",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "o311": {
+    "id": "o311",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "o3111": {
+    "id": "o3111",
+    "BaseAttr": "DisorderDef,5,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "o32": {
+    "id": "o32",
+    "BaseAttr": "DisorderDef,1,280;HitComboRate,1,100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "o321": {
+    "id": "o321",
+    "BaseAttr": "DisorderDef,1,280;HitComboRate,1,100;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "o3211": {
+    "id": "o3211",
+    "BaseAttr": "DisorderDef,1,280;HitComboRate,1,100;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "o35": {
+    "id": "o35",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "o36": {
+    "id": "o36",
+    "BaseAttr": "DisorderDef,1,280;HitComboRate,1,100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "o4": {
+    "id": "o4",
+    "BaseAttr": "DisorderDef,1,250;FireDef,1,250;ForgetDef,1,250;GfireDef,1,250;PoisonDef,1,250;RainDef,1,250;SanshiDef,1,250;SealDef,1,250;SleepDef,1,250;ThunderDef,1,250;WindDef,1,250;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "o41": {
+    "id": "o41",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "o411": {
+    "id": "o411",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "o4111": {
+    "id": "o4111",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,2,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "o42": {
+    "id": "o42",
+    "BaseAttr": "HitCombo,1,2;PhyDef,1,300;SealDef,1,280;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "o421": {
+    "id": "o421",
+    "BaseAttr": "HitCombo,1,2;PhyDef,1,300;SealDef,1,280;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "o4211": {
+    "id": "o4211",
+    "BaseAttr": "HitCombo,1,2;PhyDef,1,300;SealDef,1,280;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "o45": {
+    "id": "o45",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "o46": {
+    "id": "o46",
+    "BaseAttr": "HitCombo,1,2;PhyDef,1,300;SealDef,1,280;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "p1": {
+    "id": "p1",
+    "BaseAttr": "SanshiDefNeg,1,33;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "p11": {
+    "id": "p11",
+    "BaseAttr": "ForgetDefNeg,1,50;SanshiDefNeg,1,83;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "p111": {
+    "id": "p111",
+    "BaseAttr": "ForgetDefNeg,1,50;SanshiDefNeg,1,83;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "p1111": {
+    "id": "p1111",
+    "BaseAttr": "ForgetDefNeg,1,50;SanshiDefNeg,1,83;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "p15": {
+    "id": "p15",
+    "BaseAttr": "ForgetDefNeg,1,50;SanshiDefNeg,1,83;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "p2": {
+    "id": "p2",
+    "BaseAttr": "ForgetDefNeg,1,20;GfireDefNeg,1,33;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "p21": {
+    "id": "p21",
+    "BaseAttr": "GfireDefNeg,1,83;SanshiDefNeg,1,83;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "p211": {
+    "id": "p211",
+    "BaseAttr": "GfireDefNeg,1,83;SanshiDefNeg,1,83;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "p2111": {
+    "id": "p2111",
+    "BaseAttr": "GfireDefNeg,1,83;SanshiDefNeg,1,83;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "p25": {
+    "id": "p25",
+    "BaseAttr": "GfireDefNeg,1,83;SanshiDefNeg,1,83;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "p3": {
+    "id": "p3",
+    "BaseAttr": "DisorderDef,1,250;FireDef,1,250;ForgetDef,1,250;GfireDef,1,250;PoisonDef,1,250;RainDef,1,250;SanshiDef,1,250;SealDef,1,250;SleepDef,1,250;ThunderDef,1,250;WindDef,1,250;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "p31": {
+    "id": "p31",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "p311": {
+    "id": "p311",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "p3111": {
+    "id": "p3111",
+    "BaseAttr": "DisorderDef,5,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "p35": {
+    "id": "p35",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "p4": {
+    "id": "p4",
+    "BaseAttr": "DisorderDef,1,250;FireDef,1,250;ForgetDef,1,250;GfireDef,1,250;PoisonDef,1,250;RainDef,1,250;SanshiDef,1,250;SealDef,1,250;SleepDef,1,250;ThunderDef,1,250;WindDef,1,250;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "p41": {
+    "id": "p41",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "p411": {
+    "id": "p411",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "p4111": {
+    "id": "p4111",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,2,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "p45": {
+    "id": "p45",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "q1": {
+    "id": "q1",
+    "BaseAttr": "CharmEhan,1,20;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "q11": {
+    "id": "q11",
+    "BaseAttr": "CharmEhan,1,50;GfireDefNeg,1,83;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "q111": {
+    "id": "q111",
+    "BaseAttr": "CharmEhan,1,50;GfireDefNeg,1,83;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "q1111": {
+    "id": "q1111",
+    "BaseAttr": "CharmEhan,1,50;GfireDefNeg,1,83;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "q15": {
+    "id": "q15",
+    "BaseAttr": "CharmEhan,1,50;GfireDefNeg,1,83;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "q2": {
+    "id": "q2",
+    "BaseAttr": "ForgetDefNeg,1,20;GfireDefNeg,1,33;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "q21": {
+    "id": "q21",
+    "BaseAttr": "ForgetDefNeg,1,50;GfireDefNeg,1,83;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "q211": {
+    "id": "q211",
+    "BaseAttr": "ForgetDefNeg,1,50;GfireDefNeg,1,83;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "q2111": {
+    "id": "q2111",
+    "BaseAttr": "ForgetDefNeg,1,50;GfireDefNeg,1,83;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "q25": {
+    "id": "q25",
+    "BaseAttr": "ForgetDefNeg,1,50;GfireDefNeg,1,83;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "q3": {
+    "id": "q3",
+    "BaseAttr": "DisorderDef,1,250;FireDef,1,250;ForgetDef,1,250;GfireDef,1,250;PoisonDef,1,250;RainDef,1,250;SanshiDef,1,250;SealDef,1,250;SleepDef,1,250;ThunderDef,1,250;WindDef,1,250;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "q31": {
+    "id": "q31",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "q311": {
+    "id": "q311",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "q3111": {
+    "id": "q3111",
+    "BaseAttr": "DisorderDef,5,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "q35": {
+    "id": "q35",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "q4": {
+    "id": "q4",
+    "BaseAttr": "DisorderDef,1,250;FireDef,1,250;ForgetDef,1,250;GfireDef,1,250;PoisonDef,1,250;RainDef,1,250;SanshiDef,1,250;SealDef,1,250;SleepDef,1,250;ThunderDef,1,250;WindDef,1,250;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "q41": {
+    "id": "q41",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "q411": {
+    "id": "q411",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "q4111": {
+    "id": "q4111",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,2,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "q45": {
+    "id": "q45",
+    "BaseAttr": "DisorderDef,1,400;FireDef,1,400;ForgetDef,1,400;GfireDef,1,400;PhyDef,1,300;PoisonDef,1,400;RainDef,1,400;SanshiDef,1,400;SealDef,1,400;SleepDef,1,400;ThunderDef,1,400;WindDef,1,400;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "r1": {
+    "id": "r1",
+    "BaseAttr": "Atk,1,1305;HpMax,1,5220;MpMax,1,5220;Speed,1,35;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "r11": {
+    "id": "r11",
+    "BaseAttr": "Atk,1,3000;DisorderDef,1,200;HpMax,1,7040;MpMax,1,7040;PoisonDef,1,200;SealDef,1,200;SleepDef,1,200;Speed,2,70;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "r111": {
+    "id": "r111",
+    "BaseAttr": "Atk,1,3000;DisorderDef,2,200;FireDef,1,200;HpMax,1,7040;MpMax,1,7040;PoisonDef,1,200;RainDef,1,200;SealDef,2,200;SleepDef,2,200;Speed,4,70;ThunderDef,1,200;WindDef,1,200;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "r1111": {
+    "id": "r1111",
+    "BaseAttr": "Atk,1,3000;DisorderDef,1,200;FireDef,1,200;HpMax,1,7040;MpMax,1,7040;PoisonDef,1,200;RainDef,1,200;SealDef,1,200;SleepDef,1,200;Speed,1,70;ThunderDef,1,200;WindDef,1,200;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "r15": {
+    "id": "r15",
+    "BaseAttr": "Atk,1,3000;DisorderDef,1,200;FireDef,1,200;HpMax,1,7040;MpMax,1,7040;PoisonDef,1,200;RainDef,1,200;SealDef,1,200;SleepDef,1,200;Speed,1,70;ThunderDef,1,200;WindDef,1,200;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "r2": {
+    "id": "r2",
+    "BaseAttr": "DisorderDef,1,250;FireDef,1,250;ForgetDef,1,250;GfireDef,1,250;PoisonDef,1,250;RainDef,1,250;SanshiDef,1,250;SealDef,1,250;SleepDef,1,250;Speed,1,35;ThunderDef,1,250;WindDef,1,250;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "r21": {
+    "id": "r21",
+    "BaseAttr": "DisorderDef,1,200;ForgetDef,1,200;PoisonDef,1,200;SealDef,1,200;SleepDef,1,200;Speed,1,70;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "r211": {
+    "id": "r211",
+    "BaseAttr": "DisorderDef,2,200;FireDef,1,200;ForgetDef,2,200;GfireDef,1,200;PoisonDef,1,200;RainDef,1,200;SanshiDef,1,200;SealDef,2,200;SleepDef,2,200;Speed,4,70;ThunderDef,1,200;WindDef,1,200;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "r2111": {
+    "id": "r2111",
+    "BaseAttr": "DisorderDef,1,200;FireDef,1,200;ForgetDef,1,200;GfireDef,1,200;PoisonDef,1,200;RainDef,1,200;SanshiDef,1,200;SealDef,1,200;SleepDef,1,200;Speed,1,70;ThunderDef,1,200;WindDef,1,200;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "r25": {
+    "id": "r25",
+    "BaseAttr": "DisorderDef,1,200;FireDef,1,200;ForgetDef,1,200;GfireDef,1,200;PoisonDef,1,200;RainDef,1,200;SanshiDef,1,200;SealDef,1,200;SleepDef,1,200;Speed,1,70;ThunderDef,1,200;WindDef,1,200;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "r3": {
+    "id": "r3",
+    "BaseAttr": "PhyDef,1,200;Speed,1,46;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "r31": {
+    "id": "r31",
+    "BaseAttr": "HpPercent,2,123;PhyDef,1,200;Speed,2,70;VoidRate,1,100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "r311": {
+    "id": "r311",
+    "BaseAttr": "AtkPercent,1,210;HpPercent,1,123;PhyDef,1,200;Speed,2,70;VoidRate,1,100;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "r3111": {
+    "id": "r3111",
+    "BaseAttr": "AtkPercent,1,210;HpPercent,1,123;PhyDef,1,200;Speed,1,70;VoidRate,1,100;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "r35": {
+    "id": "r35",
+    "BaseAttr": "AtkPercent,1,210;HpPercent,3,123;PhyDef,1,200;Speed,3,70;VoidRate,1,100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "s1": {
+    "id": "s1",
+    "BaseAttr": "Atk,1,1305;HpMax,1,5220;MpMax,1,5220;Speed,1,-70;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "s11": {
+    "id": "s11",
+    "BaseAttr": "Atk,1,3000;DisorderDef,1,200;HpMax,1,7040;MpMax,1,7040;PoisonDef,1,200;SealDef,1,200;SleepDef,1,200;Speed,1,-100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "s111": {
+    "id": "s111",
+    "BaseAttr": "Atk,1,3000;DisorderDef,2,200;FireDef,1,200;HpMax,1,7040;MpMax,1,7040;PoisonDef,1,200;RainDef,1,200;SealDef,2,200;SleepDef,2,200;Speed,4,-100;ThunderDef,1,200;WindDef,1,200;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "s1111": {
+    "id": "s1111",
+    "BaseAttr": "Atk,1,3000;DisorderDef,1,200;FireDef,1,200;HpMax,1,7040;MpMax,1,7040;PoisonDef,1,200;RainDef,1,200;SealDef,1,200;SleepDef,1,200;Speed,1,-100;ThunderDef,1,200;WindDef,1,200;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "s12": {
+    "id": "s12",
+    "BaseAttr": "DisorderDef,1,200;HitRate,1,200;SealDef,1,200;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "s121": {
+    "id": "s121",
+    "BaseAttr": "DisorderDef,1,200;HitRate,1,200;SealDef,1,200;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "s1211": {
+    "id": "s1211",
+    "BaseAttr": "DisorderDef,1,200;HitRate,1,200;SealDef,1,200;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "s15": {
+    "id": "s15",
+    "BaseAttr": "Atk,1,3000;DisorderDef,1,200;FireDef,1,200;HpMax,1,7040;MpMax,1,7040;PoisonDef,1,200;RainDef,1,200;SealDef,1,200;SleepDef,1,200;Speed,1,-100;ThunderDef,1,200;WindDef,1,200;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "s16": {
+    "id": "s16",
+    "BaseAttr": "DisorderDef,1,200;HitRate,1,200;SealDef,1,200;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "s2": {
+    "id": "s2",
+    "BaseAttr": "DisorderDef,1,250;FireDef,1,250;ForgetDef,1,250;GfireDef,1,250;PoisonDef,1,250;RainDef,1,250;SanshiDef,1,250;SealDef,1,250;SleepDef,1,250;Speed,1,-70;ThunderDef,1,250;WindDef,1,250;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "s21": {
+    "id": "s21",
+    "BaseAttr": "DisorderDef,1,200;ForgetDef,1,200;PoisonDef,1,200;SealDef,1,200;SleepDef,1,200;Speed,1,-100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "s211": {
+    "id": "s211",
+    "BaseAttr": "DisorderDef,2,200;FireDef,1,200;ForgetDef,2,200;GfireDef,1,200;PoisonDef,1,200;RainDef,1,200;SanshiDef,1,200;SealDef,2,200;SleepDef,2,200;Speed,4,-100;ThunderDef,1,200;WindDef,1,200;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "s2111": {
+    "id": "s2111",
+    "BaseAttr": "DisorderDef,1,200;FireDef,1,200;ForgetDef,1,200;GfireDef,1,200;PoisonDef,1,200;RainDef,1,200;SanshiDef,1,200;SealDef,1,200;SleepDef,1,200;Speed,1,-100;ThunderDef,1,200;WindDef,1,200;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "s22": {
+    "id": "s22",
+    "BaseAttr": "Atk,1,5000;FatalRate,1,200;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "s221": {
+    "id": "s221",
+    "BaseAttr": "Atk,1,5000;FatalRate,1,200;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "s2211": {
+    "id": "s2211",
+    "BaseAttr": "Atk,1,5000;FatalRate,1,200;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "s25": {
+    "id": "s25",
+    "BaseAttr": "DisorderDef,1,200;FireDef,1,200;ForgetDef,1,200;GfireDef,1,200;PoisonDef,1,200;RainDef,1,200;SanshiDef,1,200;SealDef,1,200;SleepDef,1,200;Speed,1,-100;ThunderDef,1,200;WindDef,1,200;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "s26": {
+    "id": "s26",
+    "BaseAttr": "Atk,1,5000;FatalRate,1,200;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "s3": {
+    "id": "s3",
+    "BaseAttr": "PhyDef,1,200;Speed,1,-70;",
+    "RndRange": "70,80,60;81,90,35;91,100,5;"
+  },
+  "s31": {
+    "id": "s31",
+    "BaseAttr": "HpPercent,2,123;PhyDef,1,200;Speed,2,-100;VoidRate,1,100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "s311": {
+    "id": "s311",
+    "BaseAttr": "AtkPercent,1,210;HpPercent,1,123;PhyDef,1,200;Speed,2,-100;VoidRate,1,100;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "s3111": {
+    "id": "s3111",
+    "BaseAttr": "AtkPercent,1,210;HpPercent,1,123;PhyDef,1,200;Speed,1,-100;VoidRate,1,100;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "s32": {
+    "id": "s32",
+    "BaseAttr": "AtkPercent,1,210;PhyDef,1,200;VoidRate,1,100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "s321": {
+    "id": "s321",
+    "BaseAttr": "AtkPercent,1,210;PhyDef,1,200;VoidRate,1,100;",
+    "RndRange": "70,80,60;80,89,30;85,100,10;"
+  },
+  "s3211": {
+    "id": "s3211",
+    "BaseAttr": "AtkPercent,1,210;PhyDef,1,200;VoidRate,1,100;",
+    "RndRange": "64,90,55;70,90,30;70,100,15;"
+  },
+  "s35": {
+    "id": "s35",
+    "BaseAttr": "AtkPercent,1,210;HpPercent,3,123;PhyDef,1,200;Speed,3,-100;VoidRate,1,100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10;"
+  },
+  "s36": {
+    "id": "s36",
+    "BaseAttr": "AtkPercent,1,210;PhyDef,1,200;VoidRate,1,100;",
+    "RndRange": "55,89,45;70,89,45;90,100,10"
+  }
+}

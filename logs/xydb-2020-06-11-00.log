@@ -1,0 +1,394 @@
+[2020-06-11 00:02:40.136] [INFO] console - <receive data> disconnect ping timeout
+[2020-06-11 00:03:38.256] [INFO] console - [undefined]完成注册
+[2020-06-11 00:03:38.259] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 00:03:38.260] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 00:03:38.260] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 00:03:38.261] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 00:03:38.262] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 00:03:38.262] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 00:03:38.274] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-11 00:03:38.275] [INFO] console - select * from qy_agent
+[2020-06-11 00:03:38.276] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-11 00:03:38.278] [INFO] console - select * from qy_agent
+[2020-06-11 00:03:38.279] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-11 00:03:38.280] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-11 00:05:00.042] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-11 00:05:00.131] [INFO] console - SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-11 00:05:00.150] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39380;
+[2020-06-11 00:05:00.158] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39380;
+[2020-06-11 00:05:00.161] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39380;
+[2020-06-11 00:05:00.170] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39380;
+[2020-06-11 00:07:35.904] [INFO] console - <receive data> disconnect ping timeout
+[2020-06-11 00:12:59.376] [INFO] console - [测试区]完成注册
+[2020-06-11 00:12:59.478] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:12:59.486] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:12:59.487] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:12:59.489] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:12:59.490] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 00:12:59.490] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:12:59.491] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:12:59.492] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 00:12:59.493] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 00:12:59.495] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:12:59.496] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:12:59.496] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:12:59.496] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:12:59.497] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:12:59.497] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 00:12:59.497] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:12:59.500] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:12:59.501] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 00:12:59.501] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 00:12:59.501] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:12:59.575] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:12:59.577] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:12:59.579] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:12:59.580] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:12:59.581] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:12:59.592] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 00:12:59.594] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:12:59.595] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:12:59.596] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 00:12:59.597] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:12:59.599] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:12:59.600] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:12:59.601] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:12:59.602] [INFO] console - select * from shop_goods
+[2020-06-11 00:12:59.615] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:12:59.616] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:12:59.617] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 00:12:59.618] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 00:12:59.620] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:12:59.707] [INFO] console - select * from shop_goods
+[2020-06-11 00:14:23.686] [INFO] console - <receive data> disconnect ping timeout
+[2020-06-11 00:15:55.247] [INFO] console - <receive data> disconnect transport close
+[2020-06-11 00:16:22.033] [INFO] console - [undefined]完成注册
+[2020-06-11 00:16:26.973] [INFO] console - <receive data> disconnect transport close
+[2020-06-11 00:16:39.822] [INFO] console - 系统配置表加载完毕
+[2020-06-11 00:16:39.916] [INFO] console - 数据库初始化完毕
+[2020-06-11 00:16:40.042] [INFO] console - 数据库模块启动完毕，正在监听本地:8806
+[2020-06-11 00:16:50.366] [INFO] console - [测试区]完成注册
+[2020-06-11 00:18:02.664] [INFO] console - <receive data> disconnect transport close
+[2020-06-11 00:18:08.985] [INFO] console - [测试区]完成注册
+[2020-06-11 00:18:29.849] [INFO] console - <receive data> disconnect transport close
+[2020-06-11 00:21:14.703] [INFO] console - [测试区]完成注册
+[2020-06-11 00:21:40.112] [INFO] console - <receive data> disconnect transport close
+[2020-06-11 00:21:52.277] [INFO] console - [测试区]完成注册
+[2020-06-11 00:22:12.553] [INFO] console - <receive data> disconnect transport close
+[2020-06-11 00:22:26.531] [INFO] console - [测试区]完成注册
+[2020-06-11 00:22:26.633] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:22:26.646] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:22:26.647] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:22:26.648] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:22:26.650] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 00:22:26.651] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:22:26.652] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:22:26.653] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 00:22:26.654] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 00:22:26.655] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:22:26.655] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:22:26.656] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:22:26.656] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:22:26.656] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:22:26.657] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 00:22:26.657] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:22:26.657] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:22:26.657] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 00:22:26.658] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 00:22:26.658] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:22:26.691] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 00:22:26.694] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:22:26.696] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:22:26.699] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:22:26.700] [INFO] console - select * from shop_goods
+[2020-06-11 00:22:26.701] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:22:26.702] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:22:26.703] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 00:22:26.704] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:22:26.705] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:22:26.723] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:22:26.724] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:22:26.726] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:22:26.727] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:22:26.728] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:22:26.729] [INFO] console - select * from shop_goods
+[2020-06-11 00:22:26.731] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:22:26.733] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 00:22:26.734] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 00:22:26.736] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:22:41.550] [INFO] console - [undefined]完成注册
+[2020-06-11 00:22:41.654] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 00:22:41.658] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 00:22:41.660] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 00:22:41.660] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 00:22:41.661] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 00:22:41.662] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 00:22:41.663] [INFO] console - select * from qy_agent
+[2020-06-11 00:22:41.666] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-11 00:22:41.668] [INFO] console - select * from qy_agent
+[2020-06-11 00:22:41.669] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-11 00:22:41.671] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-11 00:22:41.672] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-11 00:22:53.555] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-11 00:22:53.565] [INFO] console - SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-11 00:22:53.582] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39380;
+[2020-06-11 00:22:53.593] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39380;
+[2020-06-11 00:22:53.604] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39380;
+[2020-06-11 00:22:53.614] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39380;
+[2020-06-11 00:25:46.571] [INFO] console - <receive data> disconnect ping timeout
+[2020-06-11 00:26:14.562] [INFO] console - <receive data> disconnect transport close
+[2020-06-11 00:26:22.665] [INFO] console - [undefined]完成注册
+[2020-06-11 00:26:22.768] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 00:26:22.773] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 00:26:22.775] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 00:26:22.776] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 00:26:22.777] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 00:26:22.778] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 00:26:22.808] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-11 00:26:22.811] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-11 00:26:22.813] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-11 00:26:22.814] [INFO] console - select * from qy_agent
+[2020-06-11 00:26:22.816] [INFO] console - select * from qy_agent
+[2020-06-11 00:26:22.817] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-11 00:26:35.702] [INFO] console - [测试区]完成注册
+[2020-06-11 00:26:35.705] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:26:35.705] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:26:35.706] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:26:35.707] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:26:35.707] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 00:26:35.714] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:26:35.715] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:26:35.716] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 00:26:35.716] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 00:26:35.717] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:26:35.718] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:26:35.718] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:26:35.718] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:26:35.719] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:26:35.719] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 00:26:35.720] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:26:35.720] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:26:35.720] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 00:26:35.720] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 00:26:35.721] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:26:35.721] [INFO] console - select * from shop_goods
+[2020-06-11 00:26:35.722] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:26:35.724] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:26:35.725] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:26:35.726] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:26:35.727] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:26:35.728] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:26:35.729] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 00:26:35.730] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 00:26:35.731] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:26:35.744] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:26:35.745] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:26:35.746] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:26:35.748] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:26:35.749] [INFO] console - select * from shop_goods
+[2020-06-11 00:26:35.751] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:26:35.752] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:26:35.755] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 00:26:35.756] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 00:26:35.762] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:27:23.917] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-11 00:27:23.940] [INFO] console - SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-11 00:27:23.959] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39380;
+[2020-06-11 00:27:23.967] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39380;
+[2020-06-11 00:27:23.976] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39380;
+[2020-06-11 00:27:24.341] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39380;
+[2020-06-11 00:28:58.924] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 00:28:58.939] [INFO] console - SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 00:28:58.954] [INFO] console - SQL: INSERT INTO qy_account(account, password,invite, register_time) VALUES('flashpf', '010421','', NOW() );
+[2020-06-11 00:28:58.964] [INFO] console - INSERT INTO qy_account(account, password,invite, register_time) VALUES('flashpf', '010421','', NOW() );
+[2020-06-11 00:29:01.273] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 00:29:01.288] [INFO] console - SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 00:29:01.302] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39381;
+[2020-06-11 00:29:01.312] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39381;
+[2020-06-11 00:29:01.325] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-11 00:29:01.334] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-11 00:29:04.659] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39381' OR name = '智容绿寄') AND serverid = '1000';
+[2020-06-11 00:29:04.703] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39381' OR name = '智容绿寄') AND serverid = '1000';
+[2020-06-11 00:29:04.719] [INFO] console - SQL: INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('智容绿寄', '1','1',1,'1001',1010,-1,-1, NOW(),'39381','1000',0,'[]' );
+[2020-06-11 00:29:04.729] [INFO] console - INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('智容绿寄', '1','1',1,'1001',1010,-1,-1, NOW(),'39381','1000',0,'[]' );
+[2020-06-11 00:30:20.220] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 00:30:20.236] [INFO] console - SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 00:30:20.253] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39381;
+[2020-06-11 00:30:20.261] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-11 00:30:20.263] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39381;
+[2020-06-11 00:30:20.272] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-11 00:31:45.982] [INFO] console - <receive data> disconnect transport close
+[2020-06-11 00:53:34.335] [INFO] console - 系统配置表加载完毕
+[2020-06-11 00:53:34.425] [INFO] console - 数据库初始化完毕
+[2020-06-11 00:53:34.523] [INFO] console - 数据库模块启动完毕，正在监听本地:8806
+[2020-06-11 00:54:01.916] [INFO] console - [测试区]完成注册
+[2020-06-11 00:54:02.016] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:54:02.027] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:54:02.028] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:54:02.029] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:54:02.030] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 00:54:02.031] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:54:02.032] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:54:02.032] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 00:54:02.033] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 00:54:02.034] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:54:02.035] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:54:02.035] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:54:02.035] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:54:02.036] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:54:02.036] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 00:54:02.036] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:54:02.037] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:54:02.037] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 00:54:02.037] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 00:54:02.037] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:54:02.134] [INFO] console - select * from shop_goods
+[2020-06-11 00:54:02.136] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 00:54:02.138] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:54:02.140] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:54:02.142] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:54:02.143] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 00:54:02.144] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:54:02.146] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:54:02.147] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:54:02.148] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:54:02.157] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:54:02.159] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:54:02.161] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:54:02.162] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:54:02.163] [INFO] console - select * from shop_goods
+[2020-06-11 00:54:02.164] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:54:02.165] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:54:02.167] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 00:54:02.168] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 00:54:02.173] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:55:05.321] [INFO] console - <receive data> disconnect transport close
+[2020-06-11 00:55:25.485] [INFO] console - [测试区]完成注册
+[2020-06-11 00:55:25.489] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:55:25.490] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:55:25.491] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:55:25.492] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:55:25.493] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 00:55:25.493] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:55:25.494] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:55:25.500] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 00:55:25.501] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 00:55:25.502] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:55:25.502] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:55:25.504] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:55:25.504] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:55:25.504] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:55:25.505] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 00:55:25.505] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:55:25.505] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:55:25.506] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 00:55:25.506] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 00:55:25.506] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:55:25.507] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:55:25.508] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:55:25.509] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:55:25.510] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:55:25.511] [INFO] console - select * from shop_goods
+[2020-06-11 00:55:25.512] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:55:25.513] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:55:25.515] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 00:55:25.517] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 00:55:25.518] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:55:25.524] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:55:25.530] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:55:25.532] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:55:25.533] [INFO] console - select * from shop_goods
+[2020-06-11 00:55:25.534] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:55:25.536] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:55:25.538] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:55:25.539] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 00:55:25.540] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:55:25.542] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 00:57:01.116] [INFO] console - <receive data> disconnect transport close
+[2020-06-11 00:57:10.978] [INFO] console - [测试区]完成注册
+[2020-06-11 00:57:10.982] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:57:10.983] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:57:10.984] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:57:10.984] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:57:10.985] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 00:57:10.986] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:57:10.986] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:57:10.987] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 00:57:10.988] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 00:57:11.006] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:57:11.007] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:57:11.008] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:57:11.008] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:57:11.008] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:57:11.009] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 00:57:11.009] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:57:11.009] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:57:11.010] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 00:57:11.010] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 00:57:11.010] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:57:11.011] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:57:11.012] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:57:11.013] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:57:11.014] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:57:11.016] [INFO] console - select * from shop_goods
+[2020-06-11 00:57:11.017] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:57:11.018] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:57:11.019] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 00:57:11.022] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 00:57:11.023] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:57:11.030] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:57:11.034] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:57:11.038] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:57:11.039] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:57:11.042] [INFO] console - select * from shop_goods
+[2020-06-11 00:57:11.044] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:57:11.046] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:57:11.048] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 00:57:11.050] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 00:57:11.051] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:58:48.413] [INFO] console - <receive data> disconnect transport close
+[2020-06-11 00:59:37.846] [INFO] console - [测试区]完成注册
+[2020-06-11 00:59:37.848] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:59:37.849] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:59:37.850] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:59:37.857] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:59:37.858] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 00:59:37.858] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 00:59:37.859] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:59:37.859] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:59:37.860] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 00:59:37.861] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 00:59:37.861] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:59:37.862] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:59:37.862] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:59:37.863] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:59:37.863] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:59:37.863] [INFO] console - SQL: select * from shop_goods
+[2020-06-11 00:59:37.864] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 00:59:37.866] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:59:37.867] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:59:37.867] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-11 00:59:37.868] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-11 00:59:37.868] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:59:37.891] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:59:37.893] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:59:37.894] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:59:37.895] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:59:37.896] [INFO] console - select * from shop_goods
+[2020-06-11 00:59:37.897] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-11 00:59:37.898] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:59:37.900] [INFO] console - select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 00:59:37.901] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 00:59:37.902] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 00:59:37.915] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:59:37.918] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-11 00:59:37.919] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-11 00:59:37.920] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-11 00:59:37.922] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-11 00:59:37.923] [INFO] console - select * from shop_goods
+[2020-06-11 00:59:37.925] [INFO] console - select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-11 00:59:37.926] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-11 00:59:37.930] [INFO] console - SELECT * FROM qy_role
+[2020-06-11 00:59:37.943] [INFO] console - select * from qy_relation where status = 0
+[2020-06-11 00:59:37.944] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-11 00:59:38.082] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;

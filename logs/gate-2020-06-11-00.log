@@ -1,0 +1,130 @@
+[2020-06-11 00:03:37.778] [INFO] console - 命令行模块启动完毕
+[2020-06-11 00:03:38.236] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 00:03:38.239] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-11 00:03:38.240] [INFO] console - 服务器管理模块启动完毕
+[2020-06-11 00:03:38.240] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 00:03:38.241] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-11 00:03:38.241] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 00:03:38.242] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-11 00:05:00.034] [INFO] console - {
+  account: 'test01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-11 00:05:00.037] [INFO] console - test01 account
+[2020-06-11 00:05:00.038] [INFO] console - 010421 password
+[2020-06-11 00:05:00.039] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-11 00:05:00.145] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39380;
+[2020-06-11 00:05:00.156] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39380;
+[2020-06-11 00:05:01.236] [INFO] console - 1000 =serverid
+[2020-06-11 00:05:01.238] [INFO] console - 0 net_ip
+[2020-06-11 00:05:01.240] [INFO] console - 127.0.0.1 =host
+[2020-06-11 00:05:01.245] [INFO] console - problem with request: connect ECONNREFUSED 127.0.0.1:8811
+[2020-06-11 00:05:41.024] [INFO] console - 1000 =serverid
+[2020-06-11 00:05:41.026] [INFO] console - 0 net_ip
+[2020-06-11 00:05:41.028] [INFO] console - 127.0.0.1 =host
+[2020-06-11 00:05:41.031] [INFO] console - problem with request: connect ECONNREFUSED 127.0.0.1:8811
+[2020-06-11 00:06:31.108] [INFO] console - 1000 =serverid
+[2020-06-11 00:06:34.071] [INFO] console - 0 net_ip
+[2020-06-11 00:06:55.705] [INFO] console - 127.0.0.1 =host
+[2020-06-11 00:07:45.377] [INFO] console - problem with request: connect ECONNREFUSED 127.0.0.1:8811
+[2020-06-11 00:16:20.852] [INFO] console - 1000 =serverid
+[2020-06-11 00:16:20.855] [INFO] console - 0 net_ip
+[2020-06-11 00:16:20.856] [INFO] console - 127.0.0.1 =host
+[2020-06-11 00:16:20.859] [INFO] console - 1000 =serverid
+[2020-06-11 00:16:20.861] [INFO] console - 0 net_ip
+[2020-06-11 00:16:20.863] [INFO] console - 127.0.0.1 =host
+[2020-06-11 00:16:20.866] [INFO] console - 1000 =serverid
+[2020-06-11 00:16:20.867] [INFO] console - 0 net_ip
+[2020-06-11 00:16:20.868] [INFO] console - 127.0.0.1 =host
+[2020-06-11 00:16:20.872] [INFO] console - 1000 =serverid
+[2020-06-11 00:16:20.874] [INFO] console - 0 net_ip
+[2020-06-11 00:16:20.875] [INFO] console - 127.0.0.1 =host
+[2020-06-11 00:16:20.880] [INFO] console - problem with request: connect ECONNREFUSED 127.0.0.1:8811
+[2020-06-11 00:16:20.881] [INFO] console - problem with request: connect ECONNREFUSED 127.0.0.1:8811
+[2020-06-11 00:16:20.882] [INFO] console - problem with request: connect ECONNREFUSED 127.0.0.1:8811
+[2020-06-11 00:16:20.883] [INFO] console - problem with request: connect ECONNREFUSED 127.0.0.1:8811
+[2020-06-11 00:22:41.108] [INFO] console - 命令行模块启动完毕
+[2020-06-11 00:22:41.527] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 00:22:41.531] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-11 00:22:41.532] [INFO] console - 服务器管理模块启动完毕
+[2020-06-11 00:22:41.532] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 00:22:41.532] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-11 00:22:41.533] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 00:22:41.533] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-11 00:22:53.546] [INFO] console - {
+  account: 'test01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-11 00:22:53.549] [INFO] console - test01 account
+[2020-06-11 00:22:53.550] [INFO] console - 010421 password
+[2020-06-11 00:22:53.552] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-11 00:22:53.579] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39380;
+[2020-06-11 00:22:53.600] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39380;
+[2020-06-11 00:22:54.457] [INFO] console - 1000 =serverid
+[2020-06-11 00:22:54.460] [INFO] console - 0 net_ip
+[2020-06-11 00:22:54.461] [INFO] console - 127.0.0.1 =host
+[2020-06-11 00:23:43.428] [INFO] console - 1000 =serverid
+[2020-06-11 00:23:43.430] [INFO] console - 0 net_ip
+[2020-06-11 00:23:43.431] [INFO] console - 127.0.0.1 =host
+[2020-06-11 00:24:40.117] [INFO] console - 1000 =serverid
+[2020-06-11 00:26:22.232] [INFO] console - 命令行模块启动完毕
+[2020-06-11 00:26:22.646] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 00:26:22.650] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-11 00:26:22.650] [INFO] console - 服务器管理模块启动完毕
+[2020-06-11 00:26:22.651] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 00:26:22.651] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-11 00:26:22.652] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 00:26:22.652] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-11 00:27:23.907] [INFO] console - {
+  account: 'test01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-11 00:27:23.911] [INFO] console - test01 account
+[2020-06-11 00:27:23.912] [INFO] console - 010421 password
+[2020-06-11 00:27:23.914] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-11 00:27:23.954] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39380;
+[2020-06-11 00:27:23.964] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39380;
+[2020-06-11 00:27:28.715] [INFO] console - 1000 =serverid
+[2020-06-11 00:27:28.717] [INFO] console - 0 net_ip
+[2020-06-11 00:27:28.719] [INFO] console - 127.0.0.1 =host
+[2020-06-11 00:28:13.567] [INFO] console - 1000 =serverid
+[2020-06-11 00:28:13.569] [INFO] console - 0 net_ip
+[2020-06-11 00:28:13.570] [INFO] console - 127.0.0.1 =host
+[2020-06-11 00:28:58.919] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 00:28:58.950] [INFO] console - SQL: INSERT INTO qy_account(account, password,invite, register_time) VALUES('flashpf', '010421','', NOW() );
+[2020-06-11 00:29:01.265] [INFO] console - {
+  account: 'flashpf',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-11 00:29:01.268] [INFO] console - flashpf account
+[2020-06-11 00:29:01.269] [INFO] console - 010421 password
+[2020-06-11 00:29:01.270] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 00:29:01.299] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39381;
+[2020-06-11 00:29:01.321] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-11 00:29:04.654] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39381' OR name = '智容绿寄') AND serverid = '1000';
+[2020-06-11 00:29:04.715] [INFO] console - SQL: INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('智容绿寄', '1','1',1,'1001',1010,-1,-1, NOW(),'39381','1000',0,'[]' );
+[2020-06-11 00:29:04.757] [INFO] console - 1000 =serverid
+[2020-06-11 00:29:04.759] [INFO] console - 0 net_ip
+[2020-06-11 00:29:04.761] [INFO] console - 127.0.0.1 =host
+[2020-06-11 00:30:20.208] [INFO] console - {
+  account: 'flashpf',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-11 00:30:20.211] [INFO] console - flashpf account
+[2020-06-11 00:30:20.213] [INFO] console - 010421 password
+[2020-06-11 00:30:20.216] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-11 00:30:20.249] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39381;
+[2020-06-11 00:30:20.257] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-11 00:30:21.210] [INFO] console - 1000 =serverid
+[2020-06-11 00:30:21.212] [INFO] console - 0 net_ip
+[2020-06-11 00:30:21.214] [INFO] console - 127.0.0.1 =host

@@ -1,0 +1,23 @@
+{
+  "1": {
+    "effect_id": 1,
+    "attr": "ATK",
+    "type": 1,
+    "num": 0,
+    "resid": ""
+  },
+  "2": {
+    "effect_id": 2,
+    "attr": "DEF",
+    "type": 2,
+    "num": 3000,
+    "resid": ""
+  },
+  "3": {
+    "effect_id": 3,
+    "attr": "1;2",
+    "type": 0,
+    "num": 0,
+    "resid": ""
+  }
+}

@@ -1,0 +1,26 @@
+[2020-06-13 17:06:54.709] [INFO] console - agent[1045] socket, close
+[2020-06-13 17:08:56.502] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592038104) WHERE roleid =157846;
+[2020-06-13 17:09:38.029] [INFO] console - SQL: UPDATE qy_role SET mountid=0 WHERE roleid=157846;
+[2020-06-13 17:10:06.440] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157846 AND resid=7;
+[2020-06-13 17:10:06.457] [INFO] console - agent[1046] socket, close
+[2020-06-13 17:11:31.238] [INFO] console - SQL: UPDATE qy_role SET mountid=0 WHERE roleid=157846;
+[2020-06-13 17:14:57.545] [INFO] console - agent[1047] socket, close
+[2020-06-13 17:14:57.547] [INFO] console - agent[1046] socket, close
+[2020-06-13 17:15:27.222] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592038490) WHERE roleid =157846;
+[2020-06-13 17:15:36.002] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157846 AND resid=7;
+[2020-06-13 17:16:10.407] [INFO] console - SQL: UPDATE qy_role SET mountid=0 WHERE roleid=157846;
+[2020-06-13 17:16:29.954] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157846 AND resid=8;
+[2020-06-13 17:16:38.367] [INFO] console - agent[1048] socket, close
+[2020-06-13 17:18:46.614] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592038686) WHERE roleid =157846;
+[2020-06-13 17:19:01.046] [INFO] console - agent[1049] socket, close
+[2020-06-13 17:19:42.908] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592038742) WHERE roleid =157846;
+[2020-06-13 17:23:08.869] [INFO] console - SQL: UPDATE qy_role SET mountid=0 WHERE roleid=157846;
+[2020-06-13 17:23:08.911] [INFO] console - agent[1050] socket, close
+[2020-06-13 17:25:50.987] [INFO] console - agent[1051] socket, close
+[2020-06-13 17:25:50.989] [INFO] console - agent[1050] socket, close
+[2020-06-13 17:26:29.533] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592039144) WHERE roleid =157846;
+[2020-06-13 17:26:40.725] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157846 AND resid=8;
+[2020-06-13 17:26:46.423] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157846 AND resid=6;
+[2020-06-13 17:27:10.982] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157846 AND resid=8;
+[2020-06-13 17:27:27.742] [INFO] console - agent[1052] socket, close
+[2020-06-13 17:27:57.462] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592039230) WHERE roleid =157846;

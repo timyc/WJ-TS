@@ -1,0 +1,8 @@
+[2020-06-11 09:26:54.788] [INFO] console - 命令行模块启动完毕
+[2020-06-11 09:26:55.290] [INFO] console - SQL: select * from qy_agent
+[2020-06-11 09:26:55.295] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-11 09:26:55.295] [INFO] console - 服务器管理模块启动完毕
+[2020-06-11 09:26:55.296] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-11 09:26:55.297] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-11 09:26:55.297] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-11 09:26:55.297] [INFO] console - 封禁设备管理模块启动完毕

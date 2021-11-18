@@ -1,0 +1,73 @@
+[2020-06-13 23:15:46.503] [INFO] console - agent[1010] socket, close
+[2020-06-13 23:17:41.280] [INFO] console - agent[1011] socket, close
+[2020-06-13 23:17:41.283] [INFO] console - agent[1010] socket, close
+[2020-06-13 23:20:03.526] [INFO] console - agent[1013] socket, close
+[2020-06-13 23:20:42.176] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592061589) WHERE roleid =157847;
+[2020-06-13 23:21:52.374] [INFO] console - agent[1014] socket, close
+[2020-06-13 23:24:46.680] [INFO] console - agent[1015] socket, close
+[2020-06-13 23:26:30.135] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592061932) WHERE roleid =157847;
+[2020-06-13 23:26:30.292] [INFO] console - agent[1016] socket, close
+[2020-06-13 23:28:18.548] [INFO] console - agent[1017] socket, close
+[2020-06-13 23:28:18.549] [INFO] console - agent[1016] socket, close
+[2020-06-13 23:28:18.550] [INFO] console - agent[1015] socket, close
+[2020-06-13 23:29:14.079] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592062094) WHERE roleid =157847;
+[2020-06-13 23:30:00.881] [INFO] console - agent[1018] socket, close
+[2020-06-13 23:30:48.532] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592062188) WHERE roleid =157847;
+[2020-06-13 23:31:26.374] [INFO] console - do login....
+[2020-06-13 23:31:29.379] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157846 and qy_account.accountid = qy_role.accountid;
+[2020-06-13 23:31:29.416] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157846 AND state != 0;
+[2020-06-13 23:31:29.469] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE roleid=157846;
+[2020-06-13 23:31:29.507] [INFO] console - 玩家[露烨痴天157846]等级改变，当前1级
+[2020-06-13 23:31:29.513] [INFO] console - SQL: SELECT * FROM qy_pet_1000 WHERE roleid = 157846 and state = 1 limit 20
+[2020-06-13 23:31:31.451] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592062230) WHERE roleid =157846;
+[2020-06-13 23:31:33.164] [INFO] console - agent[1020] socket, close
+[2020-06-13 23:33:37.460] [INFO] console - agent[1019] socket, close
+[2020-06-13 23:33:59.455] [INFO] console - agent[1021] socket, close
+[2020-06-13 23:34:19.670] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592062396) WHERE roleid =157847;
+[2020-06-13 23:34:20.107] [INFO] console - agent[1022] socket, close
+[2020-06-13 23:34:44.505] [INFO] console - agent[1023] socket, close
+[2020-06-13 23:35:05.044] [INFO] console - agent[1024] socket, close
+[2020-06-13 23:35:24.949] [INFO] console - agent[1025] socket, close
+[2020-06-13 23:35:45.052] [INFO] console - agent[1026] socket, close
+[2020-06-13 23:36:10.020] [INFO] console - agent[1027] socket, close
+[2020-06-13 23:36:30.061] [INFO] console - agent[1028] socket, close
+[2020-06-13 23:36:50.838] [INFO] console - agent[1029] socket, close
+[2020-06-13 23:37:15.068] [INFO] console - agent[1030] socket, close
+[2020-06-13 23:37:37.076] [INFO] console - agent[1031] socket, close
+[2020-06-13 23:38:00.075] [INFO] console - agent[1032] socket, close
+[2020-06-13 23:38:09.916] [INFO] console - agent[1033] socket, close
+[2020-06-13 23:38:09.922] [INFO] console - agent[1031] socket, close
+[2020-06-13 23:38:09.923] [INFO] console - agent[1029] socket, close
+[2020-06-13 23:38:09.924] [INFO] console - agent[1027] socket, close
+[2020-06-13 23:38:09.931] [INFO] console - agent[1025] socket, close
+[2020-06-13 23:38:09.932] [INFO] console - agent[1023] socket, close
+[2020-06-13 23:38:09.934] [INFO] console - agent[1021] socket, close
+[2020-06-13 23:38:10.923] [INFO] console - agent[1032] socket, close
+[2020-06-13 23:38:10.927] [INFO] console - agent[1030] socket, close
+[2020-06-13 23:38:10.928] [INFO] console - agent[1028] socket, close
+[2020-06-13 23:38:10.929] [INFO] console - agent[1026] socket, close
+[2020-06-13 23:38:10.933] [INFO] console - agent[1024] socket, close
+[2020-06-13 23:38:10.936] [INFO] console - agent[1022] socket, close
+[2020-06-13 23:38:10.937] [INFO] console - agent[1019] socket, close
+[2020-06-13 23:39:10.537] [INFO] console - agent[1034] socket, close
+[2020-06-13 23:39:53.162] [INFO] console - agent[1035] socket, close
+[2020-06-13 23:41:36.300] [INFO] console - agent[1036] socket, close
+[2020-06-13 23:43:13.543] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592062922) WHERE roleid =157846;
+[2020-06-13 23:43:22.470] [INFO] console - agent[1038] socket, close
+[2020-06-13 23:45:05.525] [INFO] console - agent[1037] socket, close
+[2020-06-13 23:45:05.532] [INFO] console - agent[1036] socket, close
+[2020-06-13 23:45:54.694] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592063081) WHERE roleid =157847;
+[2020-06-13 23:48:16.788] [INFO] console - agent[1039] socket, close
+[2020-06-13 23:49:05.145] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592063269) WHERE roleid =157847;
+[2020-06-13 23:49:25.897] [INFO] console - agent[1040] socket, close
+[2020-06-13 23:49:52.136] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157847 AND resid=10;
+[2020-06-13 23:50:13.620] [INFO] console - agent[1012] socket, close
+[2020-06-13 23:50:42.903] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592063366) WHERE roleid =157848;
+[2020-06-13 23:51:33.429] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157848 AND resid=14;
+[2020-06-13 23:51:53.102] [INFO] console - agent[1040] socket, close
+[2020-06-13 23:51:53.103] [INFO] console - agent[1041] socket, close
+[2020-06-13 23:52:25.202] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592063467) WHERE roleid =157847;
+[2020-06-13 23:55:04.618] [INFO] console - agent[1043] socket, close
+[2020-06-13 23:55:34.196] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592063653) WHERE roleid =157846;
+[2020-06-13 23:55:57.904] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157846 AND resid=6;
+[2020-06-13 23:57:13.236] [INFO] console - agent[1044] socket, close

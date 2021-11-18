@@ -1,0 +1,74 @@
+[2020-06-14 17:00:15.013] [INFO] console - SQL: SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-14 17:00:15.070] [INFO] console - SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-14 17:00:32.550] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 40;
+[2020-06-14 17:00:32.558] [INFO] console - SELECT * FROM qy_role WHERE accountid = 40;
+[2020-06-14 17:00:54.126] [INFO] console - SQL: INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试3') ON DUPLICATE KEY UPDATE text='测试3';
+[2020-06-14 17:00:54.141] [INFO] console - INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试3') ON DUPLICATE KEY UPDATE text='测试3';
+[2020-06-14 17:01:30.943] [INFO] console - SQL: INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试3') ON DUPLICATE KEY UPDATE text='测试3';
+[2020-06-14 17:01:30.958] [INFO] console - INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试3') ON DUPLICATE KEY UPDATE text='测试3';
+[2020-06-14 17:01:56.205] [INFO] console - SQL: SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-14 17:01:56.223] [INFO] console - SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-14 17:02:01.580] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 40;
+[2020-06-14 17:02:01.594] [INFO] console - SELECT * FROM qy_role WHERE accountid = 40;
+[2020-06-14 17:03:26.587] [INFO] console - <receive data> disconnect ping timeout
+[2020-06-14 17:04:20.740] [INFO] console - [undefined]完成注册
+[2020-06-14 17:04:20.743] [INFO] console - SQL: INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试4') ON DUPLICATE KEY UPDATE text='测试4';
+[2020-06-14 17:04:20.744] [INFO] console - SQL: INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试4') ON DUPLICATE KEY UPDATE text='测试4';
+[2020-06-14 17:04:20.745] [INFO] console - SQL: INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试4') ON DUPLICATE KEY UPDATE text='测试4';
+[2020-06-14 17:04:20.756] [INFO] console - INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试4') ON DUPLICATE KEY UPDATE text='测试4';
+[2020-06-14 17:04:20.760] [INFO] console - INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试4') ON DUPLICATE KEY UPDATE text='测试4';
+[2020-06-14 17:04:20.761] [INFO] console - INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试4') ON DUPLICATE KEY UPDATE text='测试4';
+[2020-06-14 17:05:05.508] [INFO] console - <receive data> disconnect transport close
+[2020-06-14 17:05:12.146] [INFO] console - [undefined]完成注册
+[2020-06-14 17:05:12.150] [INFO] console - SQL: select * from qy_agent
+[2020-06-14 17:05:12.151] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-14 17:05:12.152] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-14 17:05:12.152] [INFO] console - SQL: select * from qy_agent
+[2020-06-14 17:05:12.154] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-14 17:05:12.154] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-14 17:05:12.166] [INFO] console - select * from qy_agent
+[2020-06-14 17:05:12.168] [INFO] console - select * from qy_agent
+[2020-06-14 17:05:12.169] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-14 17:05:12.170] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-14 17:05:12.173] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-14 17:05:12.174] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-14 17:05:29.379] [INFO] console - <receive data> disconnect transport close
+[2020-06-14 17:05:35.711] [INFO] console - [undefined]完成注册
+[2020-06-14 17:05:35.820] [INFO] console - SQL: select * from qy_agent
+[2020-06-14 17:05:35.825] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-14 17:05:35.827] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-14 17:05:35.827] [INFO] console - SQL: select * from qy_agent
+[2020-06-14 17:05:35.828] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-14 17:05:35.829] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-14 17:05:35.835] [INFO] console - select * from qy_agent
+[2020-06-14 17:05:35.838] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-14 17:05:35.844] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-14 17:05:35.845] [INFO] console - select * from qy_agent
+[2020-06-14 17:05:35.847] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-14 17:05:35.850] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-14 17:05:40.994] [INFO] console - SQL: INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试4') ON DUPLICATE KEY UPDATE text='测试4';
+[2020-06-14 17:05:41.002] [INFO] console - INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试4') ON DUPLICATE KEY UPDATE text='测试4';
+[2020-06-14 17:06:08.066] [INFO] console - <receive data> disconnect transport close
+[2020-06-14 17:06:14.670] [INFO] console - [undefined]完成注册
+[2020-06-14 17:06:14.770] [INFO] console - SQL: select * from qy_agent
+[2020-06-14 17:06:14.774] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-14 17:06:14.775] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-14 17:06:14.777] [INFO] console - SQL: select * from qy_agent
+[2020-06-14 17:06:14.777] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-14 17:06:14.779] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-14 17:06:14.780] [INFO] console - select * from qy_agent
+[2020-06-14 17:06:14.782] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-14 17:06:14.784] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-14 17:06:14.786] [INFO] console - select * from qy_agent
+[2020-06-14 17:06:14.787] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-14 17:06:14.789] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-14 17:06:23.012] [INFO] console - SQL: INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试4') ON DUPLICATE KEY UPDATE text='测试4';
+[2020-06-14 17:06:23.027] [INFO] console - INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试4') ON DUPLICATE KEY UPDATE text='测试4';
+[2020-06-14 17:06:25.858] [INFO] console - SQL: UPDATE qy_info SET comment = '测试4';
+[2020-06-14 17:06:25.873] [INFO] console - UPDATE qy_info SET comment = '测试4';
+[2020-06-14 17:07:05.009] [INFO] console - SQL: SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-14 17:07:05.018] [INFO] console - SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-14 17:10:13.186] [INFO] console - SQL: SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-14 17:10:13.202] [INFO] console - SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-14 17:13:37.120] [INFO] console - SQL: SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-14 17:13:37.179] [INFO] console - SELECT * FROM dhxy_comment WHERE serverId=0

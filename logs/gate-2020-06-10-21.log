@@ -1,0 +1,25 @@
+[2020-06-10 21:44:41.363] [INFO] console - 命令行模块启动完毕
+[2020-06-10 21:44:50.011] [INFO] console - SQL: select * from qy_agent
+[2020-06-10 21:44:53.361] [INFO] console - HTTP模块启动完毕，开始监听192.168.31.129:8560
+[2020-06-10 21:44:53.362] [INFO] console - 服务器管理模块启动完毕
+[2020-06-10 21:44:53.363] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-10 21:44:53.363] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-10 21:44:53.363] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-10 21:44:53.364] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-10 21:58:45.901] [INFO] console - 命令行模块启动完毕
+[2020-06-10 21:58:49.394] [INFO] console - SQL: select * from qy_agent
+[2020-06-10 21:58:51.247] [INFO] console - HTTP模块启动完毕，开始监听192.168.31.129:8560
+[2020-06-10 21:58:51.248] [INFO] console - 服务器管理模块启动完毕
+[2020-06-10 21:58:51.249] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-10 21:58:51.249] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-10 21:58:51.250] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-10 21:58:51.251] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-10 21:59:23.459] [INFO] console - {
+  account: 'test04',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 21:59:23.464] [INFO] console - test04 account
+[2020-06-10 21:59:23.465] [INFO] console - 010421 password
+[2020-06-10 21:59:23.467] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test04';

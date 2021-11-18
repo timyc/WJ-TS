@@ -1,0 +1,17 @@
+[2020-06-15 01:13:49.711] [INFO] console - 玩家登录...
+[2020-06-15 01:13:52.720] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157856 and qy_account.accountid = qy_role.accountid;
+[2020-06-15 01:13:52.749] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157856 AND state != 0;
+[2020-06-15 01:13:52.785] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE roleid=157856;
+[2020-06-15 01:13:52.816] [INFO] console - 玩家[容映依157856]等级改变，当前1级
+[2020-06-15 01:13:52.818] [INFO] console - SQL: SELECT * FROM qy_pet_1000 WHERE roleid = 157856 and state = 1 limit 20
+[2020-06-15 01:13:57.283] [INFO] console - 玩家[容映依(157856)], 任务刷新 于2020-06-15 01:13:57 
+[2020-06-15 01:13:57.285] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592154753) WHERE roleid =157856;
+[2020-06-15 01:14:01.194] [INFO] console - agent[1008] socket, close
+[2020-06-15 01:30:13.723] [INFO] console - agent[1009] socket, close
+[2020-06-15 01:30:54.629] [INFO] console - agent[1010] socket, close
+[2020-06-15 01:30:54.631] [INFO] console - agent[1009] socket, close
+[2020-06-15 01:32:36.069] [INFO] console - agent[1011] socket, close
+[2020-06-15 01:32:37.084] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592155849) WHERE roleid =157856;
+[2020-06-15 01:34:07.509] [INFO] console - agent[1012] socket, close
+[2020-06-15 01:34:07.513] [INFO] console - agent[1011] socket, close
+[2020-06-15 01:35:02.173] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592155992) WHERE roleid =157856;

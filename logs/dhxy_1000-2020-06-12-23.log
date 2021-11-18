@@ -1,0 +1,66 @@
+[2020-06-12 23:06:57.212] [INFO] console - agent[1002] socket, close
+[2020-06-12 23:06:59.932] [INFO] console - 玩家[露烨痴天(157846)], 任务刷新 于2020-06-12 23:06:59 
+[2020-06-12 23:06:59.933] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591974382) WHERE roleid =157846;
+[2020-06-12 23:07:00.048] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(16, 0, '{"16":"25","34":"1000"}', 1, 1, '{}', 13111101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:07:00.053] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(17, 0, '{"13":"10","31":"1400","33":"1400"}', 1, 2, '{}', 13120101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:07:00.056] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(18, 0, '{"13":"100","16":"5"}', 1, 3, '{}', 13131101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:07:00.065] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(19, 0, '{"13":"100","16":"5"}', 1, 4, '{}', 13141101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:07:00.069] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(20, 0, '{"13":"100","35":"10"}', 1, 5, '{}', 13150101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:14:37.476] [INFO] console - agent[1003] socket, close
+[2020-06-12 23:14:37.477] [INFO] console - agent[1002] socket, close
+[2020-06-12 23:15:56.523] [INFO] console - agent[1004] socket, close
+[2020-06-12 23:20:46.590] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591975197) WHERE roleid =157846;
+[2020-06-12 23:20:46.793] [INFO] console - agent[1005] socket, close
+[2020-06-12 23:22:05.782] [INFO] console - agent[1006] socket, close
+[2020-06-12 23:22:05.784] [INFO] console - agent[1005] socket, close
+[2020-06-12 23:22:05.785] [INFO] console - agent[1004] socket, close
+[2020-06-12 23:23:20.073] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591975348) WHERE roleid =157846;
+[2020-06-12 23:23:22.420] [INFO] console - agent[1007] socket, close
+[2020-06-12 23:23:43.833] [INFO] console - agent[1008] socket, close
+[2020-06-12 23:23:43.835] [INFO] console - agent[1007] socket, close
+[2020-06-12 23:24:23.209] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591975411) WHERE roleid =157846;
+[2020-06-12 23:24:31.767] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(21, 0, '{"16":"25","34":"1000"}', 1, 1, '{}', 13111101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:24:31.771] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(22, 0, '{"13":"10","31":"1400","33":"1400"}', 1, 2, '{}', 13120101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:24:31.774] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(23, 0, '{"13":"100","16":"5"}', 1, 3, '{}', 13131101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:24:31.780] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(24, 0, '{"13":"100","16":"5"}', 1, 4, '{}', 13141101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:24:31.785] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(25, 0, '{"13":"100","35":"10"}', 1, 5, '{}', 13150101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:26:25.642] [INFO] console - agent[1009] socket, close
+[2020-06-12 23:26:27.204] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591975533) WHERE roleid =157846;
+[2020-06-12 23:26:27.267] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(26, 0, '{"16":"25","34":"1000"}', 1, 1, '{}', 13111101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:26:27.270] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(27, 0, '{"13":"10","31":"1400","33":"1400"}', 1, 2, '{}', 13120101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:26:27.273] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(28, 0, '{"13":"100","16":"5"}', 1, 3, '{}', 13131101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:26:27.276] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(29, 0, '{"13":"100","16":"5"}', 1, 4, '{}', 13141101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:26:27.278] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(30, 0, '{"13":"100","35":"10"}', 1, 5, '{}', 13150101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:26:48.820] [INFO] console - agent[1010] socket, close
+[2020-06-12 23:27:26.646] [INFO] console - agent[1011] socket, close
+[2020-06-12 23:27:26.647] [INFO] console - agent[1009] socket, close
+[2020-06-12 23:28:13.397] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591975638) WHERE roleid =157846;
+[2020-06-12 23:29:44.323] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(31, 0, '{"16":"25","34":"1000"}', 1, 1, '{}', 13111101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:29:44.327] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(32, 0, '{"13":"10","31":"1400","33":"1400"}', 1, 2, '{}', 13120101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:29:44.331] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(33, 0, '{"13":"100","16":"5"}', 1, 3, '{}', 13131101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:29:44.336] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(34, 0, '{"13":"100","16":"5"}', 1, 4, '{}', 13141101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:29:44.339] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(35, 0, '{"13":"100","35":"10"}', 1, 5, '{}', 13150101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:29:44.870] [INFO] console - agent[1012] socket, close
+[2020-06-12 23:31:19.931] [INFO] console - agent[1012] socket, close
+[2020-06-12 23:31:19.933] [INFO] console - agent[1013] socket, close
+[2020-06-12 23:32:24.764] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591975885) WHERE roleid =157846;
+[2020-06-12 23:32:24.859] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(36, 0, '{"16":"25","34":"1000"}', 1, 1, '{}', 13111101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:32:24.866] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(37, 0, '{"13":"10","31":"1400","33":"1400"}', 1, 2, '{}', 13120101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:32:24.872] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(38, 0, '{"13":"100","16":"5"}', 1, 3, '{}', 13131101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:32:24.885] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(39, 0, '{"13":"100","16":"5"}', 1, 4, '{}', 13141101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:32:24.894] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(40, 0, '{"13":"100","35":"10"}', 1, 5, '{}', 13150101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:32:56.239] [INFO] console - agent[1014] socket, close
+[2020-06-12 23:33:28.289] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591975948) WHERE roleid =157846;
+[2020-06-12 23:33:28.396] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(41, 0, '{"16":"25","34":"1000"}', 1, 1, '{}', 13111101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:33:28.406] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(42, 0, '{"13":"10","31":"1400","33":"1400"}', 1, 2, '{}', 13120101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:33:28.422] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(43, 0, '{"13":"100","16":"5"}', 1, 3, '{}', 13131101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:33:28.451] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(44, 0, '{"13":"100","16":"5"}', 1, 4, '{}', 13141101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:33:28.475] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(45, 0, '{"13":"100","35":"10"}', 1, 5, '{}', 13150101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:33:54.036] [INFO] console - agent[1015] socket, close
+[2020-06-12 23:35:12.795] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591976051) WHERE roleid =157846;
+[2020-06-12 23:35:12.896] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(46, 0, '{"16":"25","34":"1000"}', 1, 1, '{}', 13111101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:35:12.907] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(47, 0, '{"13":"10","31":"1400","33":"1400"}', 1, 2, '{}', 13120101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:35:12.923] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(48, 0, '{"13":"100","16":"5"}', 1, 3, '{}', 13131101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:35:12.941] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(49, 0, '{"13":"100","16":"5"}', 1, 4, '{}', 13141101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:35:12.950] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(50, 0, '{"13":"100","35":"10"}', 1, 5, '{}', 13150101, 0, '{}', 157846, NOW(), 3);
+[2020-06-12 23:38:28.024] [INFO] console - agent[1016] socket, close

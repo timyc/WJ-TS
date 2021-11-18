@@ -1,0 +1,1066 @@
+[2020-06-10 23:00:29.222] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:00:29.230] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:00:29.233] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:00:29.248] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:00:29.249] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:00:29.255] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:00:29.256] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:00:29.264] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:00:29.265] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:00:29.331] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:00:29.358] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:00:29.359] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:01:29.229] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:01:29.233] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:01:29.235] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:01:29.261] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:01:29.263] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:01:29.267] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:01:29.267] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:01:29.269] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:01:29.270] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:01:29.337] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:01:29.364] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:01:29.365] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:02:29.238] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:02:29.242] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:02:29.244] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:02:29.272] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:02:29.273] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:02:29.277] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:02:29.277] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:02:29.280] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:02:29.281] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:02:29.343] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:02:29.385] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:02:29.386] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:03:29.243] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:03:29.249] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:03:29.250] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:03:29.285] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:03:29.285] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:03:29.288] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:03:29.289] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:03:29.294] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:03:29.295] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:03:29.347] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:03:29.378] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:03:29.379] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:10:56.449] [INFO] console - 系统配置表加载完毕
+[2020-06-10 23:11:08.215] [INFO] console - 数据库初始化完毕
+[2020-06-10 23:11:08.347] [INFO] console - 数据库模块启动完毕，正在监听本地:8806
+[2020-06-10 23:11:20.611] [INFO] console - [undefined]完成注册
+[2020-06-10 23:16:45.653] [INFO] console - <receive data> disconnect transport close
+[2020-06-10 23:16:53.926] [INFO] console - [undefined]完成注册
+[2020-06-10 23:17:23.384] [INFO] console - 系统配置表加载完毕
+[2020-06-10 23:17:33.964] [INFO] console - 数据库初始化完毕
+[2020-06-10 23:17:34.055] [INFO] console - 数据库模块启动完毕，正在监听本地:8806
+[2020-06-10 23:17:38.560] [INFO] console - [undefined]完成注册
+[2020-06-10 23:25:38.838] [INFO] console - 系统配置表加载完毕
+[2020-06-10 23:25:44.648] [INFO] console - 数据库初始化完毕
+[2020-06-10 23:25:44.741] [INFO] console - 数据库模块启动完毕，正在监听本地:8806
+[2020-06-10 23:25:45.163] [INFO] console - [测试区]完成注册
+[2020-06-10 23:25:45.170] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-10 23:25:45.172] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:25:45.173] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-10 23:25:45.174] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:25:45.175] [INFO] console - SQL: select * from shop_goods
+[2020-06-10 23:25:45.175] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:25:45.176] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-10 23:25:45.177] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-10 23:25:45.178] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-10 23:25:45.179] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:25:45.179] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-10 23:25:45.180] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:25:45.180] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-10 23:25:45.185] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:25:45.186] [INFO] console - SQL: select * from shop_goods
+[2020-06-10 23:25:45.186] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:25:45.186] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-10 23:25:45.187] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-10 23:25:45.187] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-10 23:25:45.187] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:25:45.253] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:25:45.253] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:25:45.257] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:25:45.258] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:25:45.260] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:25:45.260] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:25:45.263] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:25:45.263] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:25:45.266] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:25:45.266] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:25:45.273] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:25:45.273] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:25:45.276] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:25:45.276] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:25:45.279] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:25:45.279] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:25:45.282] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:25:45.282] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:25:45.301] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:25:45.302] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Handshake._callback (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:468:16)
+[2020-06-10 23:25:45.317] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:25:45.318] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Handshake._callback (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:468:16)
+[2020-06-10 23:25:45.321] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:25:45.321] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Handshake._callback (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:468:16)
+[2020-06-10 23:25:45.323] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:25:45.323] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Handshake._callback (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:468:16)
+[2020-06-10 23:25:45.326] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:25:45.326] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Handshake._callback (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:468:16)
+[2020-06-10 23:25:45.328] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:25:45.329] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Handshake._callback (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:468:16)
+[2020-06-10 23:25:45.330] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:25:45.331] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Handshake._callback (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:468:16)
+[2020-06-10 23:25:45.337] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:25:45.337] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Handshake._callback (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:468:16)
+[2020-06-10 23:25:45.341] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:25:45.341] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Handshake._callback (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:468:16)
+[2020-06-10 23:25:45.347] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:25:45.348] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Handshake._callback (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:468:16)
+[2020-06-10 23:25:45.423] [ERROR] console - An uncaught error occurred!
+[2020-06-10 23:25:45.424] [ERROR] console - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'xy_game'@'211.161.249.134' (using password: YES)
+    at Handshake._packetToError (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/sequences/Handshake.js:124:18)
+    at Protocol._parsePacket (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:300:12)
+    at readableAddChunk (_stream_readable.js:276:9)
+    --------------------
+    at Protocol._enqueue (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Connection.js:118:18)
+    at Pool.getConnection (/Users/brightli/Documents/work/server/dhxy/node_modules/mysql/lib/Pool.js:48:16)
+    at query (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:28:7)
+    at fsql (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:81:2)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy/DBServ.ts:120:3)
+    at Socket.emit (events.js:315:20)
+    at /Users/brightli/Documents/work/server/dhxy/node_modules/socket.io/lib/socket.js:503:12
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2020-06-10 23:28:52.403] [INFO] console - 系统配置表加载完毕
+[2020-06-10 23:28:52.491] [INFO] console - 数据库初始化完毕
+[2020-06-10 23:28:52.611] [INFO] console - 数据库模块启动完毕，正在监听本地:8806
+[2020-06-10 23:29:12.129] [INFO] console - [测试区]完成注册
+[2020-06-10 23:29:12.232] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-10 23:29:12.244] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:29:12.246] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-10 23:29:12.247] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:29:12.247] [INFO] console - SQL: select * from shop_goods
+[2020-06-10 23:29:12.248] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:29:12.249] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-10 23:29:12.250] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-10 23:29:12.251] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-10 23:29:12.252] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:29:12.253] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-10 23:29:12.253] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:29:12.254] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-10 23:29:12.254] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:29:12.254] [INFO] console - SQL: select * from shop_goods
+[2020-06-10 23:29:12.255] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:29:12.255] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-10 23:29:12.255] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-10 23:29:12.256] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-10 23:29:12.256] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:29:12.268] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-10 23:29:12.282] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-10 23:29:12.284] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:29:12.285] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-10 23:29:12.287] [INFO] console - SELECT * FROM qy_role
+[2020-06-10 23:29:12.289] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:29:12.291] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:29:12.292] [INFO] console - select * from shop_goods
+[2020-06-10 23:29:12.293] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:29:12.294] [INFO] console - select * from qy_relation where status = 0
+[2020-06-10 23:29:12.295] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-10 23:29:12.308] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:29:12.310] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-10 23:29:12.311] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:29:12.312] [INFO] console - select * from shop_goods
+[2020-06-10 23:29:12.313] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:29:12.315] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-10 23:29:12.316] [INFO] console - SELECT * FROM qy_role
+[2020-06-10 23:29:12.317] [INFO] console - select * from qy_relation where status = 0
+[2020-06-10 23:29:12.318] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:30:01.489] [INFO] console - [undefined]完成注册
+[2020-06-10 23:30:01.594] [INFO] console - SQL: select * from qy_agent
+[2020-06-10 23:30:01.600] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-10 23:30:01.601] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-10 23:30:01.602] [INFO] console - SQL: select * from qy_agent
+[2020-06-10 23:30:01.603] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-10 23:30:01.605] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-10 23:30:01.628] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-10 23:30:01.630] [INFO] console - select * from qy_agent
+[2020-06-10 23:30:01.632] [INFO] console - select * from qy_agent
+[2020-06-10 23:30:01.633] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-10 23:30:01.635] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-10 23:30:01.636] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-10 23:30:24.008] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test07';
+[2020-06-10 23:30:24.023] [INFO] console - SELECT * FROM qy_account WHERE account = 'test07';
+[2020-06-10 23:30:44.104] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test07';
+[2020-06-10 23:30:44.114] [INFO] console - SELECT * FROM qy_account WHERE account = 'test07';
+[2020-06-10 23:30:44.130] [INFO] console - SQL: INSERT INTO qy_account(account, password,invite, register_time) VALUES('test07', '010421','', NOW() );
+[2020-06-10 23:30:44.140] [INFO] console - INSERT INTO qy_account(account, password,invite, register_time) VALUES('test07', '010421','', NOW() );
+[2020-06-10 23:30:46.312] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test07';
+[2020-06-10 23:30:46.326] [INFO] console - SELECT * FROM qy_account WHERE account = 'test07';
+[2020-06-10 23:30:46.343] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39379;
+[2020-06-10 23:30:46.351] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39379;
+[2020-06-10 23:30:46.366] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39379;
+[2020-06-10 23:30:46.374] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39379;
+[2020-06-10 23:30:49.897] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39379' OR name = '新冰宸琴') AND serverid = '1000';
+[2020-06-10 23:30:49.960] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39379' OR name = '新冰宸琴') AND serverid = '1000';
+[2020-06-10 23:30:49.975] [INFO] console - SQL: INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('新冰宸琴', '1','1',1,'1001',1010,-1,-1, NOW(),'39379','1000',0,'[]' );
+[2020-06-10 23:30:49.985] [INFO] console - INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('新冰宸琴', '1','1',1,'1001',1010,-1,-1, NOW(),'39379','1000',0,'[]' );
+[2020-06-10 23:31:08.054] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39379' OR name = '新冰宸琴') AND serverid = '1000';
+[2020-06-10 23:31:08.090] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39379' OR name = '新冰宸琴') AND serverid = '1000';
+[2020-06-10 23:31:11.299] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39379' OR name = '小智醉初') AND serverid = '1000';
+[2020-06-10 23:31:11.363] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39379' OR name = '小智醉初') AND serverid = '1000';
+[2020-06-10 23:32:12.805] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39379' OR name = '小智醉初') AND serverid = '1000';
+[2020-06-10 23:32:12.814] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39379' OR name = '小智醉初') AND serverid = '1000';
+[2020-06-10 23:32:20.897] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39379' OR name = '小智醉初') AND serverid = '1000';
+[2020-06-10 23:32:20.995] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39379' OR name = '小智醉初') AND serverid = '1000';
+[2020-06-10 23:32:24.802] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39379' OR name = '从真思') AND serverid = '1000';
+[2020-06-10 23:32:24.813] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39379' OR name = '从真思') AND serverid = '1000';
+[2020-06-10 23:34:14.972] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test07';
+[2020-06-10 23:34:14.981] [INFO] console - SELECT * FROM qy_account WHERE account = 'test07';
+[2020-06-10 23:34:31.119] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-10 23:34:31.147] [INFO] console - SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-10 23:34:31.161] [INFO] console - SQL: INSERT INTO qy_account(account, password,invite, register_time) VALUES('test01', '010421','', NOW() );
+[2020-06-10 23:34:31.218] [INFO] console - INSERT INTO qy_account(account, password,invite, register_time) VALUES('test01', '010421','', NOW() );
+[2020-06-10 23:34:33.522] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-10 23:34:33.605] [INFO] console - SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-10 23:34:33.619] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39380;
+[2020-06-10 23:34:33.641] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39380;
+[2020-06-10 23:34:33.651] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39380;
+[2020-06-10 23:34:33.678] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39380;
+[2020-06-10 23:34:37.068] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39380' OR name = '之嵩驳阁') AND serverid = '1000';
+[2020-06-10 23:34:37.083] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39380' OR name = '之嵩驳阁') AND serverid = '1000';
+[2020-06-10 23:34:37.098] [INFO] console - SQL: INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('之嵩驳阁', '1','1',1,'1001',1010,-1,-1, NOW(),'39380','1000',0,'[]' );
+[2020-06-10 23:34:37.106] [INFO] console - INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('之嵩驳阁', '1','1',1,'1001',1010,-1,-1, NOW(),'39380','1000',0,'[]' );
+[2020-06-10 23:36:02.126] [INFO] console - <receive data> disconnect ping timeout
+[2020-06-10 23:36:21.459] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39380' OR name = '之嵩驳阁') AND serverid = '1000';
+[2020-06-10 23:36:21.475] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39380' OR name = '之嵩驳阁') AND serverid = '1000';
+[2020-06-10 23:41:00.876] [INFO] console - 系统配置表加载完毕
+[2020-06-10 23:41:00.966] [INFO] console - 数据库初始化完毕
+[2020-06-10 23:41:01.086] [INFO] console - 数据库模块启动完毕，正在监听本地:8806
+[2020-06-10 23:41:12.339] [INFO] console - [测试区]完成注册
+[2020-06-10 23:41:12.441] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-10 23:41:12.452] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:41:12.453] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-10 23:41:12.454] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:41:12.455] [INFO] console - SQL: select * from shop_goods
+[2020-06-10 23:41:12.456] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:41:12.456] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-10 23:41:12.457] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-10 23:41:12.458] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-10 23:41:12.459] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:41:12.459] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-10 23:41:12.460] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:41:12.460] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-10 23:41:12.460] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:41:12.460] [INFO] console - SQL: select * from shop_goods
+[2020-06-10 23:41:12.461] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:41:12.461] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-10 23:41:12.461] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-10 23:41:12.462] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-10 23:41:12.462] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:41:12.576] [INFO] console - SELECT * FROM qy_role
+[2020-06-10 23:41:12.579] [INFO] console - select * from qy_relation where status = 0
+[2020-06-10 23:41:12.581] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:41:12.583] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:41:12.584] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:41:12.589] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-10 23:41:12.590] [INFO] console - select * from shop_goods
+[2020-06-10 23:41:12.591] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:41:12.597] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-10 23:41:12.601] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:41:12.607] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-10 23:41:12.611] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:41:12.612] [INFO] console - select * from shop_goods
+[2020-06-10 23:41:12.615] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:41:12.617] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-10 23:41:12.619] [INFO] console - SELECT * FROM qy_role
+[2020-06-10 23:41:12.622] [INFO] console - select * from qy_relation where status = 0
+[2020-06-10 23:41:12.625] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:41:13.070] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-10 23:41:13.101] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-10 23:41:27.326] [INFO] console - [undefined]完成注册
+[2020-06-10 23:41:27.425] [INFO] console - SQL: select * from qy_agent
+[2020-06-10 23:41:27.429] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-10 23:41:27.430] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-10 23:41:27.432] [INFO] console - SQL: select * from qy_agent
+[2020-06-10 23:41:27.433] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-10 23:41:27.433] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-10 23:41:27.440] [INFO] console - select * from qy_agent
+[2020-06-10 23:41:27.442] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-10 23:41:27.443] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-10 23:41:27.444] [INFO] console - select * from qy_agent
+[2020-06-10 23:41:27.445] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-10 23:41:27.446] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-10 23:46:03.155] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-10 23:46:03.162] [INFO] console - SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-10 23:46:03.181] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39380;
+[2020-06-10 23:46:03.190] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39380;
+[2020-06-10 23:46:03.204] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39380;
+[2020-06-10 23:46:03.213] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39380;
+[2020-06-10 23:48:41.649] [INFO] console - <receive data> disconnect ping timeout
+[2020-06-10 23:54:06.975] [INFO] console - 系统配置表加载完毕
+[2020-06-10 23:54:07.067] [INFO] console - 数据库初始化完毕
+[2020-06-10 23:54:07.169] [INFO] console - 数据库模块启动完毕，正在监听本地:8806
+[2020-06-10 23:54:35.107] [INFO] console - [undefined]完成注册
+[2020-06-10 23:54:35.211] [INFO] console - SQL: select * from qy_agent
+[2020-06-10 23:54:35.217] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-10 23:54:35.219] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-10 23:54:35.221] [INFO] console - SQL: select * from qy_agent
+[2020-06-10 23:54:35.222] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-10 23:54:35.223] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-10 23:54:35.298] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-10 23:54:35.303] [INFO] console - select * from qy_agent
+[2020-06-10 23:54:35.305] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-10 23:54:35.307] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-10 23:54:35.309] [INFO] console - select * from qy_agent
+[2020-06-10 23:54:35.310] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-10 23:55:58.181] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-10 23:55:58.195] [INFO] console - SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-10 23:55:58.213] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39380;
+[2020-06-10 23:55:58.221] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39380;
+[2020-06-10 23:55:58.229] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39380;
+[2020-06-10 23:55:58.237] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39380;

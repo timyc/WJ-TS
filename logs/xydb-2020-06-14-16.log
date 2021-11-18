@@ -1,0 +1,16 @@
+[2020-06-14 16:59:00.620] [INFO] console - <receive data> disconnect transport close
+[2020-06-14 16:59:07.924] [INFO] console - [undefined]完成注册
+[2020-06-14 16:59:08.029] [INFO] console - SQL: select * from qy_agent
+[2020-06-14 16:59:08.033] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-14 16:59:08.034] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-14 16:59:08.034] [INFO] console - SQL: select * from qy_agent
+[2020-06-14 16:59:08.053] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-14 16:59:08.056] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-14 16:59:08.129] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-14 16:59:08.136] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-14 16:59:08.139] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-14 16:59:08.140] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-14 16:59:08.145] [INFO] console - select * from qy_agent
+[2020-06-14 16:59:08.147] [INFO] console - select * from qy_agent
+[2020-06-14 16:59:19.407] [INFO] console - SQL: SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-14 16:59:19.421] [INFO] console - SELECT * FROM dhxy_comment WHERE serverId=0

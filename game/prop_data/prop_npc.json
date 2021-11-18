@@ -1,0 +1,3512 @@
+{
+  "10001": {
+    "id": 10001,
+    "resid": 6039,
+    "name": "胡大虎",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1010;110;20;0",
+    "mapButton": "",
+    "talk": "王大妈家的闺女可漂亮了，简直就是年轻时的王大妈"
+  },
+  "10002": {
+    "id": 10002,
+    "resid": 5052,
+    "name": "青衣仙子",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "望情花开遍人间时，有情人终成眷属"
+  },
+  "10003": {
+    "id": 10003,
+    "resid": 6025,
+    "name": "村长",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1010;58;111;0",
+    "mapButton": "",
+    "talk": "长安城里的神机子告诉我，咱们这东海渔村，一千年以后会发展成全国第一大都市，你说真的假的？"
+  },
+  "10004": {
+    "id": 10004,
+    "resid": 6003,
+    "name": "朱铁匠",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1010;66;122;0",
+    "mapButton": "",
+    "talk": "打了这么多年铁，也没娶上媳妇，这身手艺都没个人继承，唉~"
+  },
+  "10006": {
+    "id": 10006,
+    "resid": 6004,
+    "name": "王大妈",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1010;12;77;0",
+    "mapButton": "",
+    "talk": "到了我这个岁数还风韵犹存的女人不多了吧，哈哈，我年轻的时候可是村花呢"
+  },
+  "10007": {
+    "id": 10007,
+    "resid": 6081,
+    "name": "船夫-傲来国",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1010;12;8;0",
+    "mapButton": "",
+    "talk": "我可以带你到东胜傲来国哟，那里可是个神奇的地方"
+  },
+  "10008": {
+    "id": 10008,
+    "resid": 6026,
+    "name": "书呆子",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1010;81;70;0",
+    "mapButton": "",
+    "talk": "除却四书五经，天下尽是伪作，不读不读，一概不读"
+  },
+  "10010": {
+    "id": 10010,
+    "resid": 6008,
+    "name": "驯兽翁",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1010;89;104;0",
+    "mapButton": "",
+    "talk": "听闻海外有种异兽，比老虎还威风，有机会真想一见"
+  },
+  "10011": {
+    "id": 10011,
+    "resid": 6002,
+    "name": "布袋和尚",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1010;147;122;1",
+    "mapButton": "",
+    "talk": "我有一布袋，虚空无挂碍，展开遍十方，入时观自在"
+  },
+  "10012": {
+    "id": 10012,
+    "resid": 6027,
+    "name": "酒店老板",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;199;18;0",
+    "mapButton": "",
+    "talk": "听说有个洋人叫希什么顿的，也是开酒店开的很风云，不过我想一定比不过我这个吧~"
+  },
+  "10013": {
+    "id": 10013,
+    "resid": 6039,
+    "name": "店小二",
+    "kind": 1,
+    "monster_group": 10087,
+    "auto_create": "1011;210;5;0",
+    "mapButton": "{\"daily:4\":\"宝图任务\"}",
+    "talk": "你想知道吊打强盗王中王的秘诀吗？"
+  },
+  "10014": {
+    "id": 10014,
+    "resid": 6043,
+    "name": "衙役",
+    "kind": 1,
+    "monster_group": 10088,
+    "auto_create": "1011;182;105;0",
+    "mapButton": "{\"tanjian\":\"前往探监\",\"close\": \"再见\"}",
+    "talk": "我才不是临时工，正经公务员编制，看清楚点~"
+  },
+  "10015": {
+    "id": 10015,
+    "resid": 6005,
+    "name": "李师爷",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;155;133;0",
+    "mapButton": "",
+    "talk": "在这官场中呀，眼要尖，耳要聪，嘴要紧，还要一颗七窍玲珑的心"
+  },
+  "10016": {
+    "id": 10016,
+    "resid": 6017,
+    "name": "郑武夫",
+    "kind": 1,
+    "monster_group": 10089,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "10051": {
+    "id": 10051,
+    "resid": 6017,
+    "name": "凌烟阁守卫",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1000;65;6;0",
+    "mapButton": "{\"fuben:1004\":\"地宫-简单\",\"fuben:1005\":\"地宫-普通\",\"fuben:1006\":\"地宫-困难\"}",
+    "talk": "凌烟阁地宫为妖魔占据，吾皇以当世五神兽镇压其中，以遏制妖魔出世。但欲扫除妖魔永绝后患，仍需天下豪杰同心协力。英雄是否愿意担此重任？"
+  },
+  "10054": {
+    "id": 10054,
+    "resid": 5044,
+    "name": "帮派总管",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "3002;67;38;1",
+    "mapButton": "{\"daily:2\":\"帮派任务\",\"close\": \"再见\"}",
+    "talk": "我是帮派总管，帮中事务无论大小都由我处理。"
+  },
+  "10057": {
+    "id": 10057,
+    "resid": 6017,
+    "name": "高统领",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;211;118;0",
+    "mapButton": "",
+    "talk": "从城门守卫做到统领，我足足走了二十八年。唉。"
+  },
+  "10058": {
+    "id": 10058,
+    "resid": 6005,
+    "name": "东君",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;161;95;0",
+    "mapButton": "{\"fuben:1002\":\"风流侠士来帮你\",\"close\": \"对妹子没兴趣撤了\"}",
+    "talk": "这么些妹子，一个都不能少"
+  },
+  "10059": {
+    "id": 10059,
+    "resid": 6016,
+    "name": "袁天罡",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;113;103;0",
+    "mapButton": "",
+    "talk": "长安城太繁华，夜晚的天空难以看到星星"
+  },
+  "10060": {
+    "id": 10060,
+    "resid": 6002,
+    "name": "癞疥和尚",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;98;113;1",
+    "mapButton": "",
+    "talk": "少侠，勇敢的往前走"
+  },
+  "10061": {
+    "id": 10061,
+    "resid": 5052,
+    "name": "青衣仙子",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;120;115;0",
+    "mapButton": "",
+    "talk": "望情花开遍人间时，有情人终成眷属"
+  },
+  "10062": {
+    "id": 10062,
+    "resid": 6001,
+    "name": "慈恩寺方丈 ",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;72;122;1",
+    "mapButton": "{\"fuben:1001\":\"快送我去封妖镇\",\"close\": \"再见\"}",
+    "talk": "本寺有个年轻的法师，之可惜太啰嗦了"
+  },
+  "10063": {
+    "id": 10063,
+    "resid": 6029,
+    "name": "玄奘法师",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;45;132;0",
+    "mapButton": "",
+    "talk": "世人说我很啰嗦，我哪里啰嗦了？"
+  },
+  "10064": {
+    "id": 10064,
+    "resid": 6007,
+    "name": "神机子",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;60;96;0",
+    "mapButton": "",
+    "talk": "本大仙掐指一算，少侠，下个被几率到的就是你呀"
+  },
+  "10065": {
+    "id": 10065,
+    "resid": 6006,
+    "name": "陈夫人",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;42;96;0",
+    "mapButton": "",
+    "talk": "长安这房价真是越来越贵了，唉，以前我真没想过会为租金的事发愁"
+  },
+  "10066": {
+    "id": 10066,
+    "resid": 6005,
+    "name": "大理寺官员",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;26;91;0",
+    "mapButton": "",
+    "talk": "唐王希望子民多多学习圣贤之道，特意派遣我来考察大家，能答对问题者本官重重有奖"
+  },
+  "10067": {
+    "id": 10067,
+    "resid": 6027,
+    "name": "牛百色",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;14;65;0",
+    "mapButton": "{\"rolecolor\":\"老板，给我染个色\",\"close\":\"我这么时尚，不必了\"}",
+    "talk": "染于苍则苍，染于黄则黄，我们牛布庄染色引领长安时尚，少侠，变个色吧，容光焕发哦~"
+  },
+  "10068": {
+    "id": 10068,
+    "resid": 6027,
+    "name": "郭老板",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;63;46;0",
+    "mapButton": "",
+    "talk": "来来来，走过路过不要错过"
+  },
+  "10069": {
+    "id": 10069,
+    "resid": 6008,
+    "name": "杂货店老板",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;22;25;0",
+    "mapButton": "{\"shop\":\"我买杂货\",\"close\": \"再见\"}",
+    "talk": "我家的东西整个南瞻部洲都包邮"
+  },
+  "10070": {
+    "id": 10070,
+    "resid": 6025,
+    "name": "超级管家",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;59;4;0",
+    "mapButton": "",
+    "talk": "在外漂泊累了，记得闹事中有憩息之所，来来来，老夫给你泡壶暖茶"
+  },
+  "10071": {
+    "id": 10071,
+    "resid": 6090,
+    "name": "媒婆张",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;99;16;0",
+    "mapButton": "",
+    "talk": "男大当婚女大当嫁，这是天经地义的事，天经地义的事~"
+  },
+  "10072": {
+    "id": 10072,
+    "resid": 6025,
+    "name": "月老",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;99;28;0",
+    "mapButton": "",
+    "talk": "愿天下有情人终成眷属"
+  },
+  "10073": {
+    "id": 10073,
+    "resid": 5020,
+    "name": "庆典大使",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;143;27;0",
+    "mapButton": "",
+    "talk": "送自己心爱的人一场终身难忘的婚礼吧"
+  },
+  "10078": {
+    "id": 10078,
+    "resid": 6003,
+    "name": "何大雷",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;182;70;1",
+    "mapButton": "{\"hdl_xqhc\":\"仙器合成\",\"hdl_xqsj\":\"仙器升级\",\"hdl_sbsj\":\"神兵升级\",\"hdl_sbhc\":\"神兵合成\"}",
+    "talk": "都问我打铁活怎么这么棒，嘿其实也没啥诀窍，我就是不怕它碎，碎的多了总有一两把会成功的"
+  },
+  "10079": {
+    "id": 10079,
+    "resid": 6003,
+    "name": "装备店老板",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;182;63;1",
+    "mapButton": "{\"shop\":\"我买装备\",\"close\": \"再见\"}",
+    "talk": "所有装备都是何大雷亲手打造的，保证不会碎"
+  },
+  "10080": {
+    "id": 10080,
+    "resid": 6001,
+    "name": "云游大师",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;169;50;1",
+    "mapButton": "{\"daily:5\":\"五环任务\",\"close\": \"再见\"}",
+    "talk": "啊，五环，你比四环多一环~"
+  },
+  "10081": {
+    "id": 10081,
+    "resid": 6026,
+    "name": "罗秀才",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;202;33;1",
+    "mapButton": "",
+    "talk": "江大叔说，要是我考上了状元，就把村里的碎花许配给我"
+  },
+  "10083": {
+    "id": 10083,
+    "resid": 5044,
+    "name": "帮派接引人",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;242;23;1",
+    "mapButton": "{\"bpjyr_bang\":\"回到帮派\",\"close\":\"再见\"}",
+    "talk": "遇见少侠总是忍不住啰嗦一句，帮战别忘了参加啊"
+  },
+  "10084": {
+    "id": 10084,
+    "resid": 6025,
+    "name": "宠物交易员",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;228;76;1",
+    "mapButton": "",
+    "talk": "老夫这里专业销售各种适合交任务的宠物，琳琅满目，少侠可尽情挑选"
+  },
+  "10085": {
+    "id": 10085,
+    "resid": 6027,
+    "name": "王元宝",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;243;77;1",
+    "mapButton": "",
+    "talk": "神算子说我家世世代代为富，一直到一千年以后的共和国首富还都是我王家人"
+  },
+  "10091": {
+    "id": 10091,
+    "resid": 6010,
+    "name": "马面",
+    "kind": 1,
+    "monster_group": 10097,
+    "auto_create": "1002;106;9;0",
+    "mapButton": "",
+    "talk": "眼前就是幽冥界，阴阳分割一步间。十万恶鬼厉声呼，牛头和马面站两边"
+  },
+  "10092": {
+    "id": 10092,
+    "resid": 6009,
+    "name": "牛头",
+    "kind": 1,
+    "monster_group": 10097,
+    "auto_create": "1002;114;14;0",
+    "mapButton": "",
+    "talk": "眼前就是幽冥界，阴阳分割一步间。十万恶鬼厉声呼，牛头和马面站两边"
+  },
+  "10093": {
+    "id": 10093,
+    "resid": 5058,
+    "name": "轮回鬼",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1002;38;34;0",
+    "mapButton": "",
+    "talk": "别问我是什么鬼，我就是轮回鬼！"
+  },
+  "10094": {
+    "id": 10094,
+    "resid": 6011,
+    "name": "孟婆",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1002;73;52;0",
+    "mapButton": "{\"zhuansheng\":\"转生\",\"close\": \"再见\"}",
+    "talk": "咸阳道，洛阳道，眼下到了黄泉道，风一程，雨一程，行到此处无回程。"
+  },
+  "10095": {
+    "id": 10095,
+    "resid": 6061,
+    "name": "白无常",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1002;117;62;0",
+    "mapButton": "{\"close\": \"你这茶泡了几百年，谁敢喝呀\"}",
+    "talk": "哈哈，你又来喝茶了，天天来我这喝茶，茶都快泡光了。"
+  },
+  "10109": {
+    "id": 10109,
+    "resid": 5058,
+    "name": "食婴鬼",
+    "kind": 1,
+    "monster_group": 10091,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "小孩儿要未足岁的才好吃，咬一口满满的奶香味儿~"
+  },
+  "10111": {
+    "id": 10111,
+    "resid": 5053,
+    "name": "斧头帮帮主",
+    "kind": 1,
+    "monster_group": 10079,
+    "auto_create": "1007;25;10;0",
+    "mapButton": "",
+    "talk": "我是做大事的人"
+  },
+  "10112": {
+    "id": 10112,
+    "resid": 6012,
+    "name": "钟馗",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1002;23;14;0",
+    "mapButton": "{\"daily:6\":\"抓鬼\",\"close\": \"再见\"}",
+    "talk": "那些孤魂野鬼尽往人间去撒野，老夫这长相……也不太方便在人间出入，所以只好劳烦你帮帮忙了。"
+  },
+  "10113": {
+    "id": 10113,
+    "resid": 6018,
+    "name": "李世民",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1206;70;40;1",
+    "mapButton": "",
+    "talk": "几十年啊，终于换来了今日的国泰民安。"
+  },
+  "10114": {
+    "id": 10114,
+    "resid": 6024,
+    "name": "刘洪",
+    "kind": 1,
+    "monster_group": 10100,
+    "auto_create": "1004;90;74;0",
+    "mapButton": "",
+    "talk": "嘿，当了官还白捡了一个媳妇，上天眷顾我呀！"
+  },
+  "11017": {
+    "id": 11017,
+    "resid": 6015,
+    "name": "如来",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "那西天取经的和尚曾是如来座下的弟子，与我是故交。他日若他取经路过此地，一定邀他前来共享这人参果。"
+  },
+  "10118": {
+    "id": 10118,
+    "resid": 6016,
+    "name": "太上老君",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1208;80;47;1",
+    "mapButton": "{\"daily:3\":\"师门任务\",\"close\": \"再见\"}",
+    "talk": "自打炼丹炉叫那孙悟空打翻了，这丹药品质就大不如前了。"
+  },
+  "10119": {
+    "id": 10119,
+    "resid": 6019,
+    "name": "守卫",
+    "kind": 1,
+    "monster_group": 10104,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "衣冠不整，相貌丑陋、气质猥琐者不得入内。"
+  },
+  "10220": {
+    "id": 10220,
+    "resid": 6020,
+    "name": "东海龙王",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1205;75;50;1",
+    "mapButton": "",
+    "talk": "自从那定海神针给孙猴子抢走了，这东海就老是地震啊！"
+  },
+  "10221": {
+    "id": 10221,
+    "resid": 6022,
+    "name": "李靖",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1012;77;80;0",
+    "mapButton": "{\"daily:7\":\"天庭降魔\",\"close\": \"再见\"}",
+    "talk": "降魔阵异样，致天下妖魔四散逃窜，但天庭目前无暇顾及，大侠可否能来此相助？"
+  },
+  "10222": {
+    "id": 10222,
+    "resid": 6023,
+    "name": "玉皇大帝",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1207;83;55;1",
+    "mapButton": "",
+    "talk": "众卿可要好生看管自家的坐骑和道童，若是下界扰了唐僧师徒，怕是叫孙悟空一棍子打死。"
+  },
+  "10224": {
+    "id": 10224,
+    "resid": 6031,
+    "name": "猪八戒",
+    "kind": 1,
+    "monster_group": 10103,
+    "auto_create": "1007;120;38;1",
+    "mapButton": "",
+    "talk": "若不是错投了这猪胎，俺老猪就能顺顺利利的娶七个媳妇，真是比做神仙快活。\"，\"猪爷爷我要娶媳妇了，咱媳妇盘靓条顺，一点不比那嫦娥差。"
+  },
+  "10236": {
+    "id": 10236,
+    "resid": 6024,
+    "name": "虎头帮老大",
+    "kind": 1,
+    "monster_group": 10090,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "10237": {
+    "id": 10237,
+    "resid": 6025,
+    "name": "老李",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1004;135;60;0",
+    "mapButton": "",
+    "talk": "年轻时，总觉得这个妹子丑，那个妹子难看，现在老了，看见街上的妹子，都觉得好看，二十来岁的，都挺好看。"
+  },
+  "10238": {
+    "id": 10238,
+    "resid": 6006,
+    "name": "程夫人",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1011;210;88;1",
+    "mapButton": "",
+    "talk": "我这一生也算是享尽了荣华富贵，但回首起往事，依然觉得不少遗憾。"
+  },
+  "10239": {
+    "id": 10239,
+    "resid": 5058,
+    "name": "真.食婴鬼",
+    "kind": 1,
+    "monster_group": 10092,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "我与腐尸阴魂为伍，生在阴凄苦寒之地，总有一日也要叫这人间阴云遮顶、不见天日。\"，\"哼，唐朝官府若是敢和我过不去，我就敢把皇帝老子的儿子也抓来吃了！"
+  },
+  "10240": {
+    "id": 10240,
+    "resid": 6017,
+    "name": "程咬金",
+    "kind": 1,
+    "monster_group": 10093,
+    "auto_create": "1206;48;15;1",
+    "mapButton": "",
+    "talk": "奉吾皇之旨，特举办竞技场选拔武学精英。唉，其实我程咬金也想顺便物色个三板斧的传人呢。"
+  },
+  "10241": {
+    "id": 10241,
+    "resid": 5058,
+    "name": "独眼妖怪",
+    "kind": 1,
+    "monster_group": 10094,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "我大喊一声你的名字，你敢答应么？"
+  },
+  "10242": {
+    "id": 10242,
+    "resid": 6005,
+    "name": "魏征",
+    "kind": 1,
+    "monster_group": 10094,
+    "auto_create": "1206;35;21;0",
+    "mapButton": "{\"sldh\":\"水陆大会报名\",\"shop\":\"功绩兑换\"}",
+    "talk": "请英雄记得在我这参加水陆大会啊。"
+  },
+  "10243": {
+    "id": 10243,
+    "resid": 6013,
+    "name": "地藏王菩萨",
+    "kind": 1,
+    "monster_group": 10098,
+    "auto_create": "1204;34;44;0",
+    "mapButton": "",
+    "talk": "地狱未空不成佛。"
+  },
+  "10246": {
+    "id": 10246,
+    "resid": 5020,
+    "name": "善财童子",
+    "kind": 1,
+    "monster_group": 10099,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "10247": {
+    "id": 10247,
+    "resid": 6021,
+    "name": "观音大师",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1001;80;56;1",
+    "mapButton": "",
+    "talk": "人间妖魔盛行之祸皆由孙悟空而起，因而必渡得那孙悟空前往西天取经，才可消这孽障。"
+  },
+  "10248": {
+    "id": 10248,
+    "resid": 6001,
+    "name": "法明长老",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1004;17;70;0",
+    "mapButton": "",
+    "talk": "信众们听闻玄奘法师是从本寺长大，本寺的香火也越来越旺了。"
+  },
+  "10249": {
+    "id": 10249,
+    "resid": 6006,
+    "name": "殷温娇",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1004;105;93;0",
+    "mapButton": "",
+    "talk": "苟活至今，实在无颜再见那死去的夫君……"
+  },
+  "10250": {
+    "id": 10250,
+    "resid": 6005,
+    "name": "陈光蕊",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "10251": {
+    "id": 10251,
+    "resid": 6028,
+    "name": "嫦娥",
+    "kind": 1,
+    "monster_group": 10101,
+    "auto_create": "1012;23;119;1",
+    "mapButton": "",
+    "talk": "昨天夜里玉兔打翻了捣药的杵，我就知道今天一定会有人来。"
+  },
+  "10252": {
+    "id": 10252,
+    "resid": 2003,
+    "name": "天兵",
+    "kind": 1,
+    "monster_group": 10104,
+    "auto_create": "1012;110;67;1",
+    "mapButton": "",
+    "talk": "之前守凌霄宝殿的那个弟兄，因为守得好，就被提拔成了主角，还赐了个名字叫“神天兵”！我也要努力！"
+  },
+  "10253": {
+    "id": 10253,
+    "resid": 6025,
+    "name": "高老先生",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1007;160;50;1",
+    "mapButton": "",
+    "talk": "年轻的时候，也曾去追逐过功名利禄。可到头来才发现平淡才是福。呵呵呵，也有可能是因为我什么都没追逐到吧。"
+  },
+  "10254": {
+    "id": 10254,
+    "resid": 5019,
+    "name": "高小姐",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1007;174;48;1",
+    "mapButton": "",
+    "talk": "我的前男友是头猪！"
+  },
+  "10255": {
+    "id": 10255,
+    "resid": 6019,
+    "name": "千里眼",
+    "kind": 1,
+    "monster_group": 10104,
+    "auto_create": "1012;63;32;1",
+    "mapButton": "",
+    "talk": "做天地人三阶最好的搜索引擎。"
+  },
+  "10256": {
+    "id": 10256,
+    "resid": 6019,
+    "name": "天庭守卫",
+    "kind": 1,
+    "monster_group": 10104,
+    "auto_create": "1012;15;20;0",
+    "mapButton": "",
+    "talk": "天庭胜境，衣冠不整，相貌丑陋、气质猥琐者不得入内。"
+  },
+  "10257": {
+    "id": 10257,
+    "resid": 6032,
+    "name": "沙和尚",
+    "kind": 1,
+    "monster_group": 10105,
+    "auto_create": "1007;45;83;1",
+    "mapButton": "",
+    "talk": "我不过是打破了一个琉璃盏，就被王母娘娘降罪于人间！却发现人间的人都道神仙快活，哼！笑话！"
+  },
+  "10258": {
+    "id": 10258,
+    "resid": 5033,
+    "name": "琉璃盏魂灵",
+    "kind": 1,
+    "monster_group": 10106,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "10259": {
+    "id": 10259,
+    "resid": 6014,
+    "name": "副帮主",
+    "kind": 1,
+    "monster_group": 10107,
+    "auto_create": "1007;50;26;1",
+    "mapButton": "",
+    "talk": "我宣布这片山头已经被我斧头帮承包啦！"
+  },
+  "10260": {
+    "id": 10260,
+    "resid": 6014,
+    "name": "三当家",
+    "kind": 1,
+    "monster_group": 10107,
+    "auto_create": "1007;65;17;1",
+    "mapButton": "",
+    "talk": "要入山贼这行，还得看祖师爷赏不赏饭吃。"
+  },
+  "10261": {
+    "id": 10261,
+    "resid": 6024,
+    "name": "山贼之灵",
+    "kind": 1,
+    "monster_group": 10108,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "10262": {
+    "id": 10262,
+    "resid": 6035,
+    "name": "碧桃娘子",
+    "kind": 1,
+    "monster_group": 10109,
+    "auto_create": "1007;135;90;0",
+    "mapButton": "",
+    "talk": "面若碧桃，窈窕惹人怜，心似蛇蝎，毒手催断魂。"
+  },
+  "10263": {
+    "id": 10263,
+    "resid": 6017,
+    "name": "南天王",
+    "kind": 1,
+    "monster_group": 10104,
+    "auto_create": "1012;43;6;1",
+    "mapButton": "",
+    "talk": "风！调！雨！顺！"
+  },
+  "10264": {
+    "id": 10264,
+    "resid": 6008,
+    "name": "灵兽仙",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1012;49;66;0",
+    "mapButton": "{\"flyingup\":\"宠物飞升/调整\"}",
+    "talk": "召唤兽是闯荡三界的好伙伴。若能历经磨难，修炼得道，可以来我这里点化飞升，脱胎换骨。"
+  },
+  "10265": {
+    "id": 10265,
+    "resid": 5045,
+    "name": "仙女",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1012;9;80;0",
+    "mapButton": "",
+    "talk": "听闻天庭的后面是王母娘娘的瑶池，星汉银河，淼淼生辉。若能成为王母娘娘的侍女，就能见一见这般奇景了。"
+  },
+  "10266": {
+    "id": 10266,
+    "resid": 6016,
+    "name": "太白金星",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1012;115;96;0",
+    "mapButton": "",
+    "talk": "东有启明，西有长庚。"
+  },
+  "10267": {
+    "id": 10267,
+    "resid": 6042,
+    "name": "真武道童",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1012;121;29;0",
+    "mapButton": "",
+    "talk": "尊上想要的武者之道，乃是止戈之道，太平之道"
+  },
+  "10268": {
+    "id": 10268,
+    "resid": 6025,
+    "name": "药店老板",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1211;34;21;1",
+    "mapButton": "{\"shop\":\"我要买药\",\"close\": \"再见\"}",
+    "talk": "祖传老中医，专治皮外伤"
+  },
+  "10269": {
+    "id": 10269,
+    "resid": 6019,
+    "name": "牢头",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1201;27;7;0",
+    "mapButton": "",
+    "talk": "天牢重地，都给我老实点！"
+  },
+  "10270": {
+    "id": 10270,
+    "resid": 6043,
+    "name": "天牢守卫",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1201;55;35;1",
+    "mapButton": "{\"tanjianend\":\"探监结束\",\"close\": \"再见\"}",
+    "talk": "天牢重地，闲人免进！"
+  },
+  "30032": {
+    "id": 30032,
+    "resid": 5054,
+    "name": "小白",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1012;143;55;1",
+    "mapButton": "",
+    "talk": "孙猴子说过，我有难时，挟山超海、上天入地也要来救我。如今他在哪里呢？"
+  },
+  "20001": {
+    "id": 20001,
+    "resid": 7004,
+    "name": "狗尾草",
+    "kind": 2,
+    "monster_group": 0.0,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "20002": {
+    "id": 20002,
+    "resid": 7004,
+    "name": "兰花草",
+    "kind": 2,
+    "monster_group": 0.0,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "20003": {
+    "id": 20003,
+    "resid": 7004,
+    "name": "薰衣草",
+    "kind": 2,
+    "monster_group": 0.0,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30004": {
+    "id": 30004,
+    "resid": 5025,
+    "name": "泥石怪",
+    "kind": 3,
+    "monster_group": 10086,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30005": {
+    "id": 30005,
+    "resid": 5012,
+    "name": "蚌妖",
+    "kind": 3,
+    "monster_group": 10085,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30014": {
+    "id": 30014,
+    "resid": 5048,
+    "name": "烛九阴",
+    "kind": 3,
+    "monster_group": 10122,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30015": {
+    "id": 30015,
+    "resid": 5050,
+    "name": "上古妖王",
+    "kind": 3,
+    "monster_group": 10152,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30016": {
+    "id": 30016,
+    "resid": 5041,
+    "name": "野外封妖",
+    "kind": 3,
+    "monster_group": 10001,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30017": {
+    "id": 30017,
+    "resid": 5055,
+    "name": "三界妖王",
+    "kind": 1,
+    "monster_group": 10118,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "确定要进入与三界妖王的战斗吗？"
+  },
+  "30018": {
+    "id": 30018,
+    "resid": 6040,
+    "name": "小妖",
+    "kind": 3,
+    "monster_group": 10001,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30019": {
+    "id": 30019,
+    "resid": 6041,
+    "name": "老妖",
+    "kind": 3,
+    "monster_group": 10001,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30021": {
+    "id": 30021,
+    "resid": 6054,
+    "name": "黑熊怪",
+    "kind": 3,
+    "monster_group": 10001,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30033": {
+    "id": 30033,
+    "resid": 5042,
+    "name": "彩衣",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1005;63;94;0",
+    "mapButton": "",
+    "talk": "我不懂，放下一切执念，是不是就不会再想起我那死去的爹娘……"
+  },
+  "30034": {
+    "id": 30034,
+    "resid": 6007,
+    "name": "游方术士",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1005;72;53;0",
+    "mapButton": "",
+    "talk": "那是一把玄铁剃刀……那把刀……给过我很多的记忆……丢了它，我仿佛丢了我的全部……"
+  },
+  "30035": {
+    "id": 30035,
+    "resid": 6030,
+    "name": "孙悟空",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1005;10;23;0",
+    "mapButton": "",
+    "talk": "今天变个什么东西去逗小白玩儿呢？"
+  },
+  "30036": {
+    "id": 30036,
+    "resid": 6027,
+    "name": "陈百万",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1005;98;53;0",
+    "mapButton": "",
+    "talk": "我以前有很多钱，可是，钱越多，快乐就越少。于是我便开始想，我真正想要的是什么。"
+  },
+  "30037": {
+    "id": 30037,
+    "resid": 6026,
+    "name": "男子",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1004;126;100;0",
+    "mapButton": "",
+    "talk": "去年今日此门中，人面桃花相映红。人面不知何处去，桃花依旧笑春风。"
+  },
+  "30041": {
+    "id": 30041,
+    "resid": 5053,
+    "name": "扛把子阿川",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1004;46;89;0",
+    "mapButton": "",
+    "talk": "几天没有欺负人，我又手痒痒了~"
+  },
+  "30042": {
+    "id": 30042,
+    "resid": 2003,
+    "name": "兜率宫弟子",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1004;33;120;0",
+    "mapButton": "",
+    "talk": "当年七大圣曾在一处神秘山洞设下奇门遁甲，建魔王窟，而今各路魔王又在蠢蠢欲动，大侠若想前去平妖，小仙可以助你一臂之力！"
+  },
+  "30043": {
+    "id": 30043,
+    "resid": 5042,
+    "name": "云紫仙",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1004;18;97;0",
+    "mapButton": "",
+    "talk": "来来去去皆过客，从没有人肯为我驻足停留。\"，\"我也是仙人之身，但我更喜欢这人间的滋味，尤其爱这大唐。"
+  },
+  "30044": {
+    "id": 30044,
+    "resid": 6054,
+    "name": "万年熊王",
+    "kind": 1,
+    "monster_group": 10150,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "干什么？小心我吃了你，走开，别碍事，天兵来了我也不怕！"
+  },
+  "30045": {
+    "id": 30045,
+    "resid": 6039,
+    "name": "张大牛",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1004;17;76;1",
+    "mapButton": "",
+    "talk": "源源不断的怪物，木魅太可怕了"
+  },
+  "30047": {
+    "id": 30047,
+    "resid": 6006,
+    "name": "文夫人",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1004;85;46;1",
+    "mapButton": "",
+    "talk": "折柳送别离……"
+  },
+  "30048": {
+    "id": 30048,
+    "resid": 6042,
+    "name": "阿宝",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1004;105;45;0",
+    "mapButton": "",
+    "talk": "我一定要学好兵书，练好剑法，长大成为爹爹那样的大英雄。"
+  },
+  "30049": {
+    "id": 30049,
+    "resid": 6036,
+    "name": "双生树",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1004;113;18;0",
+    "mapButton": "{\"newBrother\":\"我要结拜\",\"addBrother\":\"新人加入\",\"leaveBrother\":\"退出结拜\",\"close\":\"再见\"}",
+    "talk": "树有双生之谊，人有同心之交。"
+  },
+  "30050": {
+    "id": 30050,
+    "resid": 5043,
+    "name": "天相星",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "在外面多潇洒啊都是“太白金星”多管闲事，这么多人说要帮助我们归位"
+  },
+  "30054": {
+    "id": 30054,
+    "resid": 6044,
+    "name": "黑山妖王",
+    "kind": 1,
+    "monster_group": 10148,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "干什么？小心我吃了你，走开，别碍事，天兵来了我也不怕！"
+  },
+  "30055": {
+    "id": 30055,
+    "resid": 5020,
+    "name": "小马仙",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1016;75;69;0",
+    "mapButton": "",
+    "talk": "这里的神马可厉害了，能腾云驾雾，行走三界中啊！"
+  },
+  "30056": {
+    "id": 30056,
+    "resid": 6030,
+    "name": "弼马温",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1016;124;70;1",
+    "mapButton": "",
+    "talk": "今日在天庭当差，也是三生有幸呀~"
+  },
+  "30058": {
+    "id": 30058,
+    "resid": 6005,
+    "name": "杜如晦",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1026;22;16;0",
+    "mapButton": "",
+    "talk": "怎么没见房玄龄？他上哪去了？"
+  },
+  "30060": {
+    "id": 30060,
+    "resid": 6017,
+    "name": "胡敬德",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1206;37;9;1",
+    "mapButton": "{\"planwar\":\"帮我写战书\",\"receivewar\":\"我要接受对方的挑战\",\"warrank\":\"决斗榜\",\"close\":\"打架是不好的行为\"}",
+    "talk": "来，痛痛快快比试一场!"
+  },
+  "30062": {
+    "id": 30062,
+    "resid": 6016,
+    "name": "菩提祖师",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1203;42;40;0",
+    "mapButton": "{\"daily:3\":\"师门任务\",\"close\": \"再见\"}",
+    "talk": "出了这灵台方寸山，你若是透露出半句我的相关，我定将你魂魄囚于九幽之处，教你永世不得翻身。"
+  },
+  "30063": {
+    "id": 30063,
+    "resid": 5055,
+    "name": "牛魔王",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1209;52;30;1",
+    "mapButton": "{\"daily:3\":\"师门任务\",\"close\": \"再见\"}",
+    "talk": "你这家伙，该不会是那孙猴子变的吧？"
+  },
+  "30065": {
+    "id": 30065,
+    "resid": 6071,
+    "name": "聂小倩",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1013;116;69;1",
+    "mapButton": "{\"daily:3\":\"师门任务\",\"close\": \"再见\"}",
+    "talk": "妾名唤小倩，姓聂氏，十八夭殂，葬寺侧，辄被妖物威胁，历役贱务，觍颜向人，实非所乐。"
+  },
+  "30066": {
+    "id": 30066,
+    "resid": 6043,
+    "name": "降妖人",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1013;41;19;0",
+    "mapButton": "",
+    "talk": "我姓燕，字赤霞，秦地人。"
+  },
+  "30067": {
+    "id": 30067,
+    "resid": 6026,
+    "name": "过路的书生",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1013;69;43;1",
+    "mapButton": "",
+    "talk": "我是进京赶考的书生，路过这古刹，见此清幽寂静，十分欢喜，还望可以借宿一晚。"
+  },
+  "30068": {
+    "id": 30068,
+    "resid": 6097,
+    "name": "宝象国国王",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1018;19;92;0",
+    "mapButton": "",
+    "talk": "听说中原的人总喜欢生儿子，不喜欢生女儿，朕实在是搞不懂，朕有三个女儿，各个都喜爱得紧。都是自己的亲骨肉啊，不知道中原的人怎么想的。"
+  },
+  "30069": {
+    "id": 30069,
+    "resid": 6017,
+    "name": "宝象国侍卫",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1018;39;90;0",
+    "mapButton": "",
+    "talk": "真羡慕那些守城门的弟兄们啊，我整天在陛下眼皮子底下，根本不敢偷懒打瞌睡啊。"
+  },
+  "30070": {
+    "id": 30070,
+    "resid": 6027,
+    "name": "爱买不买提",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1018;74;90;1",
+    "mapButton": "",
+    "talk": "客官，还是买点呗，我帮你提！"
+  },
+  "30071": {
+    "id": 30071,
+    "resid": 5049,
+    "name": "光阴使者",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1018;93;78;1",
+    "mapButton": "",
+    "talk": "世间何物催人老，半是鸡声半马蹄。"
+  },
+  "30072": {
+    "id": 30072,
+    "resid": 6005,
+    "name": "光禄寺官员",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1018;12;19;0",
+    "mapButton": "",
+    "talk": "曾经我以为，当官最需要的是睿智的脑子和精明的心，当了以后才知道，面对没完没了的芝麻屁点大的纠纷和破事，最需要的是长肉的屁股和柔软的坐垫。"
+  },
+  "30073": {
+    "id": 30073,
+    "resid": 6019,
+    "name": "光禄寺官员",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1018;144;31;0",
+    "mapButton": "",
+    "talk": "……………………zzzzzZZZZZZ…………谁，谁在叫我？"
+  },
+  "30074": {
+    "id": 30074,
+    "resid": 6019,
+    "name": "宝象国守卫乙",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1018;130;26;0",
+    "mapButton": "",
+    "talk": "混混日子，打打酱油……"
+  },
+  "30075": {
+    "id": 30075,
+    "resid": 6034,
+    "name": "宝象国土地",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1018;120;13;0",
+    "mapButton": "",
+    "talk": "土地公这种小神好尴尬。上不了天下不了地，不高不低到来不去。"
+  },
+  "30076": {
+    "id": 30076,
+    "resid": 5045,
+    "name": "百花羞",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1018;174;39;1",
+    "mapButton": "",
+    "talk": "虽说我夫君对我很好，可我……"
+  },
+  "30077": {
+    "id": 30077,
+    "resid": 6074,
+    "name": "喽啰",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1018;183;18;1",
+    "mapButton": "",
+    "talk": "作为老大最看重的小弟，到时候唐僧肉肯定有我的一份"
+  },
+  "30078": {
+    "id": 30078,
+    "resid": 6098,
+    "name": "黄袍怪",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1018;199;26;1",
+    "mapButton": "",
+    "talk": "要说在这山头做妖怪，可比在天上做神仙的日子快活多啦！"
+  },
+  "30079": {
+    "id": 30079,
+    "resid": 6013,
+    "name": "金角大王",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1019;95;125;0",
+    "mapButton": "",
+    "talk": "在这山头当大王真舒服畅快，我可一点不想回去烧那破炉子，其实吃不吃唐僧肉那都无所谓啦。"
+  },
+  "30080": {
+    "id": 30080,
+    "resid": 6074,
+    "name": "小山妖",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1019;88;107;0",
+    "mapButton": "",
+    "talk": "其实我很担忧，这唐僧肉到时候分到我头上的时候，还剩几两啊……"
+  },
+  "30081": {
+    "id": 30081,
+    "resid": 6041,
+    "name": "压龙山老奶奶",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1019;129;124;1",
+    "mapButton": "",
+    "talk": "我的个乖儿子们可真孝顺~~"
+  },
+  "30082": {
+    "id": 30082,
+    "resid": 6104,
+    "name": "银角大王",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1019;66;115;0",
+    "mapButton": "",
+    "talk": "我的好宝贝瓶子啊，让我再好好亲亲你"
+  },
+  "30083": {
+    "id": 30083,
+    "resid": 6081,
+    "name": "樵夫",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1019;135;98;0",
+    "mapButton": "",
+    "talk": "上山砍柴动起来！"
+  },
+  "30084": {
+    "id": 30084,
+    "resid": 6019,
+    "name": "乌鸡国守卫甲",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1019;126;75;0",
+    "mapButton": "",
+    "talk": "其实我从小就喜读书，做一个武力守卫并不适合我。我听说东边的大唐国的国民们可以通过科举改变自己的命运，多希望在乌鸡国也可以有这样的机会。"
+  },
+  "30085": {
+    "id": 30085,
+    "resid": 6019,
+    "name": "乌鸡国守卫乙",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1019;136;70;0",
+    "mapButton": "",
+    "talk": "哪怕是一个再不起眼的守卫乙，我也是有名有姓的。少侠，如果可以的话，我希望你记住我的名字叫巴巴江。"
+  },
+  "30086": {
+    "id": 30086,
+    "resid": 5058,
+    "name": "小妖",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1019;161;77;1",
+    "mapButton": "",
+    "talk": "孙悟空？听说孙悟空也有个宝贝定海神针，不过和我们大王的宝贝比起来肯定弱爆啦！"
+  },
+  "30087": {
+    "id": 30087,
+    "resid": 5056,
+    "name": "乌鸡国太子",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1019;13;43;0",
+    "mapButton": "",
+    "talk": "听闻东边大唐国的皇帝治国有方，有机会很想去学习一下。"
+  },
+  "30088": {
+    "id": 30088,
+    "resid": 6006,
+    "name": "乌鸡国王后",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1019;46;6;1",
+    "mapButton": "",
+    "talk": "老实说，最近这三年，我过得好苦啊。可是这种事，我也没办法找人诉苦……"
+  },
+  "30089": {
+    "id": 30089,
+    "resid": 6097,
+    "name": "乌鸡国国王",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1019;7;12;0",
+    "mapButton": "",
+    "talk": "咳咳，咳咳咳。不要老盯着寡人看。"
+  },
+  "30090": {
+    "id": 30090,
+    "resid": 6014,
+    "name": "刘伯钦",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1006;114;10;0",
+    "mapButton": "",
+    "talk": "咱从小靠山吃山，要说这山上啥最好吃，非野猪莫属！说来前段时间猎了一头很奇特的野猪，还会说话呢！"
+  },
+  "30091": {
+    "id": 30091,
+    "resid": 6006,
+    "name": "老妇人",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1006;70;11;0",
+    "mapButton": "",
+    "talk": "相公死得早，我一介妇人拉扯这三个女儿长大，希望他们都能嫁得比我好……"
+  },
+  "30092": {
+    "id": 30092,
+    "resid": 5051,
+    "name": "二小姐",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1006;28;34;0",
+    "mapButton": "",
+    "talk": "爹爹在世时最疼的就是我了，他临终前对我说，最遗憾的事情就是没能亲眼看着我出嫁。唉，到什么时候才能嫁出去，给爹爹个交代啊。"
+  },
+  "30093": {
+    "id": 30093,
+    "resid": 5052,
+    "name": "三小姐",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1006;13;20;0",
+    "mapButton": "",
+    "talk": "虽然咱家日子过得也算宽敞，可作为一家最小的女儿，我从小穿姐姐们穿旧的，用姐姐们用过的，想想都觉得心酸。"
+  },
+  "30094": {
+    "id": 30094,
+    "resid": 6024,
+    "name": "山贼",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1006;77;65;1",
+    "mapButton": "",
+    "talk": "打打打、打劫！有色的劫色，没色的劫财！"
+  },
+  "30095": {
+    "id": 30095,
+    "resid": 5039,
+    "name": "灵兽大仙",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1006;64;85;1",
+    "mapButton": "",
+    "talk": "灵兽大仙亲自下界造福百姓，召唤兽转生收费五折，飞升三折，少侠有需要么"
+  },
+  "30096": {
+    "id": 30096,
+    "resid": 2019,
+    "name": "大小姐",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1006;26;78;0",
+    "mapButton": "",
+    "talk": "自古红颜多薄命，我自打出了娘胎，就一直过着抱恙的日子。可自打我看见街上那些身强力壮的女汉子之后，我便觉得，我还是情愿薄命一些好。"
+  },
+  "30097": {
+    "id": 30097,
+    "resid": 6046,
+    "name": "三头魔王",
+    "kind": 1,
+    "monster_group": 10149,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "干什么？小心我吃了你，走开，别碍事，天兵来了我也不怕！"
+  },
+  "30098": {
+    "id": 30098,
+    "resid": 6034,
+    "name": "五庄观土地",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1006;22;96;0",
+    "mapButton": "",
+    "talk": "土地里的小生灵都是我的孩子。只可惜他们多数命短，能陪在我身边的，也只这些参天大树了。"
+  },
+  "30099": {
+    "id": 30099,
+    "resid": 6042,
+    "name": "清风",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1006;111;103;0",
+    "mapButton": "",
+    "talk": "其实这人参果……我也想偷吃一点……"
+  },
+  "30100": {
+    "id": 30100,
+    "resid": 6042,
+    "name": "明月",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1006;119;106;0",
+    "mapButton": "",
+    "talk": "我咋感觉，清风也想偷吃这人参果呢？……不对不对，我不应该这么怀疑自己的小伙伴的。"
+  },
+  "30101": {
+    "id": 30101,
+    "resid": 5033,
+    "name": "天机星",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "在外面多潇洒啊都是“太白金星”多管闲事，这么多人说要帮助我们归位"
+  },
+  "30102": {
+    "id": 30102,
+    "resid": 6038,
+    "name": "镇元大仙",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1006;65;150;0",
+    "mapButton": "",
+    "talk": "那西天取经的和尚曾是如来座下的弟子，与我是故交。他日若他取经路过此地，一定邀他前来共享这人参果。"
+  },
+  "30103": {
+    "id": 30103,
+    "resid": 5038,
+    "name": "罗刹女",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1006;13;117;0",
+    "mapButton": "",
+    "talk": "不怕死的话，就陪我一会儿，多看我几眼。"
+  },
+  "30105": {
+    "id": 30105,
+    "resid": 6090,
+    "name": "青青",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1007;82;64;0",
+    "mapButton": "",
+    "talk": "我看这斧头帮的帮主，似乎和一般的山贼不一样。\"，\"祖师爷一生轰轰烈烈，叫人好生羡慕。"
+  },
+  "30106": {
+    "id": 30106,
+    "resid": 5042,
+    "name": "百花羞",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1007;150;101;0",
+    "mapButton": "",
+    "talk": "奎郎……奎郎，你何时才能回来……"
+  },
+  "30108": {
+    "id": 30108,
+    "resid": 5058,
+    "name": "小喽啰",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1007;114;75;0",
+    "mapButton": "",
+    "talk": "大王叫我来巡山~咦儿哟~咦啊咦儿哟~小心提防那孙悟空~咦儿哟~咦啊咦儿哟~"
+  },
+  "30109": {
+    "id": 30109,
+    "resid": 6026,
+    "name": "小伙子",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1007;132;64;1",
+    "mapButton": "",
+    "talk": "我要出镜！我要出镜！给我安排个显眼点的位置，我要当重要的NPC！\"，\"现在这造型不够帅啊，给换个帅点的啊！"
+  },
+  "30113": {
+    "id": 30113,
+    "resid": 1001,
+    "name": "白衣文士",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1007;84;35;0",
+    "mapButton": "",
+    "talk": "除，除，除……除尽天下妖孽。"
+  },
+  "30114": {
+    "id": 30114,
+    "resid": 6034,
+    "name": "山神",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1007;88;9;0",
+    "mapButton": "",
+    "talk": "愚公什么的最讨厌了……"
+  },
+  "30118": {
+    "id": 30118,
+    "resid": 6080,
+    "name": "车夫-北俱芦洲",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1008;21;78;0",
+    "mapButton": "",
+    "talk": "少侠是要前往北俱芦洲吗？那地方一般的车夫可到不了，不过我可以"
+  },
+  "30119": {
+    "id": 30119,
+    "resid": 5026,
+    "name": "修罗鬼",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1008;39;80;0",
+    "mapButton": "",
+    "talk": "我乃流荡于三界之外的转世修罗，莫要随意惹怒我！"
+  },
+  "30120": {
+    "id": 30120,
+    "resid": 6055,
+    "name": "蓝色妖王",
+    "kind": 1,
+    "monster_group": 10151,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "干什么？小心我吃了你，走开，别碍事，天兵来了我也不怕"
+  },
+  "30121": {
+    "id": 30121,
+    "resid": 6034,
+    "name": "白骨山土地",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1008;38;46;1",
+    "mapButton": "",
+    "talk": "自打这山上来了那老尸魔，身边的一草一木我都疑心是他。"
+  },
+  "30122": {
+    "id": 30122,
+    "resid": 5033,
+    "name": "人之战神",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1008;18;41;0",
+    "mapButton": "",
+    "talk": "我看啊，这白骨妖就和孙悟空一样用座大山压着就好了，何必又派我来看着呢。浪费我五百年时间哼。"
+  },
+  "30123": {
+    "id": 30123,
+    "resid": 5026,
+    "name": "地之战神",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1008;100;12;1",
+    "mapButton": "",
+    "talk": "小弟总是颇多抱怨，其实在我看来，上天派我来守这女魔头可是莫大的荣耀。"
+  },
+  "30124": {
+    "id": 30124,
+    "resid": 5034,
+    "name": "天之战神",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1008;66;21;0",
+    "mapButton": "",
+    "talk": "我说，这白骨妖怪现在是颓废了，按她当年大闹琉璃宴那威力，别说我们三个战神了，就算是三十个也看不住她。"
+  },
+  "30125": {
+    "id": 30125,
+    "resid": 6017,
+    "name": "秦琼",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1000;80;64;0",
+    "mapButton": "",
+    "talk": "木魅卷土重来，我等职责就是保卫大唐。首次登记除魅军功拿大奖，如获得更高积分登记则会刷新积分记录"
+  },
+  "30126": {
+    "id": 30126,
+    "resid": 6007,
+    "name": "黄大仙",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1000;44;43;1",
+    "mapButton": "{\"changerace\":\"我要换种族\",\"close\": \"再见\"}",
+    "talk": "本大仙本领通天，可绕过轮回逆天改命！今生的你想做什么种族，本大仙都能成全你~"
+  },
+  "30128": {
+    "id": 30128,
+    "resid": 6005,
+    "name": "建房吏",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1000;92;14;1",
+    "mapButton": "",
+    "talk": "五亩之宅，百亩之田，黎民百姓乐业安居，这才是大同盛世啊。"
+  },
+  "30129": {
+    "id": 30129,
+    "resid": 5040,
+    "name": "龟丞相",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1009;65;45;1",
+    "mapButton": "",
+    "talk": "你找我什么事？哎呀老夫年纪大了，听不太清啦！"
+  },
+  "30130": {
+    "id": 30130,
+    "resid": 6065,
+    "name": "蟹将军",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1009;7;55;0",
+    "mapButton": "",
+    "talk": "三界侠士都应该从小立志在我龙战天下比武大会中崭露头角，扬名立万"
+  },
+  "30131": {
+    "id": 30131,
+    "resid": 5037,
+    "name": "龙女",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1009;25;67;1",
+    "mapButton": "",
+    "talk": "父王怎么还不把我嫁出去……"
+  },
+  "30132": {
+    "id": 30132,
+    "resid": 5056,
+    "name": "龙太子",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1009;98;13;1",
+    "mapButton": "",
+    "talk": "那些告诉你龙马是在东海龙宫抓到的人是骗你的，你就算干掉我也不会得到龙马的"
+  },
+  "30133": {
+    "id": 30133,
+    "resid": 5016,
+    "name": "猴小弟",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1017;28;55;0",
+    "mapButton": "",
+    "talk": "我可想念大王了。少侠，你有机会能见到我们大王么？可以帮忙捎些花果山的桃儿给他么？外面的桃子可比不上这儿的。"
+  },
+  "30134": {
+    "id": 30134,
+    "resid": 6059,
+    "name": "老猴儿",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1017;102;65;1",
+    "mapButton": "",
+    "talk": "俗话说得好，大圣不在家，猴子称大王！我宣布，各山头的猴兄猴弟们，现在都要听我的了，不服你来打我啊"
+  },
+  "30135": {
+    "id": 30135,
+    "resid": 5016,
+    "name": "猴小哥",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1017;131;27;1",
+    "mapButton": "",
+    "talk": "￥#…%*…*%￥#￥%&（&￥%……！@#￥……@*%#*++——&…￥…………看什么看#132，这是猴语，你听不懂的。"
+  },
+  "30136": {
+    "id": 30136,
+    "resid": 5050,
+    "name": "紫衣",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1017;110;85;1",
+    "mapButton": "",
+    "talk": "我本是花果山上一棵仙树，为了一段痴念化作人形，远望大海，等着一个不知何时归来的人。"
+  },
+  "30137": {
+    "id": 30137,
+    "resid": 6016,
+    "name": "灵兽村守护神",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1014;80;44;1",
+    "mapButton": "",
+    "talk": "我会一直守着这座石碑，寸步不离。"
+  },
+  "30138": {
+    "id": 30138,
+    "resid": 5033,
+    "name": "灵兽村使者",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1014;73;65;0",
+    "mapButton": "",
+    "talk": "你看这灵兽村真是安静啊，你以为这是安静是祥和吗？不不不，其实是紧张，是害怕……"
+  },
+  "30139": {
+    "id": 30139,
+    "resid": 6056,
+    "name": "白虎长老",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1014;75;82;0",
+    "mapButton": "",
+    "talk": "年轻人，快回去，从哪来的回哪去。"
+  },
+  "30140": {
+    "id": 30140,
+    "resid": 5018,
+    "name": "青龙长老",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1014;28;96;0",
+    "mapButton": "",
+    "talk": "你听说过修罗族吗？那力量，真是让人害怕。"
+  },
+  "30141": {
+    "id": 30141,
+    "resid": 5017,
+    "name": "朱雀长老",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1014;109;96;1",
+    "mapButton": "",
+    "talk": "听闻这修罗族的力量，可比当年屠神盛宴上的那女妖怪来得狠得多。"
+  },
+  "30142": {
+    "id": 30142,
+    "resid": 6052,
+    "name": "麒麟村长",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1014;134;86;1",
+    "mapButton": "",
+    "talk": "村子里似乎越来越不平静……少侠不知此番前来有何贵干？"
+  },
+  "30143": {
+    "id": 30143,
+    "resid": 3005,
+    "name": "大虎",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1014;129;47;1",
+    "mapButton": "",
+    "talk": "这一天我们等待的太久了……"
+  },
+  "30144": {
+    "id": 30144,
+    "resid": 5040,
+    "name": "玄武长老",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1014;143;46;1",
+    "mapButton": "",
+    "talk": "中原的人啊，听我的劝诫，你们最好少来这里。"
+  },
+  "30145": {
+    "id": 30145,
+    "resid": 6056,
+    "name": "小白虎",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1014;78;131;0",
+    "mapButton": "",
+    "talk": "依呀依儿哟，依呀依儿哟……"
+  },
+  "30146": {
+    "id": 30146,
+    "resid": 6004,
+    "name": "嬷嬷",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1014;95;11;1",
+    "mapButton": "",
+    "talk": "这灵兽村下面守着一个可不得了的东西，据说拥有毁灭世界的力量……唉，听闻最近这封印有点松动了呢……嘘"
+  },
+  "30147": {
+    "id": 30147,
+    "resid": 6080,
+    "name": "车夫-白骨山",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1003;43;27;1",
+    "mapButton": "",
+    "talk": "这儿可真冻啊，少侠想回中原吗？我可以把你送到白骨山"
+  },
+  "30148": {
+    "id": 30148,
+    "resid": 6027,
+    "name": "钱二",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1003;7;67;0",
+    "mapButton": "",
+    "talk": "北俱芦洲终年冰封，怪物横行。"
+  },
+  "30149": {
+    "id": 30149,
+    "resid": 6003,
+    "name": "赵大",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1003;15;71;0",
+    "mapButton": "",
+    "talk": "能来到北俱芦洲的人一定不是泛泛之辈。"
+  },
+  "30150": {
+    "id": 30150,
+    "resid": 5011,
+    "name": "小冰熊守卫",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1003;37;74;0",
+    "mapButton": "",
+    "talk": "灵兽村冰雪筑成，巧夺天工，实在是美不胜收。"
+  },
+  "30151": {
+    "id": 30151,
+    "resid": 5017,
+    "name": "天梁星",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "在外面多潇洒啊都是“太白金星”多管闲事，这么多人说要帮助我们归位"
+  },
+  "30152": {
+    "id": 30152,
+    "resid": 5024,
+    "name": "冰小怪",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1003;91;71;0",
+    "mapButton": "",
+    "talk": "作为一个生下来就没有手也没有脚的残废，我的生活自然是比别人要艰难许多的。可是妈妈说要坚强~"
+  },
+  "30153": {
+    "id": 30153,
+    "resid": 5024,
+    "name": "冰风怪",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1003;128;79;0",
+    "mapButton": "",
+    "talk": "我以前不长这样的，只是这地方实在太冻，把我冻成这样的。剥开我冰雪的外衣，你会看见我真实的脸"
+  },
+  "30154": {
+    "id": 30154,
+    "resid": 6044,
+    "name": "幽冥地鬼",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1003;120;55;1",
+    "mapButton": "",
+    "talk": "做神仙有什么好？那么多规矩，还是妖怪爽，见谁砍谁，哈哈"
+  },
+  "30155": {
+    "id": 30155,
+    "resid": 5019,
+    "name": "满堂春",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1003;125;46;1",
+    "mapButton": "",
+    "talk": "我怎么会到这儿来了呢……依稀记得我家住在一条可热闹的街市……"
+  },
+  "30156": {
+    "id": 30156,
+    "resid": 6025,
+    "name": "贾有钱",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1003;136;6;1",
+    "mapButton": "",
+    "talk": "这北俱芦…芦洲天寒地冻，真是让…让我想念中原啊…"
+  },
+  "30157": {
+    "id": 30157,
+    "resid": 5036,
+    "name": "无名小妖",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1003;77;7;0",
+    "mapButton": "",
+    "talk": "你看到我了？你真的看到我了？"
+  },
+  "30158": {
+    "id": 30158,
+    "resid": 6017,
+    "name": "护园大将",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1015;93;17;1",
+    "mapButton": "",
+    "talk": "我是护园大将，在这里帮王母娘娘看守蟠桃园的日子已经数不清了，很想去见见以前的一些朋友，哎"
+  },
+  "30159": {
+    "id": 30159,
+    "resid": 6042,
+    "name": "守园童子",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1015;10;35;0",
+    "mapButton": "",
+    "talk": "………………zzzZZZ……zzzZZZ……（这位看蟠桃的童子似乎睡着了啊，原来神仙也是会偷懒的啊，还是别打扰他了吧"
+  },
+  "30160": {
+    "id": 30160,
+    "resid": 6042,
+    "name": "星童",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1015;82;67;0",
+    "mapButton": "",
+    "talk": "海晏河清，盛世太平。三十六重天之上的玉帝听闻三界多侠士，特命四象星宿所属的二十八星宿下凡探访。"
+  },
+  "30161": {
+    "id": 30161,
+    "resid": 5019,
+    "name": "桃花仙",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1015;93;68;1",
+    "mapButton": "",
+    "talk": "这里的蟠桃可是五百年一开花，五百年一结果，五百年一熟的呀"
+  },
+  "30162": {
+    "id": 30162,
+    "resid": 6017,
+    "name": "王母娘娘的侍卫",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1015;57;82;0",
+    "mapButton": "",
+    "talk": "自从上次孙悟空在蟠桃宴上大闹一番后，王母娘娘立马加强了防范，命我守护她左右！我相信，有我在，孙猴子一定不敢再来了！"
+  },
+  "30163": {
+    "id": 30163,
+    "resid": 6038,
+    "name": "财神",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1015;12;85;0",
+    "mapButton": "",
+    "talk": "恭喜发财，大吉大利"
+  },
+  "30164": {
+    "id": 30164,
+    "resid": 6037,
+    "name": "鸿蒙老祖",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1015;28;123;0",
+    "mapButton": "",
+    "talk": "若是对自己命格不满的，皆可来我这挑战挑战九生九死之阵，百分百保证脱胎换骨，百分百不保证换了之后命就会变好。可从盘古开天地以来，也只有两人成功通过。"
+  },
+  "30165": {
+    "id": 30165,
+    "resid": 5045,
+    "name": "侍女乙",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1015;60;122;1",
+    "mapButton": "",
+    "talk": "你……是来和我说话的吗？我终日守护在王母娘娘左右，甚少有人和我说话呢……"
+  },
+  "30166": {
+    "id": 30166,
+    "resid": 5045,
+    "name": "侍女甲",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1015;93;105;1",
+    "mapButton": "",
+    "talk": "王母娘娘时常教育我们，作为神仙，要谨言慎行。"
+  },
+  "30167": {
+    "id": 30167,
+    "resid": 6089,
+    "name": "王母娘娘",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "1015;77;119;1",
+    "mapButton": "",
+    "talk": "办这蟠桃宴，可千万别叫那体貌不端又不守礼法的孙猴子知道了！"
+  },
+  "30168": {
+    "id": 30168,
+    "resid": 3006,
+    "name": "地狗星",
+    "kind": 1,
+    "monster_group": 10051,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30169": {
+    "id": 30169,
+    "resid": 3006,
+    "name": "地狗星",
+    "kind": 1,
+    "monster_group": 10051,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30170": {
+    "id": 30170,
+    "resid": 3006,
+    "name": "地狗星",
+    "kind": 1,
+    "monster_group": 10051,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30171": {
+    "id": 30171,
+    "resid": 1002,
+    "name": "地平星",
+    "kind": 1,
+    "monster_group": 10052,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30172": {
+    "id": 30172,
+    "resid": 1002,
+    "name": "地平星",
+    "kind": 1,
+    "monster_group": 10052,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30173": {
+    "id": 30173,
+    "resid": 1002,
+    "name": "地平星",
+    "kind": 1,
+    "monster_group": 10052,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30174": {
+    "id": 30174,
+    "resid": 1001,
+    "name": "地悠星",
+    "kind": 1,
+    "monster_group": 10053,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30175": {
+    "id": 30175,
+    "resid": 1001,
+    "name": "地悠星",
+    "kind": 1,
+    "monster_group": 10053,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30176": {
+    "id": 30176,
+    "resid": 1001,
+    "name": "地悠星",
+    "kind": 1,
+    "monster_group": 10053,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30177": {
+    "id": 30177,
+    "resid": 4007,
+    "name": "地异星",
+    "kind": 1,
+    "monster_group": 10054,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30178": {
+    "id": 30178,
+    "resid": 4007,
+    "name": "地异星",
+    "kind": 1,
+    "monster_group": 10054,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30179": {
+    "id": 30179,
+    "resid": 4007,
+    "name": "地异星",
+    "kind": 1,
+    "monster_group": 10054,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30180": {
+    "id": 30180,
+    "resid": 1001,
+    "name": "地微星",
+    "kind": 1,
+    "monster_group": 10055,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30181": {
+    "id": 30181,
+    "resid": 1001,
+    "name": "地微星",
+    "kind": 1,
+    "monster_group": 10055,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30182": {
+    "id": 30182,
+    "resid": 1001,
+    "name": "地微星",
+    "kind": 1,
+    "monster_group": 10055,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30183": {
+    "id": 30183,
+    "resid": 4007,
+    "name": "地奇星",
+    "kind": 1,
+    "monster_group": 10056,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30184": {
+    "id": 30184,
+    "resid": 4007,
+    "name": "地奇星",
+    "kind": 1,
+    "monster_group": 10056,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30185": {
+    "id": 30185,
+    "resid": 4007,
+    "name": "地奇星",
+    "kind": 1,
+    "monster_group": 10056,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30186": {
+    "id": 30186,
+    "resid": 4008,
+    "name": "地查星",
+    "kind": 1,
+    "monster_group": 10057,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30187": {
+    "id": 30187,
+    "resid": 4008,
+    "name": "地查星",
+    "kind": 1,
+    "monster_group": 10057,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30188": {
+    "id": 30188,
+    "resid": 4008,
+    "name": "地查星",
+    "kind": 1,
+    "monster_group": 10057,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30189": {
+    "id": 30189,
+    "resid": 3006,
+    "name": "地稽星",
+    "kind": 1,
+    "monster_group": 10058,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30190": {
+    "id": 30190,
+    "resid": 3006,
+    "name": "地稽星",
+    "kind": 1,
+    "monster_group": 10058,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30191": {
+    "id": 30191,
+    "resid": 3006,
+    "name": "地稽星",
+    "kind": 1,
+    "monster_group": 10058,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30192": {
+    "id": 30192,
+    "resid": 2013,
+    "name": "地慧星",
+    "kind": 1,
+    "monster_group": 10059,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30193": {
+    "id": 30193,
+    "resid": 2013,
+    "name": "地慧星",
+    "kind": 1,
+    "monster_group": 10059,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30194": {
+    "id": 30194,
+    "resid": 2013,
+    "name": "地慧星",
+    "kind": 1,
+    "monster_group": 10059,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30195": {
+    "id": 30195,
+    "resid": 1012,
+    "name": "地魁星",
+    "kind": 1,
+    "monster_group": 10060,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30196": {
+    "id": 30196,
+    "resid": 1012,
+    "name": "地魁星",
+    "kind": 1,
+    "monster_group": 10060,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30197": {
+    "id": 30197,
+    "resid": 1012,
+    "name": "地魁星",
+    "kind": 1,
+    "monster_group": 10060,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30198": {
+    "id": 30198,
+    "resid": 4017,
+    "name": "地灵星",
+    "kind": 1,
+    "monster_group": 10061,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30199": {
+    "id": 30199,
+    "resid": 4017,
+    "name": "地灵星",
+    "kind": 1,
+    "monster_group": 10061,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30200": {
+    "id": 30200,
+    "resid": 4017,
+    "name": "地灵星",
+    "kind": 1,
+    "monster_group": 10061,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30201": {
+    "id": 30201,
+    "resid": 3016,
+    "name": "地隐星",
+    "kind": 1,
+    "monster_group": 10062,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30202": {
+    "id": 30202,
+    "resid": 3016,
+    "name": "地隐星",
+    "kind": 1,
+    "monster_group": 10062,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30203": {
+    "id": 30203,
+    "resid": 3016,
+    "name": "地隐星",
+    "kind": 1,
+    "monster_group": 10062,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  },
+  "30204": {
+    "id": 30204,
+    "resid": 5029,
+    "name": "辰时一刻挖渣鬼",
+    "kind": 1,
+    "monster_group": 10015,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30205": {
+    "id": 30205,
+    "resid": 5036,
+    "name": "辰时二刻穷鬼",
+    "kind": 1,
+    "monster_group": 10016,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30206": {
+    "id": 30206,
+    "resid": 5024,
+    "name": "辰时三刻涎脸鬼",
+    "kind": 1,
+    "monster_group": 10017,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30207": {
+    "id": 30207,
+    "resid": 5025,
+    "name": "子时一刻诓骗鬼",
+    "kind": 1,
+    "monster_group": 10018,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30208": {
+    "id": 30208,
+    "resid": 5058,
+    "name": "子时二刻捣大鬼",
+    "kind": 1,
+    "monster_group": 10019,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30209": {
+    "id": 30209,
+    "resid": 5023,
+    "name": "子时三刻乜斜鬼",
+    "kind": 1,
+    "monster_group": 10020,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30210": {
+    "id": 30210,
+    "resid": 5023,
+    "name": "丑时一刻龌龊鬼",
+    "kind": 1,
+    "monster_group": 10021,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30211": {
+    "id": 30211,
+    "resid": 5022,
+    "name": "丑时二刻黑眼鬼",
+    "kind": 1,
+    "monster_group": 10022,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30212": {
+    "id": 30212,
+    "resid": 5058,
+    "name": "丑时三刻讨吃鬼",
+    "kind": 1,
+    "monster_group": 10023,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30213": {
+    "id": 30213,
+    "resid": 5025,
+    "name": "寅时一刻温斯鬼",
+    "kind": 1,
+    "monster_group": 10024,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30214": {
+    "id": 30214,
+    "resid": 5029,
+    "name": "寅时二刻轻薄鬼",
+    "kind": 1,
+    "monster_group": 10025,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30215": {
+    "id": 30215,
+    "resid": 5036,
+    "name": "寅时三刻叫街鬼",
+    "kind": 1,
+    "monster_group": 10026,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30216": {
+    "id": 30216,
+    "resid": 5024,
+    "name": "卯时一刻吸血鬼",
+    "kind": 1,
+    "monster_group": 10027,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30217": {
+    "id": 30217,
+    "resid": 5058,
+    "name": "卯时二刻造瘟鬼",
+    "kind": 1,
+    "monster_group": 10028,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30218": {
+    "id": 30218,
+    "resid": 5025,
+    "name": "卯时三刻耍碗鬼",
+    "kind": 1,
+    "monster_group": 10029,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30219": {
+    "id": 30219,
+    "resid": 5022,
+    "name": "巳时一刻挖渣鬼",
+    "kind": 1,
+    "monster_group": 10030,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30220": {
+    "id": 30220,
+    "resid": 5023,
+    "name": "巳时二刻穷鬼",
+    "kind": 1,
+    "monster_group": 10031,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30221": {
+    "id": 30221,
+    "resid": 5024,
+    "name": "巳时三刻讨吃鬼",
+    "kind": 1,
+    "monster_group": 10032,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30222": {
+    "id": 30222,
+    "resid": 5025,
+    "name": "午时一刻黑眼鬼",
+    "kind": 1,
+    "monster_group": 10033,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30223": {
+    "id": 30223,
+    "resid": 5058,
+    "name": "午时二刻轻薄鬼",
+    "kind": 1,
+    "monster_group": 10034,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30224": {
+    "id": 30224,
+    "resid": 5036,
+    "name": "午时三刻叫街鬼",
+    "kind": 1,
+    "monster_group": 10035,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30225": {
+    "id": 30225,
+    "resid": 5029,
+    "name": "未时一刻龌龊鬼",
+    "kind": 1,
+    "monster_group": 10036,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30226": {
+    "id": 30226,
+    "resid": 5024,
+    "name": "未时二刻温斯鬼",
+    "kind": 1,
+    "monster_group": 10037,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30227": {
+    "id": 30227,
+    "resid": 5025,
+    "name": "未时三刻吸血鬼",
+    "kind": 1,
+    "monster_group": 10038,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30228": {
+    "id": 30228,
+    "resid": 5022,
+    "name": "申时一刻耍碗鬼",
+    "kind": 1,
+    "monster_group": 10039,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30229": {
+    "id": 30229,
+    "resid": 5036,
+    "name": "申时二刻捣大鬼",
+    "kind": 1,
+    "monster_group": 10040,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30230": {
+    "id": 30230,
+    "resid": 5058,
+    "name": "申时三刻涎脸鬼",
+    "kind": 1,
+    "monster_group": 10041,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30231": {
+    "id": 30231,
+    "resid": 5024,
+    "name": "酉时一刻造瘟鬼",
+    "kind": 1,
+    "monster_group": 10042,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30232": {
+    "id": 30232,
+    "resid": 5023,
+    "name": "酉时二刻乜斜鬼",
+    "kind": 1,
+    "monster_group": 10043,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30233": {
+    "id": 30233,
+    "resid": 5058,
+    "name": "酉时三刻诓骗鬼",
+    "kind": 1,
+    "monster_group": 10044,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30234": {
+    "id": 30234,
+    "resid": 5036,
+    "name": "戍时一刻轻薄鬼",
+    "kind": 1,
+    "monster_group": 10045,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30235": {
+    "id": 30235,
+    "resid": 5025,
+    "name": "戍时二刻叫街鬼",
+    "kind": 1,
+    "monster_group": 10046,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30236": {
+    "id": 30236,
+    "resid": 5024,
+    "name": "戍时三刻吸血鬼",
+    "kind": 1,
+    "monster_group": 10047,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30237": {
+    "id": 30237,
+    "resid": 5023,
+    "name": "亥时一刻讨吃鬼",
+    "kind": 1,
+    "monster_group": 10048,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30238": {
+    "id": 30238,
+    "resid": 5022,
+    "name": "亥时二刻黑眼鬼",
+    "kind": 1,
+    "monster_group": 10049,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30239": {
+    "id": 30239,
+    "resid": 5058,
+    "name": "亥时三刻温斯鬼",
+    "kind": 1,
+    "monster_group": 10050,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": "看什么看，再看我吃了你！"
+  },
+  "30240": {
+    "id": 30240,
+    "resid": 5026,
+    "name": "大妖",
+    "kind": 1,
+    "monster_group": 10007,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30241": {
+    "id": 30241,
+    "resid": 5039,
+    "name": "精卫",
+    "kind": 1,
+    "monster_group": 10008,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30242": {
+    "id": 30242,
+    "resid": 5034,
+    "name": "禹缰",
+    "kind": 1,
+    "monster_group": 10009,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30243": {
+    "id": 30243,
+    "resid": 5054,
+    "name": "白骨精",
+    "kind": 1,
+    "monster_group": 10010,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30244": {
+    "id": 30244,
+    "resid": 6044,
+    "name": "奢比尸",
+    "kind": 1,
+    "monster_group": 10011,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30245": {
+    "id": 30245,
+    "resid": 5033,
+    "name": "熙玄逝魂",
+    "kind": 1,
+    "monster_group": 10012,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30246": {
+    "id": 30246,
+    "resid": 5033,
+    "name": "昆仑四圣",
+    "kind": 1,
+    "monster_group": 10013,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30247": {
+    "id": 30247,
+    "resid": 5033,
+    "name": "熙玄逝魂",
+    "kind": 1,
+    "monster_group": 10014,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30248": {
+    "id": 30248,
+    "resid": 6014,
+    "name": "孔长栓",
+    "kind": 1,
+    "monster_group": 10063,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30249": {
+    "id": 30249,
+    "resid": 6014,
+    "name": "孙麻子",
+    "kind": 1,
+    "monster_group": 10064,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30250": {
+    "id": 30250,
+    "resid": 6014,
+    "name": "古二大",
+    "kind": 1,
+    "monster_group": 10065,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30251": {
+    "id": 30251,
+    "resid": 6014,
+    "name": "李全有",
+    "kind": 1,
+    "monster_group": 10066,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30252": {
+    "id": 30252,
+    "resid": 6014,
+    "name": "孙满贯",
+    "kind": 1,
+    "monster_group": 10067,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30253": {
+    "id": 30253,
+    "resid": 6014,
+    "name": "季刀疤",
+    "kind": 1,
+    "monster_group": 10068,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30254": {
+    "id": 30254,
+    "resid": 6014,
+    "name": "温大宝",
+    "kind": 1,
+    "monster_group": 10069,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30255": {
+    "id": 30255,
+    "resid": 6014,
+    "name": "周麻子",
+    "kind": 1,
+    "monster_group": 10070,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30256": {
+    "id": 30256,
+    "resid": 6014,
+    "name": "包二狗",
+    "kind": 1,
+    "monster_group": 10071,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30257": {
+    "id": 30257,
+    "resid": 6014,
+    "name": "吴家顺",
+    "kind": 1,
+    "monster_group": 10072,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30258": {
+    "id": 30258,
+    "resid": 6014,
+    "name": "包二大",
+    "kind": 1,
+    "monster_group": 10073,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30259": {
+    "id": 30259,
+    "resid": 6014,
+    "name": "甘大宝",
+    "kind": 1,
+    "monster_group": 10074,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30260": {
+    "id": 30260,
+    "resid": 6014,
+    "name": "孙铁柱",
+    "kind": 1,
+    "monster_group": 10075,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30261": {
+    "id": 30261,
+    "resid": 6014,
+    "name": "孙道哥",
+    "kind": 1,
+    "monster_group": 10076,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30262": {
+    "id": 30262,
+    "resid": 6014,
+    "name": "赵刀疤",
+    "kind": 1,
+    "monster_group": 10077,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30263": {
+    "id": 30263,
+    "resid": 6019,
+    "name": "武官太史天佑",
+    "kind": 1,
+    "monster_group": 10081,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30264": {
+    "id": 30264,
+    "resid": 6090,
+    "name": "无名女侠",
+    "kind": 1,
+    "monster_group": 10078,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30265": {
+    "id": 30265,
+    "resid": 5012,
+    "name": "捣乱的蚌精",
+    "kind": 1,
+    "monster_group": 10083,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30266": {
+    "id": 30266,
+    "resid": 1001,
+    "name": "公孙无用",
+    "kind": 1,
+    "monster_group": 10084,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30267": {
+    "id": 30267,
+    "resid": 1001,
+    "name": "吴铭英杰",
+    "kind": 1,
+    "monster_group": 10080,
+    "auto_create": "",
+    "mapButton": "",
+    "talk": ""
+  },
+  "30301": {
+    "id": 30301,
+    "resid": 5024,
+    "name": "游荡妖魔",
+    "kind": 3,
+    "monster_group": 10001,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "确定要进入与游荡妖魔的战斗吗？"
+  },
+  "30302": {
+    "id": 30302,
+    "resid": 5029,
+    "name": "游荡妖魔",
+    "kind": 3,
+    "monster_group": 10001,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "确定要进入与游荡妖魔的战斗吗？"
+  },
+  "30303": {
+    "id": 30303,
+    "resid": 5025,
+    "name": "游荡妖魔",
+    "kind": 3,
+    "monster_group": 10001,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "确定要进入与游荡妖魔的战斗吗？"
+  },
+  "30304": {
+    "id": 30304,
+    "resid": 5026,
+    "name": "游荡妖魔",
+    "kind": 3,
+    "monster_group": 10001,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "确定要进入与游荡妖魔的战斗吗？"
+  },
+  "30305": {
+    "id": 30305,
+    "resid": 5041,
+    "name": "游荡妖魔",
+    "kind": 3,
+    "monster_group": 10001,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "确定要进入与游荡妖魔的战斗吗？"
+  },
+  "30306": {
+    "id": 30306,
+    "resid": 5040,
+    "name": "游荡妖魔",
+    "kind": 3,
+    "monster_group": 10001,
+    "auto_create": "",
+    "mapButton": "{\"close\": \"再见\"}",
+    "talk": "确定要进入与游荡妖魔的战斗吗？"
+  },
+  "30307": {
+    "id": 30307,
+    "resid": 5019,
+    "name": "腊梅仙子",
+    "kind": 1,
+    "monster_group": 10110,
+    "auto_create": "",
+    "mapButton": "{\"close\": \"再见\"}",
+    "talk": "打败守护神，拯救被封印的仙子吧。"
+  },
+  "30308": {
+    "id": 30308,
+    "resid": 5037,
+    "name": "杏花仙子",
+    "kind": 1,
+    "monster_group": 10111,
+    "auto_create": "",
+    "mapButton": "{\"close\": \"再见\"}",
+    "talk": "打败守护神，拯救被封印的仙子吧。"
+  },
+  "30309": {
+    "id": 30309,
+    "resid": 5019,
+    "name": "桃花仙子",
+    "kind": 1,
+    "monster_group": 10112,
+    "auto_create": "",
+    "mapButton": "{\"close\": \"再见\"}",
+    "talk": "打败守护神，拯救被封印的仙子吧。"
+  },
+  "30310": {
+    "id": 30310,
+    "resid": 5051,
+    "name": "牡丹仙子",
+    "kind": 1,
+    "monster_group": 10113,
+    "auto_create": "",
+    "mapButton": "{\"close\": \"再见\"}",
+    "talk": "打败守护神，拯救被封印的仙子吧。"
+  },
+  "30311": {
+    "id": 30311,
+    "resid": 5052,
+    "name": "石榴仙子",
+    "kind": 1,
+    "monster_group": 10114,
+    "auto_create": "",
+    "mapButton": "{\"close\": \"再见\"}",
+    "talk": "打败守护神，拯救被封印的仙子吧。"
+  },
+  "30312": {
+    "id": 30312,
+    "resid": 5038,
+    "name": "荷花仙子",
+    "kind": 1,
+    "monster_group": 10115,
+    "auto_create": "",
+    "mapButton": "{\"close\": \"再见\"}",
+    "talk": "打败守护神，拯救被封印的仙子吧。"
+  },
+  "30313": {
+    "id": 30313,
+    "resid": 5050,
+    "name": "蜀葵仙子",
+    "kind": 1,
+    "monster_group": 10116,
+    "auto_create": "",
+    "mapButton": "{\"close\": \"再见\"}",
+    "talk": "打败守护神，拯救被封印的仙子吧。"
+  },
+  "40001": {
+    "id": 40001,
+    "resid": 5036,
+    "name": "并不神秘的妖王",
+    "kind": 3,
+    "monster_group": 10117,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "我是一个很神秘的妖王！"
+  },
+  "40100": {
+    "id": 40100,
+    "resid": 5016,
+    "name": "灵猴",
+    "kind": 1,
+    "monster_group": 10153,
+    "auto_create": "",
+    "mapButton": "{\"linghou\":\"教训一下\",\"close\": \"取消\"}",
+    "talk": "偷钱偷钱！！！"
+  },
+  "50001": {
+    "id": 50001,
+    "resid": 5024,
+    "name": "三界妖王",
+    "kind": 3,
+    "monster_group": 10119,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "确定要进入与三界妖王的战斗吗？"
+  },
+  "50002": {
+    "id": 50002,
+    "resid": 5024,
+    "name": "三界妖王",
+    "kind": 3,
+    "monster_group": 10119,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "确定要进入与三界妖王的战斗吗？"
+  },
+  "50003": {
+    "id": 50003,
+    "resid": 5024,
+    "name": "三界妖王",
+    "kind": 3,
+    "monster_group": 10119,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "确定要进入与三界妖王的战斗吗？"
+  },
+  "50004": {
+    "id": 50004,
+    "resid": 5024,
+    "name": "三界妖王",
+    "kind": 3,
+    "monster_group": 10119,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "确定要进入与三界妖王的战斗吗？"
+  },
+  "50005": {
+    "id": 50005,
+    "resid": 5024,
+    "name": "三界妖王",
+    "kind": 3,
+    "monster_group": 10119,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "确定要进入与三界妖王的战斗吗？"
+  },
+  "50006": {
+    "id": 50006,
+    "resid": 5024,
+    "name": "三界妖王",
+    "kind": 3,
+    "monster_group": 10119,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "确定要进入与三界妖王的战斗吗？"
+  },
+  "50007": {
+    "id": 50007,
+    "resid": 5024,
+    "name": "三界妖王",
+    "kind": 3,
+    "monster_group": 10119,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "确定要进入与三界妖王的战斗吗？"
+  },
+  "50008": {
+    "id": 50008,
+    "resid": 5024,
+    "name": "三界妖王",
+    "kind": 3,
+    "monster_group": 10119,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "确定要进入与三界妖王的战斗吗？"
+  },
+  "50009": {
+    "id": 50009,
+    "resid": 5024,
+    "name": "三界妖王",
+    "kind": 3,
+    "monster_group": 10119,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "确定要进入与三界妖王的战斗吗？"
+  },
+  "50010": {
+    "id": 50010,
+    "resid": 5024,
+    "name": "三界妖王",
+    "kind": 3,
+    "monster_group": 10119,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "确定要进入与三界妖王的战斗吗？"
+  },
+  "50011": {
+    "id": 50011,
+    "resid": 5024,
+    "name": "三界妖王",
+    "kind": 3,
+    "monster_group": 10119,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "确定要进入与三界妖王的战斗吗？"
+  },
+  "50012": {
+    "id": 50012,
+    "resid": 5024,
+    "name": "三界妖王",
+    "kind": 3,
+    "monster_group": 10119,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "确定要进入与三界妖王的战斗吗？"
+  },
+  "50013": {
+    "id": 50013,
+    "resid": 5024,
+    "name": "三界妖王",
+    "kind": 3,
+    "monster_group": 10119,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "确定要进入与三界妖王的战斗吗？"
+  },
+  "50014": {
+    "id": 50014,
+    "resid": 5024,
+    "name": "三界妖王",
+    "kind": 3,
+    "monster_group": 10119,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"确定\",\"close\": \"取消\"}",
+    "talk": "确定要进入与三界妖王的战斗吗？"
+  },
+  "60002": {
+    "id": 60002,
+    "resid": 6027,
+    "name": "甄不亏",
+    "kind": 1,
+    "monster_group": 0.0,
+    "auto_create": "",
+    "mapButton": "{\"shop\":\"买点什么？\",\"close\": \"再见\"}",
+    "talk": "买不了吃亏，买不了上当"
+  },
+  "60003": {
+    "id": 60003,
+    "resid": 5043,
+    "name": "田伯光",
+    "kind": 3,
+    "monster_group": 10155,
+    "auto_create": "1010;124;48;0",
+    "mapButton": "",
+    "talk": "田大爷在此！仪琳小师妹哪儿去了！"
+  },
+  "60004": {
+    "id": 60004,
+    "resid": 5046,
+    "name": "岳不群",
+    "kind": 3,
+    "monster_group": 10156,
+    "auto_create": "1004;50;56;0",
+    "mapButton": "",
+    "talk": "剑宗气宗都不如我岳不群！看贱！~！~！~！~！~！~！~！"
+  },
+  "70001": {
+    "id": 70001,
+    "resid": 1011,
+    "name": "地佑星",
+    "kind": 1,
+    "monster_group": 10157,
+    "auto_create": "",
+    "mapButton": "{\"tiaozhan\":\"挑战\",\"close\": \"再见\"}",
+    "talk": "在外面多潇洒啊，都是太白金星多管闲事，这么多人说要帮助我们归位"
+  }
+}

@@ -1,0 +1,3 @@
+[2020-06-13 16:01:41.445] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592034142) WHERE roleid =157846;
+[2020-06-13 16:02:23.227] [INFO] console - SQL: UPDATE qy_role SET mountid=0 WHERE roleid=157846;
+[2020-06-13 16:02:41.576] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157846 AND resid=6;

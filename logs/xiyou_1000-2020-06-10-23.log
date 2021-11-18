@@ -1,0 +1,169 @@
+[2020-06-10 23:00:29.219] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:00:29.225] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:00:29.226] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:00:29.329] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:01:29.226] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:01:29.229] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:01:29.230] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:01:29.334] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:02:29.233] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:02:29.236] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:02:29.238] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:02:29.339] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:03:29.239] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:03:29.243] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:03:29.243] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:03:29.345] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:25:28.267] [INFO] console - 命令行模块启动完毕
+[2020-06-10 23:25:28.642] [INFO] console - HTTP模块启动完毕，开始监听undefined:8811
+[2020-06-10 23:25:28.644] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-10 23:25:28.644] [INFO] console - 启动 launch
+[2020-06-10 23:25:28.645] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-10 23:25:28.645] [INFO] console - 通知模块初始化完毕!
+[2020-06-10 23:25:28.661] [INFO] console - 地图模块加载完毕!
+[2020-06-10 23:25:28.665] [INFO] console - 任务配置模块加载完毕!
+[2020-06-10 23:25:28.668] [INFO] console - 世界模块加载完毕！
+[2020-06-10 23:25:28.671] [INFO] console - Npc配置模块加载完毕！
+[2020-06-10 23:25:28.677] [INFO] console - Npc模块加载完毕！
+[2020-06-10 23:25:28.679] [INFO] console - 角色属性模块加载完毕！
+[2020-06-10 23:25:28.681] [INFO] console - 物品模块加载完毕！
+[2020-06-10 23:25:28.682] [INFO] console - 经验模块加载完毕！
+[2020-06-10 23:25:28.688] [INFO] console - 技能模块加载完毕！
+[2020-06-10 23:25:28.688] [INFO] console - 技能效果模块加载完毕！
+[2020-06-10 23:25:28.716] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:25:28.716] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-10 23:25:28.717] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:25:28.722] [INFO] console - 怪物模块加载完毕！
+[2020-06-10 23:25:28.723] [INFO] console - 商城模块加载完毕!
+[2020-06-10 23:25:28.724] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-10 23:25:28.724] [INFO] console - SQL: select * from shop_goods
+[2020-06-10 23:25:28.725] [INFO] console - 摆摊模块加载完毕!
+[2020-06-10 23:25:28.725] [INFO] console - 排行榜模块加载完毕!
+[2020-06-10 23:25:28.726] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:25:28.727] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-10 23:25:28.825] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-10 23:25:28.826] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-10 23:25:28.826] [INFO] console - 活动模块加载完毕!
+[2020-06-10 23:25:28.828] [INFO] console - 彩票模块加载完毕!
+[2020-06-10 23:25:28.828] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-10 23:25:28.829] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:25:28.829] [INFO] console - 关系模块加载完毕
+[2020-06-10 23:29:11.451] [INFO] console - 命令行模块启动完毕
+[2020-06-10 23:29:11.830] [INFO] console - HTTP模块启动完毕，开始监听undefined:8811
+[2020-06-10 23:29:11.831] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-10 23:29:11.832] [INFO] console - 启动 launch
+[2020-06-10 23:29:11.832] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-10 23:29:11.833] [INFO] console - 通知模块初始化完毕!
+[2020-06-10 23:29:11.862] [INFO] console - 地图模块加载完毕!
+[2020-06-10 23:29:11.866] [INFO] console - 任务配置模块加载完毕!
+[2020-06-10 23:29:11.870] [INFO] console - 世界模块加载完毕！
+[2020-06-10 23:29:11.872] [INFO] console - Npc配置模块加载完毕！
+[2020-06-10 23:29:11.878] [INFO] console - Npc模块加载完毕！
+[2020-06-10 23:29:11.881] [INFO] console - 角色属性模块加载完毕！
+[2020-06-10 23:29:11.884] [INFO] console - 物品模块加载完毕！
+[2020-06-10 23:29:11.888] [INFO] console - 经验模块加载完毕！
+[2020-06-10 23:29:11.890] [INFO] console - 技能模块加载完毕！
+[2020-06-10 23:29:11.892] [INFO] console - 技能效果模块加载完毕！
+[2020-06-10 23:29:11.922] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:29:11.923] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-10 23:29:11.923] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:29:11.930] [INFO] console - 怪物模块加载完毕！
+[2020-06-10 23:29:11.931] [INFO] console - 商城模块加载完毕!
+[2020-06-10 23:29:11.932] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-10 23:29:11.933] [INFO] console - SQL: select * from shop_goods
+[2020-06-10 23:29:11.933] [INFO] console - 摆摊模块加载完毕!
+[2020-06-10 23:29:11.934] [INFO] console - 排行榜模块加载完毕!
+[2020-06-10 23:29:11.936] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:29:11.936] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-10 23:29:12.013] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-10 23:29:12.014] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-10 23:29:12.014] [INFO] console - 活动模块加载完毕!
+[2020-06-10 23:29:12.015] [INFO] console - 彩票模块加载完毕!
+[2020-06-10 23:29:12.016] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-10 23:29:12.016] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:29:12.017] [INFO] console - 关系模块加载完毕
+[2020-06-10 23:29:12.297] [INFO] console - 充值模块加载完毕！
+[2020-06-10 23:29:12.299] [INFO] console - 宠物管理模块加载完毕！
+[2020-06-10 23:29:12.307] [INFO] console - 帮派id种子为110610000
+[2020-06-10 23:29:12.309] [INFO] console - 装备模块加载完毕！
+[2020-06-10 23:29:12.321] [INFO] console - 帮派模块加载完毕!
+[2020-06-10 23:30:50.017] [INFO] console - invalid command
+[2020-06-10 23:31:48.937] [INFO] console - invail command!
+[2020-06-10 23:41:11.716] [INFO] console - 命令行模块启动完毕
+[2020-06-10 23:41:12.092] [INFO] console - HTTP模块启动完毕，开始监听undefined:8811
+[2020-06-10 23:41:12.093] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-10 23:41:12.093] [INFO] console - 启动 launch
+[2020-06-10 23:41:12.094] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-10 23:41:12.094] [INFO] console - 通知模块初始化完毕!
+[2020-06-10 23:41:12.112] [INFO] console - 地图模块加载完毕!
+[2020-06-10 23:41:12.116] [INFO] console - 任务配置模块加载完毕!
+[2020-06-10 23:41:12.121] [INFO] console - 世界模块加载完毕！
+[2020-06-10 23:41:12.124] [INFO] console - Npc配置模块加载完毕！
+[2020-06-10 23:41:12.131] [INFO] console - Npc模块加载完毕！
+[2020-06-10 23:41:12.133] [INFO] console - 角色属性模块加载完毕！
+[2020-06-10 23:41:12.139] [INFO] console - 物品模块加载完毕！
+[2020-06-10 23:41:12.140] [INFO] console - 经验模块加载完毕！
+[2020-06-10 23:41:12.142] [INFO] console - 技能模块加载完毕！
+[2020-06-10 23:41:12.143] [INFO] console - 技能效果模块加载完毕！
+[2020-06-10 23:41:12.170] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:41:12.171] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-10 23:41:12.171] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:41:12.177] [INFO] console - 怪物模块加载完毕！
+[2020-06-10 23:41:12.178] [INFO] console - 商城模块加载完毕!
+[2020-06-10 23:41:12.178] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-10 23:41:12.179] [INFO] console - SQL: select * from shop_goods
+[2020-06-10 23:41:12.179] [INFO] console - 摆摊模块加载完毕!
+[2020-06-10 23:41:12.180] [INFO] console - 排行榜模块加载完毕!
+[2020-06-10 23:41:12.181] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:41:12.182] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-10 23:41:12.249] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-10 23:41:12.249] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-10 23:41:12.250] [INFO] console - 活动模块加载完毕!
+[2020-06-10 23:41:12.252] [INFO] console - 彩票模块加载完毕!
+[2020-06-10 23:41:12.252] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-10 23:41:12.252] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:41:12.253] [INFO] console - 关系模块加载完毕
+[2020-06-10 23:41:12.596] [INFO] console - 宠物管理模块加载完毕！
+[2020-06-10 23:41:12.599] [INFO] console - 帮派id种子为110610000
+[2020-06-10 23:41:12.601] [INFO] console - 充值模块加载完毕！
+[2020-06-10 23:41:12.610] [INFO] console - 装备模块加载完毕！
+[2020-06-10 23:41:12.623] [INFO] console - 帮派模块加载完毕!
+[2020-06-10 23:46:34.170] [INFO] console - invalid command
+[2020-06-10 23:49:44.298] [INFO] console - 命令行模块启动完毕
+[2020-06-10 23:49:44.691] [INFO] console - HTTP模块启动完毕，开始监听undefined:8811
+[2020-06-10 23:49:44.694] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-10 23:49:44.694] [INFO] console - 启动 launch
+[2020-06-10 23:49:44.695] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-10 23:49:44.695] [INFO] console - 通知模块初始化完毕!
+[2020-06-10 23:49:44.726] [INFO] console - 地图模块加载完毕!
+[2020-06-10 23:49:44.730] [INFO] console - 任务配置模块加载完毕!
+[2020-06-10 23:49:44.734] [INFO] console - 世界模块加载完毕！
+[2020-06-10 23:49:44.737] [INFO] console - Npc配置模块加载完毕！
+[2020-06-10 23:49:44.743] [INFO] console - Npc模块加载完毕！
+[2020-06-10 23:49:44.746] [INFO] console - 角色属性模块加载完毕！
+[2020-06-10 23:49:44.751] [INFO] console - 物品模块加载完毕！
+[2020-06-10 23:49:44.753] [INFO] console - 经验模块加载完毕！
+[2020-06-10 23:49:44.755] [INFO] console - 技能模块加载完毕！
+[2020-06-10 23:49:44.756] [INFO] console - 技能效果模块加载完毕！
+[2020-06-10 23:49:44.787] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:49:44.787] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-10 23:49:44.788] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:49:44.794] [INFO] console - 怪物模块加载完毕！
+[2020-06-10 23:49:44.796] [INFO] console - 商城模块加载完毕!
+[2020-06-10 23:49:44.797] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-10 23:49:44.797] [INFO] console - SQL: select * from shop_goods
+[2020-06-10 23:49:44.797] [INFO] console - 摆摊模块加载完毕!
+[2020-06-10 23:49:44.798] [INFO] console - 排行榜模块加载完毕!
+[2020-06-10 23:49:44.805] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:49:44.806] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-10 23:49:44.868] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-10 23:49:44.869] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-10 23:49:44.869] [INFO] console - 活动模块加载完毕!
+[2020-06-10 23:49:44.870] [INFO] console - 彩票模块加载完毕!
+[2020-06-10 23:49:44.870] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-10 23:49:44.871] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-10 23:49:44.871] [INFO] console - 关系模块加载完毕
+[2020-06-10 23:50:44.793] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 23:50:44.795] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 23:50:44.810] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 23:50:44.877] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;

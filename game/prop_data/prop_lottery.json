@@ -1,0 +1,555 @@
+{
+  "1": {
+    "id": 1,
+    "strItem": 10114,
+    "Column2": "神兽丹",
+    "nNum": 10,
+    "nRate": 100
+  },
+  "2": {
+    "id": 2,
+    "strItem": 10406,
+    "Column2": "八荒遗风",
+    "nNum": 2,
+    "nRate": 50
+  },
+  "3": {
+    "id": 3,
+    "strItem": 10117,
+    "Column2": "龙之骨",
+    "nNum": 1,
+    "nRate": 50
+  },
+  "4": {
+    "id": 4,
+    "strItem": 10116,
+    "Column2": "凝魂丹",
+    "nNum": 10,
+    "nRate": 50
+  },
+  "5": {
+    "id": 5,
+    "strItem": 10404,
+    "Column2": "高九彩云龙珠",
+    "nNum": 5,
+    "nRate": 50
+  },
+  "6": {
+    "id": 6,
+    "strItem": 10408,
+    "Column2": "神兵碎片",
+    "nNum": 50,
+    "nRate": 40
+  },
+  "7": {
+    "id": 7,
+    "strItem": 20001,
+    "Column2": "火之书",
+    "nNum": 1,
+    "nRate": 30
+  },
+  "8": {
+    "id": 8,
+    "strItem": 20002,
+    "Column2": "木之书",
+    "nNum": 1,
+    "nRate": 30
+  },
+  "9": {
+    "id": 9,
+    "strItem": 20003,
+    "Column2": "水之书",
+    "nNum": 1,
+    "nRate": 30
+  },
+  "10": {
+    "id": 10,
+    "strItem": 20004,
+    "Column2": "土之书",
+    "nNum": 1,
+    "nRate": 30
+  },
+  "11": {
+    "id": 11,
+    "strItem": 20005,
+    "Column2": "金之书",
+    "nNum": 1,
+    "nRate": 30
+  },
+  "12": {
+    "id": 12,
+    "strItem": 20006,
+    "Column2": "离火之精",
+    "nNum": 1,
+    "nRate": 10
+  },
+  "13": {
+    "id": 13,
+    "strItem": 20007,
+    "Column2": "巺木之精",
+    "nNum": 1,
+    "nRate": 10
+  },
+  "14": {
+    "id": 14,
+    "strItem": 20008,
+    "Column2": "坎水之精",
+    "nNum": 1,
+    "nRate": 10
+  },
+  "15": {
+    "id": 15,
+    "strItem": 20009,
+    "Column2": "艮土之精",
+    "nNum": 1,
+    "nRate": 10
+  },
+  "16": {
+    "id": 16,
+    "strItem": 20010,
+    "Column2": "兑金之精",
+    "nNum": 1,
+    "nRate": 10
+  },
+  "17": {
+    "id": 17,
+    "strItem": 20011,
+    "Column2": "烈焰神珠",
+    "nNum": 1,
+    "nRate": 2
+  },
+  "18": {
+    "id": 18,
+    "strItem": 20012,
+    "Column2": "巨木神珠",
+    "nNum": 1,
+    "nRate": 3
+  },
+  "19": {
+    "id": 19,
+    "strItem": 20013,
+    "Column2": "沧海神珠",
+    "nNum": 1,
+    "nRate": 3
+  },
+  "20": {
+    "id": 20,
+    "strItem": 20014,
+    "Column2": "混沌神珠",
+    "nNum": 1,
+    "nRate": 1
+  },
+  "21": {
+    "id": 21,
+    "strItem": 20015,
+    "Column2": "金铭神珠",
+    "nNum": 1,
+    "nRate": 2
+  },
+  "22": {
+    "id": 22,
+    "strItem": 10406,
+    "Column2": "八荒遗风",
+    "nNum": 2,
+    "nRate": 50
+  },
+  "23": {
+    "id": 23,
+    "strItem": 10406,
+    "Column2": "八荒遗风",
+    "nNum": 2,
+    "nRate": 50
+  },
+  "24": {
+    "id": 24,
+    "strItem": 20001,
+    "Column2": "火之书",
+    "nNum": 1,
+    "nRate": 25
+  },
+  "25": {
+    "id": 25,
+    "strItem": 20002,
+    "Column2": "木之书",
+    "nNum": 1,
+    "nRate": 25
+  },
+  "26": {
+    "id": 26,
+    "strItem": 20003,
+    "Column2": "水之书",
+    "nNum": 1,
+    "nRate": 25
+  },
+  "27": {
+    "id": 27,
+    "strItem": 20004,
+    "Column2": "土之书",
+    "nNum": 1,
+    "nRate": 25
+  },
+  "28": {
+    "id": 28,
+    "strItem": 20005,
+    "Column2": "金之书",
+    "nNum": 1,
+    "nRate": 25
+  },
+  "29": {
+    "id": 29,
+    "strItem": 10114,
+    "Column2": "神兽丹",
+    "nNum": 10,
+    "nRate": 75
+  },
+  "30": {
+    "id": 30,
+    "strItem": 10406,
+    "Column2": "八荒遗风",
+    "nNum": 2,
+    "nRate": 50
+  },
+  "31": {
+    "id": 31,
+    "strItem": 10117,
+    "Column2": "龙之骨",
+    "nNum": 1,
+    "nRate": 50
+  },
+  "32": {
+    "id": 32,
+    "strItem": 10116,
+    "Column2": "凝魂丹",
+    "nNum": 10,
+    "nRate": 50
+  },
+  "33": {
+    "id": 33,
+    "strItem": 10404,
+    "Column2": "高九彩云龙珠",
+    "nNum": 5,
+    "nRate": 50
+  },
+  "34": {
+    "id": 34,
+    "strItem": 10408,
+    "Column2": "神兵碎片",
+    "nNum": 50,
+    "nRate": 30
+  },
+  "35": {
+    "id": 35,
+    "strItem": 10114,
+    "Column2": "神兽丹",
+    "nNum": 10,
+    "nRate": 50
+  },
+  "36": {
+    "id": 36,
+    "strItem": 10406,
+    "Column2": "八荒遗风",
+    "nNum": 2,
+    "nRate": 60
+  },
+  "37": {
+    "id": 37,
+    "strItem": 10117,
+    "Column2": "龙之骨",
+    "nNum": 1,
+    "nRate": 50
+  },
+  "38": {
+    "id": 38,
+    "strItem": 10116,
+    "Column2": "凝魂丹",
+    "nNum": 10,
+    "nRate": 50
+  },
+  "39": {
+    "id": 39,
+    "strItem": 10404,
+    "Column2": "高九彩云龙珠",
+    "nNum": 5,
+    "nRate": 50
+  },
+  "40": {
+    "id": 40,
+    "strItem": 10408,
+    "Column2": "神兵碎片",
+    "nNum": 50,
+    "nRate": 15
+  },
+  "41": {
+    "id": 41,
+    "strItem": 90005,
+    "Column2": "仙器",
+    "nNum": 1,
+    "nRate": 10
+  },
+  "42": {
+    "id": 42,
+    "strItem": 90005,
+    "Column2": "仙器",
+    "nNum": 1,
+    "nRate": 10
+  },
+  "43": {
+    "id": 43,
+    "strItem": 10406,
+    "Column2": "八荒遗风",
+    "nNum": 2,
+    "nRate": 60
+  },
+  "44": {
+    "id": 44,
+    "strItem": 90006,
+    "Column2": "仙器",
+    "nNum": 1,
+    "nRate": 10
+  },
+  "45": {
+    "id": 45,
+    "strItem": 10406,
+    "Column2": "八荒遗风",
+    "nNum": 2,
+    "nRate": 60
+  },
+  "46": {
+    "id": 46,
+    "strItem": 90007,
+    "Column2": "仙器",
+    "nNum": 1,
+    "nRate": 10
+  },
+  "47": {
+    "id": 47,
+    "strItem": 90008,
+    "Column2": "仙器",
+    "nNum": 1,
+    "nRate": 10
+  },
+  "48": {
+    "id": 48,
+    "strItem": 90008,
+    "Column2": "仙器",
+    "nNum": 1,
+    "nRate": 10
+  },
+  "49": {
+    "id": 49,
+    "strItem": 90009,
+    "Column2": "仙器",
+    "nNum": 1,
+    "nRate": 10
+  },
+  "50": {
+    "id": 50,
+    "strItem": 90010,
+    "Column2": "神兵",
+    "nNum": 1,
+    "nRate": 30
+  },
+  "51": {
+    "id": 51,
+    "strItem": 90011,
+    "Column2": "神兵",
+    "nNum": 1,
+    "nRate": 30
+  },
+  "52": {
+    "id": 52,
+    "strItem": 90012,
+    "Column2": "神兵",
+    "nNum": 1,
+    "nRate": 30
+  },
+  "53": {
+    "id": 53,
+    "strItem": 90013,
+    "Column2": "神兵",
+    "nNum": 1,
+    "nRate": 30
+  },
+  "54": {
+    "id": 54,
+    "strItem": 90014,
+    "Column2": "神兵",
+    "nNum": 1,
+    "nRate": 30
+  },
+  "55": {
+    "id": 55,
+    "strItem": 60006,
+    "Column2": "高级帐饮东都",
+    "nNum": 1,
+    "nRate": 10
+  },
+  "56": {
+    "id": 56,
+    "strItem": 60007,
+    "Column2": "高级源泉万斛",
+    "nNum": 1,
+    "nRate": 12
+  },
+  "57": {
+    "id": 57,
+    "strItem": 60008,
+    "Column2": "高级神工鬼力",
+    "nNum": 1,
+    "nRate": 10
+  },
+  "58": {
+    "id": 58,
+    "strItem": 60009,
+    "Column2": "高级倍道兼行",
+    "nNum": 1,
+    "nRate": 10
+  },
+  "59": {
+    "id": 59,
+    "strItem": 60010,
+    "Column2": "高级蹒跚",
+    "nNum": 1,
+    "nRate": 13
+  },
+  "60": {
+    "id": 60,
+    "strItem": 60013,
+    "Column2": "悬刃",
+    "nNum": 1,
+    "nRate": 15
+  },
+  "61": {
+    "id": 61,
+    "strItem": 60014,
+    "Column2": "遗患",
+    "nNum": 1,
+    "nRate": 15
+  },
+  "62": {
+    "id": 62,
+    "strItem": 60016,
+    "Column2": "高级闪现",
+    "nNum": 1,
+    "nRate": 12
+  },
+  "63": {
+    "id": 63,
+    "strItem": 60017,
+    "Column2": "隐身",
+    "nNum": 1,
+    "nRate": 10
+  },
+  "64": {
+    "id": 64,
+    "strItem": 10603,
+    "Column2": "特殊元气丹",
+    "nNum": 1,
+    "nRate": 10
+  },
+  "65": {
+    "id": 65,
+    "strItem": 10604,
+    "Column2": "神兽元气丹",
+    "nNum": 1,
+    "nRate": 3
+  },
+  "66": {
+    "id": 66,
+    "strItem": 10603,
+    "Column2": "特殊元气丹",
+    "nNum": 1,
+    "nRate": 1
+  },
+  "67": {
+    "id": 67,
+    "strItem": 10604,
+    "Column2": "神兽元气丹",
+    "nNum": 1,
+    "nRate": 3
+  },
+  "68": {
+    "id": 68,
+    "strItem": 10603,
+    "Column2": "特殊元气丹",
+    "nNum": 1,
+    "nRate": 1
+  },
+  "69": {
+    "id": 69,
+    "strItem": 10604,
+    "Column2": "神兽元气丹",
+    "nNum": 1,
+    "nRate": 3
+  },
+  "70": {
+    "id": 70,
+    "strItem": 60018,
+    "Column2": "炊金馔玉",
+    "nNum": 1,
+    "nRate": 15
+  },
+  "71": {
+    "id": 71,
+    "strItem": 60019,
+    "Column2": "枯木逢春",
+    "nNum": 1,
+    "nRate": 15
+  },
+  "72": {
+    "id": 72,
+    "strItem": 60020,
+    "Column2": "西天净土",
+    "nNum": 1,
+    "nRate": 15
+  },
+  "73": {
+    "id": 73,
+    "strItem": 60021,
+    "Column2": "如人饮水",
+    "nNum": 1,
+    "nRate": 15
+  },
+  "74": {
+    "id": 74,
+    "strItem": 60022,
+    "Column2": "风火燎原",
+    "nNum": 1,
+    "nRate": 15
+  },
+  "75": {
+    "id": 75,
+    "strItem": 60024,
+    "Column2": "化无",
+    "nNum": 1,
+    "nRate": 1
+  },
+  "76": {
+    "id": 76,
+    "strItem": 60023,
+    "Column2": "子虚乌有",
+    "nNum": 1,
+    "nRate": 1
+  },
+  "77": {
+    "id": 77,
+    "strItem": 60025,
+    "Column2": "绝境逢生",
+    "nNum": 1,
+    "nRate": 1
+  },
+  "78": {
+    "id": 78,
+    "strItem": 60028,
+    "Column2": "高级分裂攻击",
+    "nNum": 1,
+    "nRate": 10
+  },
+  "79": {
+    "id": 79,
+    "strItem": 60039,
+    "Column2": "高级隔山打牛",
+    "nNum": 1,
+    "nRate": 12
+  }
+}

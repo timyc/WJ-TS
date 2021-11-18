@@ -1,0 +1,13 @@
+[2020-06-12 12:40:30.336] [INFO] console - {
+  account: 'flashpf',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-12 12:40:30.338] [INFO] console - flashpf account
+[2020-06-12 12:40:30.340] [INFO] console - 010421 password
+[2020-06-12 12:40:30.341] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-12 12:40:30.373] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39381;
+[2020-06-12 12:40:30.384] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39381;
+[2020-06-12 12:40:41.227] [INFO] console - 返回游戏服务器: 1000
+[2020-06-12 12:40:41.230] [INFO] console - 返回游戏服务器: 127.0.0.1 8810

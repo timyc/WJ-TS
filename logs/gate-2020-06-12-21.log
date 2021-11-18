@@ -1,0 +1,123 @@
+[2020-06-12 21:23:50.014] [INFO] console - 命令行模块启动完毕
+[2020-06-12 21:23:50.505] [INFO] console - SQL: select * from qy_agent
+[2020-06-12 21:23:50.510] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-12 21:23:50.511] [INFO] console - 服务器管理模块启动完毕
+[2020-06-12 21:23:50.511] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-12 21:23:50.511] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-12 21:23:50.512] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-12 21:23:50.512] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-12 21:25:13.763] [INFO] console - 命令行模块启动完毕
+[2020-06-12 21:25:14.202] [INFO] console - SQL: select * from qy_agent
+[2020-06-12 21:25:14.206] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-12 21:25:14.206] [INFO] console - 服务器管理模块启动完毕
+[2020-06-12 21:25:14.207] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-12 21:25:14.207] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-12 21:25:14.207] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-12 21:25:14.208] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-12 21:25:45.151] [INFO] console - 命令行模块启动完毕
+[2020-06-12 21:25:45.586] [INFO] console - SQL: select * from qy_agent
+[2020-06-12 21:25:45.590] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-12 21:25:45.591] [INFO] console - 服务器管理模块启动完毕
+[2020-06-12 21:25:45.591] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-12 21:25:45.591] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-12 21:25:45.592] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-12 21:25:45.592] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-12 21:27:32.503] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test10';
+[2020-06-12 21:27:32.532] [INFO] console - SQL: INSERT INTO qy_account(account, password,invite, register_time) VALUES('test10', '010421','', NOW() );
+[2020-06-12 21:27:42.033] [INFO] console - {
+  account: 'test10',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-12 21:27:42.036] [INFO] console - test10 account
+[2020-06-12 21:27:42.037] [INFO] console - 010421 password
+[2020-06-12 21:27:42.038] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test10';
+[2020-06-12 21:27:42.124] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39383;
+[2020-06-12 21:27:42.130] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39383;
+[2020-06-12 21:27:46.101] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39383' OR name = '杰雪天') AND serverid = '1000';
+[2020-06-12 21:27:46.129] [INFO] console - SQL: INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('杰雪天', '1','1',1,'1001',1010,-1,-1, NOW(),'39383','1000',0,'[]' );
+[2020-06-12 21:43:02.492] [INFO] console - 命令行模块启动完毕
+[2020-06-12 21:43:02.972] [INFO] console - SQL: select * from qy_agent
+[2020-06-12 21:43:02.976] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-12 21:43:02.977] [INFO] console - 服务器管理模块启动完毕
+[2020-06-12 21:43:02.977] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-12 21:43:02.977] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-12 21:43:02.978] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-12 21:43:02.979] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-12 21:44:17.053] [INFO] console - {
+  account: 'test10',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-12 21:44:17.057] [INFO] console - test10 account
+[2020-06-12 21:44:17.058] [INFO] console - 010421 password
+[2020-06-12 21:44:17.060] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test10';
+[2020-06-12 21:44:17.089] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39383;
+[2020-06-12 21:44:17.095] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39383;
+[2020-06-12 21:44:19.002] [INFO] console - 返回游戏服务器: 1000
+[2020-06-12 21:44:19.003] [INFO] console - 返回游戏服务器: 0 0
+[2020-06-12 21:44:19.040] [ERROR] console - TypeError [ERR_INVALID_ARG_TYPE]: The "options.hostname" property must be of type string or one of undefined or null. Received type number (0)
+    at validateHost (_http_client.js:73:11)
+    at new ClientRequest (_http_client.js:162:31)
+    at Object.request (http.js:46:10)
+    at Function.sendget (/Users/brightli/Documents/work/server/dhxy_1.1.0/utils/Http.ts:103:19)
+    at toServer (/Users/brightli/Documents/work/server/dhxy_1.1.0/gate/http_gate.ts:388:18)
+    at Layer.handle [as handle_request] (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/express/lib/router/index.js:281:22
+[2020-06-12 21:45:31.050] [INFO] console - 游戏服[测试区](1000), 已经注册！
+[2020-06-12 21:45:31.052] [INFO] console - 游戏服务器注册: 1000 127.0.0.1 127.0.0.1 8810 8811 测试区
+[2020-06-12 21:46:03.086] [INFO] console - 网关服：游戏服[测试区(1000)], 断开连接！
+[2020-06-12 21:46:18.667] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-12 21:46:18.708] [INFO] console - SQL: INSERT INTO qy_account(account, password,invite, register_time) VALUES('test01', '010421','', NOW() );
+[2020-06-12 21:46:21.654] [INFO] console - {
+  account: 'test01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-12 21:46:21.657] [INFO] console - test01 account
+[2020-06-12 21:46:21.659] [INFO] console - 010421 password
+[2020-06-12 21:46:21.662] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-12 21:46:21.697] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39384;
+[2020-06-12 21:46:21.707] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39384;
+[2020-06-12 21:46:24.556] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39384' OR name = '涛鹏痴蓝') AND serverid = '1000';
+[2020-06-12 21:46:24.579] [INFO] console - SQL: INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('涛鹏痴蓝', '1','1',1,'1001',1010,-1,-1, NOW(),'39384','1000',0,'[]' );
+[2020-06-12 21:46:50.603] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157845,9111,白马,0);
+[2020-06-12 21:46:56.004] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157845,9121,大象,0);
+[2020-06-12 21:47:02.815] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157845,9131,熊猫,0);
+[2020-06-12 21:47:06.253] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157845,9141,黄金猊,0);
+[2020-06-12 21:48:45.113] [INFO] console - 命令行模块启动完毕
+[2020-06-12 21:48:45.585] [INFO] console - SQL: select * from qy_agent
+[2020-06-12 21:48:45.589] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-12 21:48:45.589] [INFO] console - 服务器管理模块启动完毕
+[2020-06-12 21:48:45.590] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-12 21:48:45.590] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-12 21:48:45.591] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-12 21:48:45.591] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-12 21:48:56.636] [INFO] console - 游戏服[测试区](1000), 已经注册！
+[2020-06-12 21:48:56.638] [INFO] console - 游戏服务器注册: 1000 127.0.0.1 127.0.0.1 8810 8811 测试区
+[2020-06-12 21:49:30.618] [INFO] console - 网关服：游戏服[测试区(1000)], 断开连接！
+[2020-06-12 21:50:29.918] [INFO] console - {
+  account: 'test01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-12 21:50:29.922] [INFO] console - test01 account
+[2020-06-12 21:50:29.923] [INFO] console - 010421 password
+[2020-06-12 21:50:29.924] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-12 21:50:29.954] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39384;
+[2020-06-12 21:50:29.960] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39384;
+[2020-06-12 21:50:32.713] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39384' OR name = '露烨痴天') AND serverid = '1000';
+[2020-06-12 21:50:32.742] [INFO] console - SQL: INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('露烨痴天', '1','1',1,'1001',1010,-1,-1, NOW(),'39384','1000',0,'[]' );
+[2020-06-12 21:50:32.777] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157846,9111,'白马',0);
+[2020-06-12 21:50:32.780] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157846,9121,'大象',0);
+[2020-06-12 21:50:32.781] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157846,9131,'熊猫',0);
+[2020-06-12 21:50:32.782] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157846,9141,'黄金猊',0);
+[2020-06-12 21:50:58.862] [INFO] console - 返回游戏服务器: 1000
+[2020-06-12 21:50:58.864] [INFO] console - 返回游戏服务器: 127.0.0.1 8810

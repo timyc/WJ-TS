@@ -1,0 +1,87 @@
+[2020-06-13 22:03:29.077] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592056878) WHERE roleid =157848;
+[2020-06-13 22:05:37.417] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592057004) WHERE roleid =157847;
+[2020-06-13 22:09:39.362] [INFO] console - agent[1005] socket, close
+[2020-06-13 22:09:39.805] [INFO] console - agent[1006] socket, close
+[2020-06-13 22:09:59.677] [INFO] console - agent[1007] socket, close
+[2020-06-13 22:09:59.678] [INFO] console - agent[1006] socket, close
+[2020-06-13 22:09:59.680] [INFO] console - agent[1005] socket, close
+[2020-06-13 22:10:11.310] [INFO] console - agent[1004] socket, close
+[2020-06-13 22:12:23.695] [INFO] console - 命令行模块启动完毕
+[2020-06-13 22:12:24.228] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8811
+[2020-06-13 22:12:24.229] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-13 22:12:24.230] [INFO] console - 启动游戏模块...
+[2020-06-13 22:12:24.230] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-13 22:12:24.231] [INFO] console - 通知模块初始化完毕!
+[2020-06-13 22:12:24.275] [INFO] console - 地图模块加载完毕!
+[2020-06-13 22:12:24.284] [INFO] console - 任务配置模块加载完毕!
+[2020-06-13 22:12:24.294] [INFO] console - 世界模块加载完毕！
+[2020-06-13 22:12:24.300] [INFO] console - Npc配置模块加载完毕！
+[2020-06-13 22:12:24.328] [INFO] console - Npc模块加载完毕！
+[2020-06-13 22:12:24.333] [INFO] console - 角色属性模块加载完毕！
+[2020-06-13 22:12:24.338] [INFO] console - 物品模块加载完毕！
+[2020-06-13 22:12:24.340] [INFO] console - 经验模块加载完毕！
+[2020-06-13 22:12:24.344] [INFO] console - 技能模块加载完毕！
+[2020-06-13 22:12:24.345] [INFO] console - 技能效果模块加载完毕！
+[2020-06-13 22:12:24.398] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-13 22:12:24.400] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-13 22:12:24.401] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-13 22:12:24.410] [INFO] console - 怪物模块加载完毕！
+[2020-06-13 22:12:24.413] [INFO] console - 商城模块加载完毕!
+[2020-06-13 22:12:24.414] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-13 22:12:24.415] [INFO] console - SQL: select * from shop_goods
+[2020-06-13 22:12:24.418] [INFO] console - 摆摊模块加载完毕!
+[2020-06-13 22:12:24.420] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-13 22:12:24.421] [INFO] console - 排行榜模块加载完毕!
+[2020-06-13 22:12:24.425] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-13 22:12:24.426] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-13 22:12:24.523] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-13 22:12:24.524] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-13 22:12:24.524] [INFO] console - 活动模块加载完毕!
+[2020-06-13 22:12:24.526] [INFO] console - 彩票模块加载完毕!
+[2020-06-13 22:12:24.526] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-13 22:12:24.527] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-13 22:12:24.527] [INFO] console - 关系模块加载完毕
+[2020-06-13 22:12:24.691] [INFO] console - 装备模块加载完毕！
+[2020-06-13 22:12:24.694] [INFO] console - 帮派模块加载完毕!
+[2020-06-13 22:12:24.696] [INFO] console - 帮派id种子为110613000
+[2020-06-13 22:12:24.699] [INFO] console - 排行榜模块加载完毕！
+[2020-06-13 22:12:24.708] [INFO] console - 宠物管理模块加载完毕！
+[2020-06-13 22:12:24.720] [INFO] console - 充值模块加载完毕！
+[2020-06-13 22:12:24.723] [INFO] console - 8810 8810
+[2020-06-13 22:12:24.731] [INFO] console - 网关代理模块启动完毕，正在监听127.0.0.1:8810
+[2020-06-13 22:12:24.732] [INFO] console - 向网关服务器发起HTTP请求: /S_Register {
+  id: 1000,
+  name: '测试区',
+  ip: '127.0.0.1',
+  fake: '127.0.0.1',
+  port: 8810,
+  http_port: 8811
+} [Function (anonymous)]
+[2020-06-13 22:12:24.735] [INFO] console - 游戏服务器启动完毕，等待命令
+[2020-06-13 22:12:24.747] [INFO] console - 游戏服[测试区(1000)], 已经连接
+[2020-06-13 22:12:40.491] [INFO] console - do login....
+[2020-06-13 22:12:43.493] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157848 and qy_account.accountid = qy_role.accountid;
+[2020-06-13 22:12:43.530] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157848 AND state != 0;
+[2020-06-13 22:12:43.562] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE roleid=157848;
+[2020-06-13 22:12:43.595] [INFO] console - 玩家[天程晋157848]等级改变，当前1级
+[2020-06-13 22:12:43.597] [INFO] console - SQL: SELECT * FROM qy_pet_1000 WHERE roleid = 157848 and state = 1 limit 20
+[2020-06-13 22:13:31.952] [INFO] console - do login....
+[2020-06-13 22:13:34.958] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157847 and qy_account.accountid = qy_role.accountid;
+[2020-06-13 22:13:34.993] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157847 AND state != 0;
+[2020-06-13 22:13:35.022] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE roleid=157847;
+[2020-06-13 22:13:35.047] [INFO] console - 玩家[嵩觅痴157847]等级改变，当前1级
+[2020-06-13 22:13:35.050] [INFO] console - SQL: SELECT * FROM qy_pet_1000 WHERE roleid = 157847 and state = 1 limit 20
+[2020-06-13 22:14:14.374] [INFO] console - agent[1001] socket, close
+[2020-06-13 22:17:29.337] [INFO] console - agent[1002] socket, close
+[2020-06-13 22:17:29.339] [INFO] console - agent[1001] socket, close
+[2020-06-13 22:18:05.935] [INFO] console - agent[1003] socket, close
+[2020-06-13 22:20:29.785] [INFO] console - agent[1004] socket, close
+[2020-06-13 22:25:50.309] [INFO] console - agent[1005] socket, close
+[2020-06-13 22:51:00.671] [INFO] console - agent[1000] socket, close
+[2020-06-13 22:52:27.094] [INFO] console - agent[1007] socket, close
+[2020-06-13 22:52:50.759] [INFO] console - agent[1005] socket, close
+[2020-06-13 22:52:50.764] [INFO] console - agent[1006] socket, close
+[2020-06-13 22:53:27.747] [INFO] console - agent[1000] socket, close
+[2020-06-13 22:53:27.748] [INFO] console - agent[1007] socket, close
+[2020-06-13 22:53:27.993] [INFO] console - agent[1008] socket, close
+[2020-06-13 22:56:02.612] [INFO] console - agent[1009] socket, close

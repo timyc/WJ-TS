@@ -1,0 +1,52 @@
+[2020-06-13 14:36:47.874] [INFO] console - {
+  account: 'test01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-13 14:36:47.878] [INFO] console - test01 account
+[2020-06-13 14:36:47.879] [INFO] console - 010421 password
+[2020-06-13 14:36:47.880] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-13 14:36:47.963] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39384;
+[2020-06-13 14:36:47.977] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39384;
+[2020-06-13 14:43:15.483] [INFO] console - {
+  account: 'test01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-13 14:43:15.485] [INFO] console - test01 account
+[2020-06-13 14:43:15.486] [INFO] console - 010421 password
+[2020-06-13 14:43:15.487] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-13 14:43:15.521] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39384;
+[2020-06-13 14:43:15.527] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39384;
+[2020-06-13 14:43:16.492] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 14:43:16.495] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 14:45:57.245] [ERROR] console - (node:56052) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2020-06-13 14:46:22.251] [INFO] console - {
+  account: 'test01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'GwRObINOQxyTD8397311591454499347'
+} logininfo
+[2020-06-13 14:46:22.254] [INFO] console - test01 account
+[2020-06-13 14:46:22.256] [INFO] console - 010421 password
+[2020-06-13 14:46:22.258] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-13 14:46:22.284] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'GwRObINOQxyTD8397311591454499347' WHERE accountid =39384;
+[2020-06-13 14:46:22.292] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39384;
+[2020-06-13 14:46:23.601] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 14:46:23.603] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 14:57:54.254] [INFO] console - {
+  account: 'test01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'KuCnnqnYoVZRQ3661501592031474248'
+} logininfo
+[2020-06-13 14:57:54.262] [INFO] console - test01 account
+[2020-06-13 14:57:54.264] [INFO] console - 010421 password
+[2020-06-13 14:57:54.272] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-13 14:57:54.458] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39384;
+[2020-06-13 14:57:54.465] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39384;
+[2020-06-13 14:57:55.502] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 14:57:55.505] [INFO] console - 返回游戏服务器: 127.0.0.1 8810

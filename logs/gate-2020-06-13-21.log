@@ -1,0 +1,101 @@
+[2020-06-13 21:20:53.152] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race02';
+[2020-06-13 21:20:53.242] [INFO] console - SQL: INSERT INTO qy_account(account, password,invite, register_time) VALUES('race02', '010421','', NOW() );
+[2020-06-13 21:20:54.972] [INFO] console - {
+  account: 'race02',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'KuCnnqnYoVZRQ3661501592031474248'
+} logininfo
+[2020-06-13 21:20:54.974] [INFO] console - race02 account
+[2020-06-13 21:20:54.976] [INFO] console - 010421 password
+[2020-06-13 21:20:54.977] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race02';
+[2020-06-13 21:20:55.020] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39385;
+[2020-06-13 21:20:55.027] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39385;
+[2020-06-13 21:21:05.723] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39385' OR name = '嵩觅痴') AND serverid = '1000';
+[2020-06-13 21:21:05.756] [INFO] console - SQL: INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('嵩觅痴', '2','2',1,'2004',1010,-1,-1, NOW(),'39385','1000',0,'[]' );
+[2020-06-13 21:21:05.808] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157847,9211,'葫芦',0);
+[2020-06-13 21:21:05.814] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157847,9222,'莲花',0);
+[2020-06-13 21:21:05.816] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157847,9231,'仙车',0);
+[2020-06-13 21:21:05.817] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157847,9241,'凤凰',0);
+[2020-06-13 21:21:05.936] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 21:21:05.938] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 21:21:09.237] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39385' OR name = '嵩觅痴') AND serverid = '1000';
+[2020-06-13 21:21:12.473] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39385' OR name = '源安梦') AND serverid = '1000';
+[2020-06-13 21:21:14.923] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39385' OR name = '松芙依') AND serverid = '1000';
+[2020-06-13 21:21:22.104] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39385' OR name = '松芙依') AND serverid = '1000';
+[2020-06-13 21:25:22.345] [INFO] console - 命令行模块启动完毕
+[2020-06-13 21:25:22.869] [INFO] console - SQL: select * from qy_agent
+[2020-06-13 21:25:22.873] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-13 21:25:22.874] [INFO] console - 服务器管理模块启动完毕
+[2020-06-13 21:25:22.874] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-13 21:25:22.875] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-13 21:25:22.875] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-13 21:25:22.876] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-13 21:25:34.089] [INFO] console - 游戏服[测试区](1000), 已经注册！
+[2020-06-13 21:25:34.092] [INFO] console - 游戏服务器注册: 1000 127.0.0.1 127.0.0.1 8810 8811 测试区
+[2020-06-13 21:25:46.798] [INFO] console - {
+  account: 'race02',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'dKaacIcFKBIfN1602471592054746793'
+} logininfo
+[2020-06-13 21:25:46.801] [INFO] console - race02 account
+[2020-06-13 21:25:46.802] [INFO] console - 010421 password
+[2020-06-13 21:25:46.803] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race02';
+[2020-06-13 21:25:46.827] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'dKaacIcFKBIfN1602471592054746793' WHERE accountid =39385;
+[2020-06-13 21:25:46.837] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39385;
+[2020-06-13 21:25:47.896] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 21:25:47.898] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 21:26:07.908] [INFO] console - 网关服：游戏服[测试区(1000)], 断开连接！
+[2020-06-13 21:27:19.605] [INFO] console - {
+  account: 'test02',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'KuCnnqnYoVZRQ3661501592031474248'
+} logininfo
+[2020-06-13 21:27:19.607] [INFO] console - test02 account
+[2020-06-13 21:27:19.608] [INFO] console - 010421 password
+[2020-06-13 21:27:19.609] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test02';
+[2020-06-13 21:27:26.006] [INFO] console - {
+  account: 'flashpf',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'KuCnnqnYoVZRQ3661501592031474248'
+} logininfo
+[2020-06-13 21:27:26.008] [INFO] console - flashpf account
+[2020-06-13 21:27:26.009] [INFO] console - 010421 password
+[2020-06-13 21:27:26.010] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'flashpf';
+[2020-06-13 21:27:43.311] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race01';
+[2020-06-13 21:27:43.362] [INFO] console - SQL: INSERT INTO qy_account(account, password,invite, register_time) VALUES('race01', '010421','', NOW() );
+[2020-06-13 21:27:44.904] [INFO] console - {
+  account: 'race01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'KuCnnqnYoVZRQ3661501592031474248'
+} logininfo
+[2020-06-13 21:27:44.906] [INFO] console - race01 account
+[2020-06-13 21:27:44.907] [INFO] console - 010421 password
+[2020-06-13 21:27:44.908] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race01';
+[2020-06-13 21:27:44.942] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39386;
+[2020-06-13 21:27:44.948] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39386;
+[2020-06-13 21:27:54.610] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39386' OR name = '天程晋') AND serverid = '1000';
+[2020-06-13 21:27:54.640] [INFO] console - SQL: INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('天程晋', '4','1',1,'4007',1010,-1,-1, NOW(),'39386','1000',0,'[]' );
+[2020-06-13 21:27:54.671] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157848,9411,'婴鲤',0);
+[2020-06-13 21:27:54.674] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157848,9421,'鬼猫',0);
+[2020-06-13 21:27:54.675] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157848,9431,'幽灵马',0);
+[2020-06-13 21:27:54.676] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157848,9441,'梦魇',0);
+[2020-06-13 21:27:54.723] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 21:27:54.725] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 21:29:14.254] [INFO] console - {
+  account: 'race01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'KuCnnqnYoVZRQ3661501592031474248'
+} logininfo
+[2020-06-13 21:29:14.256] [INFO] console - race01 account
+[2020-06-13 21:29:14.257] [INFO] console - 010421 password
+[2020-06-13 21:29:14.258] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race01';
+[2020-06-13 21:29:14.286] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39386;
+[2020-06-13 21:29:14.292] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39386;
+[2020-06-13 21:29:15.554] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 21:29:15.556] [INFO] console - 返回游戏服务器: 127.0.0.1 8810

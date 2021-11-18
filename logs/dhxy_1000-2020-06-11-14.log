@@ -1,0 +1,2 @@
+[2020-06-11 14:45:54.684] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-11 14:47:18.371] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;

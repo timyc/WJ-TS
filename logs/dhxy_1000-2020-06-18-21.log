@@ -1,0 +1,144 @@
+[2020-06-18 21:43:59.065] [INFO] console - 命令行模块启动完毕
+[2020-06-18 21:43:59.450] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8711
+[2020-06-18 21:43:59.451] [INFO] console - 监控系统启动完毕，监听8813端口
+[2020-06-18 21:43:59.451] [INFO] console - 启动游戏模块...
+[2020-06-18 21:43:59.452] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-18 21:43:59.452] [INFO] console - 通知模块初始化完毕!
+[2020-06-18 21:43:59.483] [INFO] console - 地图模块加载完毕!
+[2020-06-18 21:43:59.488] [INFO] console - 任务配置模块加载完毕!
+[2020-06-18 21:43:59.493] [INFO] console - 世界模块加载完毕！
+[2020-06-18 21:43:59.496] [INFO] console - Npc配置模块加载完毕！
+[2020-06-18 21:43:59.508] [INFO] console - Npc模块加载完毕！
+[2020-06-18 21:43:59.512] [INFO] console - 角色属性模块加载完毕！
+[2020-06-18 21:43:59.515] [INFO] console - 物品模块加载完毕！
+[2020-06-18 21:43:59.517] [INFO] console - 经验模块加载完毕！
+[2020-06-18 21:43:59.524] [INFO] console - 技能模块加载完毕！
+[2020-06-18 21:43:59.525] [INFO] console - 技能效果模块加载完毕！
+[2020-06-18 21:43:59.561] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-18 21:43:59.562] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-18 21:43:59.562] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-18 21:43:59.568] [INFO] console - 怪物模块加载完毕！
+[2020-06-18 21:43:59.570] [INFO] console - 商城模块加载完毕!
+[2020-06-18 21:43:59.572] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-18 21:43:59.572] [INFO] console - SQL: select * from shop_goods
+[2020-06-18 21:43:59.573] [INFO] console - 摆摊模块加载完毕!
+[2020-06-18 21:43:59.573] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-18 21:43:59.574] [INFO] console - 排行榜模块加载完毕!
+[2020-06-18 21:43:59.576] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-18 21:43:59.577] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-18 21:43:59.657] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-18 21:43:59.657] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-18 21:43:59.658] [INFO] console - 活动模块加载完毕!
+[2020-06-18 21:43:59.659] [INFO] console - 彩票模块加载完毕!
+[2020-06-18 21:43:59.659] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-18 21:43:59.660] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-18 21:43:59.660] [INFO] console - 关系模块加载完毕
+[2020-06-18 21:43:59.877] [INFO] console - 帮派模块加载完毕!
+[2020-06-18 21:43:59.881] [INFO] console - 装备模块加载完毕！
+[2020-06-18 21:43:59.919] [INFO] console - 帮派id种子为110618000
+[2020-06-18 21:43:59.931] [INFO] console - 排行榜模块加载完毕！
+[2020-06-18 21:44:00.048] [INFO] console - 充值模块加载完毕！
+[2020-06-18 21:44:00.059] [INFO] console - 宠物管理模块加载完毕！
+[2020-06-18 21:44:00.061] [INFO] console - 8810 8710
+[2020-06-18 21:44:00.063] [INFO] console - 网关代理模块启动完毕，正在监听127.0.0.1:8710
+[2020-06-18 21:44:00.064] [INFO] console - 向网关服务器发起HTTP请求: /S_Register {
+  id: 1000,
+  name: '测试区',
+  ip: '127.0.0.1',
+  fake: '127.0.0.1',
+  port: 8710,
+  http_port: 8711
+} [Function (anonymous)]
+[2020-06-18 21:44:00.066] [INFO] console - 游戏服务器启动完毕，等待命令
+[2020-06-18 21:44:00.075] [INFO] console - 游戏服[测试区(1000)], 已经连接
+[2020-06-18 21:44:34.472] [INFO] console - 玩家登录...
+[2020-06-18 21:44:37.476] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157861 and qy_account.accountid = qy_role.accountid;
+[2020-06-18 21:44:37.633] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157861 AND state != 0;
+[2020-06-18 21:44:37.733] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE roleid=157861;
+[2020-06-18 21:44:37.854] [INFO] console - 玩家[灵哈鸿鸿157861]等级改变，当前1级
+[2020-06-18 21:44:37.856] [INFO] console - SQL: SELECT * FROM qy_pet_1000 WHERE roleid = 157861 and state = 1 limit 20
+[2020-06-18 21:44:41.755] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592487881) WHERE roleid =157861;
+[2020-06-18 21:44:45.588] [INFO] console - agent[1000] socket, close
+[2020-06-18 21:44:57.464] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592487897) WHERE roleid =157861;
+[2020-06-18 21:45:03.452] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157861 AND mountid=99;
+[2020-06-18 21:45:03.604] [INFO] console - SQL: UPDATE qy_role SET mountid=99 WHERE roleid=157861;
+[2020-06-18 21:46:50.057] [INFO] console - 玩家登录...
+[2020-06-18 21:46:53.061] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157862 and qy_account.accountid = qy_role.accountid;
+[2020-06-18 21:46:53.532] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157862 AND state != 0;
+[2020-06-18 21:46:54.087] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE roleid=157862;
+[2020-06-18 21:46:54.186] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,race,name,level) VALUES(157862,9111,0,'白马',0);
+[2020-06-18 21:46:54.190] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,race,name,level) VALUES(157862,9121,0,'大象',0);
+[2020-06-18 21:46:54.191] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,race,name,level) VALUES(157862,9131,0,'熊猫',0);
+[2020-06-18 21:46:54.193] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,race,name,level) VALUES(157862,9141,0,'黄金猊',0);
+[2020-06-18 21:46:54.194] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,race,name,level) VALUES(157862,9211,1,'葫芦',0);
+[2020-06-18 21:46:54.195] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,race,name,level) VALUES(157862,9222,1,'莲花',0);
+[2020-06-18 21:46:54.195] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,race,name,level) VALUES(157862,9231,1,'仙车',0);
+[2020-06-18 21:46:54.196] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,race,name,level) VALUES(157862,9241,1,'凤凰',0);
+[2020-06-18 21:46:54.197] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,race,name,level) VALUES(157862,9311,2,'黑熊',0);
+[2020-06-18 21:46:54.197] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,race,name,level) VALUES(157862,9321,2,'巨魔狮',0);
+[2020-06-18 21:46:54.198] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,race,name,level) VALUES(157862,9331,2,'奔雷',0);
+[2020-06-18 21:46:54.199] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,race,name,level) VALUES(157862,9341,2,'大风鸟',0);
+[2020-06-18 21:46:54.200] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,race,name,level) VALUES(157862,9411,3,'婴鲤',0);
+[2020-06-18 21:46:54.200] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,race,name,level) VALUES(157862,9421,3,'鬼猫',0);
+[2020-06-18 21:46:54.201] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,race,name,level) VALUES(157862,9431,3,'幽灵马',0);
+[2020-06-18 21:46:54.202] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,race,name,level) VALUES(157862,9441,3,'梦魇',0);
+[2020-06-18 21:46:58.578] [ERROR] console - DB Error Catch!
+[2020-06-18 21:46:58.580] [ERROR] console - INSERT INTO dhxy_mount (roleid,resid,race,name,level) VALUES(157862,9331,2,'奔雷',0);
+[2020-06-18 21:46:58.622] [ERROR] console - TypeError: Cannot read property 'rows' of null
+    at Object.func (/Users/brightli/Documents/work/server/dhxy_1.1.0/utils/DB.ts:421:38)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/utils/DBForm.ts:40:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/socket.io-client/node_modules/component-emitter/index.js:133:20)
+    at Socket.onevent (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/socket.io-client/lib/socket.js:270:10)
+    at Socket.onpacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/socket.io-client/lib/socket.js:228:12)
+    at Manager.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/component-bind/index.js:21:15)
+    at Manager.emit (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/socket.io-client/node_modules/component-emitter/index.js:133:20)
+    at Manager.ondecoded (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/socket.io-client/lib/manager.js:332:8)
+    at Decoder.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/component-bind/index.js:21:15)
+    at Decoder.emit (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/component-emitter/index.js:134:20)
+[2020-06-18 21:47:10.083] [INFO] console - agent[1002] socket, close
+[2020-06-18 21:47:34.348] [INFO] console - 玩家登录...
+[2020-06-18 21:47:37.351] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157862 and qy_account.accountid = qy_role.accountid;
+[2020-06-18 21:47:37.469] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157862 AND state != 0;
+[2020-06-18 21:47:37.581] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE roleid=157862;
+[2020-06-18 21:47:37.710] [INFO] console - 玩家[丝南白157862]等级改变，当前1级
+[2020-06-18 21:47:37.712] [INFO] console - SQL: SELECT * FROM qy_pet_1000 WHERE roleid = 157862 and state = 1 limit 20
+[2020-06-18 21:47:43.347] [INFO] console - 玩家[丝南白(157862)], 任务刷新 于2020-06-18 21:47:43 
+[2020-06-18 21:47:43.348] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592488057) WHERE roleid =157862;
+[2020-06-18 21:47:43.440] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(111, 0, '{"19":"42","34":"1000"}', 1, 1, '{}', 13111104, 0, '{}', 157862, NOW(), 3);
+[2020-06-18 21:47:43.444] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(112, 0, '{"13":"10","31":"1400","33":"1400"}', 1, 2, '{}', 13120101, 0, '{}', 157862, NOW(), 3);
+[2020-06-18 21:47:43.448] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(113, 0, '{"13":"100","19":"9"}', 1, 3, '{}', 13132101, 0, '{}', 157862, NOW(), 3);
+[2020-06-18 21:47:43.452] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(114, 0, '{"13":"100","19":"9"}', 1, 4, '{}', 13142101, 0, '{}', 157862, NOW(), 3);
+[2020-06-18 21:47:43.462] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(115, 0, '{"13":"100","35":"10"}', 1, 5, '{}', 13150101, 0, '{}', 157862, NOW(), 3);
+[2020-06-18 21:47:47.128] [INFO] console - SQL: INSERT INTO qy_pet_1000(petid, name, resid, dataid, grade, roleid, rate, hp, mp, atk, spd, wuxing, create_time) VALUES(12, '小黄金兽', 5021, 1004, 0, 157862, 10721, 27, 0, 104, 0, '{}', NOW());
+[2020-06-18 21:47:47.131] [INFO] console - SQL: UPDATE qy_role SET getpet = 1 WHERE roleid =157862
+[2020-06-18 21:47:47.131] [INFO] console - 玩家[丝南白157862]获得宠物[小黄金兽(12)] 
+[2020-06-18 21:47:53.807] [INFO] console - SQL: UPDATE qy_role SET mountid=0 WHERE roleid=157861;
+[2020-06-18 21:48:00.491] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157861 AND mountid=100;
+[2020-06-18 21:48:00.629] [INFO] console - SQL: UPDATE qy_role SET mountid=100 WHERE roleid=157861;
+[2020-06-18 21:48:13.097] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157862 AND mountid=114;
+[2020-06-18 21:48:13.207] [INFO] console - SQL: UPDATE qy_role SET mountid=114 WHERE roleid=157862;
+[2020-06-18 21:48:38.878] [INFO] console - 玩家[丝南白157862]等级改变，当前2级
+[2020-06-18 21:48:38.880] [INFO] console - 玩家[丝南白157862]等级改变，当前3级
+[2020-06-18 21:48:38.881] [INFO] console - 玩家[丝南白157862]等级改变，当前4级
+[2020-06-18 21:48:38.881] [INFO] console - 玩家[丝南白157862]等级改变，当前5级
+[2020-06-18 21:48:38.882] [INFO] console - 玩家[丝南白157862]等级改变，当前6级
+[2020-06-18 21:48:38.883] [INFO] console - 玩家[丝南白157862]等级改变，当前7级
+[2020-06-18 21:48:38.884] [INFO] console - 玩家[丝南白157862]等级改变，当前8级
+[2020-06-18 21:48:38.884] [INFO] console - 玩家[丝南白157862]等级改变，当前9级
+[2020-06-18 21:48:38.885] [INFO] console - 玩家[丝南白157862]等级改变，当前10级
+[2020-06-18 21:48:38.885] [INFO] console - 玩家[丝南白157862]等级改变，当前11级
+[2020-06-18 21:48:38.886] [INFO] console - 玩家[丝南白157862]等级改变，当前12级
+[2020-06-18 21:49:37.387] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157861 AND mountid=101;
+[2020-06-18 21:49:37.519] [INFO] console - SQL: UPDATE qy_role SET mountid=101 WHERE roleid=157861;
+[2020-06-18 21:51:07.281] [INFO] console - 玩家[灵哈鸿鸿157861]等级改变，当前2级
+[2020-06-18 21:51:07.284] [INFO] console - 玩家[灵哈鸿鸿157861]等级改变，当前3级
+[2020-06-18 21:51:07.286] [INFO] console - 玩家[灵哈鸿鸿157861]等级改变，当前4级
+[2020-06-18 21:51:07.287] [INFO] console - 玩家[灵哈鸿鸿157861]等级改变，当前5级
+[2020-06-18 21:51:07.288] [INFO] console - 玩家[灵哈鸿鸿157861]等级改变，当前6级
+[2020-06-18 21:51:07.289] [INFO] console - 玩家[灵哈鸿鸿157861]等级改变，当前7级
+[2020-06-18 21:51:07.290] [INFO] console - 玩家[灵哈鸿鸿157861]等级改变，当前8级
+[2020-06-18 21:51:07.290] [INFO] console - 玩家[灵哈鸿鸿157861]等级改变，当前9级
+[2020-06-18 21:51:07.291] [INFO] console - 玩家[灵哈鸿鸿157861]等级改变，当前10级
+[2020-06-18 21:51:07.292] [INFO] console - 玩家[灵哈鸿鸿157861]等级改变，当前11级
+[2020-06-18 21:51:07.293] [INFO] console - 玩家[灵哈鸿鸿157861]等级改变，当前12级
+[2020-06-18 21:52:16.373] [INFO] console - agent[1001] socket, close

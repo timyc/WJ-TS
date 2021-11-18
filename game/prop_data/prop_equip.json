@@ -1,0 +1,29 @@
+{
+  "16118101": {
+    "Type": 16118101,
+    "Name": "幽昙",
+    "BaseAttr": "Atk:3000;CharmEhan:150;GfireDefNeg:250;HpMax:5040;",
+    "BaseScore": 1000,
+    "Desc": "一阶仙器",
+    "Detail": "采集地府中的幽昙花光芒制成，此花千年一开，瞬间凋零。",
+    "Dynamic": 1,
+    "Grade": 1,
+    "Index": 1,
+    "MaxEmbedGemCnt": 10,
+    "MaxEndure": 1000,
+    "NeedGrade": 60,
+    "NeedAttr": "Basecon:200",
+    "NeedRei": 0,
+    "NextType": 16218101,
+    "Overlap": 1,
+    "OwnerRoleId": "",
+    "Quan": "把",
+    "Race": 4,
+    "Rarity": 5,
+    "RndRange": "80:100",
+    "RndWeight": 12,
+    "Sex": 2,
+    "Shape": 100805,
+    "Valuable": 1
+  }
+}

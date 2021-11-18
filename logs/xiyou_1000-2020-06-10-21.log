@@ -1,0 +1,74 @@
+[2020-06-10 21:12:29.375] [INFO] console - 命令行模块启动完毕
+[2020-06-10 21:12:29.377] [INFO] console - 全局变量加载完毕
+[2020-06-10 21:12:29.377] [INFO] console - 全局消息加载完毕
+[2020-06-10 21:12:29.821] [INFO] console - HTTP模块启动完毕，开始监听192.168.31.129:8811
+[2020-06-10 21:12:29.822] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-10 21:12:29.822] [INFO] console - 启动游戏服务器
+[2020-06-10 21:12:29.861] [ERROR] console - An uncaught error occurred!
+[2020-06-10 21:12:29.861] [ERROR] console - TypeError: Cannot read property 'getConnection' of undefined
+    at Function.query (/Users/brightli/Documents/work/server/dhxy/utils/DB.ts:26:17)
+    at Function.getScrollNotice (/Users/brightli/Documents/work/server/dhxy/utils/DB.ts:1226:12)
+    at NoticeMgr.loadNoticeFromDB (/Users/brightli/Documents/work/server/dhxy/game/core/NoticeMgr.ts:30:6)
+    at NoticeMgr.init (/Users/brightli/Documents/work/server/dhxy/game/core/NoticeMgr.ts:26:8)
+    at Launch.start (/Users/brightli/Documents/work/server/dhxy/game/core/launch.ts:85:26)
+    at Game.complete (/Users/brightli/Documents/work/server/dhxy/game.ts:19:23)
+    at /Users/brightli/Documents/work/server/dhxy/game.ts:37:22
+    at Server.<anonymous> (/Users/brightli/Documents/work/server/dhxy/common/cli.ts:123:3)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+[2020-06-10 21:24:50.144] [INFO] console - 命令行模块启动完毕
+[2020-06-10 21:24:53.218] [INFO] console - HTTP模块启动完毕，开始监听192.168.31.129:8811
+[2020-06-10 21:24:53.219] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-10 21:24:53.220] [INFO] console - 启动 launch
+[2020-06-10 21:24:53.227] [ERROR] console - An uncaught error occurred!
+[2020-06-10 21:24:53.228] [ERROR] console - Error: Cannot find module './game/launch'
+Require stack:
+- /Users/brightli/Documents/work/server/dhxy/game.ts
+    at Function._resolveFilename (internal/modules/cjs/loader.js:1020:15)
+    at Function._load (internal/modules/cjs/loader.js:890:27)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at complete (/Users/brightli/Documents/work/server/dhxy/game.ts:13:18)
+    at /Users/brightli/Documents/work/server/dhxy/game.ts:34:13
+    at Server.<anonymous> (/Users/brightli/Documents/work/server/dhxy/common/cli.ts:123:3)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitListeningNT (net.js:1348:10)
+[2020-06-10 21:58:13.311] [INFO] console - 命令行模块启动完毕
+[2020-06-10 21:58:13.670] [INFO] console - HTTP模块启动完毕，开始监听192.168.31.129:8811
+[2020-06-10 21:58:13.671] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-10 21:58:13.671] [INFO] console - 启动 launch
+[2020-06-10 21:58:13.671] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-10 21:58:13.672] [INFO] console - 通知模块初始化完毕!
+[2020-06-10 21:58:13.701] [INFO] console - 地图模块加载完毕!
+[2020-06-10 21:58:13.705] [INFO] console - 任务配置模块加载完毕!
+[2020-06-10 21:58:13.710] [INFO] console - 世界模块加载完毕！
+[2020-06-10 21:58:13.713] [INFO] console - Npc配置模块加载完毕！
+[2020-06-10 21:58:13.724] [INFO] console - Npc模块加载完毕！
+[2020-06-10 21:58:13.726] [INFO] console - 角色属性模块加载完毕！
+[2020-06-10 21:58:13.732] [INFO] console - 物品模块加载完毕！
+[2020-06-10 21:58:13.733] [INFO] console - 经验模块加载完毕！
+[2020-06-10 21:58:13.735] [INFO] console - 技能模块加载完毕！
+[2020-06-10 21:58:13.737] [INFO] console - 技能效果模块加载完毕！
+[2020-06-10 21:58:13.767] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 21:58:13.768] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-10 21:58:13.768] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 21:58:13.775] [INFO] console - 怪物模块加载完毕！
+[2020-06-10 21:58:13.777] [INFO] console - 商城模块加载完毕!
+[2020-06-10 21:58:13.778] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-10 21:58:13.778] [INFO] console - SQL: select * from shop_goods
+[2020-06-10 21:58:13.779] [INFO] console - 摆摊模块加载完毕!
+[2020-06-10 21:58:13.779] [INFO] console - 排行榜模块加载完毕!
+[2020-06-10 21:58:13.786] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 21:58:13.787] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-10 21:58:13.847] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-10 21:58:13.848] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-10 21:58:13.849] [INFO] console - 活动模块加载完毕!
+[2020-06-10 21:58:13.850] [INFO] console - 彩票模块加载完毕!
+[2020-06-10 21:58:13.851] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-10 21:58:13.851] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-10 21:58:13.852] [INFO] console - 关系模块加载完毕
+[2020-06-10 21:59:13.774] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-10 21:59:13.775] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-10 21:59:13.791] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-10 21:59:13.858] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;

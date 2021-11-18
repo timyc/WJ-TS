@@ -1,0 +1,328 @@
+[2020-06-14 15:00:42.204] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race02';
+[2020-06-14 15:00:42.217] [INFO] console - SELECT * FROM qy_account WHERE account = 'race02';
+[2020-06-14 15:00:42.237] [INFO] console - SQL: INSERT INTO qy_account(account, password,invite, register_time) VALUES('race02', '010421','', NOW() );
+[2020-06-14 15:00:42.245] [INFO] console - INSERT INTO qy_account(account, password,invite, register_time) VALUES('race02', '010421','', NOW() );
+[2020-06-14 15:00:43.944] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race02';
+[2020-06-14 15:00:43.953] [INFO] console - SELECT * FROM qy_account WHERE account = 'race02';
+[2020-06-14 15:00:43.971] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39392;
+[2020-06-14 15:00:43.977] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39392;
+[2020-06-14 15:00:43.978] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39392;
+[2020-06-14 15:00:43.986] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39392;
+[2020-06-14 15:00:47.292] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39392' OR name = '如辉春') AND serverid = '1000';
+[2020-06-14 15:00:47.308] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39392' OR name = '如辉春') AND serverid = '1000';
+[2020-06-14 15:00:47.322] [INFO] console - SQL: INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('如辉春', '1','1',1,'1001',1010,-1,-1, NOW(),'39392','1000',0,'[]' );
+[2020-06-14 15:00:47.331] [INFO] console - INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('如辉春', '1','1',1,'1001',1010,-1,-1, NOW(),'39392','1000',0,'[]' );
+[2020-06-14 15:00:47.358] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157854,9111,'白马',0);
+[2020-06-14 15:00:47.362] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157854,9121,'大象',0);
+[2020-06-14 15:00:47.366] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157854,9131,'熊猫',0);
+[2020-06-14 15:00:47.368] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157854,9141,'黄金猊',0);
+[2020-06-14 15:00:47.369] [INFO] console - INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157854,9111,'白马',0);
+[2020-06-14 15:00:47.372] [INFO] console - INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157854,9121,'大象',0);
+[2020-06-14 15:00:47.374] [INFO] console - INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157854,9131,'熊猫',0);
+[2020-06-14 15:00:47.377] [INFO] console - INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157854,9141,'黄金猊',0);
+[2020-06-14 15:00:50.440] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 41 and qy_account.accountid = qy_role.accountid;
+[2020-06-14 15:00:50.450] [INFO] console - SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 41 and qy_account.accountid = qy_role.accountid;
+[2020-06-14 15:01:57.203] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-14 15:01:57.246] [INFO] console - SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-14 15:02:30.038] [INFO] console - <receive data> disconnect ping timeout
+[2020-06-14 15:15:26.683] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race03';
+[2020-06-14 15:15:26.754] [INFO] console - SELECT * FROM qy_account WHERE account = 'race03';
+[2020-06-14 15:15:26.775] [INFO] console - SQL: INSERT INTO qy_account(account, password,invite, register_time) VALUES('race03', '010421','', NOW() );
+[2020-06-14 15:15:26.788] [INFO] console - INSERT INTO qy_account(account, password,invite, register_time) VALUES('race03', '010421','', NOW() );
+[2020-06-14 15:15:29.020] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race03';
+[2020-06-14 15:15:29.035] [INFO] console - SELECT * FROM qy_account WHERE account = 'race03';
+[2020-06-14 15:15:29.054] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39393;
+[2020-06-14 15:15:29.077] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39393;
+[2020-06-14 15:15:29.082] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39393;
+[2020-06-14 15:15:29.100] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39393;
+[2020-06-14 15:15:32.265] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39393' OR name = '谷致鹏晋') AND serverid = '1000';
+[2020-06-14 15:15:32.287] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39393' OR name = '谷致鹏晋') AND serverid = '1000';
+[2020-06-14 15:15:32.351] [INFO] console - SQL: INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('谷致鹏晋', '1','1',1,'1001',1010,-1,-1, NOW(),'39393','1000',0,'[]' );
+[2020-06-14 15:15:32.358] [INFO] console - INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('谷致鹏晋', '1','1',1,'1001',1010,-1,-1, NOW(),'39393','1000',0,'[]' );
+[2020-06-14 15:15:32.387] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157855,9111,'白马',0);
+[2020-06-14 15:15:32.394] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157855,9121,'大象',0);
+[2020-06-14 15:15:32.397] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157855,9131,'熊猫',0);
+[2020-06-14 15:15:32.401] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157855,9141,'黄金猊',0);
+[2020-06-14 15:15:32.402] [INFO] console - INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157855,9111,'白马',0);
+[2020-06-14 15:15:32.404] [INFO] console - INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157855,9121,'大象',0);
+[2020-06-14 15:15:32.425] [INFO] console - INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157855,9131,'熊猫',0);
+[2020-06-14 15:15:32.429] [INFO] console - INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157855,9141,'黄金猊',0);
+[2020-06-14 15:16:11.381] [INFO] console - [测试区]完成注册
+[2020-06-14 15:16:41.679] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39393' OR name = '谷致鹏晋') AND serverid = '1000';
+[2020-06-14 15:16:41.693] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39393' OR name = '谷致鹏晋') AND serverid = '1000';
+[2020-06-14 15:19:24.901] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race04';
+[2020-06-14 15:19:24.913] [INFO] console - SELECT * FROM qy_account WHERE account = 'race04';
+[2020-06-14 15:19:24.930] [INFO] console - SQL: INSERT INTO qy_account(account, password,invite, register_time) VALUES('race04', '010421','', NOW() );
+[2020-06-14 15:19:24.943] [INFO] console - INSERT INTO qy_account(account, password,invite, register_time) VALUES('race04', '010421','', NOW() );
+[2020-06-14 15:19:26.674] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race04';
+[2020-06-14 15:19:26.686] [INFO] console - SELECT * FROM qy_account WHERE account = 'race04';
+[2020-06-14 15:19:26.706] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39394;
+[2020-06-14 15:19:26.714] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39394;
+[2020-06-14 15:19:26.716] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39394;
+[2020-06-14 15:19:26.725] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39394;
+[2020-06-14 15:19:28.974] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39394' OR name = '容映依') AND serverid = '1000';
+[2020-06-14 15:19:28.985] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39394' OR name = '容映依') AND serverid = '1000';
+[2020-06-14 15:19:29.002] [INFO] console - SQL: INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('容映依', '1','1',1,'1001',1010,-1,-1, NOW(),'39394','1000',0,'[]' );
+[2020-06-14 15:19:29.012] [INFO] console - INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('容映依', '1','1',1,'1001',1010,-1,-1, NOW(),'39394','1000',0,'[]' );
+[2020-06-14 15:19:29.037] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157856,9111,'白马',0);
+[2020-06-14 15:19:29.041] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157856,9121,'大象',0);
+[2020-06-14 15:19:29.043] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157856,9131,'熊猫',0);
+[2020-06-14 15:19:29.045] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157856,9141,'黄金猊',0);
+[2020-06-14 15:19:29.047] [INFO] console - INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157856,9111,'白马',0);
+[2020-06-14 15:19:29.051] [INFO] console - INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157856,9121,'大象',0);
+[2020-06-14 15:19:29.054] [INFO] console - INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157856,9131,'熊猫',0);
+[2020-06-14 15:19:29.056] [INFO] console - INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157856,9141,'黄金猊',0);
+[2020-06-14 15:20:38.897] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 49 and qy_account.accountid = qy_role.accountid;
+[2020-06-14 15:20:38.905] [INFO] console - SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 49 and qy_account.accountid = qy_role.accountid;
+[2020-06-14 15:21:35.920] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 49 and qy_account.accountid = qy_role.accountid;
+[2020-06-14 15:21:35.952] [INFO] console - SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 49 and qy_account.accountid = qy_role.accountid;
+[2020-06-14 15:22:12.393] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 49 and qy_account.accountid = qy_role.accountid;
+[2020-06-14 15:22:12.405] [INFO] console - SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 49 and qy_account.accountid = qy_role.accountid;
+[2020-06-14 15:22:50.862] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 49 and qy_account.accountid = qy_role.accountid;
+[2020-06-14 15:22:50.872] [INFO] console - SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 49 and qy_account.accountid = qy_role.accountid;
+[2020-06-14 15:24:15.867] [INFO] console - <receive data> disconnect ping timeout
+[2020-06-14 15:28:04.927] [INFO] console - 系统配置表加载完毕
+[2020-06-14 15:28:05.024] [INFO] console - 数据库初始化完毕
+[2020-06-14 15:28:05.159] [INFO] console - 数据库模块启动完毕，正在监听本地:8806
+[2020-06-14 15:28:23.586] [INFO] console - [undefined]完成注册
+[2020-06-14 15:28:23.686] [INFO] console - SQL: select * from qy_agent
+[2020-06-14 15:28:23.691] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-14 15:28:23.692] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-14 15:28:23.693] [INFO] console - SQL: select * from qy_agent
+[2020-06-14 15:28:23.694] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-14 15:28:23.695] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-14 15:28:23.718] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-14 15:28:23.720] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-14 15:28:23.722] [INFO] console - select * from qy_agent
+[2020-06-14 15:28:23.723] [INFO] console - select * from qy_agent
+[2020-06-14 15:28:23.725] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-14 15:28:23.726] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-14 15:28:34.287] [INFO] console - [测试区]完成注册
+[2020-06-14 15:28:34.386] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-14 15:28:34.396] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-14 15:28:34.398] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-14 15:28:34.399] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-14 15:28:34.400] [INFO] console - SQL: select * from shop_goods
+[2020-06-14 15:28:34.401] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-14 15:28:34.402] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-14 15:28:34.403] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-14 15:28:34.404] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-14 15:28:34.405] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-14 15:28:34.406] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-14 15:28:34.406] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-14 15:28:34.407] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-14 15:28:34.407] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-14 15:28:34.408] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-14 15:28:34.408] [INFO] console - SQL: select * from shop_goods
+[2020-06-14 15:28:34.409] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-14 15:28:34.409] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-14 15:28:34.412] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-14 15:28:34.412] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-14 15:28:34.413] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-14 15:28:34.414] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-14 15:28:34.414] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-14 15:28:34.416] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-14 15:28:34.417] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-14 15:28:34.419] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-14 15:28:34.420] [INFO] console - select * from shop_goods
+[2020-06-14 15:28:34.421] [INFO] console - select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-14 15:28:34.438] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-14 15:28:34.442] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-14 15:28:34.443] [INFO] console - SELECT * FROM qy_role
+[2020-06-14 15:28:34.444] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-14 15:28:34.446] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-14 15:28:34.449] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-14 15:28:34.451] [INFO] console - select * from qy_relation where status = 0
+[2020-06-14 15:28:34.453] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-14 15:28:34.457] [INFO] console - select * from shop_goods
+[2020-06-14 15:28:34.466] [INFO] console - select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-14 15:28:34.468] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-14 15:28:34.473] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-14 15:28:34.475] [INFO] console - SELECT * FROM qy_role
+[2020-06-14 15:28:34.477] [INFO] console - select * from qy_relation where status = 0
+[2020-06-14 15:28:34.481] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-14 15:28:34.487] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-14 15:31:13.001] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race08';
+[2020-06-14 15:31:13.017] [INFO] console - SELECT * FROM qy_account WHERE account = 'race08';
+[2020-06-14 15:31:13.032] [INFO] console - SQL: INSERT INTO qy_account(account, password,invite, register_time) VALUES('race08', '010421','', NOW() );
+[2020-06-14 15:31:13.040] [INFO] console - INSERT INTO qy_account(account, password,invite, register_time) VALUES('race08', '010421','', NOW() );
+[2020-06-14 15:32:42.901] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race08';
+[2020-06-14 15:32:42.917] [INFO] console - SELECT * FROM qy_account WHERE account = 'race08';
+[2020-06-14 15:32:42.943] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39395;
+[2020-06-14 15:32:42.949] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39395;
+[2020-06-14 15:32:42.952] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39395;
+[2020-06-14 15:32:42.958] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39395;
+[2020-06-14 15:33:05.383] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39395' OR name = '芹云紊') AND serverid = '1000';
+[2020-06-14 15:33:05.395] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39395' OR name = '芹云紊') AND serverid = '1000';
+[2020-06-14 15:33:33.504] [INFO] console - SQL: INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('芹云紊', '1','1',1,'1001',1010,-1,-1, NOW(),'39395','1000',0,'[]' );
+[2020-06-14 15:33:33.515] [INFO] console - INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('芹云紊', '1','1',1,'1001',1010,-1,-1, NOW(),'39395','1000',0,'[]' );
+[2020-06-14 15:34:50.793] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157857,9111,'白马',0);
+[2020-06-14 15:34:50.799] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157857,9121,'大象',0);
+[2020-06-14 15:34:50.802] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157857,9131,'熊猫',0);
+[2020-06-14 15:34:50.804] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157857,9141,'黄金猊',0);
+[2020-06-14 15:34:50.809] [INFO] console - INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157857,9111,'白马',0);
+[2020-06-14 15:34:50.811] [INFO] console - INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157857,9121,'大象',0);
+[2020-06-14 15:34:50.813] [INFO] console - INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157857,9131,'熊猫',0);
+[2020-06-14 15:34:50.816] [INFO] console - INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157857,9141,'黄金猊',0);
+[2020-06-14 15:35:46.665] [INFO] console - <receive data> disconnect transport close
+[2020-06-14 15:35:56.220] [INFO] console - 系统配置表加载完毕
+[2020-06-14 15:35:56.453] [INFO] console - 数据库初始化完毕
+[2020-06-14 15:35:56.601] [INFO] console - 数据库模块启动完毕，正在监听本地:8806
+[2020-06-14 15:36:13.234] [INFO] console - [undefined]完成注册
+[2020-06-14 15:36:13.336] [INFO] console - SQL: select * from qy_agent
+[2020-06-14 15:36:13.342] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-14 15:36:13.345] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-14 15:36:13.346] [INFO] console - SQL: select * from qy_agent
+[2020-06-14 15:36:13.347] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-14 15:36:13.348] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-14 15:36:13.366] [INFO] console - select * from qy_agent
+[2020-06-14 15:36:13.374] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-14 15:36:13.376] [INFO] console - select * from qy_agent
+[2020-06-14 15:36:13.379] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-14 15:36:13.380] [INFO] console - SELECT frozenip FROM ip_frozen;
+[2020-06-14 15:36:13.381] [INFO] console - SELECT mac FROM mac_frozen;
+[2020-06-14 15:36:18.075] [INFO] console - [测试区]完成注册
+[2020-06-14 15:36:18.173] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-14 15:36:18.182] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-14 15:36:18.183] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-14 15:36:18.184] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-14 15:36:18.184] [INFO] console - SQL: select * from shop_goods
+[2020-06-14 15:36:18.185] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-14 15:36:18.186] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-14 15:36:18.187] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-14 15:36:18.188] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-14 15:36:18.189] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-14 15:36:18.190] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-14 15:36:18.190] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-14 15:36:18.191] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-14 15:36:18.200] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-14 15:36:18.200] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-14 15:36:18.201] [INFO] console - SQL: select * from shop_goods
+[2020-06-14 15:36:18.201] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-14 15:36:18.201] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-14 15:36:18.202] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-14 15:36:18.203] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-14 15:36:18.203] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-14 15:36:18.204] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-14 15:36:18.204] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-14 15:36:18.206] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-14 15:36:18.207] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-14 15:36:18.208] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-14 15:36:18.209] [INFO] console - select * from shop_goods
+[2020-06-14 15:36:18.211] [INFO] console - select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-14 15:36:18.224] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-14 15:36:18.226] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-14 15:36:18.227] [INFO] console - SELECT * FROM qy_role
+[2020-06-14 15:36:18.229] [INFO] console - select * from qy_relation where status = 0
+[2020-06-14 15:36:18.231] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-14 15:36:18.232] [INFO] console - select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-14 15:36:18.234] [INFO] console - SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-14 15:36:18.236] [INFO] console - SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-14 15:36:18.237] [INFO] console - SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-14 15:36:18.240] [INFO] console - select * from shop_goods
+[2020-06-14 15:36:18.250] [INFO] console - select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-14 15:36:18.253] [INFO] console - SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-14 15:36:18.255] [INFO] console - SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-14 15:36:18.257] [INFO] console - SELECT * FROM qy_role
+[2020-06-14 15:36:18.260] [INFO] console - select * from qy_relation where status = 0
+[2020-06-14 15:36:18.261] [INFO] console - select max(relationId) as relationId from qy_relation;
+[2020-06-14 15:37:59.699] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race09';
+[2020-06-14 15:37:59.710] [INFO] console - SELECT * FROM qy_account WHERE account = 'race09';
+[2020-06-14 15:37:59.725] [INFO] console - SQL: INSERT INTO qy_account(account, password,invite, register_time) VALUES('race09', '010421','', NOW() );
+[2020-06-14 15:37:59.735] [INFO] console - INSERT INTO qy_account(account, password,invite, register_time) VALUES('race09', '010421','', NOW() );
+[2020-06-14 15:38:01.911] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race09';
+[2020-06-14 15:38:01.968] [INFO] console - SELECT * FROM qy_account WHERE account = 'race09';
+[2020-06-14 15:38:01.985] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39396;
+[2020-06-14 15:38:01.995] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39396;
+[2020-06-14 15:38:01.997] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39396;
+[2020-06-14 15:38:02.004] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39396;
+[2020-06-14 15:38:09.194] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '39396' OR name = '鹰子冰天') AND serverid = '1000';
+[2020-06-14 15:38:09.209] [INFO] console - SELECT * FROM qy_role WHERE (accountid = '39396' OR name = '鹰子冰天') AND serverid = '1000';
+[2020-06-14 15:38:13.256] [INFO] console - SQL: INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('鹰子冰天', '1','1',1,'1001',1010,-1,-1, NOW(),'39396','1000',0,'[]' );
+[2020-06-14 15:38:13.303] [INFO] console - INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('鹰子冰天', '1','1',1,'1001',1010,-1,-1, NOW(),'39396','1000',0,'[]' );
+[2020-06-14 15:38:21.998] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157858,9111,'白马',0);
+[2020-06-14 15:38:22.007] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157858,9121,'大象',0);
+[2020-06-14 15:38:22.009] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157858,9131,'熊猫',0);
+[2020-06-14 15:38:22.012] [INFO] console - SQL: INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157858,9141,'黄金猊',0);
+[2020-06-14 15:38:22.014] [INFO] console - INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157858,9111,'白马',0);
+[2020-06-14 15:38:22.016] [INFO] console - INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157858,9121,'大象',0);
+[2020-06-14 15:38:22.018] [INFO] console - INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157858,9131,'熊猫',0);
+[2020-06-14 15:38:22.020] [INFO] console - INSERT INTO dhxy_mount (roleid,resid,name,level) VALUES(157858,9141,'黄金猊',0);
+[2020-06-14 15:38:51.445] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157858 and qy_account.accountid = qy_role.accountid;
+[2020-06-14 15:38:51.454] [INFO] console - SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157858 and qy_account.accountid = qy_role.accountid;
+[2020-06-14 15:38:54.150] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157858 AND state != 0;
+[2020-06-14 15:38:54.169] [INFO] console - SELECT * FROM qy_equip_1000 WHERE RoleID = 157858 AND state != 0;
+[2020-06-14 15:38:54.185] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE roleid=157858;
+[2020-06-14 15:38:54.194] [INFO] console - SELECT * FROM dhxy_mount WHERE roleid=157858;
+[2020-06-14 15:38:54.213] [INFO] console - SQL: SELECT * FROM qy_pet_1000 WHERE roleid = 157858 and state = 1 limit 20
+[2020-06-14 15:38:54.223] [INFO] console - SELECT * FROM qy_pet_1000 WHERE roleid = 157858 and state = 1 limit 20
+[2020-06-14 15:38:56.243] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592120320) WHERE roleid =157858;
+[2020-06-14 15:38:56.253] [INFO] console - UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592120320) WHERE roleid =157858;
+[2020-06-14 15:38:56.304] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(76, 0, '{"16":"25","34":"1000"}', 1, 1, '{}', 13111101, 0, '{}', 157858, NOW(), 3);
+[2020-06-14 15:38:56.309] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(77, 0, '{"13":"10","31":"1400","33":"1400"}', 1, 2, '{}', 13120101, 0, '{}', 157858, NOW(), 3);
+[2020-06-14 15:38:56.313] [INFO] console - INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(76, 0, '{"16":"25","34":"1000"}', 1, 1, '{}', 13111101, 0, '{}', 157858, NOW(), 3);
+[2020-06-14 15:38:56.318] [INFO] console - INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(77, 0, '{"13":"10","31":"1400","33":"1400"}', 1, 2, '{}', 13120101, 0, '{}', 157858, NOW(), 3);
+[2020-06-14 15:38:56.325] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(78, 0, '{"13":"100","16":"5"}', 1, 3, '{}', 13131101, 0, '{}', 157858, NOW(), 3);
+[2020-06-14 15:38:56.327] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(79, 0, '{"13":"100","16":"5"}', 1, 4, '{}', 13141101, 0, '{}', 157858, NOW(), 3);
+[2020-06-14 15:38:56.329] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(80, 0, '{"13":"100","35":"10"}', 1, 5, '{}', 13150101, 0, '{}', 157858, NOW(), 3);
+[2020-06-14 15:38:56.333] [INFO] console - INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(78, 0, '{"13":"100","16":"5"}', 1, 3, '{}', 13131101, 0, '{}', 157858, NOW(), 3);
+[2020-06-14 15:38:56.336] [INFO] console - INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(79, 0, '{"13":"100","16":"5"}', 1, 4, '{}', 13141101, 0, '{}', 157858, NOW(), 3);
+[2020-06-14 15:38:56.338] [INFO] console - INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(80, 0, '{"13":"100","35":"10"}', 1, 5, '{}', 13150101, 0, '{}', 157858, NOW(), 3);
+[2020-06-14 15:39:03.457] [INFO] console - SQL: INSERT INTO qy_pet_1000(petid, name, resid, dataid, grade, roleid, rate, hp, mp, atk, spd, wuxing, create_time) VALUES(7, '小黄金兽', 5021, 1004, 0, 157858, 9477, 47, 0, 59, 0, '{}', NOW());
+[2020-06-14 15:39:03.471] [INFO] console - SQL: UPDATE qy_role SET getpet = 1 WHERE roleid =157858
+[2020-06-14 15:39:03.474] [INFO] console - INSERT INTO qy_pet_1000(petid, name, resid, dataid, grade, roleid, rate, hp, mp, atk, spd, wuxing, create_time) VALUES(7, '小黄金兽', 5021, 1004, 0, 157858, 9477, 47, 0, 59, 0, '{}', NOW());
+[2020-06-14 15:39:03.484] [INFO] console - UPDATE qy_role SET getpet = 1 WHERE roleid =157858
+[2020-06-14 15:39:49.406] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race01';
+[2020-06-14 15:39:49.423] [INFO] console - SELECT * FROM qy_account WHERE account = 'race01';
+[2020-06-14 15:39:49.440] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'dKaacIcFKBIfN1602471592054746793' WHERE accountid =39391;
+[2020-06-14 15:39:49.447] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39391;
+[2020-06-14 15:39:49.450] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'dKaacIcFKBIfN1602471592054746793' WHERE accountid =39391;
+[2020-06-14 15:39:49.457] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39391;
+[2020-06-14 15:39:57.368] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157853 and qy_account.accountid = qy_role.accountid;
+[2020-06-14 15:39:57.378] [INFO] console - SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157853 and qy_account.accountid = qy_role.accountid;
+[2020-06-14 15:39:57.396] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157853 AND state != 0;
+[2020-06-14 15:39:57.407] [INFO] console - SELECT * FROM qy_equip_1000 WHERE RoleID = 157853 AND state != 0;
+[2020-06-14 15:39:57.424] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE roleid=157853;
+[2020-06-14 15:39:57.434] [INFO] console - SELECT * FROM dhxy_mount WHERE roleid=157853;
+[2020-06-14 15:39:57.451] [INFO] console - SQL: SELECT * FROM qy_pet_1000 WHERE roleid = 157853 and state = 1 limit 20
+[2020-06-14 15:39:57.459] [INFO] console - SELECT * FROM qy_pet_1000 WHERE roleid = 157853 and state = 1 limit 20
+[2020-06-14 15:39:59.638] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592120379) WHERE roleid =157853;
+[2020-06-14 15:39:59.649] [INFO] console - UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592120379) WHERE roleid =157853;
+[2020-06-14 15:40:08.303] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157858 AND mountid=57;
+[2020-06-14 15:40:08.327] [INFO] console - SELECT mountid from dhxy_mount WHERE roleid = 157858 AND mountid=57;
+[2020-06-14 15:40:08.341] [INFO] console - SQL: UPDATE qy_role SET mountid=57 WHERE roleid=157858;
+[2020-06-14 15:40:08.350] [INFO] console - UPDATE qy_role SET mountid=57 WHERE roleid=157858;
+[2020-06-14 15:41:02.063] [INFO] console - SQL: SELECT mountid from dhxy_mount WHERE roleid = 157853 AND mountid=35;
+[2020-06-14 15:41:02.081] [INFO] console - SELECT mountid from dhxy_mount WHERE roleid = 157853 AND mountid=35;
+[2020-06-14 15:41:02.096] [INFO] console - SQL: UPDATE qy_role SET mountid=35 WHERE roleid=157853;
+[2020-06-14 15:41:02.108] [INFO] console - UPDATE qy_role SET mountid=35 WHERE roleid=157853;
+[2020-06-14 15:46:32.114] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race04';
+[2020-06-14 15:46:32.126] [INFO] console - SELECT * FROM qy_account WHERE account = 'race04';
+[2020-06-14 15:46:32.143] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39394;
+[2020-06-14 15:46:32.150] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39394;
+[2020-06-14 15:46:32.152] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39394;
+[2020-06-14 15:46:32.159] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39394;
+[2020-06-14 15:46:36.037] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157856 and qy_account.accountid = qy_role.accountid;
+[2020-06-14 15:46:36.052] [INFO] console - SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157856 and qy_account.accountid = qy_role.accountid;
+[2020-06-14 15:46:36.073] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157856 AND state != 0;
+[2020-06-14 15:46:36.081] [INFO] console - SELECT * FROM qy_equip_1000 WHERE RoleID = 157856 AND state != 0;
+[2020-06-14 15:46:36.095] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE roleid=157856;
+[2020-06-14 15:46:36.103] [INFO] console - SELECT * FROM dhxy_mount WHERE roleid=157856;
+[2020-06-14 15:46:36.121] [INFO] console - SQL: SELECT * FROM qy_pet_1000 WHERE roleid = 157856 and state = 1 limit 20
+[2020-06-14 15:46:36.130] [INFO] console - SELECT * FROM qy_pet_1000 WHERE roleid = 157856 and state = 1 limit 20
+[2020-06-14 15:46:39.096] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592120772) WHERE roleid =157856;
+[2020-06-14 15:46:39.113] [INFO] console - UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592120772) WHERE roleid =157856;
+[2020-06-14 15:46:39.226] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(81, 0, '{"16":"25","34":"1000"}', 1, 1, '{}', 13111101, 0, '{}', 157856, NOW(), 3);
+[2020-06-14 15:46:39.229] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(82, 0, '{"13":"10","31":"1400","33":"1400"}', 1, 2, '{}', 13120101, 0, '{}', 157856, NOW(), 3);
+[2020-06-14 15:46:39.234] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(83, 0, '{"13":"100","16":"5"}', 1, 3, '{}', 13131101, 0, '{}', 157856, NOW(), 3);
+[2020-06-14 15:46:39.236] [INFO] console - INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(81, 0, '{"16":"25","34":"1000"}', 1, 1, '{}', 13111101, 0, '{}', 157856, NOW(), 3);
+[2020-06-14 15:46:39.240] [INFO] console - INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(82, 0, '{"13":"10","31":"1400","33":"1400"}', 1, 2, '{}', 13120101, 0, '{}', 157856, NOW(), 3);
+[2020-06-14 15:46:39.242] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(84, 0, '{"13":"100","16":"5"}', 1, 4, '{}', 13141101, 0, '{}', 157856, NOW(), 3);
+[2020-06-14 15:46:39.250] [INFO] console - SQL: INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(85, 0, '{"13":"100","35":"10"}', 1, 5, '{}', 13150101, 0, '{}', 157856, NOW(), 3);
+[2020-06-14 15:46:39.251] [INFO] console - INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(83, 0, '{"13":"100","16":"5"}', 1, 3, '{}', 13131101, 0, '{}', 157856, NOW(), 3);
+[2020-06-14 15:46:39.257] [INFO] console - INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(84, 0, '{"13":"100","16":"5"}', 1, 4, '{}', 13141101, 0, '{}', 157856, NOW(), 3);
+[2020-06-14 15:46:39.259] [INFO] console - INSERT INTO qy_equip_1000(EquipID, EquipType, BaseAttr, Grade, EIndex, Shuxingxuqiu, Type, GemCnt, LianhuaAttr, RoleID, create_time, pos) VALUES(85, 0, '{"13":"100","35":"10"}', 1, 5, '{}', 13150101, 0, '{}', 157856, NOW(), 3);
+[2020-06-14 15:46:50.055] [INFO] console - SQL: INSERT INTO qy_pet_1000(petid, name, resid, dataid, grade, roleid, rate, hp, mp, atk, spd, wuxing, create_time) VALUES(8, '小黄金兽', 5021, 1004, 0, 157856, 10660, 41, 0, 89, 0, '{}', NOW());
+[2020-06-14 15:46:50.058] [INFO] console - SQL: UPDATE qy_role SET getpet = 1 WHERE roleid =157856
+[2020-06-14 15:46:50.071] [INFO] console - UPDATE qy_role SET getpet = 1 WHERE roleid =157856
+[2020-06-14 15:46:50.074] [INFO] console - INSERT INTO qy_pet_1000(petid, name, resid, dataid, grade, roleid, rate, hp, mp, atk, spd, wuxing, create_time) VALUES(8, '小黄金兽', 5021, 1004, 0, 157856, 10660, 41, 0, 89, 0, '{}', NOW());

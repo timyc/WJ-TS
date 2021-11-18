@@ -1,0 +1,7 @@
+[2020-06-13 14:43:34.827] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592030180) WHERE roleid =157846;
+[2020-06-13 14:44:35.749] [INFO] console - agent[1005] socket, close
+[2020-06-13 14:46:27.668] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592030350) WHERE roleid =157846;
+[2020-06-13 14:47:15.906] [INFO] console - agent[1006] socket, close
+[2020-06-13 14:58:14.960] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592031048) WHERE roleid =157846;
+[2020-06-13 14:58:31.029] [INFO] console - agent[1007] socket, close
+[2020-06-13 14:59:36.312] [INFO] console - agent[1008] socket, close

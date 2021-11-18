@@ -1,0 +1,2247 @@
+{
+	"1001": {
+		"color1_1": {
+			"color": "420000", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "87ece0", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "d7c700", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_4": {
+			"color": "d75900", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "54c600", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "a40000", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "eb7a51", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "eb7ad7", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "eb22d8", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "f20000", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "630000", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "0c2bf2", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "0cb9f3", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "91b9f4", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "e30000", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "e26e00", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "913584", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "45d000", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "9135f5", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "000001", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"1002": {
+		"color1_1": {
+			"color": "31878F", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "804B95", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "A68CEE", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_4": {
+			"color": "8BC3DB", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "FBC4F5", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "FCFAF7", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "C6C5CB", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "EFC221", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "FC8C1D", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "AA5998", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "49484B", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "FC8A19", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "D4A2C8", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "CCC1F3", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "FCC9E9", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "B7D8EF", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "E7ACE2", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "FBF7F4", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "CBF2F5", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "FDEF12", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"1011": {
+		"color1_1": {
+			"color": "370000", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "377a00", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "ff8c2f", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_4": {
+			"color": "00c52e", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "1300ff", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "812df7", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "ff00f6", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "372df8", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "377af9", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "377aaa", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "f5ff52", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "d700fe", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "f553fb", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "83b6fb", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "4f7ffd", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "00fdfc", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "0053fc", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "000ffd", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "f5fffa", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "0000ff", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"1012": {
+		"color1_1": {
+			"color": "00fff5", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "3a7600", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "3af300", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_4": {
+			"color": "640000", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "3ab800", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "cb0000", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "9139a2", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "ff47fe", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "ff00ff", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "ff0000", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "6c0000", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "428139", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "457800", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "e0ed88", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "e0edff", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "e081fe", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "4281fd", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "db0000", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "45ed89", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "45ee00", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"1032": {
+		"color1_1": {
+			"color": "1c0000", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "7d1356", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "7d73c0", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_4": {
+			"color": "7d7355", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "155807", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "1558fe", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "f09a00", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "ffffbe", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "38ffff", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "7dffbf", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "8980fe", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "382b62", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "e880ff", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "e8802c", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "390000", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "38f360", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "8900fd", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "fffffb", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "ff00fc", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "38a861", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"2003": {
+		"color1_1": {
+			"color": "090000", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "8f4623", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "5b23d0", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_4": {
+			"color": "00c823", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "e94622", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "f523d1", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "5be6cf", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "1ecd21", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "f5ed20", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "cf05ff", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "d57b27", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "097b28", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "097bca", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "487bcb", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "dee1f3", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "db7bcc", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "db21a7", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "f90ee6", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "dc0000", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "de00f2", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"2004": {
+		"color1_1": {
+			"color": "120000", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "aa0900", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "f90800", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_4": {
+			"color": "229100", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "9410a6", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "2210a7", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "22ffa8", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "22dc00", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "22fff3", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "ff10a5", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "532914", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "9f2913", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "e8e1b5", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "e8e711", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "6466ef", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "1a20aa", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "e845fc", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "e858b6", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "1445fb", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "e82912", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"2013": {
+		"color1_1": {
+			"color": "0b0000", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "541013", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "621bbe", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_4": {
+			"color": "b65811", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "151cf3", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "10cd05", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "b61012", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "16e822", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "ed1c66", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "b61cf4", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "bd7c36", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "22222b", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "a122d8", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "a1ed58", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "f5d900", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "e60000", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "1a0efe", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "a173d7", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "21edff", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "00d8ef", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"2014": {
+		"color1_1": {
+			"color": "5b1213", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "53f813", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "53c884", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_4": {
+			"color": "d11212", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "d11286", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "d14a85", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "1544e8", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "f444e7", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "f4097f", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "b909f0", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "1259a9", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "9d52f8", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "9d521c", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "5d8a3b", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "e8361b", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "5deb1a", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "2de53a", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "2d19d4", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "9d00f9", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "1259ed", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"2033": {
+		"color1_1": {
+			"color": "3e0710", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "52cb0b", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "52600d", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_4": {
+			"color": "ffffff", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "2ecbda", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "2e35d9", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "ff070e", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "6700f5", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "0400f4", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "ff35b3", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "9a1311", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "ea5af0", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "4c860f", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "ac47b6", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "ff0010", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "28ffee", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "0089f9", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "eaffef", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "0000ff", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "4cf70e", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"2034": {
+		"color1_1": {
+			"color": "020000", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "24dd00", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "683e00", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_4": {
+			"color": "fcdc08", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "28fff9", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "a60000", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "2804fe", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "d404ff", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "f71587", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "ff0000", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "8a0000", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "00fb8e", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "fe7200", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "52fd00", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "00fc00", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "fefe00", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "00a3fe", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "001bff", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "ff0000", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "db9ec8", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"3005": {
+		"color1_1": {
+			"color": "860000", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "f2e8e6", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "e37690", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_4": {
+			"color": "67e51e", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "ef0000", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "ff3cce", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "f219e7", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "2919e8", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "e69c43", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "eea500", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "d5d4b8", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "42d434", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "2b8200", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "2bd300", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "f00000", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "2b0f4a", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "570000", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "2b0fe7", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "582fb7", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "ff6c0c", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"3006": {
+		"color1_1": {
+			"color": "89e859", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "5fb800", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "89e8f0", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_4": {
+			"color": "600000", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "0ee858", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "ecb700", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "897ff1", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "ec0000", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "8900f2", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "eb008f", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "531e1a", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "ffb9ff", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "10d94f", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "829650", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "1030a9", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "b41e19", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "6230f5", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "fa1e51", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "e70e9b", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "b50ef4", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"3016": {
+		"color1_1": {
+			"color": "101c0b", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "891c0a", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "f59408", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_4": {
+			"color": "f51c09", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "f5fc07", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "2fbe67", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "c6b187", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "2fe0eb", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "2f1dea", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "e7ff86", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "3d0000", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "00fea7", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "e0d2d1", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "1d64d4", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "a65a31", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "0d5a30", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "8f00d2", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "1d00d3", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "1dff2f", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "e20000", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"3035": {
+		"color1_1": {
+			"color": "090000", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "930000", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "ff20ff", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_4": {
+			"color": "2001d0", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "fe7a00", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "0058d1", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "00ff40", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "6ffa00", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "fefb00", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "ff0000", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "0c09fe", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "3dcdff", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "62ff00", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "fecb00", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "7d0000", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "296652", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "292dc4", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "ff0000", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "972dc3", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "fe5400", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"3036": {
+		"color1_1": {
+			"color": "5f0000", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "ca9d7f", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "89ee00", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_4": {
+			"color": "ee7700", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "ef0000", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "89e756", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "ca9deb", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "ef1fec", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "2c1fc3", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "d01f92", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "205f6b", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "ab93d5", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "ed0ffd", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "260f9b", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "600ffe", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "7ebe00", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "7e5a00", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "26ff00", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "266fff", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "ff0000", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"4007": {
+		"color1_1": {
+			"color": "710000", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "eb0000", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "ea8600", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_4": {
+			"color": "eaf700", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "82f600", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "277622", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "37769c", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "fafffe", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "3747ff", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "2373fd", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "7a0000", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "e20000", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "568c00", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "a5d700", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "a5428f", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "5642f6", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "2e9df5", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "aa5378", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "3d53ea", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "ff48e9", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"4008": {
+		"color1_1": {
+			"color": "780000", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "1bd2ff", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "7a4563", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_4": {
+			"color": "9a7474", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "5174fd", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "750edb", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "e76800", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "f00000", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "d90c75", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "d90cfe", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "600000", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "08ffff", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "6e0eff", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "06a7a9", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "060ea8", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "8a0fff", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "c46c42", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "fc00d4", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "ff3cda", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "d40000", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"4017": {
+		"color1_1": {
+			"color": "760000", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "e8d400", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "f58000", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_4": {
+			"color": "3488bd", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "3423be", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "a223bf", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "e82375", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "f60000", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "4614ff", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "ff14fe", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "19c0fc", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "192ffd", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "712f9a", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "719c00", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "ff7900", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "840000", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "ff0000", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "2affff", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "9100fb", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "ffff00", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"4018": {
+		"color1_1": {
+			"color": "350000", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "3e8100", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "ff8200", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_4": {
+			"color": "3e80da", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "3e22d9", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "e54a8e", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "9c0000", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "ff0b00", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "ab22d8", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "ff00ff", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "580000", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "5fffb6", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "e45b00", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "e4ed7d", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "229837", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "e4ee00", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "e50000", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "5fff38", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "2298f0", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "f698ef", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"4037": {
+		"color1_1": {
+			"color": "7d1e00", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "f55ffa", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "bfc726", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_4": {
+			"color": "6b3b78", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "bf3b79", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "6a5f00", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "cb1d00", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "0000ff", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "6016dc", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "6b3bfb", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "8a1700", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "4461ff", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "758600", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "449786", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "2a009a", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "2a8e9b", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "0000fc", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "df1600", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "d300fd", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "6f00fe", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}, 
+	"4038": {
+		"color1_1": {
+			"color": "9e909e", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_2": {
+			"color": "753e00", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_3": {
+			"color": "ff9100", 
+			"itemid": 70001, 
+			"count": 5
+		}, 
+		"color1_4": {
+			"color": "ff3d00", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_5": {
+			"color": "9e1a9d", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color1_6": {
+			"color": "760000", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_7": {
+			"color": "009671", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color1_8": {
+			"color": "0096fe", 
+			"itemid": 70003, 
+			"count": 4
+		}, 
+		"color1_9": {
+			"color": "6543ff", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color1_10": {
+			"color": "1c1a9c", 
+			"itemid": 70003, 
+			"count": 10
+		}, 
+		"color2_1": {
+			"color": "8a0000", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_2": {
+			"color": "890000", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_3": {
+			"color": "884500", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_4": {
+			"color": "884c34", 
+			"itemid": 70001, 
+			"count": 10
+		}, 
+		"color2_5": {
+			"color": "88b600", 
+			"itemid": 70002, 
+			"count": 10
+		}, 
+		"color2_6": {
+			"color": "883b8a", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_7": {
+			"color": "aa9884", 
+			"itemid": 70002, 
+			"count": 20
+		}, 
+		"color2_8": {
+			"color": "e5b1df", 
+			"itemid": 70003, 
+			"count": 12
+		}, 
+		"color2_9": {
+			"color": "e50be0", 
+			"itemid": 70003, 
+			"count": 20
+		}, 
+		"color2_10": {
+			"color": "c83bc3", 
+			"itemid": 70003, 
+			"count": 20
+		}
+	}
+}
+

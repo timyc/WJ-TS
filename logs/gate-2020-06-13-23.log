@@ -1,0 +1,254 @@
+[2020-06-13 23:16:50.269] [INFO] console - {
+  account: 'race01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'dKaacIcFKBIfN1602471592054746793'
+} logininfo
+[2020-06-13 23:16:50.275] [INFO] console - race01 account
+[2020-06-13 23:16:50.276] [INFO] console - 010421 password
+[2020-06-13 23:16:50.277] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race01';
+[2020-06-13 23:16:50.394] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'dKaacIcFKBIfN1602471592054746793' WHERE accountid =39386;
+[2020-06-13 23:16:50.402] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39386;
+[2020-06-13 23:16:51.266] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 23:16:51.268] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 23:18:38.831] [INFO] console - {
+  account: 'race02',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'KuCnnqnYoVZRQ3661501592031474248'
+} logininfo
+[2020-06-13 23:18:38.835] [INFO] console - race02 account
+[2020-06-13 23:18:38.837] [INFO] console - 010421 password
+[2020-06-13 23:18:38.838] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race02';
+[2020-06-13 23:18:38.868] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39385;
+[2020-06-13 23:18:38.879] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39385;
+[2020-06-13 23:18:39.718] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 23:18:39.720] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 23:20:35.128] [INFO] console - {
+  account: 'race02',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'KuCnnqnYoVZRQ3661501592031474248'
+} logininfo
+[2020-06-13 23:20:35.130] [INFO] console - race02 account
+[2020-06-13 23:20:35.131] [INFO] console - 010421 password
+[2020-06-13 23:20:35.133] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race02';
+[2020-06-13 23:20:35.161] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39385;
+[2020-06-13 23:20:35.167] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39385;
+[2020-06-13 23:20:37.523] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 23:20:37.528] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 23:21:22.623] [INFO] console - {
+  account: 'test01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-13 23:21:22.625] [INFO] console - test01 account
+[2020-06-13 23:21:22.626] [INFO] console - 010421 password
+[2020-06-13 23:21:22.628] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-13 23:21:22.659] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39384;
+[2020-06-13 23:21:22.673] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39384;
+[2020-06-13 23:23:39.129] [INFO] console - {
+  account: 'race02',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'KuCnnqnYoVZRQ3661501592031474248'
+} logininfo
+[2020-06-13 23:23:39.132] [INFO] console - race02 account
+[2020-06-13 23:23:39.134] [INFO] console - 010421 password
+[2020-06-13 23:23:39.136] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race02';
+[2020-06-13 23:23:39.161] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39385;
+[2020-06-13 23:23:39.170] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39385;
+[2020-06-13 23:23:40.026] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 23:23:40.028] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 23:27:00.898] [INFO] console - {
+  account: 'test01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-13 23:27:00.900] [INFO] console - test01 account
+[2020-06-13 23:27:00.901] [INFO] console - 010421 password
+[2020-06-13 23:27:00.902] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-13 23:27:00.978] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39384;
+[2020-06-13 23:27:00.987] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39384;
+[2020-06-13 23:28:47.440] [INFO] console - {
+  account: 'race02',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'KuCnnqnYoVZRQ3661501592031474248'
+} logininfo
+[2020-06-13 23:28:47.442] [INFO] console - race02 account
+[2020-06-13 23:28:47.443] [INFO] console - 010421 password
+[2020-06-13 23:28:47.444] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race02';
+[2020-06-13 23:28:47.477] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39385;
+[2020-06-13 23:28:47.486] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39385;
+[2020-06-13 23:28:48.589] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 23:28:48.592] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 23:30:42.902] [INFO] console - {
+  account: 'race02',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'KuCnnqnYoVZRQ3661501592031474248'
+} logininfo
+[2020-06-13 23:30:42.904] [INFO] console - race02 account
+[2020-06-13 23:30:42.905] [INFO] console - 010421 password
+[2020-06-13 23:30:42.906] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race02';
+[2020-06-13 23:30:42.985] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39385;
+[2020-06-13 23:30:42.991] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39385;
+[2020-06-13 23:30:44.242] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 23:30:44.244] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 23:31:25.356] [INFO] console - {
+  account: 'test01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-13 23:31:25.359] [INFO] console - test01 account
+[2020-06-13 23:31:25.360] [INFO] console - 010421 password
+[2020-06-13 23:31:25.361] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-13 23:31:25.389] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39384;
+[2020-06-13 23:31:25.411] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39384;
+[2020-06-13 23:31:26.346] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 23:31:26.348] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 23:33:36.100] [INFO] console - {
+  account: 'race02',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'KuCnnqnYoVZRQ3661501592031474248'
+} logininfo
+[2020-06-13 23:33:36.105] [INFO] console - race02 account
+[2020-06-13 23:33:36.107] [INFO] console - 010421 password
+[2020-06-13 23:33:36.109] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race02';
+[2020-06-13 23:33:36.145] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39385;
+[2020-06-13 23:33:36.157] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39385;
+[2020-06-13 23:33:37.443] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 23:33:37.445] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 23:37:48.571] [INFO] console - {
+  account: 'test01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-13 23:37:48.574] [INFO] console - test01 account
+[2020-06-13 23:37:48.580] [INFO] console - 010421 password
+[2020-06-13 23:37:48.581] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-13 23:37:48.614] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39384;
+[2020-06-13 23:37:48.631] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39384;
+[2020-06-13 23:38:35.413] [INFO] console - {
+  account: 'race02',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'KuCnnqnYoVZRQ3661501592031474248'
+} logininfo
+[2020-06-13 23:38:35.417] [INFO] console - race02 account
+[2020-06-13 23:38:35.418] [INFO] console - 010421 password
+[2020-06-13 23:38:35.419] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race02';
+[2020-06-13 23:38:35.464] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39385;
+[2020-06-13 23:38:35.471] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39385;
+[2020-06-13 23:38:36.317] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 23:38:36.321] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 23:39:43.520] [INFO] console - {
+  account: 'race02',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'KuCnnqnYoVZRQ3661501592031474248'
+} logininfo
+[2020-06-13 23:39:43.523] [INFO] console - race02 account
+[2020-06-13 23:39:43.525] [INFO] console - 010421 password
+[2020-06-13 23:39:43.526] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race02';
+[2020-06-13 23:39:43.550] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39385;
+[2020-06-13 23:39:43.558] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39385;
+[2020-06-13 23:39:44.657] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 23:39:44.660] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 23:40:43.708] [INFO] console - {
+  account: 'race02',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'KuCnnqnYoVZRQ3661501592031474248'
+} logininfo
+[2020-06-13 23:40:43.710] [INFO] console - race02 account
+[2020-06-13 23:40:43.712] [INFO] console - 010421 password
+[2020-06-13 23:40:43.713] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race02';
+[2020-06-13 23:40:43.762] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39385;
+[2020-06-13 23:40:43.770] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39385;
+[2020-06-13 23:40:44.912] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 23:40:44.914] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 23:43:10.059] [INFO] console - {
+  account: 'test01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-13 23:43:10.061] [INFO] console - test01 account
+[2020-06-13 23:43:10.063] [INFO] console - 010421 password
+[2020-06-13 23:43:10.064] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-13 23:43:10.106] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39384;
+[2020-06-13 23:43:10.119] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39384;
+[2020-06-13 23:43:11.776] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 23:43:11.777] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 23:45:36.122] [INFO] console - {
+  account: 'race02',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'KuCnnqnYoVZRQ3661501592031474248'
+} logininfo
+[2020-06-13 23:45:36.126] [INFO] console - race02 account
+[2020-06-13 23:45:36.127] [INFO] console - 010421 password
+[2020-06-13 23:45:36.129] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race02';
+[2020-06-13 23:45:36.158] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39385;
+[2020-06-13 23:45:36.166] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39385;
+[2020-06-13 23:45:37.064] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 23:45:37.066] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 23:48:45.268] [INFO] console - {
+  account: 'race02',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'KuCnnqnYoVZRQ3661501592031474248'
+} logininfo
+[2020-06-13 23:48:45.270] [INFO] console - race02 account
+[2020-06-13 23:48:45.271] [INFO] console - 010421 password
+[2020-06-13 23:48:45.272] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race02';
+[2020-06-13 23:48:45.302] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39385;
+[2020-06-13 23:48:45.312] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39385;
+[2020-06-13 23:48:46.368] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 23:48:46.370] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 23:50:40.274] [INFO] console - {
+  account: 'race01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'dKaacIcFKBIfN1602471592054746793'
+} logininfo
+[2020-06-13 23:50:40.278] [INFO] console - race01 account
+[2020-06-13 23:50:40.280] [INFO] console - 010421 password
+[2020-06-13 23:50:40.281] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race01';
+[2020-06-13 23:50:40.317] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'dKaacIcFKBIfN1602471592054746793' WHERE accountid =39386;
+[2020-06-13 23:50:40.328] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39386;
+[2020-06-13 23:50:41.225] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 23:50:41.227] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 23:52:19.835] [INFO] console - {
+  account: 'race02',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'KuCnnqnYoVZRQ3661501592031474248'
+} logininfo
+[2020-06-13 23:52:19.837] [INFO] console - race02 account
+[2020-06-13 23:52:19.838] [INFO] console - 010421 password
+[2020-06-13 23:52:19.840] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race02';
+[2020-06-13 23:52:19.880] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39385;
+[2020-06-13 23:52:19.886] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39385;
+[2020-06-13 23:52:20.823] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 23:52:20.826] [INFO] console - 返回游戏服务器: 127.0.0.1 8810
+[2020-06-13 23:55:31.281] [INFO] console - {
+  account: 'test01',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-13 23:55:31.284] [INFO] console - test01 account
+[2020-06-13 23:55:31.286] [INFO] console - 010421 password
+[2020-06-13 23:55:31.287] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test01';
+[2020-06-13 23:55:31.321] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39384;
+[2020-06-13 23:55:31.341] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39384;
+[2020-06-13 23:55:32.490] [INFO] console - 返回游戏服务器: 1000
+[2020-06-13 23:55:32.494] [INFO] console - 返回游戏服务器: 127.0.0.1 8810

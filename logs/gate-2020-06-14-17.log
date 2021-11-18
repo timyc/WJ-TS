@@ -1,0 +1,65 @@
+[2020-06-14 17:00:15.009] [INFO] console - SQL: SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-14 17:00:32.547] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 40;
+[2020-06-14 17:00:54.121] [INFO] console - SQL: INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试3') ON DUPLICATE KEY UPDATE text='测试3';
+[2020-06-14 17:00:54.164] [ERROR] console - DB Error Catch!
+[2020-06-14 17:00:54.165] [ERROR] console - INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试3') ON DUPLICATE KEY UPDATE text='测试3';
+[2020-06-14 17:00:54.209] [ERROR] console - TypeError: Cannot read property 'text' of undefined
+    at Object.func (/Users/brightli/Documents/work/server/dhxy_1.1.0/utils/DB.ts:1556:30)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/utils/DBForm.ts:40:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/socket.io-client/node_modules/component-emitter/index.js:133:20)
+    at Socket.onevent (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/socket.io-client/lib/socket.js:270:10)
+    at Socket.onpacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/socket.io-client/lib/socket.js:228:12)
+    at Manager.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/component-bind/index.js:21:15)
+    at Manager.emit (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/socket.io-client/node_modules/component-emitter/index.js:133:20)
+    at Manager.ondecoded (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/socket.io-client/lib/manager.js:332:8)
+    at Decoder.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/component-bind/index.js:21:15)
+    at Decoder.emit (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/component-emitter/index.js:134:20)
+[2020-06-14 17:01:30.937] [INFO] console - SQL: INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试3') ON DUPLICATE KEY UPDATE text='测试3';
+[2020-06-14 17:01:52.277] [ERROR] console - DB Error Catch!
+[2020-06-14 17:01:52.279] [ERROR] console - INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试3') ON DUPLICATE KEY UPDATE text='测试3';
+[2020-06-14 17:01:52.280] [ERROR] console - TypeError: Cannot read property 'text' of undefined
+    at Object.func (/Users/brightli/Documents/work/server/dhxy_1.1.0/utils/DB.ts:1556:30)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/utils/DBForm.ts:40:16)
+    at Socket.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/socket.io-client/node_modules/component-emitter/index.js:133:20)
+    at Socket.onevent (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/socket.io-client/lib/socket.js:270:10)
+    at Socket.onpacket (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/socket.io-client/lib/socket.js:228:12)
+    at Manager.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/component-bind/index.js:21:15)
+    at Manager.emit (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/socket.io-client/node_modules/component-emitter/index.js:133:20)
+    at Manager.ondecoded (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/socket.io-client/lib/manager.js:332:8)
+    at Decoder.<anonymous> (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/component-bind/index.js:21:15)
+    at Decoder.emit (/Users/brightli/Documents/work/server/dhxy_1.1.0/node_modules/component-emitter/index.js:134:20)
+[2020-06-14 17:01:56.202] [INFO] console - SQL: SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-14 17:02:01.575] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 40;
+[2020-06-14 17:04:19.348] [INFO] console - SQL: INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试4') ON DUPLICATE KEY UPDATE text='测试4';
+[2020-06-14 17:04:20.624] [INFO] console - SQL: INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试4') ON DUPLICATE KEY UPDATE text='测试4';
+[2020-06-14 17:04:45.650] [ERROR] console - DB Error Catch!
+[2020-06-14 17:05:11.689] [INFO] console - 命令行模块启动完毕
+[2020-06-14 17:05:12.125] [INFO] console - SQL: select * from qy_agent
+[2020-06-14 17:05:12.129] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-14 17:05:12.129] [INFO] console - 服务器管理模块启动完毕
+[2020-06-14 17:05:12.130] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-14 17:05:12.130] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-14 17:05:12.130] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-14 17:05:12.131] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-14 17:05:35.284] [INFO] console - 命令行模块启动完毕
+[2020-06-14 17:05:35.690] [INFO] console - SQL: select * from qy_agent
+[2020-06-14 17:05:35.695] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-14 17:05:35.696] [INFO] console - 服务器管理模块启动完毕
+[2020-06-14 17:05:35.696] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-14 17:05:35.696] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-14 17:05:35.697] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-14 17:05:35.697] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-14 17:05:40.989] [INFO] console - SQL: INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试4') ON DUPLICATE KEY UPDATE text='测试4';
+[2020-06-14 17:06:14.179] [INFO] console - 命令行模块启动完毕
+[2020-06-14 17:06:14.638] [INFO] console - SQL: select * from qy_agent
+[2020-06-14 17:06:14.645] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8560
+[2020-06-14 17:06:14.645] [INFO] console - 服务器管理模块启动完毕
+[2020-06-14 17:06:14.646] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-14 17:06:14.646] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-14 17:06:14.647] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-14 17:06:14.647] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-14 17:06:23.008] [INFO] console - SQL: INSERT INTO dhxy_comment(serverId,text) VALUES(0,'测试4') ON DUPLICATE KEY UPDATE text='测试4';
+[2020-06-14 17:06:25.853] [INFO] console - SQL: UPDATE qy_info SET comment = '测试4';
+[2020-06-14 17:07:05.006] [INFO] console - SQL: SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-14 17:10:13.183] [INFO] console - SQL: SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-14 17:13:37.117] [INFO] console - SQL: SELECT * FROM dhxy_comment WHERE serverId=0

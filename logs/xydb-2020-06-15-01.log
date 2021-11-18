@@ -1,0 +1,72 @@
+[2020-06-15 01:02:25.327] [INFO] console - SQL: SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-15 01:02:25.451] [INFO] console - SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-15 01:03:33.621] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race11';
+[2020-06-15 01:03:33.687] [INFO] console - SELECT * FROM qy_account WHERE account = 'race11';
+[2020-06-15 01:03:33.708] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39398;
+[2020-06-15 01:03:33.716] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39398;
+[2020-06-15 01:03:33.721] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39398;
+[2020-06-15 01:03:33.729] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39398;
+[2020-06-15 01:13:46.260] [INFO] console - SQL: SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-15 01:13:46.316] [INFO] console - SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-15 01:13:48.785] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race04';
+[2020-06-15 01:13:48.794] [INFO] console - SELECT * FROM qy_account WHERE account = 'race04';
+[2020-06-15 01:13:48.812] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39394;
+[2020-06-15 01:13:48.821] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39394;
+[2020-06-15 01:13:48.827] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39394;
+[2020-06-15 01:13:48.854] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39394;
+[2020-06-15 01:13:52.722] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157856 and qy_account.accountid = qy_role.accountid;
+[2020-06-15 01:13:52.738] [INFO] console - SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157856 and qy_account.accountid = qy_role.accountid;
+[2020-06-15 01:13:52.752] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157856 AND state != 0;
+[2020-06-15 01:13:52.760] [INFO] console - SELECT * FROM qy_equip_1000 WHERE RoleID = 157856 AND state != 0;
+[2020-06-15 01:13:52.788] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE roleid=157856;
+[2020-06-15 01:13:52.800] [INFO] console - SELECT * FROM dhxy_mount WHERE roleid=157856;
+[2020-06-15 01:13:52.820] [INFO] console - SQL: SELECT * FROM qy_pet_1000 WHERE roleid = 157856 and state = 1 limit 20
+[2020-06-15 01:13:52.829] [INFO] console - SELECT * FROM qy_pet_1000 WHERE roleid = 157856 and state = 1 limit 20
+[2020-06-15 01:13:57.288] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592154753) WHERE roleid =157856;
+[2020-06-15 01:13:57.300] [INFO] console - UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592154753) WHERE roleid =157856;
+[2020-06-15 01:15:03.645] [INFO] console - SQL: SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-15 01:15:03.660] [INFO] console - SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-15 01:16:46.808] [INFO] console - SQL: SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-15 01:16:46.831] [INFO] console - SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-15 01:16:57.250] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race04';
+[2020-06-15 01:16:57.261] [INFO] console - SELECT * FROM qy_account WHERE account = 'race04';
+[2020-06-15 01:16:57.279] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39394;
+[2020-06-15 01:16:57.287] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39394;
+[2020-06-15 01:16:57.289] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39394;
+[2020-06-15 01:16:57.295] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39394;
+[2020-06-15 01:29:45.804] [INFO] console - SQL: SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-15 01:29:45.940] [INFO] console - SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-15 01:29:54.422] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race11';
+[2020-06-15 01:29:54.438] [INFO] console - SELECT * FROM qy_account WHERE account = 'race11';
+[2020-06-15 01:29:54.454] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39398;
+[2020-06-15 01:29:54.463] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39398;
+[2020-06-15 01:29:54.474] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39398;
+[2020-06-15 01:29:54.499] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39398;
+[2020-06-15 01:31:18.143] [INFO] console - SQL: SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-15 01:31:18.152] [INFO] console - SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-15 01:31:21.735] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race04';
+[2020-06-15 01:31:21.746] [INFO] console - SELECT * FROM qy_account WHERE account = 'race04';
+[2020-06-15 01:31:21.764] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39394;
+[2020-06-15 01:31:21.771] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39394;
+[2020-06-15 01:31:21.779] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39394;
+[2020-06-15 01:31:21.825] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39394;
+[2020-06-15 01:32:37.086] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592155849) WHERE roleid =157856;
+[2020-06-15 01:32:37.100] [INFO] console - UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592155849) WHERE roleid =157856;
+[2020-06-15 01:33:07.580] [INFO] console - SQL: SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-15 01:33:07.593] [INFO] console - SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-15 01:33:10.235] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race11';
+[2020-06-15 01:33:10.255] [INFO] console - SELECT * FROM qy_account WHERE account = 'race11';
+[2020-06-15 01:33:10.280] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39398;
+[2020-06-15 01:33:10.289] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39398;
+[2020-06-15 01:33:10.295] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =39398;
+[2020-06-15 01:33:10.348] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39398;
+[2020-06-15 01:34:28.794] [INFO] console - SQL: SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-15 01:34:28.809] [INFO] console - SELECT * FROM dhxy_comment WHERE serverId=0
+[2020-06-15 01:34:31.781] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'race04';
+[2020-06-15 01:34:31.796] [INFO] console - SELECT * FROM qy_account WHERE account = 'race04';
+[2020-06-15 01:34:31.811] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39394;
+[2020-06-15 01:34:31.821] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 39394;
+[2020-06-15 01:34:31.823] [INFO] console - UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'KuCnnqnYoVZRQ3661501592031474248' WHERE accountid =39394;
+[2020-06-15 01:34:31.830] [INFO] console - SELECT * FROM qy_role WHERE accountid = 39394;
+[2020-06-15 01:35:02.175] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592155992) WHERE roleid =157856;
+[2020-06-15 01:35:02.183] [INFO] console - UPDATE qy_role SET lastonline = FROM_UNIXTIME(1592155992) WHERE roleid =157856;

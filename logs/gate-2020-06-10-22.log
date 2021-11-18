@@ -1,0 +1,153 @@
+[2020-06-10 22:02:29.963] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test05';
+[2020-06-10 22:02:48.829] [INFO] console - {
+  account: 'test05',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 22:02:48.831] [INFO] console - test05 account
+[2020-06-10 22:02:48.833] [INFO] console - 010421 password
+[2020-06-10 22:02:48.834] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test05';
+[2020-06-10 22:03:49.550] [INFO] console - 命令行模块启动完毕
+[2020-06-10 22:03:54.038] [INFO] console - SQL: select * from qy_agent
+[2020-06-10 22:03:56.305] [INFO] console - HTTP模块启动完毕，开始监听192.168.31.129:8560
+[2020-06-10 22:03:56.306] [INFO] console - 服务器管理模块启动完毕
+[2020-06-10 22:03:56.306] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-10 22:03:56.307] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-10 22:03:56.307] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-10 22:03:56.308] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-10 22:04:01.120] [INFO] console - {
+  account: 'test05',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 22:04:01.122] [INFO] console - test05 account
+[2020-06-10 22:04:01.123] [INFO] console - 010421 password
+[2020-06-10 22:04:01.124] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test05';
+[2020-06-10 22:04:51.591] [INFO] console - {
+  account: 'test05',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 22:04:51.593] [INFO] console - test05 account
+[2020-06-10 22:04:51.594] [INFO] console - 010421 password
+[2020-06-10 22:04:51.595] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test05';
+[2020-06-10 22:10:50.532] [INFO] console - {
+  account: 'test05',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 22:10:50.534] [INFO] console - test05 account
+[2020-06-10 22:10:50.535] [INFO] console - 010421 password
+[2020-06-10 22:10:50.537] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test05';
+[2020-06-10 22:11:49.168] [INFO] console - 命令行模块启动完毕
+[2020-06-10 22:11:52.457] [INFO] console - SQL: select * from qy_agent
+[2020-06-10 22:11:53.687] [INFO] console - HTTP模块启动完毕，开始监听192.168.31.129:8560
+[2020-06-10 22:11:53.688] [INFO] console - 服务器管理模块启动完毕
+[2020-06-10 22:11:53.688] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-10 22:11:53.689] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-10 22:11:53.689] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-10 22:11:53.690] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-10 22:11:57.581] [INFO] console - {
+  account: 'test05',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 22:11:57.583] [INFO] console - test05 account
+[2020-06-10 22:11:57.584] [INFO] console - 010421 password
+[2020-06-10 22:11:57.585] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test05';
+[2020-06-10 22:12:39.030] [INFO] console - {
+  account: 'test05',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 22:12:39.033] [INFO] console - test05 account
+[2020-06-10 22:12:39.034] [INFO] console - 010421 password
+[2020-06-10 22:12:39.035] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test05';
+[2020-06-10 22:13:21.794] [INFO] console - {
+  account: 'test05',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 22:24:19.921] [INFO] console - 命令行模块启动完毕
+[2020-06-10 22:24:22.966] [INFO] console - SQL: select * from qy_agent
+[2020-06-10 22:24:24.398] [INFO] console - HTTP模块启动完毕，开始监听192.168.31.129:8560
+[2020-06-10 22:24:24.399] [INFO] console - 服务器管理模块启动完毕
+[2020-06-10 22:24:24.399] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-10 22:24:24.400] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-10 22:24:24.400] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-10 22:24:24.401] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-10 22:24:39.080] [INFO] console - {
+  account: 'test05',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 22:24:39.083] [INFO] console - test05 account
+[2020-06-10 22:24:39.084] [INFO] console - 010421 password
+[2020-06-10 22:24:39.086] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test05';
+[2020-06-10 22:25:21.392] [INFO] console - {
+  account: 'test05',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 22:25:21.394] [INFO] console - test05 account
+[2020-06-10 22:25:21.395] [INFO] console - 010421 password
+[2020-06-10 22:25:21.396] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test05';
+[2020-06-10 22:26:26.092] [INFO] console - {
+  account: 'test05',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 22:26:26.094] [INFO] console - test05 account
+[2020-06-10 22:26:26.095] [INFO] console - 010421 password
+[2020-06-10 22:26:26.097] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test05';
+[2020-06-10 22:26:40.929] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test05';
+[2020-06-10 22:26:41.031] [INFO] console - SQL: INSERT INTO qy_account(account, password,invite, register_time) VALUES('test05', '010421','', NOW() );
+[2020-06-10 22:26:43.190] [INFO] console - {
+  account: 'test05',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 22:26:43.193] [INFO] console - test05 account
+[2020-06-10 22:26:43.194] [INFO] console - 010421 password
+[2020-06-10 22:26:43.195] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test05';
+[2020-06-10 22:26:43.329] [INFO] console - SQL: UPDATE qy_account SET last_login_time = now(), login_ip = '127.0.0.1', mac = 'LbWPymmJZjHph7244931591345675596' WHERE accountid =70;
+[2020-06-10 22:26:43.342] [INFO] console - SQL: SELECT * FROM qy_role WHERE accountid = 70;
+[2020-06-10 22:26:47.909] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '70' OR name = '天振从') AND serverid = '1000';
+[2020-06-10 22:26:52.806] [INFO] console - SQL: INSERT INTO qy_role(name, race, sex, level, resid, mapid, x, y, create_time, accountid, serverid,money,taskstate) VALUES('天振从', '1','1',1,'1001',1010,-1,-1, NOW(),'70','1000',0,'[]' );
+[2020-06-10 22:26:56.297] [INFO] console - 1000 =serverid
+[2020-06-10 22:26:56.299] [INFO] console - 0 net_ip
+[2020-06-10 22:26:56.302] [INFO] console - 127.0.0.1 =host
+[2020-06-10 22:26:56.305] [INFO] console - problem with request: Parse Error: Expected HTTP/
+[2020-06-10 22:27:00.292] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '70' OR name = '天振从') AND serverid = '1000';
+[2020-06-10 22:27:03.910] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '70' OR name = '采邑远') AND serverid = '1000';
+[2020-06-10 22:27:06.312] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '70' OR name = '痴丝阁') AND serverid = '1000';
+[2020-06-10 22:27:09.447] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '70' OR name = '思修蓝') AND serverid = '1000';
+[2020-06-10 22:27:12.770] [INFO] console - SQL: SELECT * FROM qy_role WHERE (accountid = '70' OR name = '洁筠聪') AND serverid = '1000';
+[2020-06-10 22:57:04.815] [INFO] console - 命令行模块启动完毕
+[2020-06-10 22:57:08.151] [INFO] console - SQL: select * from qy_agent
+[2020-06-10 22:57:11.948] [INFO] console - HTTP模块启动完毕，开始监听192.168.31.129:8560
+[2020-06-10 22:57:11.949] [INFO] console - 服务器管理模块启动完毕
+[2020-06-10 22:57:11.950] [INFO] console - SQL: SELECT frozenip FROM ip_frozen;
+[2020-06-10 22:57:11.950] [INFO] console - 封禁IP管理模块启动完毕
+[2020-06-10 22:57:11.951] [INFO] console - SQL: SELECT mac FROM mac_frozen;
+[2020-06-10 22:57:11.952] [INFO] console - 封禁设备管理模块启动完毕
+[2020-06-10 22:57:57.056] [INFO] console - {
+  account: 'test07',
+  password: '010421',
+  ip: '127.0.0.1',
+  mac: 'LbWPymmJZjHph7244931591345675596'
+} logininfo
+[2020-06-10 22:57:57.061] [INFO] console - test07 account
+[2020-06-10 22:57:57.062] [INFO] console - 010421 password
+[2020-06-10 22:57:57.063] [INFO] console - SQL: SELECT * FROM qy_account WHERE account = 'test07';

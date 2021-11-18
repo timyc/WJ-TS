@@ -1,0 +1,26 @@
+{
+    "0":[
+        {"resid":9111,"name":"白马","level":0},
+        {"resid":9121,"name":"大象","level":0},
+        {"resid":9131,"name":"熊猫","level":0},
+        {"resid":9141,"name":"黄金猊","level":0}
+    ],
+    "1":[
+        {"resid":9211,"name":"葫芦","level":0},
+        {"resid":9222,"name":"莲花","level":0},
+        {"resid":9231,"name":"仙车","level":0},
+        {"resid":9241,"name":"凤凰","level":0}
+    ],
+    "2":[
+        {"resid":9311,"name":"黑熊","level":0},
+        {"resid":9321,"name":"巨魔狮","level":0},
+        {"resid":9331,"name":"奔雷","level":0},
+        {"resid":9341,"name":"大风鸟","level":0}
+    ],
+    "3":[
+        {"resid":9411,"name":"婴鲤","level":0},
+        {"resid":9421,"name":"鬼猫","level":0},
+        {"resid":9431,"name":"幽灵马","level":0},
+        {"resid":9441,"name":"梦魇","level":0}
+    ]
+}

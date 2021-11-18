@@ -1,0 +1,498 @@
+[2020-06-12 18:30:29.642] [INFO] console - 命令行模块启动完毕
+[2020-06-12 18:30:30.069] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8811
+[2020-06-12 18:30:30.071] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-12 18:30:30.072] [INFO] console - 启动游戏模块...
+[2020-06-12 18:30:30.072] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-12 18:30:30.073] [INFO] console - 通知模块初始化完毕!
+[2020-06-12 18:30:30.110] [INFO] console - 地图模块加载完毕!
+[2020-06-12 18:30:30.118] [INFO] console - 任务配置模块加载完毕!
+[2020-06-12 18:30:30.123] [INFO] console - 世界模块加载完毕！
+[2020-06-12 18:30:30.127] [INFO] console - Npc配置模块加载完毕！
+[2020-06-12 18:30:30.135] [INFO] console - Npc模块加载完毕！
+[2020-06-12 18:30:30.138] [INFO] console - 角色属性模块加载完毕！
+[2020-06-12 18:30:30.142] [INFO] console - 物品模块加载完毕！
+[2020-06-12 18:30:30.143] [INFO] console - 经验模块加载完毕！
+[2020-06-12 18:30:30.146] [INFO] console - 技能模块加载完毕！
+[2020-06-12 18:30:30.147] [INFO] console - 技能效果模块加载完毕！
+[2020-06-12 18:30:30.207] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-12 18:30:30.208] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-12 18:30:30.208] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-12 18:30:30.216] [INFO] console - 怪物模块加载完毕！
+[2020-06-12 18:30:30.218] [INFO] console - 商城模块加载完毕!
+[2020-06-12 18:30:30.220] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-12 18:30:30.220] [INFO] console - SQL: select * from shop_goods
+[2020-06-12 18:30:30.220] [INFO] console - 摆摊模块加载完毕!
+[2020-06-12 18:30:30.221] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-12 18:30:30.222] [INFO] console - 排行榜模块加载完毕!
+[2020-06-12 18:30:30.225] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-12 18:30:30.226] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-12 18:30:30.331] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-12 18:30:30.332] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-12 18:30:30.332] [INFO] console - 活动模块加载完毕!
+[2020-06-12 18:30:30.334] [INFO] console - 彩票模块加载完毕!
+[2020-06-12 18:30:30.334] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-12 18:30:30.335] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-12 18:30:30.335] [INFO] console - 关系模块加载完毕
+[2020-06-12 18:30:30.560] [INFO] console - 装备模块加载完毕！
+[2020-06-12 18:30:30.563] [INFO] console - 帮派id种子为110612000
+[2020-06-12 18:30:30.565] [INFO] console - 帮派模块加载完毕!
+[2020-06-12 18:30:30.570] [INFO] console - 排行榜模块加载完毕！
+[2020-06-12 18:30:30.573] [INFO] console - 宠物管理模块加载完毕！
+[2020-06-12 18:30:30.576] [INFO] console - 充值模块加载完毕！
+[2020-06-12 18:30:30.578] [INFO] console - 8810 8810
+[2020-06-12 18:30:30.583] [INFO] console - 网关代理模块启动完毕，正在监听127.0.0.1:8810
+[2020-06-12 18:30:30.584] [INFO] console - 向网关服务器发起HTTP请求: /S_Register {
+  id: 1000,
+  name: '测试区',
+  ip: '127.0.0.1',
+  fake: '127.0.0.1',
+  port: 8810,
+  http_port: 8811
+} [Function (anonymous)]
+[2020-06-12 18:30:30.587] [INFO] console - 游戏服务器启动完毕，等待命令
+[2020-06-12 18:30:30.596] [INFO] console - 游戏服[测试区(1000)], 已经连接
+[2020-06-12 18:32:08.482] [INFO] console - do login....
+[2020-06-12 18:32:11.489] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157842 and qy_account.accountid = qy_role.accountid;
+[2020-06-12 18:32:11.518] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157842 AND state != 0;
+[2020-06-12 18:33:55.004] [INFO] console - 命令行模块启动完毕
+[2020-06-12 18:33:55.402] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8811
+[2020-06-12 18:33:55.404] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-12 18:33:55.404] [INFO] console - 启动游戏模块...
+[2020-06-12 18:33:55.405] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-12 18:33:55.405] [INFO] console - 通知模块初始化完毕!
+[2020-06-12 18:33:55.438] [INFO] console - 地图模块加载完毕!
+[2020-06-12 18:33:55.443] [INFO] console - 任务配置模块加载完毕!
+[2020-06-12 18:33:55.451] [INFO] console - 世界模块加载完毕！
+[2020-06-12 18:33:55.455] [INFO] console - Npc配置模块加载完毕！
+[2020-06-12 18:33:55.462] [INFO] console - Npc模块加载完毕！
+[2020-06-12 18:33:55.467] [INFO] console - 角色属性模块加载完毕！
+[2020-06-12 18:33:55.470] [INFO] console - 物品模块加载完毕！
+[2020-06-12 18:33:55.471] [INFO] console - 经验模块加载完毕！
+[2020-06-12 18:33:55.473] [INFO] console - 技能模块加载完毕！
+[2020-06-12 18:33:55.474] [INFO] console - 技能效果模块加载完毕！
+[2020-06-12 18:33:55.516] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-12 18:33:55.516] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-12 18:33:55.517] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-12 18:33:55.524] [INFO] console - 怪物模块加载完毕！
+[2020-06-12 18:33:55.527] [INFO] console - 商城模块加载完毕!
+[2020-06-12 18:33:55.528] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-12 18:33:55.529] [INFO] console - SQL: select * from shop_goods
+[2020-06-12 18:33:55.529] [INFO] console - 摆摊模块加载完毕!
+[2020-06-12 18:33:55.530] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-12 18:33:55.530] [INFO] console - 排行榜模块加载完毕!
+[2020-06-12 18:33:55.533] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-12 18:33:55.534] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-12 18:33:55.631] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-12 18:33:55.632] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-12 18:33:55.633] [INFO] console - 活动模块加载完毕!
+[2020-06-12 18:33:55.634] [INFO] console - 彩票模块加载完毕!
+[2020-06-12 18:33:55.634] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-12 18:33:55.635] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-12 18:33:55.635] [INFO] console - 关系模块加载完毕
+[2020-06-12 18:33:55.804] [INFO] console - 排行榜模块加载完毕！
+[2020-06-12 18:33:55.806] [INFO] console - 帮派模块加载完毕!
+[2020-06-12 18:33:55.808] [INFO] console - 装备模块加载完毕！
+[2020-06-12 18:33:55.810] [INFO] console - 帮派id种子为110612000
+[2020-06-12 18:33:55.812] [INFO] console - 宠物管理模块加载完毕！
+[2020-06-12 18:33:55.814] [INFO] console - 充值模块加载完毕！
+[2020-06-12 18:33:55.816] [INFO] console - 8810 8810
+[2020-06-12 18:33:55.823] [INFO] console - 网关代理模块启动完毕，正在监听127.0.0.1:8810
+[2020-06-12 18:33:55.824] [INFO] console - 向网关服务器发起HTTP请求: /S_Register {
+  id: 1000,
+  name: '测试区',
+  ip: '127.0.0.1',
+  fake: '127.0.0.1',
+  port: 8810,
+  http_port: 8811
+} [Function (anonymous)]
+[2020-06-12 18:33:55.827] [INFO] console - 游戏服务器启动完毕，等待命令
+[2020-06-12 18:33:55.843] [INFO] console - 游戏服[测试区(1000)], 已经连接
+[2020-06-12 18:35:26.426] [INFO] console - do login....
+[2020-06-12 18:35:29.432] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157842 and qy_account.accountid = qy_role.accountid;
+[2020-06-12 18:35:29.466] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157842 AND state != 0;
+[2020-06-12 18:39:57.716] [INFO] console - 命令行模块启动完毕
+[2020-06-12 18:39:58.271] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8811
+[2020-06-12 18:39:58.273] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-12 18:39:58.273] [INFO] console - 启动游戏模块...
+[2020-06-12 18:39:58.274] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-12 18:39:58.274] [INFO] console - 通知模块初始化完毕!
+[2020-06-12 18:39:58.303] [INFO] console - 地图模块加载完毕!
+[2020-06-12 18:39:58.309] [INFO] console - 任务配置模块加载完毕!
+[2020-06-12 18:39:58.314] [INFO] console - 世界模块加载完毕！
+[2020-06-12 18:39:58.318] [INFO] console - Npc配置模块加载完毕！
+[2020-06-12 18:39:58.331] [INFO] console - Npc模块加载完毕！
+[2020-06-12 18:39:58.335] [INFO] console - 角色属性模块加载完毕！
+[2020-06-12 18:39:58.338] [INFO] console - 物品模块加载完毕！
+[2020-06-12 18:39:58.339] [INFO] console - 经验模块加载完毕！
+[2020-06-12 18:39:58.343] [INFO] console - 技能模块加载完毕！
+[2020-06-12 18:39:58.344] [INFO] console - 技能效果模块加载完毕！
+[2020-06-12 18:39:58.383] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-12 18:39:58.384] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-12 18:39:58.384] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-12 18:39:58.391] [INFO] console - 怪物模块加载完毕！
+[2020-06-12 18:39:58.396] [INFO] console - 商城模块加载完毕!
+[2020-06-12 18:39:58.401] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-12 18:39:58.402] [INFO] console - SQL: select * from shop_goods
+[2020-06-12 18:39:58.402] [INFO] console - 摆摊模块加载完毕!
+[2020-06-12 18:39:58.403] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-12 18:39:58.404] [INFO] console - 排行榜模块加载完毕!
+[2020-06-12 18:39:58.407] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-12 18:39:58.407] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-12 18:39:58.483] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-12 18:39:58.483] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-12 18:39:58.484] [INFO] console - 活动模块加载完毕!
+[2020-06-12 18:39:58.485] [INFO] console - 彩票模块加载完毕!
+[2020-06-12 18:39:58.485] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-12 18:39:58.486] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-12 18:39:58.486] [INFO] console - 关系模块加载完毕
+[2020-06-12 18:39:58.711] [INFO] console - 装备模块加载完毕！
+[2020-06-12 18:39:58.719] [INFO] console - 帮派模块加载完毕!
+[2020-06-12 18:39:58.727] [INFO] console - 帮派id种子为110612000
+[2020-06-12 18:39:58.734] [INFO] console - 宠物管理模块加载完毕！
+[2020-06-12 18:39:58.737] [INFO] console - 排行榜模块加载完毕！
+[2020-06-12 18:39:58.739] [INFO] console - 充值模块加载完毕！
+[2020-06-12 18:39:58.751] [INFO] console - 8810 8810
+[2020-06-12 18:39:58.761] [INFO] console - 网关代理模块启动完毕，正在监听127.0.0.1:8810
+[2020-06-12 18:39:58.762] [INFO] console - 向网关服务器发起HTTP请求: /S_Register {
+  id: 1000,
+  name: '测试区',
+  ip: '127.0.0.1',
+  fake: '127.0.0.1',
+  port: 8810,
+  http_port: 8811
+} [Function (anonymous)]
+[2020-06-12 18:39:58.765] [INFO] console - 游戏服务器启动完毕，等待命令
+[2020-06-12 18:39:58.781] [INFO] console - 游戏服[测试区(1000)], 已经连接
+[2020-06-12 18:40:26.743] [INFO] console - do login....
+[2020-06-12 18:40:29.748] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157842 and qy_account.accountid = qy_role.accountid;
+[2020-06-12 18:40:29.778] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157842 AND state != 0;
+[2020-06-12 18:40:32.556] [INFO] console - SQL: SELECT * FROM qy_mount WHERE mountid=5;
+[2020-06-12 18:41:01.641] [INFO] console - 命令行模块启动完毕
+[2020-06-12 18:41:02.076] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8811
+[2020-06-12 18:41:02.077] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-12 18:41:02.078] [INFO] console - 启动游戏模块...
+[2020-06-12 18:41:02.078] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-12 18:41:02.079] [INFO] console - 通知模块初始化完毕!
+[2020-06-12 18:41:02.107] [INFO] console - 地图模块加载完毕!
+[2020-06-12 18:41:02.112] [INFO] console - 任务配置模块加载完毕!
+[2020-06-12 18:41:02.116] [INFO] console - 世界模块加载完毕！
+[2020-06-12 18:41:02.122] [INFO] console - Npc配置模块加载完毕！
+[2020-06-12 18:41:02.132] [INFO] console - Npc模块加载完毕！
+[2020-06-12 18:41:02.135] [INFO] console - 角色属性模块加载完毕！
+[2020-06-12 18:41:02.138] [INFO] console - 物品模块加载完毕！
+[2020-06-12 18:41:02.139] [INFO] console - 经验模块加载完毕！
+[2020-06-12 18:41:02.142] [INFO] console - 技能模块加载完毕！
+[2020-06-12 18:41:02.143] [INFO] console - 技能效果模块加载完毕！
+[2020-06-12 18:41:02.180] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-12 18:41:02.180] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-12 18:41:02.181] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-12 18:41:02.188] [INFO] console - 怪物模块加载完毕！
+[2020-06-12 18:41:02.189] [INFO] console - 商城模块加载完毕!
+[2020-06-12 18:41:02.191] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-12 18:41:02.191] [INFO] console - SQL: select * from shop_goods
+[2020-06-12 18:41:02.191] [INFO] console - 摆摊模块加载完毕!
+[2020-06-12 18:41:02.192] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-12 18:41:02.192] [INFO] console - 排行榜模块加载完毕!
+[2020-06-12 18:41:02.194] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-12 18:41:02.195] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-12 18:41:02.267] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-12 18:41:02.267] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-12 18:41:02.268] [INFO] console - 活动模块加载完毕!
+[2020-06-12 18:41:02.269] [INFO] console - 彩票模块加载完毕!
+[2020-06-12 18:41:02.269] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-12 18:41:02.270] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-12 18:41:02.270] [INFO] console - 关系模块加载完毕
+[2020-06-12 18:41:02.327] [INFO] console - 装备模块加载完毕！
+[2020-06-12 18:41:02.329] [INFO] console - 帮派id种子为110612000
+[2020-06-12 18:41:02.333] [INFO] console - 排行榜模块加载完毕！
+[2020-06-12 18:41:02.339] [INFO] console - 帮派模块加载完毕!
+[2020-06-12 18:41:02.341] [INFO] console - 宠物管理模块加载完毕！
+[2020-06-12 18:41:02.343] [INFO] console - 充值模块加载完毕！
+[2020-06-12 18:41:02.344] [INFO] console - 8810 8810
+[2020-06-12 18:41:02.348] [INFO] console - 网关代理模块启动完毕，正在监听127.0.0.1:8810
+[2020-06-12 18:41:02.349] [INFO] console - 向网关服务器发起HTTP请求: /S_Register {
+  id: 1000,
+  name: '测试区',
+  ip: '127.0.0.1',
+  fake: '127.0.0.1',
+  port: 8810,
+  http_port: 8811
+} [Function (anonymous)]
+[2020-06-12 18:41:02.352] [INFO] console - 游戏服务器启动完毕，等待命令
+[2020-06-12 18:41:02.360] [INFO] console - 游戏服[测试区(1000)], 已经连接
+[2020-06-12 18:41:14.575] [INFO] console - do login....
+[2020-06-12 18:41:17.580] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157842 and qy_account.accountid = qy_role.accountid;
+[2020-06-12 18:41:17.628] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157842 AND state != 0;
+[2020-06-12 18:41:27.454] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE mountid=5;
+[2020-06-12 18:42:16.867] [INFO] console - agent[1000] socket, close
+[2020-06-12 18:42:16.868] [INFO] console - do login....
+[2020-06-12 18:42:19.874] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157842 and qy_account.accountid = qy_role.accountid;
+[2020-06-12 18:42:19.896] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157842 AND state != 0;
+[2020-06-12 18:42:22.646] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE mountid=5;
+[2020-06-12 18:42:35.942] [INFO] console - agent[1000] socket, close
+[2020-06-12 18:42:35.945] [INFO] console - agent[1001] socket, close
+[2020-06-12 18:42:35.947] [INFO] console - agent[1002] socket, close
+[2020-06-12 18:43:12.953] [INFO] console - do login....
+[2020-06-12 18:43:15.957] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157842 and qy_account.accountid = qy_role.accountid;
+[2020-06-12 18:43:15.993] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157842 AND state != 0;
+[2020-06-12 18:43:16.022] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE mountid=5;
+[2020-06-12 18:43:40.728] [INFO] console - 命令行模块启动完毕
+[2020-06-12 18:43:41.102] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8811
+[2020-06-12 18:43:41.102] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-12 18:43:41.103] [INFO] console - 启动游戏模块...
+[2020-06-12 18:43:41.103] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-12 18:43:41.104] [INFO] console - 通知模块初始化完毕!
+[2020-06-12 18:43:41.129] [INFO] console - 地图模块加载完毕!
+[2020-06-12 18:43:41.133] [INFO] console - 任务配置模块加载完毕!
+[2020-06-12 18:43:41.139] [INFO] console - 世界模块加载完毕！
+[2020-06-12 18:43:41.142] [INFO] console - Npc配置模块加载完毕！
+[2020-06-12 18:43:41.148] [INFO] console - Npc模块加载完毕！
+[2020-06-12 18:43:41.150] [INFO] console - 角色属性模块加载完毕！
+[2020-06-12 18:43:41.153] [INFO] console - 物品模块加载完毕！
+[2020-06-12 18:43:41.154] [INFO] console - 经验模块加载完毕！
+[2020-06-12 18:43:41.156] [INFO] console - 技能模块加载完毕！
+[2020-06-12 18:43:41.157] [INFO] console - 技能效果模块加载完毕！
+[2020-06-12 18:43:41.189] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-12 18:43:41.190] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-12 18:43:41.191] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-12 18:43:41.197] [INFO] console - 怪物模块加载完毕！
+[2020-06-12 18:43:41.199] [INFO] console - 商城模块加载完毕!
+[2020-06-12 18:43:41.200] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-12 18:43:41.201] [INFO] console - SQL: select * from shop_goods
+[2020-06-12 18:43:41.201] [INFO] console - 摆摊模块加载完毕!
+[2020-06-12 18:43:41.201] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-12 18:43:41.202] [INFO] console - 排行榜模块加载完毕!
+[2020-06-12 18:43:41.204] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-12 18:43:41.205] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-12 18:43:41.267] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-12 18:43:41.268] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-12 18:43:41.268] [INFO] console - 活动模块加载完毕!
+[2020-06-12 18:43:41.270] [INFO] console - 彩票模块加载完毕!
+[2020-06-12 18:43:41.270] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-12 18:43:41.270] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-12 18:43:41.271] [INFO] console - 关系模块加载完毕
+[2020-06-12 18:43:41.448] [INFO] console - 帮派模块加载完毕!
+[2020-06-12 18:43:41.450] [INFO] console - 装备模块加载完毕！
+[2020-06-12 18:43:41.452] [INFO] console - 帮派id种子为110612000
+[2020-06-12 18:43:41.454] [INFO] console - 排行榜模块加载完毕！
+[2020-06-12 18:43:41.455] [INFO] console - 充值模块加载完毕！
+[2020-06-12 18:43:41.457] [INFO] console - 宠物管理模块加载完毕！
+[2020-06-12 18:43:41.458] [INFO] console - 8810 8810
+[2020-06-12 18:43:41.462] [INFO] console - 网关代理模块启动完毕，正在监听127.0.0.1:8810
+[2020-06-12 18:43:41.462] [INFO] console - 向网关服务器发起HTTP请求: /S_Register {
+  id: 1000,
+  name: '测试区',
+  ip: '127.0.0.1',
+  fake: '127.0.0.1',
+  port: 8810,
+  http_port: 8811
+} [Function (anonymous)]
+[2020-06-12 18:43:41.465] [INFO] console - 游戏服务器启动完毕，等待命令
+[2020-06-12 18:43:41.473] [INFO] console - 游戏服[测试区(1000)], 已经连接
+[2020-06-12 18:45:38.438] [INFO] console - do login....
+[2020-06-12 18:45:41.444] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157842 and qy_account.accountid = qy_role.accountid;
+[2020-06-12 18:45:41.478] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157842 AND state != 0;
+[2020-06-12 18:45:41.512] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE mountid=5;
+[2020-06-12 18:46:11.124] [INFO] console - agent[1000] socket, close
+[2020-06-12 18:46:11.125] [INFO] console - do login....
+[2020-06-12 18:46:14.129] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157842 and qy_account.accountid = qy_role.accountid;
+[2020-06-12 18:46:14.164] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157842 AND state != 0;
+[2020-06-12 18:46:14.193] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE mountid=5;
+[2020-06-12 18:46:31.677] [INFO] console - 命令行模块启动完毕
+[2020-06-12 18:46:32.042] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8811
+[2020-06-12 18:46:32.043] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-12 18:46:32.044] [INFO] console - 启动游戏模块...
+[2020-06-12 18:46:32.044] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-12 18:46:32.045] [INFO] console - 通知模块初始化完毕!
+[2020-06-12 18:46:32.062] [INFO] console - 地图模块加载完毕!
+[2020-06-12 18:46:32.066] [INFO] console - 任务配置模块加载完毕!
+[2020-06-12 18:46:32.071] [INFO] console - 世界模块加载完毕！
+[2020-06-12 18:46:32.073] [INFO] console - Npc配置模块加载完毕！
+[2020-06-12 18:46:32.083] [INFO] console - Npc模块加载完毕！
+[2020-06-12 18:46:32.085] [INFO] console - 角色属性模块加载完毕！
+[2020-06-12 18:46:32.087] [INFO] console - 物品模块加载完毕！
+[2020-06-12 18:46:32.088] [INFO] console - 经验模块加载完毕！
+[2020-06-12 18:46:32.090] [INFO] console - 技能模块加载完毕！
+[2020-06-12 18:46:32.090] [INFO] console - 技能效果模块加载完毕！
+[2020-06-12 18:46:32.124] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-12 18:46:32.125] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-12 18:46:32.125] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-12 18:46:32.131] [INFO] console - 怪物模块加载完毕！
+[2020-06-12 18:46:32.132] [INFO] console - 商城模块加载完毕!
+[2020-06-12 18:46:32.133] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-12 18:46:32.134] [INFO] console - SQL: select * from shop_goods
+[2020-06-12 18:46:32.134] [INFO] console - 摆摊模块加载完毕!
+[2020-06-12 18:46:32.134] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-12 18:46:32.135] [INFO] console - 排行榜模块加载完毕!
+[2020-06-12 18:46:32.136] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-12 18:46:32.137] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-12 18:46:32.203] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-12 18:46:32.203] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-12 18:46:32.204] [INFO] console - 活动模块加载完毕!
+[2020-06-12 18:46:32.205] [INFO] console - 彩票模块加载完毕!
+[2020-06-12 18:46:32.205] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-12 18:46:32.205] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-12 18:46:32.205] [INFO] console - 关系模块加载完毕
+[2020-06-12 18:46:32.256] [INFO] console - 装备模块加载完毕！
+[2020-06-12 18:46:32.371] [INFO] console - 帮派模块加载完毕!
+[2020-06-12 18:46:32.437] [INFO] console - 帮派id种子为110612000
+[2020-06-12 18:46:32.474] [INFO] console - 排行榜模块加载完毕！
+[2020-06-12 18:46:32.491] [INFO] console - 宠物管理模块加载完毕！
+[2020-06-12 18:46:32.509] [INFO] console - 充值模块加载完毕！
+[2020-06-12 18:46:32.511] [INFO] console - 8810 8810
+[2020-06-12 18:46:32.514] [INFO] console - 网关代理模块启动完毕，正在监听127.0.0.1:8810
+[2020-06-12 18:46:32.515] [INFO] console - 向网关服务器发起HTTP请求: /S_Register {
+  id: 1000,
+  name: '测试区',
+  ip: '127.0.0.1',
+  fake: '127.0.0.1',
+  port: 8810,
+  http_port: 8811
+} [Function (anonymous)]
+[2020-06-12 18:46:32.518] [INFO] console - 游戏服务器启动完毕，等待命令
+[2020-06-12 18:46:32.524] [INFO] console - 游戏服[测试区(1000)], 已经连接
+[2020-06-12 18:46:39.398] [INFO] console - do login....
+[2020-06-12 18:46:42.404] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157842 and qy_account.accountid = qy_role.accountid;
+[2020-06-12 18:46:42.450] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157842 AND state != 0;
+[2020-06-12 18:46:42.478] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE mountid=5;
+[2020-06-12 18:47:49.808] [INFO] console - 命令行模块启动完毕
+[2020-06-12 18:47:50.178] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8811
+[2020-06-12 18:47:50.179] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-12 18:47:50.180] [INFO] console - 启动游戏模块...
+[2020-06-12 18:47:50.180] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-12 18:47:50.181] [INFO] console - 通知模块初始化完毕!
+[2020-06-12 18:47:50.198] [INFO] console - 地图模块加载完毕!
+[2020-06-12 18:47:50.202] [INFO] console - 任务配置模块加载完毕!
+[2020-06-12 18:47:50.206] [INFO] console - 世界模块加载完毕！
+[2020-06-12 18:47:50.208] [INFO] console - Npc配置模块加载完毕！
+[2020-06-12 18:47:50.214] [INFO] console - Npc模块加载完毕！
+[2020-06-12 18:47:50.216] [INFO] console - 角色属性模块加载完毕！
+[2020-06-12 18:47:50.219] [INFO] console - 物品模块加载完毕！
+[2020-06-12 18:47:50.220] [INFO] console - 经验模块加载完毕！
+[2020-06-12 18:47:50.222] [INFO] console - 技能模块加载完毕！
+[2020-06-12 18:47:50.223] [INFO] console - 技能效果模块加载完毕！
+[2020-06-12 18:47:50.258] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-12 18:47:50.259] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-12 18:47:50.259] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-12 18:47:50.265] [INFO] console - 怪物模块加载完毕！
+[2020-06-12 18:47:50.266] [INFO] console - 商城模块加载完毕!
+[2020-06-12 18:47:50.267] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-12 18:47:50.268] [INFO] console - SQL: select * from shop_goods
+[2020-06-12 18:47:50.268] [INFO] console - 摆摊模块加载完毕!
+[2020-06-12 18:47:50.269] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-12 18:47:50.269] [INFO] console - 排行榜模块加载完毕!
+[2020-06-12 18:47:50.271] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-12 18:47:50.271] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-12 18:47:50.341] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-12 18:47:50.341] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-12 18:47:50.342] [INFO] console - 活动模块加载完毕!
+[2020-06-12 18:47:50.343] [INFO] console - 彩票模块加载完毕!
+[2020-06-12 18:47:50.343] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-12 18:47:50.343] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-12 18:47:50.344] [INFO] console - 关系模块加载完毕
+[2020-06-12 18:47:50.394] [INFO] console - 装备模块加载完毕！
+[2020-06-12 18:47:50.396] [INFO] console - 帮派模块加载完毕!
+[2020-06-12 18:47:50.398] [INFO] console - 帮派id种子为110612000
+[2020-06-12 18:47:50.400] [INFO] console - 宠物管理模块加载完毕！
+[2020-06-12 18:47:50.403] [INFO] console - 排行榜模块加载完毕！
+[2020-06-12 18:47:50.406] [INFO] console - 充值模块加载完毕！
+[2020-06-12 18:47:50.407] [INFO] console - 8810 8810
+[2020-06-12 18:47:50.410] [INFO] console - 网关代理模块启动完毕，正在监听127.0.0.1:8810
+[2020-06-12 18:47:50.411] [INFO] console - 向网关服务器发起HTTP请求: /S_Register {
+  id: 1000,
+  name: '测试区',
+  ip: '127.0.0.1',
+  fake: '127.0.0.1',
+  port: 8810,
+  http_port: 8811
+} [Function (anonymous)]
+[2020-06-12 18:47:50.414] [INFO] console - 游戏服务器启动完毕，等待命令
+[2020-06-12 18:47:50.424] [INFO] console - 游戏服[测试区(1000)], 已经连接
+[2020-06-12 18:48:52.427] [INFO] console - do login....
+[2020-06-12 18:48:55.429] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157842 and qy_account.accountid = qy_role.accountid;
+[2020-06-12 18:48:55.508] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157842 AND state != 0;
+[2020-06-12 18:48:55.539] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE mountid=5;
+[2020-06-12 18:48:59.332] [INFO] console - 玩家[智容绿寄157842]等级改变，当前1级
+[2020-06-12 18:48:59.336] [INFO] console - SQL: SELECT * FROM qy_pet_1000 WHERE roleid = 157842 and state = 1 limit 20
+[2020-06-12 18:48:59.338] [INFO] console - SQL: select * from qy_scheme where roleId = 157842
+[2020-06-12 18:48:59.339] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 18:49:10.006] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591958945) WHERE roleid =157842;
+[2020-06-12 18:49:23.047] [INFO] console - agent[1000] socket, close
+[2020-06-12 18:49:55.747] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591958991) WHERE roleid =157842;
+[2020-06-12 18:49:59.347] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 18:50:46.103] [INFO] console - agent[1001] socket, close
+[2020-06-12 18:50:59.352] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 18:51:33.785] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591959087) WHERE roleid =157842;
+[2020-06-12 18:51:59.359] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 18:52:59.363] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 18:53:29.019] [INFO] console - agent[1002] socket, close
+[2020-06-12 18:53:59.369] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 18:54:05.105] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591959236) WHERE roleid =157842;
+[2020-06-12 18:54:34.907] [INFO] console - agent[1003] socket, close
+[2020-06-12 18:54:59.374] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 18:55:59.379] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 18:56:58.732] [INFO] console - 命令行模块启动完毕
+[2020-06-12 18:56:59.107] [INFO] console - HTTP模块启动完毕，开始监听127.0.0.1:8811
+[2020-06-12 18:56:59.108] [INFO] console - 监控系统启动完毕，监听8812端口
+[2020-06-12 18:56:59.108] [INFO] console - 启动游戏模块...
+[2020-06-12 18:56:59.109] [INFO] console - SQL: select text, type from qy_notice where serverid = 1000 or serverid = 0 order by time desc limit 30;
+[2020-06-12 18:56:59.109] [INFO] console - 通知模块初始化完毕!
+[2020-06-12 18:56:59.139] [INFO] console - 地图模块加载完毕!
+[2020-06-12 18:56:59.143] [INFO] console - 任务配置模块加载完毕!
+[2020-06-12 18:56:59.149] [INFO] console - 世界模块加载完毕！
+[2020-06-12 18:56:59.151] [INFO] console - Npc配置模块加载完毕！
+[2020-06-12 18:56:59.157] [INFO] console - Npc模块加载完毕！
+[2020-06-12 18:56:59.160] [INFO] console - 角色属性模块加载完毕！
+[2020-06-12 18:56:59.162] [INFO] console - 物品模块加载完毕！
+[2020-06-12 18:56:59.163] [INFO] console - 经验模块加载完毕！
+[2020-06-12 18:56:59.165] [INFO] console - 技能模块加载完毕！
+[2020-06-12 18:56:59.166] [INFO] console - 技能效果模块加载完毕！
+[2020-06-12 18:56:59.199] [INFO] console - SQL: SELECT MAX(EquipID) AS equipid FROM qy_equip_1000;
+[2020-06-12 18:56:59.200] [INFO] console - SQL: SELECT * FROM qy_bang WHERE state = 1 and serverid = 1000;
+[2020-06-12 18:56:59.200] [INFO] console - SQL: SELECT MAX(bangid) AS bangId FROM qy_bang WHERE serverid = 1000;
+[2020-06-12 18:56:59.207] [INFO] console - 怪物模块加载完毕！
+[2020-06-12 18:56:59.208] [INFO] console - 商城模块加载完毕!
+[2020-06-12 18:56:59.209] [INFO] console - 甄不亏模块加载完毕!
+[2020-06-12 18:56:59.210] [INFO] console - SQL: select * from shop_goods
+[2020-06-12 18:56:59.210] [INFO] console - 摆摊模块加载完毕!
+[2020-06-12 18:56:59.210] [INFO] console - SQL: select roleid, name, relive, level, money, shuilu from qy_role where serverid =  1000
+[2020-06-12 18:56:59.211] [INFO] console - 排行榜模块加载完毕!
+[2020-06-12 18:56:59.213] [INFO] console - SQL: SELECT MAX(petid) AS petid FROM qy_pet_1000;
+[2020-06-12 18:56:59.213] [INFO] console - SQL: SELECT roleid, sum(realmoney) AS rmb FROM charge_record WHERE status = 1 GROUP BY roleid;
+[2020-06-12 18:56:59.277] [INFO] console - 伙伴管理模块加载完毕！
+[2020-06-12 18:56:59.278] [INFO] console - SQL: SELECT * FROM qy_role
+[2020-06-12 18:56:59.279] [INFO] console - 活动模块加载完毕!
+[2020-06-12 18:56:59.280] [INFO] console - 彩票模块加载完毕!
+[2020-06-12 18:56:59.281] [INFO] console - SQL: select * from qy_relation where status = 0
+[2020-06-12 18:56:59.281] [INFO] console - SQL: select max(relationId) as relationId from qy_relation;
+[2020-06-12 18:56:59.281] [INFO] console - 关系模块加载完毕
+[2020-06-12 18:56:59.331] [INFO] console - 帮派模块加载完毕!
+[2020-06-12 18:56:59.333] [INFO] console - 装备模块加载完毕！
+[2020-06-12 18:56:59.335] [INFO] console - 帮派id种子为110612000
+[2020-06-12 18:56:59.337] [INFO] console - 排行榜模块加载完毕！
+[2020-06-12 18:56:59.341] [INFO] console - 充值模块加载完毕！
+[2020-06-12 18:56:59.343] [INFO] console - 宠物管理模块加载完毕！
+[2020-06-12 18:56:59.344] [INFO] console - 8810 8810
+[2020-06-12 18:56:59.348] [INFO] console - 网关代理模块启动完毕，正在监听127.0.0.1:8810
+[2020-06-12 18:56:59.349] [INFO] console - 向网关服务器发起HTTP请求: /S_Register {
+  id: 1000,
+  name: '测试区',
+  ip: '127.0.0.1',
+  fake: '127.0.0.1',
+  port: 8810,
+  http_port: 8811
+} [Function (anonymous)]
+[2020-06-12 18:56:59.351] [INFO] console - 游戏服务器启动完毕，等待命令
+[2020-06-12 18:56:59.358] [INFO] console - 游戏服[测试区(1000)], 已经连接
+[2020-06-12 18:58:26.578] [INFO] console - do login....
+[2020-06-12 18:58:29.584] [INFO] console - SQL: SELECT qy_account.safecode, qy_role.* FROM qy_account, qy_role WHERE qy_role.roleid = 157842 and qy_account.accountid = qy_role.accountid;
+[2020-06-12 18:58:29.617] [INFO] console - SQL: SELECT * FROM qy_equip_1000 WHERE RoleID = 157842 AND state != 0;
+[2020-06-12 18:58:29.644] [INFO] console - SQL: SELECT * FROM dhxy_mount WHERE mountid=5;
+[2020-06-12 18:58:29.672] [INFO] console - 玩家[智容绿寄157842]等级改变，当前1级
+[2020-06-12 18:58:29.679] [INFO] console - SQL: SELECT * FROM qy_pet_1000 WHERE roleid = 157842 and state = 1 limit 20
+[2020-06-12 18:58:29.681] [INFO] console - SQL: select * from qy_scheme where roleId = 157842
+[2020-06-12 18:58:29.682] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
+[2020-06-12 18:58:33.764] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591959513) WHERE roleid =157842;
+[2020-06-12 18:58:38.632] [INFO] console - agent[1000] socket, close
+[2020-06-12 18:59:11.534] [INFO] console - SQL: UPDATE qy_role SET lastonline = FROM_UNIXTIME(1591959550) WHERE roleid =157842;
+[2020-06-12 18:59:29.691] [INFO] console - SQL: select max(schemeId) as schemeId from qy_scheme;
